@@ -2,7 +2,7 @@
     "id": 0,
     "identifier": "802c083f-b70a-46a8-8000-b9d34ca44874",
     "version": "1",
-    "isEnabled": true,
+    "isEnabled": false,
     "isDebugMode": false,
     "name": "New Playbook - 2",
     "creator": "faa73aaa-ddf0-4386-b498-62d06d7731c4",
@@ -16,7 +16,7 @@
     "categoryId": 1,
     "originalPlaybookIdentifier": "802c083f-b70a-46a8-8000-b9d34ca44874",
     "creationTimeUnixTimeInMs": 1767082285390,
-    "modificationTimeUnixTimeInMs": 1767082285390,
+    "modificationTimeUnixTimeInMs": 1767084279428,
     "trigger": {
         "id": 0,
         "identifier": "1f5089d1-23df-4ae6-b687-f86ecb1ab1dd",
@@ -176,8 +176,8 @@
             "isTouchedByAi": false,
             "startLoopStepIdentifier": null,
             "id": 0,
-            "creationTimeUnixTimeInMs": 1767082285390,
-            "modificationTimeUnixTimeInMs": 1767082285390,
+            "creationTimeUnixTimeInMs": 1767084279381,
+            "modificationTimeUnixTimeInMs": 1767084279428,
             "additionalProperties": {}
         }
     ],

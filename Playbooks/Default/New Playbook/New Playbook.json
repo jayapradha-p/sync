@@ -2,13 +2,13 @@
     "id": 0,
     "identifier": "01bc839a-2e78-469d-8e30-af9173726d5d",
     "version": "0",
-    "isEnabled": true,
+    "isEnabled": false,
     "isDebugMode": false,
     "name": "New Playbook",
     "creator": "faa73aaa-ddf0-4386-b498-62d06d7731c4",
     "modifiedBy": "faa73aaa-ddf0-4386-b498-62d06d7731c4",
     "priority": 2,
-    "description": "This is Testing\nTesting purpose\nhello this is testing",
+    "description": "This is Testing\nTesting purpose\nhello this is testing\n\nhello",
     "environments": [
         "Default Environment"
     ],
@@ -16,7 +16,7 @@
     "categoryId": 1,
     "originalPlaybookIdentifier": "f2e84c6a-b83c-4453-a6f9-c41bc99bf240",
     "creationTimeUnixTimeInMs": 1766571902725,
-    "modificationTimeUnixTimeInMs": 1767081913596,
+    "modificationTimeUnixTimeInMs": 1767599870476,
     "trigger": {
         "id": 0,
         "identifier": "6bbc9ec6-99fd-47f2-aab2-96ebff954f09",
@@ -176,8 +176,8 @@
             "isTouchedByAi": false,
             "startLoopStepIdentifier": null,
             "id": 0,
-            "creationTimeUnixTimeInMs": 1767081913548,
-            "modificationTimeUnixTimeInMs": 1767081913596,
+            "creationTimeUnixTimeInMs": 1767599870404,
+            "modificationTimeUnixTimeInMs": 1767599870476,
             "additionalProperties": {}
         }
     ],
