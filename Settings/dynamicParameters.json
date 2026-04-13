@@ -4,6 +4,6 @@
         "name": "Test2",
         "type": 0,
         "defaultValue": "",
-        "optionalValues": []
+        "optionalValues": null
     }
 ]
