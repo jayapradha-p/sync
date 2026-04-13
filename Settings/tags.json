@@ -1,0 +1,28 @@
+[
+    {
+        "value": "12345",
+        "name": "Test1",
+        "propertyName": "Entity.Alert_Id",
+        "priority": 1,
+        "isPotentialCaseName": false,
+        "environments": [],
+        "type": 3,
+        "compareType": 2,
+        "id": 3,
+        "creationTimeUnixTimeInMs": 1776063354557,
+        "modificationTimeUnixTimeInMs": 1776063354557
+    },
+    {
+        "value": "12345",
+        "name": "Test2",
+        "propertyName": "Entity.DataAccessScope",
+        "priority": 1,
+        "isPotentialCaseName": false,
+        "environments": [],
+        "type": 3,
+        "compareType": 2,
+        "id": 4,
+        "creationTimeUnixTimeInMs": 1776063369989,
+        "modificationTimeUnixTimeInMs": 1776063369989
+    }
+]
