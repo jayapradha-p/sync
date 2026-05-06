@@ -1,26 +1,26 @@
 {
     "id": 0,
-    "identifier": "62442973-918b-4d63-84a8-c4d5e1de7f0c",
+    "identifier": "07bae373-2e0d-4fa2-b324-0de921421121",
     "version": "1",
     "isEnabled": true,
     "isDebugMode": false,
-    "name": "New Playbook",
+    "name": "New Playbook - new2",
     "creator": "08839330-a41d-4fd3-aa96-8ef1f5419c16",
-    "modifiedBy": "Siemplify automation",
+    "modifiedBy": "08839330-a41d-4fd3-aa96-8ef1f5419c16",
     "priority": 2,
     "description": "",
     "executionScope": 1,
     "environments": [
         "Default Environment"
     ],
-    "categoryName": "Default",
-    "categoryId": 1,
-    "originalPlaybookIdentifier": "62442973-918b-4d63-84a8-c4d5e1de7f0c",
-    "creationTimeUnixTimeInMs": 1778068037374,
-    "modificationTimeUnixTimeInMs": 1778068037374,
+    "categoryName": "New Folder",
+    "categoryId": 2,
+    "originalPlaybookIdentifier": "07bae373-2e0d-4fa2-b324-0de921421121",
+    "creationTimeUnixTimeInMs": 1778068263945,
+    "modificationTimeUnixTimeInMs": 1778068263945,
     "trigger": {
         "id": 0,
-        "identifier": "77017d33-02ae-419b-aa9c-083ed00df038",
+        "identifier": "0e9f2926-1040-4bab-bc07-01b989b4e9ef",
         "type": 8,
         "logicalOperator": 0,
         "conditions": [
@@ -38,8 +38,8 @@
     "steps": [
         {
             "parallelActions": [],
-            "identifier": "81d31e78-7a59-4c4d-96f1-e5e19eae0d21",
-            "originalStepIdentifier": "81d31e78-7a59-4c4d-96f1-e5e19eae0d21",
+            "identifier": "8e93334b-731e-4c74-a5e2-1db51b9211e2",
+            "originalStepIdentifier": "8e93334b-731e-4c74-a5e2-1db51b9211e2",
             "isAutomatic": true,
             "isSkippable": false,
             "instanceName": "Siemplify_Case Comment_1",
@@ -174,7 +174,7 @@
                 },
                 {
                     "name": "ScriptParametersEntityFields",
-                    "value": "{\"Comment\":\"hello\"}",
+                    "value": "{\"Comment\":\"sdsd\"}",
                     "type": null,
                     "isMandatory": false,
                     "defaultValue": null,
@@ -210,13 +210,13 @@
             "isDebugMockData": false,
             "debugData": null,
             "parentStepContainerId": null,
-            "workflowIdentifier": "62442973-918b-4d63-84a8-c4d5e1de7f0c",
+            "workflowIdentifier": "07bae373-2e0d-4fa2-b324-0de921421121",
             "isTouchedByAi": false,
             "startLoopStepIdentifier": null,
             "logsExplorerUrl": null,
             "id": 0,
-            "creationTimeUnixTimeInMs": 1778068037374,
-            "modificationTimeUnixTimeInMs": 1778068037374,
+            "creationTimeUnixTimeInMs": 1778068263945,
+            "modificationTimeUnixTimeInMs": 1778068263945,
             "additionalProperties": {}
         }
     ],

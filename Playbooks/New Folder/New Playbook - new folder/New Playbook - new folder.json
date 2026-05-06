@@ -1,26 +1,26 @@
 {
     "id": 0,
-    "identifier": "62442973-918b-4d63-84a8-c4d5e1de7f0c",
+    "identifier": "47be9c71-33fe-4ec3-905c-a96aa2c30c68",
     "version": "1",
     "isEnabled": true,
     "isDebugMode": false,
-    "name": "New Playbook",
+    "name": "New Playbook - new folder",
     "creator": "08839330-a41d-4fd3-aa96-8ef1f5419c16",
-    "modifiedBy": "Siemplify automation",
+    "modifiedBy": "08839330-a41d-4fd3-aa96-8ef1f5419c16",
     "priority": 2,
     "description": "",
     "executionScope": 1,
     "environments": [
-        "Default Environment"
+        "*"
     ],
-    "categoryName": "Default",
-    "categoryId": 1,
-    "originalPlaybookIdentifier": "62442973-918b-4d63-84a8-c4d5e1de7f0c",
-    "creationTimeUnixTimeInMs": 1778068037374,
-    "modificationTimeUnixTimeInMs": 1778068037374,
+    "categoryName": "New Folder",
+    "categoryId": 2,
+    "originalPlaybookIdentifier": "47be9c71-33fe-4ec3-905c-a96aa2c30c68",
+    "creationTimeUnixTimeInMs": 1778068226671,
+    "modificationTimeUnixTimeInMs": 1778068226671,
     "trigger": {
         "id": 0,
-        "identifier": "77017d33-02ae-419b-aa9c-083ed00df038",
+        "identifier": "562f6aa9-2f4a-4595-92c1-bbdc33ababad",
         "type": 8,
         "logicalOperator": 0,
         "conditions": [
@@ -38,8 +38,8 @@
     "steps": [
         {
             "parallelActions": [],
-            "identifier": "81d31e78-7a59-4c4d-96f1-e5e19eae0d21",
-            "originalStepIdentifier": "81d31e78-7a59-4c4d-96f1-e5e19eae0d21",
+            "identifier": "c47f2ada-7163-4b81-ab09-34bfbe678097",
+            "originalStepIdentifier": "c47f2ada-7163-4b81-ab09-34bfbe678097",
             "isAutomatic": true,
             "isSkippable": false,
             "instanceName": "Siemplify_Case Comment_1",
@@ -85,14 +85,15 @@
                 },
                 {
                     "name": "FallbackIntegrationInstance",
-                    "value": null,
+                    "value": "8165d95c-8fdd-45c6-a546-1b57218ca383",
                     "type": null,
                     "isMandatory": false,
                     "defaultValue": null,
                     "id": 0,
                     "creationTimeUnixTimeInMs": 0,
                     "modificationTimeUnixTimeInMs": 0,
-                    "additionalProperties": {}
+                    "additionalProperties": {},
+                    "FallbackInstanceDisplayName": "Siemplify_1"
                 },
                 {
                     "name": "FetchInstanceByName",
@@ -118,15 +119,14 @@
                 },
                 {
                     "name": "IntegrationInstance",
-                    "value": "8165d95c-8fdd-45c6-a546-1b57218ca383",
+                    "value": "AutomaticEnvironment",
                     "type": null,
                     "isMandatory": false,
                     "defaultValue": null,
                     "id": 0,
                     "creationTimeUnixTimeInMs": 0,
                     "modificationTimeUnixTimeInMs": 0,
-                    "additionalProperties": {},
-                    "InstanceDisplayName": "Siemplify_1"
+                    "additionalProperties": {}
                 },
                 {
                     "name": "MessageToAssignee",
@@ -174,7 +174,7 @@
                 },
                 {
                     "name": "ScriptParametersEntityFields",
-                    "value": "{\"Comment\":\"hello\"}",
+                    "value": "{\"Comment\":\"dsdsds\"}",
                     "type": null,
                     "isMandatory": false,
                     "defaultValue": null,
@@ -210,13 +210,13 @@
             "isDebugMockData": false,
             "debugData": null,
             "parentStepContainerId": null,
-            "workflowIdentifier": "62442973-918b-4d63-84a8-c4d5e1de7f0c",
+            "workflowIdentifier": "47be9c71-33fe-4ec3-905c-a96aa2c30c68",
             "isTouchedByAi": false,
             "startLoopStepIdentifier": null,
             "logsExplorerUrl": null,
             "id": 0,
-            "creationTimeUnixTimeInMs": 1778068037374,
-            "modificationTimeUnixTimeInMs": 1778068037374,
+            "creationTimeUnixTimeInMs": 1778068226671,
+            "modificationTimeUnixTimeInMs": 1778068226671,
             "additionalProperties": {}
         }
     ],
