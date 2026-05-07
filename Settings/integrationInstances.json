@@ -1,84 +1,9 @@
 [
     {
         "environment": "Default Environment",
-        "integrationIdentifier": "PaloAltoCortexXDR",
-        "settings": {
-            "instanceDescription": null,
-            "instanceName": "PaloAltoCortexXDR_1",
-            "settings": [
-                {
-                    "propertyName": "Api Root",
-                    "value": "https://hello",
-                    "creationTimeUnixTimeInMs": 0,
-                    "modificationTimeUnixTimeInMs": 0,
-                    "propertyType": 2,
-                    "isMandatory": true,
-                    "id": 633,
-                    "propertyDisplayName": "Api Root",
-                    "propertyDescription": null,
-                    "integrationIdentifier": "PaloAltoCortexXDR",
-                    "integrationInstance": "3c456565-b00b-48d3-b3a0-fe34789c85c7"
-                },
-                {
-                    "propertyName": "Api Key",
-                    "value": "",
-                    "creationTimeUnixTimeInMs": 0,
-                    "modificationTimeUnixTimeInMs": 0,
-                    "propertyType": 3,
-                    "isMandatory": true,
-                    "id": 634,
-                    "propertyDisplayName": "Api Key",
-                    "propertyDescription": null,
-                    "integrationIdentifier": "PaloAltoCortexXDR",
-                    "integrationInstance": "3c456565-b00b-48d3-b3a0-fe34789c85c7"
-                },
-                {
-                    "propertyName": "Api Key ID",
-                    "value": "3",
-                    "creationTimeUnixTimeInMs": 0,
-                    "modificationTimeUnixTimeInMs": 0,
-                    "propertyType": 1,
-                    "isMandatory": true,
-                    "id": 635,
-                    "propertyDisplayName": "Api Key ID",
-                    "propertyDescription": null,
-                    "integrationIdentifier": "PaloAltoCortexXDR",
-                    "integrationInstance": "3c456565-b00b-48d3-b3a0-fe34789c85c7"
-                },
-                {
-                    "propertyName": "Verify SSL",
-                    "value": "False",
-                    "creationTimeUnixTimeInMs": 0,
-                    "modificationTimeUnixTimeInMs": 0,
-                    "propertyType": 0,
-                    "isMandatory": false,
-                    "id": 636,
-                    "propertyDisplayName": "Verify SSL",
-                    "propertyDescription": null,
-                    "integrationIdentifier": "PaloAltoCortexXDR",
-                    "integrationInstance": "3c456565-b00b-48d3-b3a0-fe34789c85c7"
-                },
-                {
-                    "propertyName": "AgentIdentifier",
-                    "value": null,
-                    "creationTimeUnixTimeInMs": 0,
-                    "modificationTimeUnixTimeInMs": 0,
-                    "propertyType": 9,
-                    "isMandatory": false,
-                    "id": 659,
-                    "propertyDisplayName": "Agent",
-                    "propertyDescription": null,
-                    "integrationIdentifier": "PaloAltoCortexXDR",
-                    "integrationInstance": "3c456565-b00b-48d3-b3a0-fe34789c85c7"
-                }
-            ]
-        }
-    },
-    {
-        "environment": "Default Environment",
         "integrationIdentifier": "SampleIntegration",
         "settings": {
-            "instanceDescription": null,
+            "instanceDescription": "",
             "instanceName": "System Default Instance",
             "settings": [
                 {
@@ -86,7 +11,7 @@
                     "value": "https://api.vatcomply.com",
                     "creationTimeUnixTimeInMs": 0,
                     "modificationTimeUnixTimeInMs": 0,
-                    "propertyType": 2,
+                    "propertyType": "String",
                     "isMandatory": true,
                     "id": 477,
                     "propertyDisplayName": "API Root",
@@ -99,7 +24,7 @@
                     "value": "***************",
                     "creationTimeUnixTimeInMs": 0,
                     "modificationTimeUnixTimeInMs": 0,
-                    "propertyType": 3,
+                    "propertyType": "Password",
                     "isMandatory": false,
                     "id": 478,
                     "propertyDisplayName": "Password Field",
@@ -112,26 +37,75 @@
                     "value": "True",
                     "creationTimeUnixTimeInMs": 0,
                     "modificationTimeUnixTimeInMs": 0,
-                    "propertyType": 0,
+                    "propertyType": "Boolean",
                     "isMandatory": false,
                     "id": 479,
                     "propertyDisplayName": "Verify SSL",
                     "propertyDescription": "If selected, the integration validates the SSL certificate when connecting to API Service. Selected by default.",
                     "integrationIdentifier": "SampleIntegration",
                     "integrationInstance": "bb1a5847-096e-4202-bb2c-9afc0b047fca"
-                },
+                }
+            ]
+        }
+    },
+    {
+        "environment": "Default Environment",
+        "integrationIdentifier": "PaloAltoCortexXDR",
+        "settings": {
+            "instanceDescription": "",
+            "instanceName": "PaloAltoCortexXDR_1",
+            "settings": [
                 {
-                    "propertyName": "AgentIdentifier",
-                    "value": null,
+                    "propertyName": "Api Root",
+                    "value": "https://hello",
                     "creationTimeUnixTimeInMs": 0,
                     "modificationTimeUnixTimeInMs": 0,
-                    "propertyType": 9,
+                    "propertyType": "String",
+                    "isMandatory": true,
+                    "id": 633,
+                    "propertyDisplayName": "Api Root",
+                    "propertyDescription": "",
+                    "integrationIdentifier": "PaloAltoCortexXDR",
+                    "integrationInstance": "3c456565-b00b-48d3-b3a0-fe34789c85c7"
+                },
+                {
+                    "propertyName": "Api Key",
+                    "value": "",
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0,
+                    "propertyType": "Password",
+                    "isMandatory": true,
+                    "id": 634,
+                    "propertyDisplayName": "Api Key",
+                    "propertyDescription": "",
+                    "integrationIdentifier": "PaloAltoCortexXDR",
+                    "integrationInstance": "3c456565-b00b-48d3-b3a0-fe34789c85c7"
+                },
+                {
+                    "propertyName": "Api Key ID",
+                    "value": "3",
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0,
+                    "propertyType": "Int",
+                    "isMandatory": true,
+                    "id": 635,
+                    "propertyDisplayName": "Api Key ID",
+                    "propertyDescription": "",
+                    "integrationIdentifier": "PaloAltoCortexXDR",
+                    "integrationInstance": "3c456565-b00b-48d3-b3a0-fe34789c85c7"
+                },
+                {
+                    "propertyName": "Verify SSL",
+                    "value": "False",
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0,
+                    "propertyType": "Boolean",
                     "isMandatory": false,
-                    "id": 661,
-                    "propertyDisplayName": "Agent",
-                    "propertyDescription": null,
-                    "integrationIdentifier": "SampleIntegration",
-                    "integrationInstance": "bb1a5847-096e-4202-bb2c-9afc0b047fca"
+                    "id": 636,
+                    "propertyDisplayName": "Verify SSL",
+                    "propertyDescription": "",
+                    "integrationIdentifier": "PaloAltoCortexXDR",
+                    "integrationInstance": "3c456565-b00b-48d3-b3a0-fe34789c85c7"
                 }
             ]
         }
@@ -140,7 +114,7 @@
         "environment": "*",
         "integrationIdentifier": "PaloAltoCortexXDR",
         "settings": {
-            "instanceDescription": null,
+            "instanceDescription": "",
             "instanceName": "PaloAltoCortexXDR_1",
             "settings": [
                 {
@@ -148,11 +122,11 @@
                     "value": "https://api-jayapradha.com",
                     "creationTimeUnixTimeInMs": 0,
                     "modificationTimeUnixTimeInMs": 0,
-                    "propertyType": 2,
+                    "propertyType": "String",
                     "isMandatory": true,
                     "id": 600,
                     "propertyDisplayName": "Api Root",
-                    "propertyDescription": null,
+                    "propertyDescription": "",
                     "integrationIdentifier": "PaloAltoCortexXDR",
                     "integrationInstance": "a9934ba3-5cd5-4783-bb40-36083e93d546"
                 },
@@ -161,11 +135,11 @@
                     "value": "",
                     "creationTimeUnixTimeInMs": 0,
                     "modificationTimeUnixTimeInMs": 0,
-                    "propertyType": 3,
+                    "propertyType": "Password",
                     "isMandatory": true,
                     "id": 601,
                     "propertyDisplayName": "Api Key",
-                    "propertyDescription": null,
+                    "propertyDescription": "",
                     "integrationIdentifier": "PaloAltoCortexXDR",
                     "integrationInstance": "a9934ba3-5cd5-4783-bb40-36083e93d546"
                 },
@@ -174,11 +148,11 @@
                     "value": "56",
                     "creationTimeUnixTimeInMs": 0,
                     "modificationTimeUnixTimeInMs": 0,
-                    "propertyType": 1,
+                    "propertyType": "Int",
                     "isMandatory": true,
                     "id": 602,
                     "propertyDisplayName": "Api Key ID",
-                    "propertyDescription": null,
+                    "propertyDescription": "",
                     "integrationIdentifier": "PaloAltoCortexXDR",
                     "integrationInstance": "a9934ba3-5cd5-4783-bb40-36083e93d546"
                 },
@@ -187,24 +161,11 @@
                     "value": "False",
                     "creationTimeUnixTimeInMs": 0,
                     "modificationTimeUnixTimeInMs": 0,
-                    "propertyType": 0,
+                    "propertyType": "Boolean",
                     "isMandatory": false,
                     "id": 603,
                     "propertyDisplayName": "Verify SSL",
-                    "propertyDescription": null,
-                    "integrationIdentifier": "PaloAltoCortexXDR",
-                    "integrationInstance": "a9934ba3-5cd5-4783-bb40-36083e93d546"
-                },
-                {
-                    "propertyName": "AgentIdentifier",
-                    "value": null,
-                    "creationTimeUnixTimeInMs": 0,
-                    "modificationTimeUnixTimeInMs": 0,
-                    "propertyType": 9,
-                    "isMandatory": false,
-                    "id": 663,
-                    "propertyDisplayName": "Agent",
-                    "propertyDescription": null,
+                    "propertyDescription": "",
                     "integrationIdentifier": "PaloAltoCortexXDR",
                     "integrationInstance": "a9934ba3-5cd5-4783-bb40-36083e93d546"
                 }
@@ -223,24 +184,11 @@
                     "value": "True",
                     "creationTimeUnixTimeInMs": 0,
                     "modificationTimeUnixTimeInMs": 0,
-                    "propertyType": 0,
+                    "propertyType": "Boolean",
                     "isMandatory": false,
                     "id": 482,
                     "propertyDisplayName": "Verify SSL",
                     "propertyDescription": "If enabled, verify the SSL certificate for the connection.",
-                    "integrationIdentifier": "GoogleSecOpsAiAgents",
-                    "integrationInstance": "9e23c0a0-e769-4d6f-a986-ac53e0eaeeab"
-                },
-                {
-                    "propertyName": "AgentIdentifier",
-                    "value": null,
-                    "creationTimeUnixTimeInMs": 0,
-                    "modificationTimeUnixTimeInMs": 0,
-                    "propertyType": 9,
-                    "isMandatory": false,
-                    "id": 665,
-                    "propertyDisplayName": "Agent",
-                    "propertyDescription": null,
                     "integrationIdentifier": "GoogleSecOpsAiAgents",
                     "integrationInstance": "9e23c0a0-e769-4d6f-a986-ac53e0eaeeab"
                 }
@@ -251,7 +199,7 @@
         "environment": "*",
         "integrationIdentifier": "Arcsight",
         "settings": {
-            "instanceDescription": null,
+            "instanceDescription": "",
             "instanceName": "Arcsight_1",
             "settings": [
                 {
@@ -259,11 +207,11 @@
                     "value": "https://192.168.29.226a",
                     "creationTimeUnixTimeInMs": 0,
                     "modificationTimeUnixTimeInMs": 0,
-                    "propertyType": 2,
+                    "propertyType": "String",
                     "isMandatory": true,
                     "id": 606,
                     "propertyDisplayName": "Api Root",
-                    "propertyDescription": null,
+                    "propertyDescription": "",
                     "integrationIdentifier": "Arcsight",
                     "integrationInstance": "9b68b7ad-9cf2-4c5d-a9c3-075b7ed26c96"
                 },
@@ -272,11 +220,11 @@
                     "value": "admin",
                     "creationTimeUnixTimeInMs": 0,
                     "modificationTimeUnixTimeInMs": 0,
-                    "propertyType": 2,
+                    "propertyType": "String",
                     "isMandatory": true,
                     "id": 607,
                     "propertyDisplayName": "User name",
-                    "propertyDescription": null,
+                    "propertyDescription": "",
                     "integrationIdentifier": "Arcsight",
                     "integrationInstance": "9b68b7ad-9cf2-4c5d-a9c3-075b7ed26c96"
                 },
@@ -285,11 +233,11 @@
                     "value": "",
                     "creationTimeUnixTimeInMs": 0,
                     "modificationTimeUnixTimeInMs": 0,
-                    "propertyType": 3,
+                    "propertyType": "Password",
                     "isMandatory": true,
                     "id": 608,
                     "propertyDisplayName": "Password",
-                    "propertyDescription": null,
+                    "propertyDescription": "",
                     "integrationIdentifier": "Arcsight",
                     "integrationInstance": "9b68b7ad-9cf2-4c5d-a9c3-075b7ed26c96"
                 },
@@ -298,11 +246,11 @@
                     "value": "",
                     "creationTimeUnixTimeInMs": 0,
                     "modificationTimeUnixTimeInMs": 0,
-                    "propertyType": 2,
+                    "propertyType": "String",
                     "isMandatory": false,
                     "id": 609,
                     "propertyDisplayName": "CA Certificate File",
-                    "propertyDescription": null,
+                    "propertyDescription": "",
                     "integrationIdentifier": "Arcsight",
                     "integrationInstance": "9b68b7ad-9cf2-4c5d-a9c3-075b7ed26c96"
                 },
@@ -311,24 +259,11 @@
                     "value": "False",
                     "creationTimeUnixTimeInMs": 0,
                     "modificationTimeUnixTimeInMs": 0,
-                    "propertyType": 0,
+                    "propertyType": "Boolean",
                     "isMandatory": false,
                     "id": 610,
                     "propertyDisplayName": "Verify SSL",
-                    "propertyDescription": null,
-                    "integrationIdentifier": "Arcsight",
-                    "integrationInstance": "9b68b7ad-9cf2-4c5d-a9c3-075b7ed26c96"
-                },
-                {
-                    "propertyName": "AgentIdentifier",
-                    "value": null,
-                    "creationTimeUnixTimeInMs": 0,
-                    "modificationTimeUnixTimeInMs": 0,
-                    "propertyType": 9,
-                    "isMandatory": false,
-                    "id": 667,
-                    "propertyDisplayName": "Agent",
-                    "propertyDescription": null,
+                    "propertyDescription": "",
                     "integrationIdentifier": "Arcsight",
                     "integrationInstance": "9b68b7ad-9cf2-4c5d-a9c3-075b7ed26c96"
                 }
@@ -339,7 +274,7 @@
         "environment": "*",
         "integrationIdentifier": "VirusTotalV3",
         "settings": {
-            "instanceDescription": null,
+            "instanceDescription": "",
             "instanceName": "VirusTotalV3_1",
             "settings": [
                 {
@@ -347,11 +282,11 @@
                     "value": "",
                     "creationTimeUnixTimeInMs": 0,
                     "modificationTimeUnixTimeInMs": 0,
-                    "propertyType": 3,
+                    "propertyType": "Password",
                     "isMandatory": true,
                     "id": 613,
                     "propertyDisplayName": "API Key",
-                    "propertyDescription": null,
+                    "propertyDescription": "",
                     "integrationIdentifier": "VirusTotalV3",
                     "integrationInstance": "9b097a1f-a5b7-4a5b-86c5-be6411b5900c"
                 },
@@ -360,24 +295,11 @@
                     "value": "False",
                     "creationTimeUnixTimeInMs": 0,
                     "modificationTimeUnixTimeInMs": 0,
-                    "propertyType": 0,
+                    "propertyType": "Boolean",
                     "isMandatory": false,
                     "id": 614,
                     "propertyDisplayName": "Verify SSL",
-                    "propertyDescription": null,
-                    "integrationIdentifier": "VirusTotalV3",
-                    "integrationInstance": "9b097a1f-a5b7-4a5b-86c5-be6411b5900c"
-                },
-                {
-                    "propertyName": "AgentIdentifier",
-                    "value": null,
-                    "creationTimeUnixTimeInMs": 0,
-                    "modificationTimeUnixTimeInMs": 0,
-                    "propertyType": 9,
-                    "isMandatory": false,
-                    "id": 669,
-                    "propertyDisplayName": "Agent",
-                    "propertyDescription": null,
+                    "propertyDescription": "",
                     "integrationIdentifier": "VirusTotalV3",
                     "integrationInstance": "9b097a1f-a5b7-4a5b-86c5-be6411b5900c"
                 }
