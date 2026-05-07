@@ -1,20 +1,28 @@
 [
     {
-        "name": "projects/project/locations/location/instances/instance/emailTemplates/36",
-        "templateType": "Template",
-        "author": "08839330-a41d-4fd3-aa96-8ef1f5419c16",
-        "id": 36,
-        "content": "testing",
-        "displayName": "test2",
-        "environments": "[\"Default Environment\"]"
+        "type": 0,
+        "name": "test 2",
+        "content": "test",
+        "creatorUserName": "08839330-a41d-4fd3-aa96-8ef1f5419c16",
+        "forMigration": false,
+        "environments": [
+            "*"
+        ],
+        "id": 43,
+        "creationTimeUnixTimeInMs": 1778144766929,
+        "modificationTimeUnixTimeInMs": 1778144766929
     },
     {
-        "name": "projects/project/locations/location/instances/instance/emailTemplates/35",
-        "templateType": "Template",
-        "author": "08839330-a41d-4fd3-aa96-8ef1f5419c16",
-        "id": 35,
-        "content": "testing",
-        "displayName": "test1",
-        "environments": "[\"Default Environment\"]"
+        "type": 0,
+        "name": "test 1",
+        "content": "test",
+        "creatorUserName": "08839330-a41d-4fd3-aa96-8ef1f5419c16",
+        "forMigration": false,
+        "environments": [
+            "Default Environment"
+        ],
+        "id": 42,
+        "creationTimeUnixTimeInMs": 1778144754892,
+        "modificationTimeUnixTimeInMs": 1778144754892
     }
 ]
