@@ -92,8 +92,7 @@
                     "id": 0,
                     "creationTimeUnixTimeInMs": 0,
                     "modificationTimeUnixTimeInMs": 0,
-                    "additionalProperties": {},
-                    "FallbackInstanceDisplayName": null
+                    "additionalProperties": {}
                 },
                 {
                     "name": "FetchInstanceByName",
