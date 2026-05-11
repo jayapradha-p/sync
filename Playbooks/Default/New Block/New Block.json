@@ -17,20 +17,13 @@
     "categoryId": 1,
     "originalPlaybookIdentifier": "1d4c1863-a03e-4eb4-95c7-9863f71e9513",
     "creationTimeUnixTimeInMs": 1778495247077,
-    "modificationTimeUnixTimeInMs": 1778497330547,
+    "modificationTimeUnixTimeInMs": 1778497551402,
     "trigger": {
         "id": 0,
         "identifier": "7672098f-d05d-47f9-932f-3838d6a1dd67",
         "type": 11,
         "logicalOperator": 0,
-        "conditions": [
-            {
-                "fieldName": "hello",
-                "value": "hello",
-                "matchType": 0,
-                "customOperatorName": null
-            }
-        ],
+        "conditions": [],
         "reactionLogicalOperator": 1,
         "reactionConditions": [],
         "executionMode": 0
@@ -71,8 +64,8 @@
             "startLoopStepIdentifier": null,
             "logsExplorerUrl": null,
             "id": 0,
-            "creationTimeUnixTimeInMs": 1778497330455,
-            "modificationTimeUnixTimeInMs": 1778497330547,
+            "creationTimeUnixTimeInMs": 1778497551288,
+            "modificationTimeUnixTimeInMs": 1778497551402,
             "additionalProperties": {}
         }
     ],

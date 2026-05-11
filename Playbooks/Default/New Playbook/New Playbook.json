@@ -289,7 +289,7 @@
                 },
                 {
                     "name": "NestedWorkflowInputs",
-                    "value": "[{\"FieldName\":\"hello\",\"Value\":\"hello\"}]",
+                    "value": "[]",
                     "type": null,
                     "isMandatory": false,
                     "defaultValue": null,
@@ -353,7 +353,7 @@
             "logsExplorerUrl": null,
             "id": 0,
             "creationTimeUnixTimeInMs": 1778497303302,
-            "modificationTimeUnixTimeInMs": 1778497330547,
+            "modificationTimeUnixTimeInMs": 1778497551402,
             "additionalProperties": {}
         }
     ],
