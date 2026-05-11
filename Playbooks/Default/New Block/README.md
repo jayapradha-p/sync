@@ -17,6 +17,7 @@ An embedded workflow that can receive inputs and return an output.
 ##### Input Parameters
 |Name|Default Value|
 |----|-------------|
+|hello|hello|
 
 
 ### Involved Steps (Unordered)

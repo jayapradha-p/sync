@@ -17,13 +17,20 @@
     "categoryId": 1,
     "originalPlaybookIdentifier": "1d4c1863-a03e-4eb4-95c7-9863f71e9513",
     "creationTimeUnixTimeInMs": 1778495247077,
-    "modificationTimeUnixTimeInMs": 1778495247077,
+    "modificationTimeUnixTimeInMs": 1778497330547,
     "trigger": {
         "id": 0,
         "identifier": "7672098f-d05d-47f9-932f-3838d6a1dd67",
         "type": 11,
         "logicalOperator": 0,
-        "conditions": [],
+        "conditions": [
+            {
+                "fieldName": "hello",
+                "value": "hello",
+                "matchType": 0,
+                "customOperatorName": null
+            }
+        ],
         "reactionLogicalOperator": 1,
         "reactionConditions": [],
         "executionMode": 0
@@ -64,15 +71,15 @@
             "startLoopStepIdentifier": null,
             "logsExplorerUrl": null,
             "id": 0,
-            "creationTimeUnixTimeInMs": 1778495247077,
-            "modificationTimeUnixTimeInMs": 1778495247077,
+            "creationTimeUnixTimeInMs": 1778497330455,
+            "modificationTimeUnixTimeInMs": 1778497330547,
             "additionalProperties": {}
         }
     ],
     "stepsRelations": [
         {
             "condition": "",
-            "fromStep": "7c58f114-1105-4f3a-8f84-0fcf581e4461",
+            "fromStep": "7672098f-d05d-47f9-932f-3838d6a1dd67",
             "toStep": "0af4a7d6-61e6-4851-9780-116ac0c49354",
             "destinationActionStatus": 0
         }
@@ -80,8 +87,8 @@
     "templateName": null,
     "playbookType": 1,
     "debugData": {
-        "debugBaseAlertId": null,
-        "debugAlertId": null
+        "debugBaseAlertId": "",
+        "debugAlertId": ""
     },
     "entityAccessLevel": 2,
     "defaultAccessLevel": 2,
