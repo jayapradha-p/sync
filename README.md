@@ -11,6 +11,10 @@
 ## Playbooks
 |Name|Description|
 |----|-----------|
+|New Playbook||
+|New Playbook - 2||
+|New Playbook - new folder||
+|New Playbook - new2||
 |New Block|An embedded workflow that can receive inputs and return an output.|
 
 
