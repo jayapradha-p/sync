@@ -244,6 +244,11 @@
     "description": "Pull incidents from Palo Alto XDR. Dynamic List works with the \u201csource\u201d parameter.",
     "intervalSeconds": 10,
     "version": 1,
+    "allowList": [
+        "test1",
+        "test2",
+        "test3"
+    ],
     "productFieldName": "Product Name",
     "eventFieldName": "event_type",
     "timeoutSeconds": 180,
