@@ -1,11 +1,11 @@
 {
     "id": 0,
-    "identifier": "a7548e91-5903-47da-9005-22b27789ae5a",
+    "identifier": "5478ccd3-7915-4b0b-ab81-fec5febd63c1",
     "version": "1",
     "isEnabled": true,
     "isDebugMode": false,
     "name": "New Playbook - 2",
-    "creator": "3139d5f3-4dbb-44be-81dc-02207261b23c",
+    "creator": "Siemplify automation",
     "modifiedBy": "3139d5f3-4dbb-44be-81dc-02207261b23c",
     "priority": 2,
     "description": "",
@@ -15,12 +15,12 @@
     ],
     "categoryName": "Default",
     "categoryId": 1,
-    "originalPlaybookIdentifier": "a7548e91-5903-47da-9005-22b27789ae5a",
-    "creationTimeUnixTimeInMs": 1778589211343,
-    "modificationTimeUnixTimeInMs": 1778589211343,
+    "originalPlaybookIdentifier": "5478ccd3-7915-4b0b-ab81-fec5febd63c1",
+    "creationTimeUnixTimeInMs": 1778593061923,
+    "modificationTimeUnixTimeInMs": 1778594215389,
     "trigger": {
         "id": 0,
-        "identifier": "b77c2325-2f2e-489f-adc0-1e038065ea43",
+        "identifier": "655f46b2-bbdf-4234-877a-76aa191de01c",
         "type": 8,
         "logicalOperator": 0,
         "conditions": [
@@ -38,16 +38,154 @@
     "steps": [
         {
             "parallelActions": [],
-            "identifier": "b3c2ec5d-16be-4b16-862e-7d1b62f4e4a2",
-            "originalStepIdentifier": "b3c2ec5d-16be-4b16-862e-7d1b62f4e4a2",
+            "identifier": "469f00af-1d0d-4a0c-94e4-31cf966500f3",
+            "originalStepIdentifier": "469f00af-1d0d-4a0c-94e4-31cf966500f3",
             "isAutomatic": true,
             "isSkippable": false,
-            "instanceName": "Siemplify_Close Case_1",
-            "name": "Siemplify_Close Case",
+            "instanceName": "New Block_1",
+            "name": "New Block",
             "integration": "Siemplify",
-            "description": "Closes the case the current alert has been grouped to",
+            "description": "An embedded workflow that can receive inputs and return an output.",
+            "actionProvider": "Flow",
+            "actionName": "NestedAction",
+            "type": 5,
+            "parameters": [
+                {
+                    "name": "AssignedUsers",
+                    "value": null,
+                    "type": null,
+                    "isMandatory": false,
+                    "defaultValue": null,
+                    "id": 0,
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0,
+                    "additionalProperties": {}
+                },
+                {
+                    "name": "DistinctDuplicateEntities",
+                    "value": "true",
+                    "type": null,
+                    "isMandatory": false,
+                    "defaultValue": null,
+                    "id": 0,
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0,
+                    "additionalProperties": {}
+                },
+                {
+                    "name": "HasApprovalLink",
+                    "value": null,
+                    "type": null,
+                    "isMandatory": false,
+                    "defaultValue": null,
+                    "id": 0,
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0,
+                    "additionalProperties": {}
+                },
+                {
+                    "name": "MessageToAssignee",
+                    "value": null,
+                    "type": null,
+                    "isMandatory": false,
+                    "defaultValue": null,
+                    "id": 0,
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0,
+                    "additionalProperties": {}
+                },
+                {
+                    "name": "NestedWorkflowIdentifier",
+                    "value": "4bd364f8-a6f5-489d-8dbf-4d859955c6b9",
+                    "type": null,
+                    "isMandatory": false,
+                    "defaultValue": null,
+                    "id": 0,
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0,
+                    "additionalProperties": {}
+                },
+                {
+                    "name": "NestedWorkflowInputs",
+                    "value": "[]",
+                    "type": null,
+                    "isMandatory": false,
+                    "defaultValue": null,
+                    "id": 0,
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0,
+                    "additionalProperties": {}
+                },
+                {
+                    "name": "PendingActionTimeout",
+                    "value": null,
+                    "type": null,
+                    "isMandatory": false,
+                    "defaultValue": null,
+                    "id": 0,
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0,
+                    "additionalProperties": {}
+                },
+                {
+                    "name": "UseEntitiesLoopScope",
+                    "value": "true",
+                    "type": null,
+                    "isMandatory": false,
+                    "defaultValue": null,
+                    "id": 0,
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0,
+                    "additionalProperties": {}
+                },
+                {
+                    "name": "NestedWorkflowSteps",
+                    "value": "[]",
+                    "type": null,
+                    "isMandatory": false,
+                    "defaultValue": null,
+                    "id": 0,
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0,
+                    "additionalProperties": {}
+                },
+                {
+                    "name": "NestedWorkflowOutput",
+                    "value": null,
+                    "type": null,
+                    "isMandatory": false,
+                    "defaultValue": null,
+                    "id": 0,
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0,
+                    "additionalProperties": {}
+                }
+            ],
+            "autoSkipOnFailure": false,
+            "isDebugMockData": false,
+            "debugData": null,
+            "parentStepContainerId": null,
+            "workflowIdentifier": "5478ccd3-7915-4b0b-ab81-fec5febd63c1",
+            "isTouchedByAi": false,
+            "startLoopStepIdentifier": null,
+            "logsExplorerUrl": null,
+            "id": 0,
+            "creationTimeUnixTimeInMs": 1778594215389,
+            "modificationTimeUnixTimeInMs": 1778594215389,
+            "additionalProperties": {}
+        },
+        {
+            "parallelActions": [],
+            "identifier": "d74b596b-09d3-4a0f-b81c-b36e740ffb87",
+            "originalStepIdentifier": "d74b596b-09d3-4a0f-b81c-b36e740ffb87",
+            "isAutomatic": true,
+            "isSkippable": false,
+            "instanceName": "Siemplify_Case Comment_1",
+            "name": "Siemplify_Case Comment",
+            "integration": "Siemplify",
+            "description": "Add a comment to the case the current alert has been grouped to",
             "actionProvider": "Scripts",
-            "actionName": "Siemplify_Close Case",
+            "actionName": "Siemplify_Case Comment",
             "type": 0,
             "parameters": [
                 {
@@ -118,15 +256,14 @@
                 },
                 {
                     "name": "IntegrationInstance",
-                    "value": "9dd18448-e6a2-4de0-83f6-5cdfded1d817",
+                    "value": "3f7d004e-20db-41b3-8bb9-9592a1ef030f",
                     "type": null,
                     "isMandatory": false,
                     "defaultValue": null,
                     "id": 0,
                     "creationTimeUnixTimeInMs": 0,
                     "modificationTimeUnixTimeInMs": 0,
-                    "additionalProperties": {},
-                    "InstanceDisplayName": "Siemplify_1"
+                    "additionalProperties": {}
                 },
                 {
                     "name": "MessageToAssignee",
@@ -163,7 +300,7 @@
                 },
                 {
                     "name": "ScriptName",
-                    "value": "Siemplify_Close Case",
+                    "value": "Siemplify_Case Comment",
                     "type": null,
                     "isMandatory": false,
                     "defaultValue": null,
@@ -174,7 +311,7 @@
                 },
                 {
                     "name": "ScriptParametersEntityFields",
-                    "value": "{\"Reason\":\"Malicious\",\"Root Cause\":\"External attack\",\"Comment\":\"hello\",\"Custom Fields\":\"\",\"Append Custom Field Values\":false}",
+                    "value": "{\"Comment\":\"test\"}",
                     "type": null,
                     "isMandatory": false,
                     "defaultValue": null,
@@ -210,22 +347,29 @@
             "isDebugMockData": false,
             "debugData": null,
             "parentStepContainerId": null,
-            "workflowIdentifier": "a7548e91-5903-47da-9005-22b27789ae5a",
+            "workflowIdentifier": "5478ccd3-7915-4b0b-ab81-fec5febd63c1",
             "isTouchedByAi": false,
             "startLoopStepIdentifier": null,
             "logsExplorerUrl": null,
             "id": 0,
-            "creationTimeUnixTimeInMs": 1778589211343,
-            "modificationTimeUnixTimeInMs": 1778589211343,
+            "creationTimeUnixTimeInMs": 1778594215304,
+            "modificationTimeUnixTimeInMs": 1778594215389,
             "additionalProperties": {}
         }
     ],
-    "stepsRelations": [],
+    "stepsRelations": [
+        {
+            "condition": "",
+            "fromStep": "d74b596b-09d3-4a0f-b81c-b36e740ffb87",
+            "toStep": "469f00af-1d0d-4a0c-94e4-31cf966500f3",
+            "destinationActionStatus": 0
+        }
+    ],
     "templateName": null,
     "playbookType": 0,
     "debugData": {
-        "debugBaseAlertId": null,
-        "debugAlertId": null
+        "debugBaseAlertId": "",
+        "debugAlertId": ""
     },
     "entityAccessLevel": 2,
     "defaultAccessLevel": 2,
