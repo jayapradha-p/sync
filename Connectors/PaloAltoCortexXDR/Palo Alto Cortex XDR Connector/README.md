@@ -12,6 +12,10 @@ Event Name Field: event_type
 ### Parameters
 |Name|Description|Is Mandatory|Value|
 |----|-----------|------------|-----|
+|Environment Regex Pattern|A regular expression pattern to run on the value found in the Environment Field Name field. This parameter lets you manipulate the environment field using the regular expression logic. Use the default value .* to retrieve the required raw Environment Field Name value. If the regular expression pattern is null or empty, or the environment value is null, the final environment result is the default environment.|False||
+|Proxy Username|The proxy username to authenticate with.|False||
+|Proxy Password|The proxy password to authenticate with.|False|***************|
+|Artifacts To Ignore|A comma-separated list of artifacts to exclude from Google SecOps event creation.|False||
 |Api Root|The API root of the Palo Alto XDR instance.|True|https://api-{fqdn}|
 |Api Key|The Palo Alto XDR API key.|True|***************|
 |Api Key ID|The Palo Alto XDR API key ID.|True|3|
@@ -27,9 +31,5 @@ Event Name Field: event_type
 |Lowest Incident Severity To Fetch|The lowest severity of the incidents to retrieve. If no value is provided, the connector ingest incidents with all severities.|False||
 |Lowest Incident SmartScore To Fetch|The lowest SmartScore (0 to 100) of the incidents to fetch. This filter operates independently of the severity filter. If no value is provided, the SmartScore filter is ignored.|False||
 |Environment Field Name|The name of the field where the environment name is stored. If the environment field is missing, the connector uses the default value.|False||
-|Environment Regex Pattern|A regular expression pattern to run on the value found in the Environment Field Name field. This parameter lets you manipulate the environment field using the regular expression logic. Use the default value .* to retrieve the required raw Environment Field Name value. If the regular expression pattern is null or empty, or the environment value is null, the final environment result is the default environment.|False||
 |Proxy Server Address|The address of the proxy server to use.|False||
-|Proxy Username|The proxy username to authenticate with.|False||
-|Proxy Password|The proxy password to authenticate with.|False|***************|
-|Artifacts To Ignore|A comma-separated list of artifacts to exclude from Google SecOps event creation.|False||
 
