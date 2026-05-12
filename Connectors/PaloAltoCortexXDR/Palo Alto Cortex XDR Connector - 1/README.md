@@ -1,4 +1,4 @@
-# Palo Alto Cortex XDR Connector
+# Palo Alto Cortex XDR Connector - 1
 Pull incidents from Palo Alto XDR. Dynamic List works with the “source” parameter.
 
 
@@ -15,11 +15,11 @@ Event Name Field: event_type
 |Api Root|The API root of the Palo Alto XDR instance.|True|https://api-{fqdn}|
 |Api Key|The Palo Alto XDR API key.|True|***************|
 |Api Key ID|The Palo Alto XDR API key ID.|True|3|
-|Verify SSL|If selected, the integration validates the SSL certificate when connecting to the Palo Alto XDR server.|False|false|
+|Verify SSL|If selected, the integration validates the SSL certificate when connecting to the Palo Alto XDR server.|False|true|
 |Alerts Count Limit|The maximum number of incidents the connector processes for every iteration. Maximum: 100.|False|10|
 |Use dynamic list as a blocklist|If selected, the connector uses the dynamic list as a blocklist.|False|false|
-|Include Historical Artifacts|If selected, the connector retrieves all historical artifacts associated with an alert during the initial ingestion. Enabling this option may increase the volume of data ingested during the first run.|False|false|
-|Disable Overflow|If selected, the connector ignores the Google SecOps overflow mechanism.|False|false|
+|Include Historical Artifacts|If selected, the connector retrieves all historical artifacts associated with an alert during the initial ingestion. Enabling this option may increase the volume of data ingested during the first run.|False|true|
+|Disable Overflow|If selected, the connector ignores the Google SecOps overflow mechanism.|False|true|
 |Max Days Backwards|The maximum number of days in the past to search for and retrieve incidents.|True|24|
 |Status Filter|A comma-separated list of alert statuses for the connector to ingest. If no value is provided, the connector defaults to fetching alerts with the New and Under Investigation statuses.|False|New,Under Investigation|
 |Split Incident Alerts|If selected, the connector separates the individual alerts within a single source incident, creating a distinct SOAR Alert for each one.|False|false|

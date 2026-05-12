@@ -1,9 +1,9 @@
 {
-    "name": "projects/project/locations/location/instances/instance/integrations/GoogleChronicle/connectors/1/connectorInstances/14",
-    "id": 14,
+    "name": "projects/project/locations/location/instances/instance/integrations/GoogleChronicle/connectors/1/connectorInstances/16",
+    "id": 16,
     "custom": false,
     "documentationLink": "https://cloud.google.com/chronicle/docs/soar/marketplace-integrations/google-chronicle#chronicle-alerts-connector",
-    "identifier": "Google Chronicle - Chronicle Alerts Connector_126fc8d2-b9da-4f01-afa2-46119b7e90ef",
+    "identifier": "Google Chronicle - Chronicle Alerts Connector_7bb16315-3c92-406b-88ea-05e8b1137cf5",
     "connectorDefinitionName": "Google Chronicle - Chronicle Alerts Connector",
     "integration": "GoogleChronicle",
     "remote": false,

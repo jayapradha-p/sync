@@ -1,9 +1,9 @@
 {
-    "name": "projects/project/locations/location/instances/instance/integrations/PaloAltoCortexXDR/connectors/2/connectorInstances/17",
-    "id": 17,
+    "name": "projects/project/locations/location/instances/instance/integrations/PaloAltoCortexXDR/connectors/2/connectorInstances/18",
+    "id": 18,
     "custom": false,
     "documentationLink": "https://cloud.google.com/chronicle/docs/soar/marketplace-integrations/palo-alto-cortex-xdr#palo-alto-cortex-xdr-connector",
-    "identifier": "Palo Alto Cortex XDR Connector_bc909b97-ce99-4741-89d2-dc8ee6413353",
+    "identifier": "Palo Alto Cortex XDR Connector_8e0c30cf-a360-4dae-a08c-945ae1a4655c",
     "connectorDefinitionName": "Palo Alto Cortex XDR Connector",
     "integration": "PaloAltoCortexXDR",
     "remote": false,
@@ -55,7 +55,7 @@
             "mode": "Script",
             "description": "If selected, the integration validates the SSL certificate when connecting to the Palo Alto XDR server.",
             "displayName": "Verify SSL",
-            "value": "false",
+            "value": "true",
             "creationTimeUnixTimeInMs": 0,
             "modificationTimeUnixTimeInMs": 0
         },
@@ -88,7 +88,7 @@
             "mode": "Script",
             "description": "If selected, the connector retrieves all historical artifacts associated with an alert during the initial ingestion. Enabling this option may increase the volume of data ingested during the first run.",
             "displayName": "Include Historical Artifacts",
-            "value": "false",
+            "value": "true",
             "creationTimeUnixTimeInMs": 0,
             "modificationTimeUnixTimeInMs": 0
         },
@@ -99,7 +99,7 @@
             "mode": "Script",
             "description": "If selected, the connector ignores the Google SecOps overflow mechanism.",
             "displayName": "Disable Overflow",
-            "value": "false",
+            "value": "true",
             "creationTimeUnixTimeInMs": 0,
             "modificationTimeUnixTimeInMs": 0
         },
@@ -240,15 +240,10 @@
     "updateAvailable": false,
     "enabled": false,
     "environment": "Default Environment",
-    "displayName": "Palo Alto Cortex XDR Connector",
+    "displayName": "Palo Alto Cortex XDR Connector - 1",
     "description": "Pull incidents from Palo Alto XDR. Dynamic List works with the \u201csource\u201d parameter.",
     "intervalSeconds": 10,
     "version": 1,
-    "allowList": [
-        "test1",
-        "test2",
-        "test"
-    ],
     "productFieldName": "Product Name",
     "eventFieldName": "event_type",
     "timeoutSeconds": 180,
@@ -293,7 +288,7 @@
             "mode": "Script",
             "description": "If selected, the integration validates the SSL certificate when connecting to the Palo Alto XDR server.",
             "displayName": "Verify SSL",
-            "value": "false",
+            "value": "true",
             "creationTimeUnixTimeInMs": 0,
             "modificationTimeUnixTimeInMs": 0
         },
@@ -326,7 +321,7 @@
             "mode": "Script",
             "description": "If selected, the connector retrieves all historical artifacts associated with an alert during the initial ingestion. Enabling this option may increase the volume of data ingested during the first run.",
             "displayName": "Include Historical Artifacts",
-            "value": "false",
+            "value": "true",
             "creationTimeUnixTimeInMs": 0,
             "modificationTimeUnixTimeInMs": 0
         },
@@ -337,7 +332,7 @@
             "mode": "Script",
             "description": "If selected, the connector ignores the Google SecOps overflow mechanism.",
             "displayName": "Disable Overflow",
-            "value": "false",
+            "value": "true",
             "creationTimeUnixTimeInMs": 0,
             "modificationTimeUnixTimeInMs": 0
         },
