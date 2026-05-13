@@ -1,12 +1,12 @@
 {
     "id": 0,
-    "identifier": "7407c7cd-f972-45e4-94d8-c738e00a417f",
+    "identifier": "bc55e901-9660-46e0-9b09-c23ef73046c0",
     "version": "1",
     "isEnabled": false,
     "isDebugMode": false,
     "name": "New Playbook",
     "creator": "3139d5f3-4dbb-44be-81dc-02207261b23c",
-    "modifiedBy": "Siemplify automation",
+    "modifiedBy": "3139d5f3-4dbb-44be-81dc-02207261b23c",
     "priority": 2,
     "description": "",
     "executionScope": 1,
@@ -15,12 +15,12 @@
     ],
     "categoryName": "Default",
     "categoryId": 1,
-    "originalPlaybookIdentifier": "7407c7cd-f972-45e4-94d8-c738e00a417f",
-    "creationTimeUnixTimeInMs": 1778653610545,
-    "modificationTimeUnixTimeInMs": 1778653610545,
+    "originalPlaybookIdentifier": "bc55e901-9660-46e0-9b09-c23ef73046c0",
+    "creationTimeUnixTimeInMs": 1778654476994,
+    "modificationTimeUnixTimeInMs": 1778654476994,
     "trigger": {
         "id": 0,
-        "identifier": "7a1292ff-3ce0-4a51-a587-1cca2fe46fd9",
+        "identifier": "b5fb2807-c13f-48de-8fe6-1360bbceab2b",
         "type": 8,
         "logicalOperator": 0,
         "conditions": [
@@ -38,8 +38,8 @@
     "steps": [
         {
             "parallelActions": [],
-            "identifier": "56c89013-3385-494b-9377-0311cc3de775",
-            "originalStepIdentifier": "56c89013-3385-494b-9377-0311cc3de775",
+            "identifier": "dbbe8102-439a-421f-bac3-20d056503883",
+            "originalStepIdentifier": "dbbe8102-439a-421f-bac3-20d056503883",
             "isAutomatic": true,
             "isSkippable": false,
             "instanceName": "Siemplify_Case Comment_1",
@@ -126,7 +126,7 @@
                     "creationTimeUnixTimeInMs": 0,
                     "modificationTimeUnixTimeInMs": 0,
                     "additionalProperties": {},
-                    "InstanceDisplayName": "Siemplify_1"
+                    "InstanceDisplayName": null
                 },
                 {
                     "name": "MessageToAssignee",
@@ -174,7 +174,7 @@
                 },
                 {
                     "name": "ScriptParametersEntityFields",
-                    "value": "{\"Comment\":\"helo\"}",
+                    "value": "{\"Comment\":\"Test\"}",
                     "type": null,
                     "isMandatory": false,
                     "defaultValue": null,
@@ -210,13 +210,13 @@
             "isDebugMockData": false,
             "debugData": null,
             "parentStepContainerId": null,
-            "workflowIdentifier": "7407c7cd-f972-45e4-94d8-c738e00a417f",
+            "workflowIdentifier": "bc55e901-9660-46e0-9b09-c23ef73046c0",
             "isTouchedByAi": false,
             "startLoopStepIdentifier": null,
             "logsExplorerUrl": null,
             "id": 0,
-            "creationTimeUnixTimeInMs": 1778653610545,
-            "modificationTimeUnixTimeInMs": 1778653610545,
+            "creationTimeUnixTimeInMs": 1778654476994,
+            "modificationTimeUnixTimeInMs": 1778654476994,
             "additionalProperties": {}
         }
     ],
@@ -224,8 +224,8 @@
     "templateName": null,
     "playbookType": 0,
     "debugData": {
-        "debugBaseAlertId": "",
-        "debugAlertId": ""
+        "debugBaseAlertId": null,
+        "debugAlertId": null
     },
     "entityAccessLevel": 2,
     "defaultAccessLevel": 2,

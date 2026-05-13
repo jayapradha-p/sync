@@ -30,7 +30,7 @@
 ### Involved Steps (Unordered)
 |Step Name|Description|Integration|Original Action|
 |---------|-----------|-----------|---------------|
-|Siemplify_Assign Case_1|Use the "Assign Case" action to assign the case to a user.|Siemplify|Assign Case|
+|Siemplify_Close Case_1|Closes the case the current alert has been grouped to|Siemplify|Close Case|
 
 ### Involved Blocks
 |Name|Description|

@@ -1,12 +1,12 @@
 {
     "id": 0,
-    "identifier": "154088e5-89fd-45ea-b812-5f53c5d15fb4",
+    "identifier": "aa498c42-38c6-41b1-a7be-1fc40e5deabd",
     "version": "1",
     "isEnabled": false,
     "isDebugMode": false,
     "name": "New Playbook - 1",
     "creator": "3139d5f3-4dbb-44be-81dc-02207261b23c",
-    "modifiedBy": "Siemplify automation",
+    "modifiedBy": "3139d5f3-4dbb-44be-81dc-02207261b23c",
     "priority": 2,
     "description": "",
     "executionScope": 1,
@@ -15,12 +15,12 @@
     ],
     "categoryName": "Default",
     "categoryId": 1,
-    "originalPlaybookIdentifier": "154088e5-89fd-45ea-b812-5f53c5d15fb4",
-    "creationTimeUnixTimeInMs": 1778653610059,
-    "modificationTimeUnixTimeInMs": 1778653610059,
+    "originalPlaybookIdentifier": "aa498c42-38c6-41b1-a7be-1fc40e5deabd",
+    "creationTimeUnixTimeInMs": 1778654524900,
+    "modificationTimeUnixTimeInMs": 1778654524900,
     "trigger": {
         "id": 0,
-        "identifier": "dc4cfa1d-588f-4b05-ab19-af091f73d408",
+        "identifier": "328468bd-2a3e-49cd-acb9-7e39f9e68ac4",
         "type": 8,
         "logicalOperator": 0,
         "conditions": [
@@ -38,16 +38,16 @@
     "steps": [
         {
             "parallelActions": [],
-            "identifier": "3f524632-52f2-4d73-84d7-1668a3f58784",
-            "originalStepIdentifier": "3f524632-52f2-4d73-84d7-1668a3f58784",
+            "identifier": "688045b1-bfe6-43cb-a4bf-448e4134dd90",
+            "originalStepIdentifier": "688045b1-bfe6-43cb-a4bf-448e4134dd90",
             "isAutomatic": true,
             "isSkippable": false,
-            "instanceName": "Siemplify_Assign Case_1",
-            "name": "Siemplify_Assign Case",
+            "instanceName": "Siemplify_Close Case_1",
+            "name": "Siemplify_Close Case",
             "integration": "Siemplify",
-            "description": "Use the \"Assign Case\" action to assign the case to a user.",
+            "description": "Closes the case the current alert has been grouped to",
             "actionProvider": "Scripts",
-            "actionName": "Siemplify_Assign Case",
+            "actionName": "Siemplify_Close Case",
             "type": 0,
             "parameters": [
                 {
@@ -126,7 +126,7 @@
                     "creationTimeUnixTimeInMs": 0,
                     "modificationTimeUnixTimeInMs": 0,
                     "additionalProperties": {},
-                    "InstanceDisplayName": "Siemplify_1"
+                    "InstanceDisplayName": null
                 },
                 {
                     "name": "MessageToAssignee",
@@ -163,7 +163,7 @@
                 },
                 {
                     "name": "ScriptName",
-                    "value": "Siemplify_Assign Case",
+                    "value": "Siemplify_Close Case",
                     "type": null,
                     "isMandatory": false,
                     "defaultValue": null,
@@ -174,7 +174,7 @@
                 },
                 {
                     "name": "ScriptParametersEntityFields",
-                    "value": "{\"Assigned User\":\"@CISO\",\"Assignee\":\"\",\"Case ID\":\"\"}",
+                    "value": "{\"Reason\":\"Malicious\",\"Root Cause\":\"External attack\",\"Comment\":\"jhjkh\",\"Custom Fields\":\"\",\"Append Custom Field Values\":false}",
                     "type": null,
                     "isMandatory": false,
                     "defaultValue": null,
@@ -210,19 +210,19 @@
             "isDebugMockData": false,
             "debugData": null,
             "parentStepContainerId": null,
-            "workflowIdentifier": "154088e5-89fd-45ea-b812-5f53c5d15fb4",
+            "workflowIdentifier": "aa498c42-38c6-41b1-a7be-1fc40e5deabd",
             "isTouchedByAi": false,
             "startLoopStepIdentifier": null,
             "logsExplorerUrl": null,
             "id": 0,
-            "creationTimeUnixTimeInMs": 1778653610059,
-            "modificationTimeUnixTimeInMs": 1778653610059,
+            "creationTimeUnixTimeInMs": 1778654524900,
+            "modificationTimeUnixTimeInMs": 1778654524900,
             "additionalProperties": {}
         },
         {
             "parallelActions": [],
-            "identifier": "bd468a82-3645-4e26-8718-f3a134cdcf98",
-            "originalStepIdentifier": "bd468a82-3645-4e26-8718-f3a134cdcf98",
+            "identifier": "d3954eaa-d14e-4ef8-a2ae-5f49e38d5253",
+            "originalStepIdentifier": "d3954eaa-d14e-4ef8-a2ae-5f49e38d5253",
             "isAutomatic": true,
             "isSkippable": false,
             "instanceName": "New Block_1",
@@ -279,7 +279,7 @@
                 },
                 {
                     "name": "NestedWorkflowIdentifier",
-                    "value": "514fc6c4-0263-4142-9828-f9616079010b",
+                    "value": "c27d02a8-b3ce-4282-a95e-dbacdb53288b",
                     "type": null,
                     "isMandatory": false,
                     "defaultValue": null,
@@ -290,7 +290,7 @@
                 },
                 {
                     "name": "NestedWorkflowInputs",
-                    "value": "[{\"FieldName\":\"hello\",\"MatchType\":0,\"Value\":\"hello\",\"CustomOperatorName\":null}]",
+                    "value": "[]",
                     "type": null,
                     "isMandatory": false,
                     "defaultValue": null,
@@ -348,21 +348,21 @@
             "isDebugMockData": false,
             "debugData": null,
             "parentStepContainerId": null,
-            "workflowIdentifier": "154088e5-89fd-45ea-b812-5f53c5d15fb4",
+            "workflowIdentifier": "aa498c42-38c6-41b1-a7be-1fc40e5deabd",
             "isTouchedByAi": false,
             "startLoopStepIdentifier": null,
             "logsExplorerUrl": null,
             "id": 0,
-            "creationTimeUnixTimeInMs": 1778653610059,
-            "modificationTimeUnixTimeInMs": 1778653610059,
+            "creationTimeUnixTimeInMs": 1778654524900,
+            "modificationTimeUnixTimeInMs": 1778654524900,
             "additionalProperties": {}
         }
     ],
     "stepsRelations": [
         {
             "condition": "",
-            "fromStep": "3f524632-52f2-4d73-84d7-1668a3f58784",
-            "toStep": "bd468a82-3645-4e26-8718-f3a134cdcf98",
+            "fromStep": "688045b1-bfe6-43cb-a4bf-448e4134dd90",
+            "toStep": "d3954eaa-d14e-4ef8-a2ae-5f49e38d5253",
             "destinationActionStatus": 0
         }
     ],
