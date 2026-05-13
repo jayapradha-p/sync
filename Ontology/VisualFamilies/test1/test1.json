@@ -16,10 +16,13 @@
                 "secondaryDestination": "",
                 "thirdDestination": "",
                 "fourthDestination": "",
-                "id": 0
+                "visualFamily": "test1",
+                "id": 0,
+                "creationTimeUnixTimeInMs": 1778676203307,
+                "modificationTimeUnixTimeInMs": 1778676203307
             }
         ],
-        "creationTimeUnixTimeInMs": 0,
-        "modificationTimeUnixTimeInMs": 0
+        "creationTimeUnixTimeInMs": 1778676203311,
+        "modificationTimeUnixTimeInMs": 1778676203311
     }
 }

@@ -16,10 +16,13 @@
                 "secondaryDestination": "SourceAddress",
                 "thirdDestination": "",
                 "fourthDestination": "",
-                "id": 0
+                "visualFamily": "test 2",
+                "id": 0,
+                "creationTimeUnixTimeInMs": 1778676203226,
+                "modificationTimeUnixTimeInMs": 1778676203226
             }
         ],
-        "creationTimeUnixTimeInMs": 0,
-        "modificationTimeUnixTimeInMs": 0
+        "creationTimeUnixTimeInMs": 1778676203231,
+        "modificationTimeUnixTimeInMs": 1778676203231
     }
 }
