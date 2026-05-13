@@ -20,12 +20,8 @@
 ## Playbooks
 |Name|Description|
 |----|-----------|
-|New Block|An embedded workflow that can receive inputs and return an output.|
 |New Playbook||
 |New Playbook - 1||
-|New Playbook - 2||
-|Playbook - 1||
-|Playbook - 2||
 
 
 ## Visual Families
