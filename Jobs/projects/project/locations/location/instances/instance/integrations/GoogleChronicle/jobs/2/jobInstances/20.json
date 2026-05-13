@@ -30,5 +30,42 @@
             },
             "interval": 0
         }
-    }
+    },
+    "parameters": [
+        {
+            "id": 2932,
+            "mandatory": true,
+            "type": "String",
+            "displayName": "Environment",
+            "value": "Default Environment"
+        },
+        {
+            "id": 2933,
+            "mandatory": true,
+            "type": "String",
+            "displayName": "API Root",
+            "value": "https://backstory.googleapis.com"
+        },
+        {
+            "id": 2936,
+            "mandatory": false,
+            "type": "Boolean",
+            "displayName": "Verify SSL",
+            "value": "true"
+        },
+        {
+            "id": 2934,
+            "mandatory": false,
+            "type": "Password",
+            "displayName": "User's Service Account",
+            "value": ""
+        },
+        {
+            "id": 2935,
+            "mandatory": false,
+            "type": "Password",
+            "displayName": "Workload Identity Email",
+            "value": ""
+        }
+    ]
 }

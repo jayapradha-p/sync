@@ -32,5 +32,56 @@
             },
             "interval": 0
         }
-    }
+    },
+    "parameters": [
+        {
+            "id": 2937,
+            "mandatory": true,
+            "type": "String",
+            "displayName": "Environment Name",
+            "value": "Default Environment"
+        },
+        {
+            "id": 2938,
+            "mandatory": false,
+            "type": "String",
+            "displayName": "Api Root",
+            "value": ""
+        },
+        {
+            "id": 2940,
+            "mandatory": true,
+            "type": "String",
+            "displayName": "Api Key ID",
+            "value": "jkljkl"
+        },
+        {
+            "id": 2941,
+            "mandatory": true,
+            "type": "Int",
+            "displayName": "Max Hours Backwards",
+            "value": "24"
+        },
+        {
+            "id": 2942,
+            "mandatory": false,
+            "type": "String",
+            "displayName": "User Mapping JSON",
+            "value": "{\"Google SecOps Display Name\": \"XDR Username\"}"
+        },
+        {
+            "id": 2943,
+            "mandatory": false,
+            "type": "Boolean",
+            "displayName": "Verify SSL",
+            "value": "false"
+        },
+        {
+            "id": 2939,
+            "mandatory": true,
+            "type": "Password",
+            "displayName": "Api Key",
+            "value": "***************"
+        }
+    ]
 }
