@@ -1,12 +1,12 @@
 {
     "id": 0,
-    "identifier": "16d6b55a-2b83-4136-baae-7a16fbc6c72f",
+    "identifier": "e548231c-9f77-4817-b70b-071f3e0ce56b",
     "version": "1",
     "isEnabled": false,
     "isDebugMode": false,
     "name": "New Playbook",
     "creator": "3139d5f3-4dbb-44be-81dc-02207261b23c",
-    "modifiedBy": "3139d5f3-4dbb-44be-81dc-02207261b23c",
+    "modifiedBy": "Siemplify automation",
     "priority": 2,
     "description": "",
     "executionScope": 1,
@@ -15,12 +15,12 @@
     ],
     "categoryName": "Default",
     "categoryId": 1,
-    "originalPlaybookIdentifier": "16d6b55a-2b83-4136-baae-7a16fbc6c72f",
-    "creationTimeUnixTimeInMs": 1778654732174,
-    "modificationTimeUnixTimeInMs": 1778654732174,
+    "originalPlaybookIdentifier": "e548231c-9f77-4817-b70b-071f3e0ce56b",
+    "creationTimeUnixTimeInMs": 1778654875168,
+    "modificationTimeUnixTimeInMs": 1778654875168,
     "trigger": {
         "id": 0,
-        "identifier": "0f628b2f-719a-4bb5-a2a3-771970ed83cd",
+        "identifier": "74cdf1da-d27e-401a-8b1c-c782f13bebb4",
         "type": 8,
         "logicalOperator": 0,
         "conditions": [
@@ -126,7 +126,7 @@
                     "creationTimeUnixTimeInMs": 0,
                     "modificationTimeUnixTimeInMs": 0,
                     "additionalProperties": {},
-                    "InstanceDisplayName": null
+                    "InstanceDisplayName": "Siemplify_1"
                 },
                 {
                     "name": "MessageToAssignee",
@@ -210,13 +210,13 @@
             "isDebugMockData": false,
             "debugData": null,
             "parentStepContainerId": null,
-            "workflowIdentifier": "16d6b55a-2b83-4136-baae-7a16fbc6c72f",
+            "workflowIdentifier": "e548231c-9f77-4817-b70b-071f3e0ce56b",
             "isTouchedByAi": false,
             "startLoopStepIdentifier": null,
             "logsExplorerUrl": null,
             "id": 0,
-            "creationTimeUnixTimeInMs": 1778654732174,
-            "modificationTimeUnixTimeInMs": 1778654732174,
+            "creationTimeUnixTimeInMs": 1778654875168,
+            "modificationTimeUnixTimeInMs": 1778654875168,
             "additionalProperties": {}
         }
     ],
