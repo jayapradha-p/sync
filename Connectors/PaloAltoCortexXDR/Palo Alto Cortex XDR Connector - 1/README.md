@@ -1,4 +1,4 @@
-# New sPalo Alto Cortex XDR Connector
+# Palo Alto Cortex XDR Connector - 1
 Pull incidents from Palo Alto XDR. Dynamic List works with the “source” parameter.
 
 
@@ -12,6 +12,7 @@ Event Name Field: event_type
 ### Parameters
 |Name|Description|Is Mandatory|Value|
 |----|-----------|------------|-----|
+|Artifacts To Ignore|A comma-separated list of artifacts to exclude from Google SecOps event creation.|False||
 |Api Root|The API root of the Palo Alto XDR instance.|True|https://api-{fqdn}|
 |Api Key|The Palo Alto XDR API key.|True|***************|
 |Api Key ID|The Palo Alto XDR API key ID.|True|3|
@@ -31,5 +32,4 @@ Event Name Field: event_type
 |Proxy Server Address|The address of the proxy server to use.|False||
 |Proxy Username|The proxy username to authenticate with.|False||
 |Proxy Password|The proxy password to authenticate with.|False|***************|
-|Artifacts To Ignore|A comma-separated list of artifacts to exclude from Google SecOps event creation.|False||
 
