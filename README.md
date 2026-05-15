@@ -24,13 +24,6 @@
 |New Playbook - 1||
 
 
-## Visual Families
-|Name|Description|
-|----|-----------|
-|test 2|testing for 2|
-|test1|testing for 1|
-
-
 ## Jobs
 |Name|Description|
 |----|-----------|
