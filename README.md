@@ -13,8 +13,8 @@
 |Name|Description|Has Mappings|
 |----|-----------|------------|
 |Google Chronicle - Chronicle Alerts Connector|Pull information about Rule based alerts from Google Chronicle. Note: dynamic list is used for filtering purposes. For all of the details please visit the documentation portal.|True|
-|Palo Alto Cortex XDR Connector|Pull incidents from Palo Alto XDR. Dynamic List works with the “source” parameter.|True|
-|new|Pull incidents from Palo Alto XDR. Dynamic List works with the “source” parameter.|True|
+|Palo Alto Cortex XDR Connector|Pull incidents from Palo Alto XDR. Dynamic List works with the “source” parameter.|False|
+|new|Pull incidents from Palo Alto XDR. Dynamic List works with the “source” parameter.|False|
 
 
 ## Playbooks
