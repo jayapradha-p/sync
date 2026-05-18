@@ -28,8 +28,6 @@
 ## Visual Families
 |Name|Description|
 |----|-----------|
-|jkkjkj|testing for 2|
-|nxnakjtest 2|testing for 2|
 |test 2|testing for 2|
 |test1|testing for 1|
 
