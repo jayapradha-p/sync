@@ -11,3 +11,4 @@
 |RISK_SCORE_RULE|None|Default|
 |RISK_SCORE_RULE|ASSET|Default|
 |RISK_SCORE_RULE|DOMAIN_NAME|Default|
+fdfdsfdsdfsffdsfsfsf
