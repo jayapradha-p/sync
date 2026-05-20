@@ -58,12 +58,6 @@
 |New Block - 9|An embedded workflow that can receive inputs and return an output.|
 
 
-## Visual Families
-|Name|Description|
-|----|-----------|
-|test1|testing for 1|
-
-
 ## Jobs
 |Name|Description|
 |----|-----------|
