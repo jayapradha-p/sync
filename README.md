@@ -44,6 +44,18 @@
 |Copy of New Playbook - 7||
 |Copy of New Playbook - 8||
 |Copy of New Playbook - 9||
+|Copy of New Playbook - 1 - 2||
+|New Block|An embedded workflow that can receive inputs and return an output.|
+|New Block - 10|An embedded workflow that can receive inputs and return an output.|
+|New Block - 12|An embedded workflow that can receive inputs and return an output.|
+|New Block - 2|An embedded workflow that can receive inputs and return an output.|
+|New Block - 3|An embedded workflow that can receive inputs and return an output.|
+|New Block - 4|An embedded workflow that can receive inputs and return an output.|
+|New Block - 5|An embedded workflow that can receive inputs and return an output.|
+|New Block - 6|An embedded workflow that can receive inputs and return an output.|
+|New Block - 7|An embedded workflow that can receive inputs and return an output.|
+|New Block - 8|An embedded workflow that can receive inputs and return an output.|
+|New Block - 9|An embedded workflow that can receive inputs and return an output.|
 
 
 ## Visual Families
