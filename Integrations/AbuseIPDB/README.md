@@ -3,7 +3,7 @@
 
 Leverage the AbuseIPDB threat intelligence API with this integration.
 
-Python Version - V3_11
+Python Version - 3
 #### Parameters
 |Name|Description|IsMandatory|Type|DefaultValue|
 |----|-----------|-----------|----|------------|
@@ -22,6 +22,12 @@ Python Version - V3_11
 
 
 ## Actions
+#### Ping
+
+Timeout - 600 Seconds
+
+
+
 #### Check IP Reputation
 Checks the reputation of all address entities associated with an alert. Includes pre-formatted insight creation. Excludes internal entities by default.
 Timeout - 600 Seconds
@@ -36,9 +42,10 @@ Timeout - 600 Seconds
 
 
 
-#### Ping
-
-Timeout - 600 Seconds
+##### JSON Results
+```json
+[{"Entity": "1.1.1.1", "EntityResult": {"ipAddress": "1.1.1.1", "isPublic": false, "ipVersion": 4, "isWhitelisted": null, "abuseConfidenceScore": 0, "countryCode": null, "usageType": "Reserved", "isp": "Private IP AddressLAN", "domain": null, "hostnames": [], "totalReports": 0, "numDistinctUsers": 0, "lastReportedAt": null}}, {"Entity": "1.1.1.1", "EntityResult": {"ipAddress": "1.1.1.1", "isPublic": true, "ipVersion": 4, "isWhitelisted": false, "abuseConfidenceScore": 0, "countryCode": "US", "usageType": "Data Center/Web Hosting/Transit", "isp": "DigitalOcean LLC", "domain": "digitalocean.com", "hostnames": [], "totalReports": 0, "numDistinctUsers": 0, "lastReportedAt": null}}]
+```
 
 
 
