@@ -3,7 +3,8 @@
     "readme_addons": {
         "Integration": {},
         "Mappings": {
-            "Google Chronicle": "fdfdsfdsdfsf"
+            "Google Chronicle": "fdfdsfdsdfsf",
+            "GoogleChronicle": "fdfdsfdsdfsf"
         },
         "Visual Family": {},
         "Playbook": {},
