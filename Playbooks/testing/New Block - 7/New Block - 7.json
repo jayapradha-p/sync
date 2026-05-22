@@ -1,0 +1,84 @@
+{
+    "id": 0,
+    "identifier": "3ed6b41b-3450-4fea-8820-26a725923d68",
+    "version": "0",
+    "isEnabled": true,
+    "isDebugMode": false,
+    "name": "New Block - 7",
+    "creator": "3139d5f3-4dbb-44be-81dc-02207261b23c",
+    "modifiedBy": "3139d5f3-4dbb-44be-81dc-02207261b23c",
+    "priority": 2,
+    "description": "An embedded workflow that can receive inputs and return an output.",
+    "executionScope": 0,
+    "environments": [
+        "*"
+    ],
+    "categoryName": "testing",
+    "categoryId": 5,
+    "originalPlaybookIdentifier": "3ed6b41b-3450-4fea-8820-26a725923d68",
+    "creationTimeUnixTimeInMs": 1779263043243,
+    "modificationTimeUnixTimeInMs": 1779263054095,
+    "trigger": {
+        "id": 0,
+        "identifier": "89a258a0-6f71-4e0f-b822-060faada90ed",
+        "type": 11,
+        "logicalOperator": 0,
+        "conditions": [],
+        "reactionLogicalOperator": 1,
+        "reactionConditions": [],
+        "executionMode": 0
+    },
+    "steps": [
+        {
+            "parallelActions": [],
+            "identifier": "a3d862f1-ed5d-4f8f-a9a9-d2396b2b187d",
+            "originalStepIdentifier": "a3d862f1-ed5d-4f8f-a9a9-d2396b2b187d",
+            "isAutomatic": true,
+            "isSkippable": false,
+            "instanceName": "Output_1",
+            "name": "Output",
+            "integration": "Flow",
+            "description": "",
+            "actionProvider": "Flow",
+            "actionName": "OutputAction",
+            "type": 6,
+            "parameters": [
+                {
+                    "name": "NestedWorkflowOutput",
+                    "value": null,
+                    "type": null,
+                    "isMandatory": false,
+                    "defaultValue": null,
+                    "id": 0,
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0,
+                    "additionalProperties": {}
+                }
+            ],
+            "autoSkipOnFailure": false,
+            "isDebugMockData": false,
+            "debugData": null,
+            "parentStepContainerId": null,
+            "workflowIdentifier": "3ed6b41b-3450-4fea-8820-26a725923d68",
+            "isTouchedByAi": false,
+            "startLoopStepIdentifier": null,
+            "logsExplorerUrl": null,
+            "id": 0,
+            "creationTimeUnixTimeInMs": 1779263054023,
+            "modificationTimeUnixTimeInMs": 1779263054095,
+            "additionalProperties": {}
+        }
+    ],
+    "stepsRelations": [],
+    "templateName": null,
+    "playbookType": 1,
+    "debugData": {
+        "debugBaseAlertId": "",
+        "debugAlertId": ""
+    },
+    "entityAccessLevel": 2,
+    "defaultAccessLevel": 2,
+    "permissions": [],
+    "overviewTemplates": [],
+    "creationSource": 1
+}
