@@ -14,9 +14,11 @@ This block checks Google GTI sourced alerts against a SOAR custom list to find m
 **Playbook Simulator:** False
 
 
+
 ##### Input Parameters
 |Name|Default Value|
 |----|-------------|
+
 
 
 ### Involved Steps (Unordered)

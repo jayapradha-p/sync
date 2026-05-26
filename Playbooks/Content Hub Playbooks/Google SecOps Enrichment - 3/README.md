@@ -14,9 +14,11 @@ This block retrieves relevant details about users and assets involved in the cas
 **Playbook Simulator:** False
 
 
+
 ##### Input Parameters
 |Name|Default Value|
 |----|-------------|
+
 
 
 ### Involved Steps (Unordered)

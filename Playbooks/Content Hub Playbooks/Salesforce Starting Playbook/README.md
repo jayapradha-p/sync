@@ -14,6 +14,7 @@ Salesforce Starting Playbook provides reference implementation of how Salesforce
 **Playbook Simulator:** True
 
 
+
 ### Playbook Trigger
 **Trigger Type:** Custom Trigger
 
@@ -23,6 +24,7 @@ Salesforce Starting Playbook provides reference implementation of how Salesforce
 |Key|Operator|Value|
 |---|--------|-----|
 |[Event.event_metadata_logType]|Contains|SALESFORCE|
+
 
 
 ### Involved Steps (Unordered)

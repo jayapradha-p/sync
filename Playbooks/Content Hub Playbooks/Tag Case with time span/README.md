@@ -14,9 +14,11 @@ A Block that Tags the case with the time span between Alerts.  Can be used for C
 **Playbook Simulator:** False
 
 
+
 ##### Input Parameters
 |Name|Default Value|
 |----|-------------|
+
 
 
 ### Involved Steps (Unordered)

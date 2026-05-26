@@ -14,6 +14,7 @@ Microsoft Defender for Endpoint Starting Playbook provides reference implementat
 **Playbook Simulator:** False
 
 
+
 ### Playbook Trigger
 **Trigger Type:** Custom Trigger
 
@@ -26,6 +27,7 @@ Microsoft Defender for Endpoint Starting Playbook provides reference implementat
 |[Event.event_metadata_logType]|Equals|MICROSOFT_DEFENDER_ENDPOINT_IOS|
 |[Event.event_metadata_logType]|Equals|WINDOWS_DEFENDER_ATP
 |
+
 
 
 ### Involved Steps (Unordered)

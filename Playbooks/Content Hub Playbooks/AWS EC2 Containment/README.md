@@ -14,9 +14,11 @@ This block allows the playbook to automatically stop EC2 instances that were ide
 **Playbook Simulator:** False
 
 
+
 ##### Input Parameters
 |Name|Default Value|
 |----|-------------|
+
 
 
 ### Involved Steps (Unordered)

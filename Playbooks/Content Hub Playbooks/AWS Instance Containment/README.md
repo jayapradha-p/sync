@@ -14,10 +14,12 @@ This block allows you to stop EC2 instances that were identified in the alert as
 **Playbook Simulator:** False
 
 
+
 ##### Input Parameters
 |Name|Default Value|
 |----|-------------|
 |Manual|True|
+
 
 
 ### Involved Steps (Unordered)

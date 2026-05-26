@@ -14,10 +14,12 @@ This block stops running GCP Compute VM instances, shutting them down gracefully
 **Playbook Simulator:** False
 
 
+
 ##### Input Parameters
 |Name|Default Value|
 |----|-------------|
 |Manual|Yes|
+
 
 
 ### Involved Steps (Unordered)

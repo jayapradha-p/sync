@@ -14,6 +14,7 @@ SentinelOne Starting Playbook provides reference implementation of how SentinelO
 **Playbook Simulator:** False
 
 
+
 ### Playbook Trigger
 **Trigger Type:** Custom Trigger
 
@@ -26,6 +27,7 @@ SentinelOne Starting Playbook provides reference implementation of how SentinelO
 |
 |[Event.event_metadata_logType]|Equals|SENTINEL_EDR|
 |[Event.event_metadata_logType]|Equals|SENTINEL_DV|
+
 
 
 ### Involved Steps (Unordered)

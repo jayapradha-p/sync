@@ -14,9 +14,11 @@ This block enriches user entities with relevant information from Google Workspac
 **Playbook Simulator:** False
 
 
+
 ##### Input Parameters
 |Name|Default Value|
 |----|-------------|
+
 
 
 ### Involved Steps (Unordered)
