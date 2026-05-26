@@ -14,12 +14,10 @@ This block allows you to add a URL, domain, or IP address to the Zscaler blackli
 **Playbook Simulator:** False
 
 
-
 ##### Input Parameters
 |Name|Default Value|
 |----|-------------|
 |Manual|True|
-
 
 
 ### Involved Steps (Unordered)

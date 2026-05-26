@@ -14,7 +14,6 @@
 **Playbook Simulator:** False
 
 
-
 ### Playbook Trigger
 **Trigger Type:** All
 
@@ -24,7 +23,6 @@
 |Key|Operator|Value|
 |---|--------|-----|
 ||Equals||
-
 
 
 ### Involved Steps (Unordered)

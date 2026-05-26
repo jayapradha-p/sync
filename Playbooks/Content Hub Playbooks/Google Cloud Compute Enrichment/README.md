@@ -14,11 +14,9 @@ This block provides additional context about GCP Compute resources related to th
 **Playbook Simulator:** False
 
 
-
 ##### Input Parameters
 |Name|Default Value|
 |----|-------------|
-
 
 
 ### Involved Steps (Unordered)

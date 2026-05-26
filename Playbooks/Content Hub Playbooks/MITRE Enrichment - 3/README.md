@@ -14,11 +14,9 @@ This block retrieves detailed information about MITRE ATT&CK techniques and thei
 **Playbook Simulator:** False
 
 
-
 ##### Input Parameters
 |Name|Default Value|
 |----|-------------|
-
 
 
 ### Involved Steps (Unordered)

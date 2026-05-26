@@ -14,11 +14,9 @@ This block retrieves EC2 instance data associated with the case and provides con
 **Playbook Simulator:** False
 
 
-
 ##### Input Parameters
 |Name|Default Value|
 |----|-------------|
-
 
 
 ### Involved Steps (Unordered)

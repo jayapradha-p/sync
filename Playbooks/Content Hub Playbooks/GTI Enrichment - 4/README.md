@@ -14,11 +14,9 @@ This block enhances case entities with Google Threat Intelligence enrichment inf
 **Playbook Simulator:** False
 
 
-
 ##### Input Parameters
 |Name|Default Value|
 |----|-------------|
-
 
 
 ### Involved Steps (Unordered)

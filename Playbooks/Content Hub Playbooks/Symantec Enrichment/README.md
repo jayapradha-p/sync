@@ -14,12 +14,10 @@ This block supports remediation by retrieving system information for endpoints a
 **Playbook Simulator:** False
 
 
-
 ##### Input Parameters
 |Name|Default Value|
 |----|-------------|
 |Scan Endpoint|False|
-
 
 
 ### Involved Steps (Unordered)

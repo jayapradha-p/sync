@@ -14,11 +14,9 @@ This block retrieves information about endpoints from SentinelOne, including det
 **Playbook Simulator:** False
 
 
-
 ##### Input Parameters
 |Name|Default Value|
 |----|-------------|
-
 
 
 ### Involved Steps (Unordered)

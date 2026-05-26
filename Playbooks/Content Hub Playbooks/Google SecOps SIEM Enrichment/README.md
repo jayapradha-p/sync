@@ -14,11 +14,9 @@ This block enriches entities and retrieves relevant details about users and asse
 **Playbook Simulator:** False
 
 
-
 ##### Input Parameters
 |Name|Default Value|
 |----|-------------|
-
 
 
 ### Involved Steps (Unordered)

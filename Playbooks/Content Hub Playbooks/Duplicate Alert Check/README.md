@@ -14,11 +14,9 @@ Is this Alert the first in the Case?  Is it the first in the Case of this Alert 
 **Playbook Simulator:** False
 
 
-
 ##### Input Parameters
 |Name|Default Value|
 |----|-------------|
-
 
 
 ### Involved Steps (Unordered)

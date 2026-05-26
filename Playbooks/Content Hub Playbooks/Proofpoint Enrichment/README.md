@@ -14,11 +14,9 @@ This block uses the List Campaigns action to retrieve a list of active campaigns
 **Playbook Simulator:** False
 
 
-
 ##### Input Parameters
 |Name|Default Value|
 |----|-------------|
-
 
 
 ### Involved Steps (Unordered)

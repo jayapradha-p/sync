@@ -14,11 +14,9 @@ An embedded workflow that can receive inputs and return an output.
 **Playbook Simulator:** False
 
 
-
 ##### Input Parameters
 |Name|Default Value|
 |----|-------------|
-
 
 
 ### Involved Steps (Unordered)

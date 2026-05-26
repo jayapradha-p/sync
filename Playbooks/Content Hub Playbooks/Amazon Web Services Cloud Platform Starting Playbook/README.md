@@ -14,7 +14,6 @@ Amazon Web Services Cloud Platform Starting Playbook provides reference implemen
 **Playbook Simulator:** False
 
 
-
 ### Playbook Trigger
 **Trigger Type:** Custom Trigger
 
@@ -26,7 +25,6 @@ Amazon Web Services Cloud Platform Starting Playbook provides reference implemen
 |[Alert.Name]|Starts With|AWS|
 |[Event.event_metadata_productName]|Contains|AWS|
 |[Event.event_metadata_vendorName]|Contains|AMAZON|
-
 
 
 ### Involved Steps (Unordered)

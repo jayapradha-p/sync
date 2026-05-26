@@ -14,12 +14,10 @@ Clean case (Tags, Alert scoring info, etc) when playbooks that are often rerun a
 **Playbook Simulator:** False
 
 
-
 ##### Input Parameters
 |Name|Default Value|
 |----|-------------|
 |TagsToKeep|Simulated Case,Manual Case|
-
 
 
 ### Involved Steps (Unordered)

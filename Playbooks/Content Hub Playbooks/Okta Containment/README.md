@@ -14,14 +14,12 @@ This block performs remediation on Okta users by generating a one‑time token f
 **Playbook Simulator:** False
 
 
-
 ##### Input Parameters
 |Name|Default Value|
 |----|-------------|
 |Manual|True|
 |Disable Account|True|
 |Password Reset|True|
-
 
 
 ### Involved Steps (Unordered)
