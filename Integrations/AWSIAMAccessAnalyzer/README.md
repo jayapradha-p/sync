@@ -3,7 +3,7 @@
 
 AWS IAM Access Analyzer is built on Zelkova, which translates IAM policies into equivalent logical statements, and runs a suite of general-purpose and specialized logical solvers (satisfiability modulo theories) against the problem. Access Analyzer applies Zelkova repeatedly to a policy with increasingly specific queries to characterize classes of behaviors the policy allows, based on the content of the policy. To learn more about satisfiability modulo theories, see Satisfiability Modulo Theories. Access Analyzer does not examine access logs to determine whether an external entity accessed a resource within your zone of trust. It generates a finding when a resource-based policy allows access to a resource, even if the resource was not accessed by the external entity. Access Analyzer also does not consider the state of any external accounts when making its determination. That is, if it indicates that account 11112222333 can access your S3 bucket, it knows nothing about the state of users, roles, service control policies (SCP), and other relevant configurations in that account. This is for customer privacy – Access Analyzer doesn't consider who owns the other account. It is also for security – if the account is not owned by the Access Analyzer customer, it is still important to know that an external entity could gain access to their resources even if there are currently no principals in the account that could access the resources. Access Analyzer considers only certain IAM condition keys that external users cannot directly influence, or that are otherwise impactful to authorization. Access Analyzer does not currently report findings from AWS service principals or internal service accounts. In rare cases where Access Analyzer isn't able to fully determine whether a policy statement grants access to an external entity, it errs on the side of declaring a false positive finding. Access Analyzer is designed to provide a comprehensive view of the resource sharing in your account, and strives to minimize false negatives.
 
-Python Version - V3_11
+Python Version - 3
 #### Parameters
 |Name|Description|IsMandatory|Type|DefaultValue|
 |----|-----------|-----------|----|------------|
@@ -67,6 +67,13 @@ Timeout - 600 Seconds
 
 
 
+##### JSON Results
+```json
+[{"resources":[{"analyzedAt":1606289201000,"isPublic":"True","resourceArn":"arn:aws:s3:::accessanalyzerXXX","resourceOwnerAccount":"XXXXXXXXXXX","resourceType":"AWS::S3::Bucket"}]}]
+```
+
+
+
 
 
 
@@ -79,15 +86,18 @@ Pull findings from AWS IAM Access Analyzer. Note: Whitelist works on resource ty
 
 |Name|Description|IsMandatory|Type|DefaultValue|
 |----|-----------|-----------|----|------------|
+|DeviceProductField|Enter the source field name in order to retrieve the Product Field name.|True|String|Product Name|
+|EventClassId|Enter the source field name in order to retrieve the Event Field name.|True|String|resourceType|
 |Environment Field Name|Describes the name of the field where the environment name is stored. If the environment field isn't found, the environment is the default environment.|False|String||
 |Environment Regex Pattern|A regex pattern to run on the value found in the "Environment Field Name" field. Default is .* to catch all and return the value unchanged. Used to allow the user to manipulate the environment field via regex logic. If the regex pattern is null or empty, or the environment value is null, the final environment result is the default environment.|False|String|.*|
+|PythonProcessTimeout|Timeout limit for the python process running the current script.|True|Integer|180|
 |AWS Access Key ID|AWS Access Key ID to use in integration.|True|String||
 |AWS Secret Key|AWS Secret Key to use in integration.|True|Password|*****|
 |AWS Default Region|AWS default region to use in integration, for example us-west-2.|True|String||
 |Analyzer Name|Name of the analyzer that should be used in the integration.|True|String||
 |Alert Severity|Severity of the Siemplify Alerts created from this connector. Possible values: Critical, High, Medium , Low, Informational.|False|String|Medium|
-|Max Findings To Fetch|How many findings to process per one connector iteration.|False|Int|50|
-|Max Hours Backwards|Number of hours before the first connector iteration to retrieve findings from. This parameter applies to the initial connector iteration after you enable the connector for the first time, or used as a fallback value in cases where connector's last run timestamp expires.|False|Int|1|
+|Max Findings To Fetch|How many findings to process per one connector iteration.|False|Integer|50|
+|Max Hours Backwards|Number of hours before the first connector iteration to retrieve findings from. This parameter applies to the initial connector iteration after you enable the connector for the first time, or used as a fallback value in cases where connector's last run timestamp expires.|False|Integer|1|
 |Use whitelist as a blacklist|If enabled, whitelist will be used as a blacklist.|False|Boolean|false|
 |Verify SSL|If enabled, verify the SSL certificate for the connection to the AWS IAM Access Analyzer server is valid.|False|Boolean|false|
 |Proxy Server Address|The address of the proxy server to use.|False|String||

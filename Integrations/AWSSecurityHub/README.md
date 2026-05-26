@@ -3,7 +3,7 @@
 
 AWS Security Hub gives you a comprehensive view of your high-priority security alerts and security posture across your AWS accounts. There are a range of powerful security tools at your disposal, from firewalls and endpoint protection to vulnerability and compliance scanners. But oftentimes this leaves your team switching back-and-forth between these tools to deal with hundreds, and sometimes thousands, of security alerts every day.
 
-Python Version - V3_11
+Python Version - 3
 #### Parameters
 |Name|Description|IsMandatory|Type|DefaultValue|
 |----|-----------|-----------|----|------------|
@@ -91,6 +91,13 @@ Timeout - 600 Seconds
 
 
 
+##### JSON Results
+```json
+[{"InsightResults":{"InsightArn":"arn:aws:securityhub:::insight/securityhub/default/1","GroupByAttribute":"ResourceId","ResultValues":[{"GroupByAttributeValue":"arn:aws:s3:::int-arcsight-v-27-0-getreportstatus","Count":5},{"GroupByAttributeValue":"arn:aws:s3:::int-arcsight-v-27-0-searchactionbug","Count":5},{"GroupByAttributeValue":"arn:aws:s3:::int-arcsight-v-27-0-unicodeandlogs","Count":5},{"GroupByAttributeValue":"arn:aws:s3:::int-automation-v-1-0","Count":5},{"GroupByAttributeValue":"arn:aws:s3:::int-awss3-v-1-0","Count":5},{"GroupByAttributeValue":"arn:aws:s3:::int-azureactivedirectory-v-4-0","Count":5},{"GroupByAttributeValue":"arn:aws:s3:::int-bootcamp-v-1-0","Count":5},{"GroupByAttributeValue":"arn:aws:s3:::int-categories","Count":5}]}}]
+```
+
+
+
 #### Create Insight
 Create an insight in AWS Security Hub.
 Timeout - 600 Seconds
@@ -101,6 +108,13 @@ Timeout - 600 Seconds
 |Insight Name|Specify the name of the insight.|True|String||
 |Group By Attribute|Specify the name of the attribute by which findings should be grouped under one insight.|True|List|AWS Account ID|
 |Filter JSON Object|Specify a filter for the findings. Filter is represented as a JSON object, where you can specify different attributes and values. Please refer to action documentation for more details.|True|String||
+
+
+
+##### JSON Results
+```json
+[{"InsightArn":"arn:aws:securityhub:us-east-2:962970284126:insight/962970284126/custom/da74bc5f-b024-4d6f-8077-3f8161c1f41d"}]
+```
 
 
 
@@ -116,11 +130,14 @@ Pull findings from AWS Security Hub.
 
 |Name|Description|IsMandatory|Type|DefaultValue|
 |----|-----------|-----------|----|------------|
+|DeviceProductField|Enter the source field name in order to retrieve the Product Field name.|True|String|ProductFields_aws/securityhub/ProductName|
+|EventClassId|Enter the source field name in order to retrieve the Event Field name.|True|String|Title|
+|PythonProcessTimeout|Timeout limit for the python process running the current script.|True|Integer|180|
 |AWS Access Key ID|AWS Access Key ID to use in integration.|True|String||
 |AWS Secret Key|AWS Secret Key to use in integration.|True|Password|*****|
 |AWS Default Region|AWS default region to use in integration, for example us-west-2.|True|String||
-|Fetch Max Hours Backwards|Number of hours before the first connector iteration to retrieve findings from. This parameter applies to the initial connector iteration after you enable the connector for the first time, or used as a fallback value in cases where connector's last run timestamp expires.|False|Int|1|
-|Max Findings To Fetch|How many findings to process per one connector iteration.|True|Int|50|
+|Fetch Max Hours Backwards|Number of hours before the first connector iteration to retrieve findings from. This parameter applies to the initial connector iteration after you enable the connector for the first time, or used as a fallback value in cases where connector's last run timestamp expires.|False|Integer|1|
+|Max Findings To Fetch|How many findings to process per one connector iteration.|True|Integer|50|
 |Lowest Severity To Fetch|Lowest severity that will be used to fetch findings. Possible values: Informational, Low, Medium, High, Critical|True|String|Medium|
 |Use whitelist as a blacklist|If enabled, whitelist will be used as a blacklist.|False|Boolean|false|
 |Verify SSL|If enabled, verify the SSL certificate for the connection to the AWS Security Hub is valid.|False|Boolean|false|

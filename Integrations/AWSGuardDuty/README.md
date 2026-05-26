@@ -3,7 +3,7 @@
 
 Amazon GuardDuty informs you of the status of your AWS environment by producing security findings. GuardDuty helps to detect and manage threats to your AWS system.
 
-Python Version - V3_11
+Python Version - 3
 #### Parameters
 |Name|Description|IsMandatory|Type|DefaultValue|
 |----|-----------|-----------|----|------------|
@@ -80,6 +80,13 @@ Timeout - 600 Seconds
 
 
 
+##### JSON Results
+```json
+{"detectorId": "123456abcd"}
+```
+
+
+
 #### Create a Trusted IP List
 Creates a new list of trusted IP addresses (IPSet) that were white listed for secure communication with AWS infrastructure and applications. Note: Only 1 Trusted IP set can be created and activated. GuardDuty doesn't generate findings for IP addresses that are included in IPSets. Only users from the master account can use this operation.
 Timeout - 600 Seconds
@@ -96,6 +103,13 @@ Timeout - 600 Seconds
 
 
 
+##### JSON Results
+```json
+{"TrustedIPID": ["f6ba9dcaf89d16cd959921737f038cf7"]}
+```
+
+
+
 #### Create Threat Intelligence Set
 Create a threat intelligence set in AWS GuardDuty. Note: iam:PutRolePolicy permission. Maximum number of Threat Intel sets is 6.
 Timeout - 600 Seconds
@@ -109,6 +123,13 @@ Timeout - 600 Seconds
 |File Location|Specify the URI location, where the file is located.|True|String|https://s3.amazonaws.com/{bucket-name}/file.txt|
 |Active|If enabled, the newly created Threat Intelligence Set will be activated.|False|Boolean|true|
 |Tags|Specify additional tags that should be added to the Threat Intelligence Set. Format: key_1:value_1,key_2:value_1.|False|String||
+
+
+
+##### JSON Results
+```json
+{"ThreatIntelSetId": ["b6f0c884a54449cc8e29eed3094e9c31"]}
+```
 
 
 
@@ -161,6 +182,13 @@ Timeout - 600 Seconds
 
 
 
+##### JSON Results
+```json
+{"Findings": [{"AccountId": "582302349248", "Arn": "arn:aws:guardduty:us-east-1:582302349248:detector/26b8d318c596f5eb942b4c146870944f/finding/02ba7e2d000521f35033ed64488b8e1b", "CreatedAt": "2020-10-06T05:19:50.794Z", "Description": "213.108.133.9 is performing RDP brute force attacks against i-053d1520f53584149. Brute force attacks are used to gain unauthorized access to your instance by guessing the RDP password.", "Id": "02ba7e2d000521f35033ed64488b8e1b", "Partition": "aws", "Region": "us-east-1", "Resource": {"InstanceDetails": {"AvailabilityZone": "us-east-1e", "ImageId": "ami-01b670d1a5b2c1da7", "InstanceId": "i-053d1520f53584149", "InstanceState": "running", "InstanceType": "t2.micro", "LaunchTime": "2020-05-27T08:54:03Z", "NetworkInterfaces": [{"Ipv6Addresses": [], "NetworkInterfaceId": "eni-012d9b8a1a3b4e40a", "PrivateDnsName": "ip-1.1.1.1.ec2.internal", "PrivateIpAddress": "1.1.1.1", "PrivateIpAddresses": [{"PrivateDnsName": "ip-1.1.1.1.ec2.internal", "PrivateIpAddress": "1.1.1.1"}], "PublicDnsName": "ec2-54-234-69-236.compute-1.amazonaws.com", "PublicIp": "54.234.69.236", "SecurityGroups": [{"GroupId": "sg-0fa42e04e9cd15407", "GroupName": "Windows Server 2016"}], "SubnetId": "subnet-2edddf10", "VpcId": "vpc-48a7ac32"}], "Platform": "windows", "ProductCodes": [], "Tags": [{"Key": "Name", "Value": "CiscoAMP-win2012"}]}, "ResourceType": "Instance"}, "SchemaVersion": "2.0", "Service": {"Action": {"ActionType": "NETWORK_CONNECTION", "NetworkConnectionAction": {"Blocked": false, "ConnectionDirection": "INBOUND", "LocalPortDetails": {"Port": 3389, "PortName": "RDP"}, "Protocol": "TCP", "LocalIpDetails": {"IpAddressV4": "1.1.1.1"}, "RemoteIpDetails": {"City": {"CityName": "Moscow"}, "Country": {"CountryName": "Russia"}, "GeoLocation": {"Lat": 55.7522, "Lon": 37.6156}, "IpAddressV4": "213.108.133.9", "Organization": {"Asn": "24875", "AsnOrg": "NovoServe B.V.", "Isp": "NovoServe B.V.", "Org": "NovoServe B.V."}}, "RemotePortDetails": {"Port": 1549, "PortName": "Unknown"}}}, "Archived": false, "Count": 5, "DetectorId": "26b8d318c596f5eb942b4c146870944f", "EventFirstSeen": "2020-10-06T05:10:58Z", "EventLastSeen": "2020-10-06T05:46:59Z", "ResourceRole": "TARGET", "ServiceName": "guardduty"}, "Severity": 2, "Title": "213.108.133.9 is performing RDP brute force attacks against i-053d1520f53584149.", "Type": "UnauthorizedAccess:EC2/RDPBruteForce", "UpdatedAt": "2020-10-06T06:01:46.380Z"}]}
+```
+
+
+
 #### Get all Trusted IP lists
 Get all trusted IP lists (IPSets) of the GuardDuty service specified by the detector ID.
 Timeout - 600 Seconds
@@ -174,6 +202,13 @@ Timeout - 600 Seconds
 
 
 
+##### JSON Results
+```json
+{"IpSetIds": ["f6ba9dcaf89d16cd959921737f038cf7"]}
+```
+
+
+
 #### Get Detector Details
 Retrieve an Amazon GuardDuty detector specified by the detector ID.
 Timeout - 600 Seconds
@@ -182,6 +217,13 @@ Timeout - 600 Seconds
 |Name|Description|IsMandatory|Type|DefaultValue|
 |----|-----------|-----------|----|------------|
 |Detector ID|The unique ID of the detector that you want to retrieve. Comma separated values|True|String||
+
+
+
+##### JSON Results
+```json
+[{"Entity": "abcdefg", "EntityResult": {"DetectorId": "abcdefg", "CreatedAt": "2020-11-01T11:57:32.958Z", "ServiceRole": "arn:aws:iam::123456:role/aws-service-role/guardduty.amazonaws.com/AWSServiceRoleForAmazonGuardDuty", "Status": "ENABLED", "UpdatedAt": "2020-11-01T11:57:32.958Z"}}]
+```
 
 
 
@@ -197,6 +239,13 @@ Timeout - 600 Seconds
 
 
 
+##### JSON Results
+```json
+[{"EntityResult": {"Format": "TXT", "Name": "Test", "Location": "https://testsiemplify.s3.amazonaws.com/ips.txt", "Status": "INACTIVE"}, "Entity": "f6ba9dcaf89d16cd959921737f038cf7"}]
+```
+
+
+
 #### Get Threat Intelligence Set Details
 Get details about a threat intelligence set in AWS GuardDuty.
 Timeout - 600 Seconds
@@ -207,6 +256,13 @@ Timeout - 600 Seconds
 |Detector ID|Specify the detector ID that should be used to get threat intelligence sets details. This parameter can be found in the "Settings" tab.|True|String||
 |Threat Intelligence Set IDs|Specify the comma-separated list of ids of threat intelligence sets. Example: id_1,id_2.|True|String||
 |AWS Region|Optionally specify the AWS Region to be used in the action that can be different from the default region specified in the integration configuration page.|False|String||
+
+
+
+##### JSON Results
+```json
+[{"EntityResult": {"ResponseMetadata": {"RequestId": "34c2992c-4bce-412b-ae6d-6cc2b7aa3ce5", "HTTPStatusCode": 200, "HTTPHeaders": {"date": "Tue, 20 Oct 2020 11:12:03 GMT", "content-type": "application/json", "content-length": "195", "connection": "keep-alive", "x-amzn-requestid": "34c2992c-4bce-412b-ae6d-6cc2b7aa3ce5", "x-amz-apigw-id": "UtPgdESBIAMF67g=", "x-amzn-trace-id": "Root=1-5f8ec602-00fe46b9722778852039359a;Sampled=0"}, "RetryAttempts": 0}, "Name": "Test4", "Format": "PROOF_POINT", "Location": "https://s3.amazonaws.com/siemplifytest/file.txt", "Status": "INACTIVE", "Tags": {"tt": "22", "test": "tag"}}, "Entity": "96b15ef2cb93412897b2b9dadbe429cf"}]
+```
 
 
 
@@ -234,6 +290,13 @@ Timeout - 600 Seconds
 
 
 
+##### JSON Results
+```json
+{"detectorIds": ["123456abcde"]}
+```
+
+
+
 #### List Findings for a Detector
 Lists all Amazon GuardDuty findings for the specified detector ID.
 Timeout - 600 Seconds
@@ -246,6 +309,13 @@ Timeout - 600 Seconds
 |Sort By|Represents the finding attribute (for example, accountId) to sort findings by.|False|String||
 |Order By|The order by which the sorted findings are to be displayed.|False|List||
 |AWS Region|Optionally specify the AWS Region to be used in the action that can be different from the default region specified in the integration configuration page.|False|String||
+
+
+
+##### JSON Results
+```json
+{"FindingIds": ["10ba96ae50733ae38b9cae95431b7558"]}
+```
 
 
 
@@ -292,6 +362,13 @@ Timeout - 600 Seconds
 |Detector ID|Specify the detector ID that should be used to list threat intelligence sets. This parameter can be found in the "Settings" tab.|True|String||
 |Max Threat Intelligence Sets To Return|Specify how many threat intelligence sets to return. Default is 50.|False|String|50|
 |AWS Region|Optionally specify the AWS Region to be used in the action that can be different from the default region specified in the integration configuration page.|False|String||
+
+
+
+##### JSON Results
+```json
+{"ThreatIntelSetIds": ["14ba8b942b76c1be6d985715eb7443eb"]}
+```
 
 
 
@@ -350,12 +427,15 @@ Pull findings from AWS GuardDuty. Note: Whitelist works with Finding types, for 
 
 |Name|Description|IsMandatory|Type|DefaultValue|
 |----|-----------|-----------|----|------------|
+|DeviceProductField|Enter the source field name in order to retrieve the Product Field name.|True|String|Product Name|
+|EventClassId|Enter the source field name in order to retrieve the Event Field name.|True|String|Type|
+|PythonProcessTimeout|Timeout limit for the python process running the current script.|True|Integer|180|
 |AWS Access Key ID|AWS Access Key ID to use in integration.|True|String||
 |AWS Secret Key|AWS Secret Key to use in integration.|True|Password|*****|
 |AWS Default Region|AWS default region to use in integration, for example us-west-2.|True|String||
 |Detector ID|ID of the detector. It can be found in the "Settings" tab.|True|String||
-|Fetch Max Hours Backwards|Number of hours before the first connector iteration to retrieve findings from. This parameter applies to the initial connector iteration after you enable the connector for the first time, or used as a fallback value in cases where connector's last run timestamp expires.|False|Int|1|
-|Max Findings To Fetch|How many findings to process per one connector iteration. Maximum is 50. This is a GuardDuty limitation.|True|Int|50|
+|Fetch Max Hours Backwards|Number of hours before the first connector iteration to retrieve findings from. This parameter applies to the initial connector iteration after you enable the connector for the first time, or used as a fallback value in cases where connector's last run timestamp expires.|False|Integer|1|
+|Max Findings To Fetch|How many findings to process per one connector iteration. Maximum is 50. This is a GuardDuty limitation.|True|Integer|50|
 |Lowest Severity To Fetch|Lowest severity that will be used to fetch findings. Possible values are in range from 1 to 8. Note: AWS GuardDuty maps the integer value in the following order: 1,2,3 - Low; 4,5,6 - Medium; 7,8 - High.|True|String|1|
 |Use whitelist as a blacklist|If enabled, whitelist will be used as a blacklist.|False|Boolean|false|
 |Environment Field Name|Describes the name of the field where the environment name is stored. If the environment field isn't found, the environment is the default environment.|False|String||

@@ -3,7 +3,7 @@
 
 A set of math and data manipulation actions created for Google SecOps Community to power up playbook capabilities.
 
-Python Version - V3_11
+Python Version - 3
 
 
 #### Dependencies
@@ -69,6 +69,13 @@ Timeout - 600 Seconds
 
 
 
+##### JSON Results
+```json
+{}
+```
+
+
+
 #### Defang Text
 This action defangs the input text by replacing http with hxxp, dot with [.] in IPs and @ with [at] in emails.
 Timeout - 600 Seconds
@@ -77,6 +84,13 @@ Timeout - 600 Seconds
 |Name|Description|IsMandatory|Type|DefaultValue|
 |----|-----------|-----------|----|------------|
 |Input|The input that needs to be defanged.|False|String||
+
+
+
+##### JSON Results
+```json
+{"converted_text": "Check hxxps://example[.]com/path?query=1 and 192[.]168[.]1[.]1 or user.name+tag[at]sub[.]example[.]co[.]uk"}
+```
 
 
 
@@ -91,6 +105,13 @@ Timeout - 600 Seconds
 |Thumbnail Size|Comma separated.  Pixels.   X , Y|True|String|250,250|
 |Input JSON|Input JSON|False|String||
 |Image Key Path|If using Input JSON, the keypath for the image field.|False|String||
+
+
+
+##### JSON Results
+```json
+{"thumbnail": "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="}
+```
 
 
 
@@ -109,6 +130,13 @@ Timeout - 600 Seconds
 
 
 
+##### JSON Results
+```json
+{"original_timestamp": "2025-11-10T08:32:41+0000", "calculated_timestamps": {"timestamp+30M": "2025-11-10T09:02:41+0000", "timestamp-30M": "2025-11-10T08:02:41+0000"}}
+```
+
+
+
 #### Detect Hash Type
 This action detects the most likely hash type of entities. Supported types are SHA256, MD5, SHA1, SHA-512.
 Timeout - 600 Seconds
@@ -120,6 +148,13 @@ Timeout - 600 Seconds
 
 
 
+##### JSON Results
+```json
+[{"Hash": "275A021BBFB6489E54D471899F7DB9D1663FC695EC2FE2A2C4538AABF651FD0F", "HashType": "SHA-256"}, {"Hash": "202cb962ac59075b964b07152d234b70", "HashType": "MD5"}]
+```
+
+
+
 #### Detect IP Type
 This action checks if an IP is an IPv4 address or IPv6 address.  IP Address entities will be enriched with IPType field.
 Timeout - 600 Seconds
@@ -128,6 +163,13 @@ Timeout - 600 Seconds
 |Name|Description|IsMandatory|Type|DefaultValue|
 |----|-----------|-----------|----|------------|
 |IP Addresses|Comma-separated|False|String||
+
+
+
+##### JSON Results
+```json
+[{"Address": "2.2.2.2", "IPType": "IPV4"}, {"Address": "2001:db8:3333:4444:CCCC:DDDD:EEEE:FFFF", "IPType": "IPV6"}, {"IPType": "IPV4", "Address": "1.1.1.1"}]
+```
 
 
 
@@ -145,6 +187,13 @@ Timeout - 600 Seconds
 
 
 
+##### JSON Results
+```json
+{"years": 0, "days": 31, "hours": 744, "minutes": 44640, "seconds": 2678400, "duration": "Time between dates: 0 years, 31 days, 0 hours, 0 minutes and 0 seconds"}
+```
+
+
+
 #### IP to Integer
 Converts an IP address or list of IP addresses to integers or longs.
 Timeout - 600 Seconds
@@ -153,6 +202,13 @@ Timeout - 600 Seconds
 |Name|Description|IsMandatory|Type|DefaultValue|
 |----|-----------|-----------|----|------------|
 |IP Addresses|Comma separated list of IP addresses to be converted into integers.|True|String||
+
+
+
+##### JSON Results
+```json
+{"192.168.1.1": 3232235777, "192.168.1.2": 3232235778}
+```
 
 
 
@@ -169,6 +225,13 @@ Timeout - 600 Seconds
 
 
 
+##### JSON Results
+```json
+{}
+```
+
+
+
 #### XMLtoJson
 Convert XML formatted data to JSON.
 Timeout - 600 Seconds
@@ -180,9 +243,23 @@ Timeout - 600 Seconds
 
 
 
+##### JSON Results
+```json
+{}
+```
+
+
+
 #### Ping
 Check connectivity
 Timeout - 600 Seconds
+
+
+
+##### JSON Results
+```json
+{}
+```
 
 
 
@@ -194,6 +271,13 @@ Timeout - 600 Seconds
 |Name|Description|IsMandatory|Type|DefaultValue|
 |----|-----------|-----------|----|------------|
 |Input String|The string to extract the IP addresses from.|True|String|<input string>|
+
+
+
+##### JSON Results
+```json
+{"domains": ["google.com"], "ips": ["1.1.1.1"], "urls": ["www.google.com"], "emails": ["user@user.com"]}
+```
 
 
 
@@ -216,6 +300,13 @@ Timeout - 600 Seconds
 |----|-----------|-----------|----|------------|
 |Function|Select the Math Function you would like to run on the number|True|List|Max|
 |Numbers|The numbers you would like to run the Math function on.|True|String|13.5,-90,566,11.32|
+
+
+
+##### JSON Results
+```json
+{}
+```
 
 
 
@@ -249,6 +340,13 @@ Timeout - 600 Seconds
 
 
 
+##### JSON Results
+```json
+{}
+```
+
+
+
 #### Math Arithmetic
 A set of built in math operators:
 Plus - returns a result for the sum of 2 arguments
@@ -267,6 +365,13 @@ Timeout - 600 Seconds
 
 
 
+##### JSON Results
+```json
+{}
+```
+
+
+
 #### SanitizeHTML
 Given a fragment of HTML, SantizeHTML will parse it according to the HTML5 parsing algorithm and sanitize any disallowed tags or attributes. This algorithm also takes care of things like unclosed and (some) misnested tags.
 Timeout - 600 Seconds
@@ -279,6 +384,13 @@ Timeout - 600 Seconds
 |Attributes|Attributes lets you specify which attributes are allowed. Value should be a comma separated list.Default  {'a': ['href', 'title'], 'abbr': ['title'],|False|String|None|
 |Styles|If you allow the style attribute, specify the allowed styles set, for example color and background-color. Value should be comma separated list.|False|String|None|
 |Allow All Attributes|Set to True to allow all attributes.|False|Boolean|false|
+
+
+
+##### JSON Results
+```json
+{}
+```
 
 
 
