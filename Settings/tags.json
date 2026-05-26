@@ -1,9 +1,22 @@
 [
     {
-        "name": "projects/project/locations/location/instances/instance/caseTagDefinitions/4",
-        "id": 4,
+        "name": "projects/project/locations/location/instances/instance/caseTagDefinitions/7",
+        "id": 7,
         "displayName": "new_tag",
         "matchCriteria": "DataDriven",
+        "value": "new_tag",
+        "propertyName": "",
+        "comparisonType": "Exact",
+        "priority": 1,
+        "canBeCaseTitle": false
+    },
+    {
+        "name": "projects/project/locations/location/instances/instance/caseTagDefinitions/6",
+        "id": 6,
+        "displayName": "Simulated Case",
+        "matchCriteria": "System",
+        "value": "Simulated Case",
+        "propertyName": "",
         "comparisonType": "Exact",
         "priority": 1,
         "canBeCaseTitle": false
