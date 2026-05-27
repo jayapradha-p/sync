@@ -1,16 +1,7 @@
 [
     {
-        "name": "projects/project/locations/location/instances/instance/caseTagDefinitions/14",
-        "id": 14,
-        "displayName": "Test2",
-        "matchCriteria": "DataDriven",
-        "comparisonType": "Exact",
-        "priority": 1,
-        "canBeCaseTitle": false
-    },
-    {
-        "name": "projects/project/locations/location/instances/instance/caseTagDefinitions/13",
-        "id": 13,
+        "name": "projects/project/locations/location/instances/instance/caseTagDefinitions/15",
+        "id": 15,
         "displayName": "Test1",
         "matchCriteria": "ByEntityPropertyName",
         "value": "12345",
