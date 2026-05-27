@@ -1,1 +1,33 @@
-{}
+{
+    "soar_block_entities": [
+        {
+            "name": "projects/project/locations/location/instances/instance/entitiesBlocklists/1",
+            "id": 1,
+            "entityIdentifier": "hjkshdkj",
+            "entityType": "*",
+            "action": "DoNotGroupAlerts",
+            "environmentsJson": "[\"*\"]"
+        }
+    ],
+    "items": [
+        {
+            "name": "projects/project/locations/location/instances/instance/entitiesBlocklists/1",
+            "id": 1,
+            "entityIdentifier": "hjkshdkj",
+            "entityType": "*",
+            "action": "DoNotGroupAlerts",
+            "environmentsJson": "[\"*\"]"
+        }
+    ],
+    "soarBlockEntities": [
+        {
+            "name": "projects/project/locations/location/instances/instance/entitiesBlocklists/1",
+            "id": 1,
+            "entityIdentifier": "hjkshdkj",
+            "entityType": "*",
+            "action": "DoNotGroupAlerts",
+            "environmentsJson": "[\"*\"]"
+        }
+    ],
+    "totalSize": 1
+}
