@@ -1,57 +1,18 @@
-{
-    "soar_block_entities": [
-        {
-            "name": "projects/project/locations/location/instances/instance/entitiesBlocklists/2",
-            "id": 2,
-            "entityIdentifier": "jldweljkwjkdwakjsl",
-            "entityType": "ThreatActor",
-            "action": "DoNotGroupAlerts",
-            "environmentsJson": "[\"*\"]"
-        },
-        {
-            "name": "projects/project/locations/location/instances/instance/entitiesBlocklists/1",
-            "id": 1,
-            "entityIdentifier": "hjkshdkj",
-            "entityType": "*",
-            "action": "DoNotGroupAlerts",
-            "environmentsJson": "[\"*\"]"
-        }
-    ],
-    "items": [
-        {
-            "name": "projects/project/locations/location/instances/instance/entitiesBlocklists/2",
-            "id": 2,
-            "entityIdentifier": "jldweljkwjkdwakjsl",
-            "entityType": "ThreatActor",
-            "action": "DoNotGroupAlerts",
-            "environmentsJson": "[\"*\"]"
-        },
-        {
-            "name": "projects/project/locations/location/instances/instance/entitiesBlocklists/1",
-            "id": 1,
-            "entityIdentifier": "hjkshdkj",
-            "entityType": "*",
-            "action": "DoNotGroupAlerts",
-            "environmentsJson": "[\"*\"]"
-        }
-    ],
-    "soarBlockEntities": [
-        {
-            "name": "projects/project/locations/location/instances/instance/entitiesBlocklists/2",
-            "id": 2,
-            "entityIdentifier": "jldweljkwjkdwakjsl",
-            "entityType": "ThreatActor",
-            "action": "DoNotGroupAlerts",
-            "environmentsJson": "[\"*\"]"
-        },
-        {
-            "name": "projects/project/locations/location/instances/instance/entitiesBlocklists/1",
-            "id": 1,
-            "entityIdentifier": "hjkshdkj",
-            "entityType": "*",
-            "action": "DoNotGroupAlerts",
-            "environmentsJson": "[\"*\"]"
-        }
-    ],
-    "totalSize": 2
-}
+[
+    {
+        "name": "projects/project/locations/location/instances/instance/entitiesBlocklists/2",
+        "id": 2,
+        "entityIdentifier": "jldweljkwjkdwakjsl",
+        "entityType": "ThreatActor",
+        "action": "DoNotGroupAlerts",
+        "environmentsJson": "[\"*\"]"
+    },
+    {
+        "name": "projects/project/locations/location/instances/instance/entitiesBlocklists/1",
+        "id": 1,
+        "entityIdentifier": "hjkshdkj",
+        "entityType": "*",
+        "action": "DoNotGroupAlerts",
+        "environmentsJson": "[\"*\"]"
+    }
+]
