@@ -1,0 +1,150 @@
+{
+    "IsAvailableForCommunity": false,
+    "Identifier": "Tanium",
+    "ShouldInstalledInSystem": false,
+    "Version": 20.0,
+    "DisplayName": "Tanium",
+    "Description": "Tanium is a feature-packed endpoint management and endpoint security platform designed to strengthen and optimize an organization\u2019s cybersecurity efforts. The platform gives security teams the tools they need to fortify existing security gaps or completely overhaul their cybersecurity environments, providing complete threat response capabilities from a single endpoint agent. Encompassing everything from asset and threat discovery to complete threat response capabilities from a single endpoint agent, Tanium gives security teams the tools they need to fortify existing security gaps and/or completely overhaul their cyber security environments to adequately prepare themselves for future generations of cyber threats.",
+    "ImageBase64": "iVBORw0KGgoAAAANSUhEUgAAAJ4AAABSCAMAAACScZ2GAAABL1BMVEX///8RGCHjHRry8vNna3EdJCzFx8n85OP6+vvS1NW8vsCPkpfmODYnLjbP0dPBw8YVHCSkp6v39/eNkJUtMzsiKDHg4eJNUlkgJi/8/Pzzn55manBlam8/REw9Qkrp6erm5+h1eX7i4+Tb3N3Y2dqWmZ1VWmHrWlg4PkUaISr/+/vs7e3k5ea3ubyvsbTwhoV6foNzd3xscHZdYWjmNjPMzc/5zs3Jy83Hycu/wcP4wsL1q6r0qKeJjZGEh4xgZWtQVlzqVlNHTVP4+fn09PXU1df61dT3u7rznJrylJJCR04xNz/nPz3nPDn97Oz73t67vb+ztrj2s7Knqq2doKT0o6KSlZmGiY7vfn3udXPta2lXXGLsYV7oSUflKSb86umhpKfvgH/uc3HpTkvjIR4OiXMIAAADW0lEQVRo3u3XaVPaQBgH8D8ksaho8ShCpUBBWhFvqPdZtVqP3h716vn9P0OfZ3cTkxgc7fRFpvP8XrAXu/xns9kZIIQQQgghhBBCCCH+uaWpl+nr1ubZ7hji5/gw6Wq9jVvA97+SfkdLiJOl38mQFcTHUvK2Y8TFu2SUN4iJzch4acTDXDLaMtiXgh1UArHsYdsuTMMYoRa116BVqDG8g/zzYbswAawV7MJnGNlhGquiqmfU4Krx7/BI2GWbeIdgrxMhIyCzuj4JbcKMDUB5pce2uJgGHCqaMBa4swtdZkbWTW3aXQh5xFHan74X4XhV32JPoD12Bz+AdeofSvVQ0Q08o+I5jF4e60CHmbABbcO0OxCy3Dbentqn3BNSp5kZruRyWX/mWihepvGQeKwTeka7eFMmzM9HYe9AUtv9ZJVmDvYrfNR4oS/8gOt5L15ukHuLD4iXy9DHa+8IZXJR8b6aeFO4Q41mHsA1xIthPEHWvHj1qjqmM/ePV+zm+rx7WLuLfx1vgHcvcLoHOCVpeA83byVY373j1dUhGQUwSuUL1O96uGcIG4uKZxbLuS+I7cV7hUnzavfe8+yhzJ8f8ZGLMiLP3oqJd51WlkHOudZajopnbhF1j81wreLG6zUdPbBux5uGseOLV8KG2r6ieoVLkfHeJwPeglyp6lx0vFFeZojtc+3CF49/iKNkAvG4cwbMfa0e63gVZNVa+gKsRMbDy0C8p15XGhHxOErIiC9eI8O19Z5buzdoQZv27d44YCc0GyhHx5trE28lOt5BON6+L565z4K711Q3+MV6s7ne3FfjJS+eldETrJt4DQRtRsZrISqePv4zfYa6nxex6MXDiQntxePDGjIELx5WVc8qTLwFfLAnEfAtMt4cfNZopsOV/ox+bY2thGrO6zdX4cRsAin+7imA9WA6J2v2uwLiqCuGjOvdG5hdRdBuON4ll34njuOMcuV7gmp98JxSM9FbckgnlHzRURaROqCiBlIrclKtZ5ZTLTikDNLnLljmrnnMdy8i5FMoXjq5h4CUZVnbXClZBD7cbqjPvK9LN7epSEEp7XRqVd2Rv1nHq5hZW7jlzZU/3th5nP5qKHtHN/de3P5HKrs/Ng9bR58ghBBCCCGEEEIIIf4bfwAmDFGKnvcOawAAAABJRU5ErkJggg==",
+    "SvgImage": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<!-- Generator: Adobe Illustrator 22.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->\n<svg version=\"1.1\" id=\"Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\"\n\t viewBox=\"0 0 50 50\" style=\"enable-background:new 0 0 50 50;\" xml:space=\"preserve\">\n<g>\n\t<g>\n\t\t<path d=\"M25.3,1.4c-13,0-23.5,10.5-23.5,23.5s10.5,23.7,23.7,23.7c1.3,0,2.4-0.2,3.5-0.2V28.6h-8.1v-5.5h22.8v5.5h-8.1v17.6\n\t\t\tc7.9-3.7,13.4-11.9,13.4-21.3C49.1,11.9,38.3,1.4,25.3,1.4z\"/>\n\t</g>\n</g>\n</svg>\n",
+    "IsCustom": false,
+    "PythonVersion": 3,
+    "IntegrationProperties": [
+        {
+            "IntegrationIdentifier": "Tanium",
+            "PropertyName": "API Root",
+            "PropertyDescription": null,
+            "PropertyDisplayName": "API Root",
+            "PropertyType": 2,
+            "IsMandatory": true,
+            "Value": "",
+            "Id": 0,
+            "CreationTimeUnixTimeInMs": 1780030282276,
+            "ModificationTimeUnixTimeInMs": 1780030282276
+        },
+        {
+            "IntegrationIdentifier": "Tanium",
+            "PropertyName": "API Token",
+            "PropertyDescription": null,
+            "PropertyDisplayName": "API Token",
+            "PropertyType": 3,
+            "IsMandatory": true,
+            "Value": null,
+            "Id": 0,
+            "CreationTimeUnixTimeInMs": 1780030282276,
+            "ModificationTimeUnixTimeInMs": 1780030282276
+        },
+        {
+            "IntegrationIdentifier": "Tanium",
+            "PropertyName": "Verify SSL",
+            "PropertyDescription": null,
+            "PropertyDisplayName": "Verify SSL",
+            "PropertyType": 0,
+            "IsMandatory": false,
+            "Value": "true",
+            "Id": 0,
+            "CreationTimeUnixTimeInMs": 1780030282276,
+            "ModificationTimeUnixTimeInMs": 1780030282276
+        }
+    ],
+    "IntegrationSupportedActions": [
+        {
+            "Name": "Create Question",
+            "Description": "Create a new Tanium question based on the specified parameters, and the question is immediately asked. Action returns question id that can be passed to \u201cGet Question Results\u201d action to get question results. Note that the action is not working with Siemplify entities.",
+            "Id": 1279,
+            "CreationTimeUnixTimeInMs": 1780030282287,
+            "ModificationTimeUnixTimeInMs": 1780030282287
+        },
+        {
+            "Name": "List Endpoint Events",
+            "Description": "List events related to the endpoints from Tanium. Action works with Tanium Threat Response API. Supported Entities: Hostname, IP Address.",
+            "Id": 1280,
+            "CreationTimeUnixTimeInMs": 1780030282287,
+            "ModificationTimeUnixTimeInMs": 1780030282287
+        },
+        {
+            "Name": "Quarantine Endpoint",
+            "Description": "Quarantine the endpoints in Tanium. Action works with Tanium Threat Response API. Supported Entities: Hostname, IP Address. Note: Action is running as async, if \"Only Initiate\" is set to false, please adjust script timeout value in Siemplify IDE for action as needed.",
+            "Id": 1275,
+            "CreationTimeUnixTimeInMs": 1780030282287,
+            "ModificationTimeUnixTimeInMs": 1780030282287
+        },
+        {
+            "Name": "Download File",
+            "Description": "Download a file from endpoints in Tanium. Action works with Tanium Threat Response API. Supported Entities: Hostname, IP Address. Note: Action is running as async, please adjust script timeout value in Siemplify IDE for action as needed.",
+            "Id": 1276,
+            "CreationTimeUnixTimeInMs": 1780030282287,
+            "ModificationTimeUnixTimeInMs": 1780030282287
+        },
+        {
+            "Name": "Get Question Results",
+            "Description": "Fetch results for the Tanium question. Action is a Siemplify async action. Note that the action is not working with Siemplify entities.",
+            "Id": 1277,
+            "CreationTimeUnixTimeInMs": 1780030282287,
+            "ModificationTimeUnixTimeInMs": 1780030282287
+        },
+        {
+            "Name": "Create Connection",
+            "Description": "Create connection to the endpoint in Tanium. Supported Entities: Hostname, IP Address.",
+            "Id": 1278,
+            "CreationTimeUnixTimeInMs": 1780030282287,
+            "ModificationTimeUnixTimeInMs": 1780030282287
+        },
+        {
+            "Name": "Delete File",
+            "Description": "Download a file from endpoints in Tanium. Action works with Tanium Threat Response API. Supported Entities: Hostname, IP Address.",
+            "Id": 1281,
+            "CreationTimeUnixTimeInMs": 1780030282287,
+            "ModificationTimeUnixTimeInMs": 1780030282287
+        },
+        {
+            "Name": "Get Task Details",
+            "Description": "Retrieve details about a task in Tanium. Action works with Tanium Threat Response API. Note: Action is running as async, if \"Wait For Completion\" is enabled, please adjust script timeout value in Siemplify IDE for action as needed.",
+            "Id": 1282,
+            "CreationTimeUnixTimeInMs": 1780030282287,
+            "ModificationTimeUnixTimeInMs": 1780030282287
+        },
+        {
+            "Name": "Ping",
+            "Description": "Test connectivity to the Tanium installation with parameters provided at the integration configuration page on the Marketplace tab.",
+            "Id": 1283,
+            "CreationTimeUnixTimeInMs": 1780030282287,
+            "ModificationTimeUnixTimeInMs": 1780030282287
+        },
+        {
+            "Name": "List Connections",
+            "Description": "List endpoint connections in Tanium.",
+            "Id": 1284,
+            "CreationTimeUnixTimeInMs": 1780030282287,
+            "ModificationTimeUnixTimeInMs": 1780030282287
+        },
+        {
+            "Name": "Enrich Entities",
+            "Description": "Enrich entities using information from Tanium. Supported entities: Hostname, IP Address.",
+            "Id": 1285,
+            "CreationTimeUnixTimeInMs": 1780030282287,
+            "ModificationTimeUnixTimeInMs": 1780030282287
+        }
+    ],
+    "Categories": [
+        "Endpoint Management",
+        "IT & Infrastructure"
+    ],
+    "HasConnectors": false,
+    "DocumentationLink": "https://cloud.google.com/chronicle/docs/soar/marketplace-integrations/tanium",
+    "IsCertified": false,
+    "UploaderFullName": null,
+    "PublishComment": null,
+    "UploaderEmail": null,
+    "UploaderImageBase64": null,
+    "UploaderProfileLink": null,
+    "MinimumSystemVersion": 0.0,
+    "ProductionIntegrationIdentifier": null,
+    "Type": 0,
+    "Internal": false,
+    "GoogleSecOpsProduct": false,
+    "Id": 0,
+    "CreationTimeUnixTimeInMs": 1780030282276,
+    "ModificationTimeUnixTimeInMs": 1780030282276,
+    "Custom": false
+}
