@@ -3,7 +3,17 @@
 ## Integrations
 |Name|Description|
 |----|-----------|
+|RSA Archer|The RSA Archer Platform provides a centralized, flexible foundation that you can use to automate, integrate, manage and report on your organization's risk.|
+|RSA NetWitness EDR|The RSA NetWitness EDR product is an endpoint threat detection solution that exposes malware and other threats, highlights suspicious activity for investigation, and instantly determines the scope of a compromise to help security teams stop advanced threats faster.|
+|RSA NetWitness Platform|RSA NetWitness Platform accelerates threat detection and response by collecting and analyzing data across more capture points (logs, packets, netflow and endpoint) and computing platforms (physical, virtual and cloud) and enriching this data with threat intelligence and business context.|
+|RecordedFuture|Recorded Future's unique technology collects and analyzes vast amounts of data to deliver relevant cyber threat insights in real-time|
+|Remote Agent Utilities|Remote Agents Utilities enable file transfers between a Google SecOps machine to a machine which has a remote agent installed on it and vice versa.|
+|Symantec Endpoint Protection 14|Symantec Endpoint Protection, developed by Symantec, is a security software suite, which consists of anti-malware, intrusion prevention and firewall features for servers and desktops.|
+|Symantec Endpoint Protection 12|Symantec Endpoint Protection, developed by Symantec, is a security software suite, which consists of anti-malware, intrusion prevention and firewall features for servers and desktops.|
 |SSH|Connect to endpoints vis SSH and perform various operations.|
+|SentinelOne|Endpoint security software that defends every endpoint against every type of attack, at every stage in the threat lifecycle.|
+|SentinelOneV2|Endpoint security software that defends every endpoint against every type of attack, at every stage in the threat lifecycle.|
+|ServiceDesk Plus|ServiceDesk Plus is a game changer in turning IT teams from daily fire-fighting to delivering awesome customer service.|
 |ServiceNow|An incident ticketing integration exchanges ticket data between your ServiceNow instance and Google SecOps system.|
 |Siemplify ThreatFuse|ThreatFuse combines best-in-class security orchestration, automation and response (SOAR) with a market-leading Threat Intelligence Platform (TIP) powered by Anomali, to make intelligence-driven security operations simple and accessible for organizations of all sizes.With robust integration out of the box, ThreatFuse ingrains threat-intelligence across the entire detection and response lifecycle. From enrichment with real-time threat indicators, through threat-hunting and intelligence sharing, security analysts can validate, investigate and respond to threats with unprecedented speed and precision.|
 |Snowflake|Snowflake enables data storage, processing, and analytic solutions that are faster, easier to use, and far more flexible than traditional offerings. Snowflake combines a completely new SQL query engine with an innovative architecture natively designed for the cloud. To the user, Snowflake provides all of the functionality of an enterprise analytic database, along with many additional special features and unique capabilities.|
