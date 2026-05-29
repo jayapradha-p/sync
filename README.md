@@ -3,6 +3,16 @@
 ## Integrations
 |Name|Description|
 |----|-----------|
+|Vmware Carbon Black Cloud|The VMware Carbon Black Cloud is a cloud-native endpoint protection platform (EPP) that combines the intelligent system hardening and behavioral prevention needed to keep emerging threats at bay, using a single lightweight agent, and an easy-to-use console.|
+|Carbon Black Response|Highly scalable, real-time EDR with unparalleled visibility for top security operations centers and incident response teams|
+|CSV|Integration designed around working with CSV files. CSV is a simple file format used to store tabular data, such as a spreadsheet or database.|
+|Censys|Strengthen your security posture by integrating Censys with Google SecOps SOAR. This integration enables automated threat intelligence workflows, faster incident investigation through rich contextual insights from your Censys environment. Support Contact: support@censys.com|
+|Certly|Determining whether or not a domain or link is malicious.|
+|Check Point CloudGuard|CloudGuard is a cloud security posture management solution for cloud environments such as Amazon AWS, Microsoft Azure, and Google Cloud Platform. CloudGuard provides network security policy management and automation for your cloud environment across providers, regions and accounts. Organizations trust CloudGuard to ensure that their network security is well defined and understood, and then to enforce that security policy on a continuous basis. In the event of an unauthorized change, (for example, somebody or something attempts to open network ports) CloudGuard prevents this and instead enforces the configuration you have previously defined.|
+|Check Point Firewall|VPN-1 is a firewall and VPN product developed by Check Point Software Technologies Ltd. VPN-1 is a stateful firewall which also filters traffic by inspecting the application layer.|
+|Check Point SandBlast|Protect your organization from zero-day cyber attacks with SandBlast Network, the marketâ€™s leading advanced network threat prevention solution. Increase productivity while creating a secure environment with innovative technologies like threat emulation, threat extraction and artificial intelligence.|
+|Cloud Identity|A unified identity, access, app, and endpoint management (IAM/EMM) platform.|
+|CrowdStrike Falcon|CrowdStrike Falcon is the leader in next-generation endpoint protection, threat intelligence and incident response through cloud-based endpoint protection.|
 |CyberArk PAM|CyberArk's Privileged Access Manager is a full life-cycle solution for managing the most privileged accounts and SSH Keys in the enterprise. It enables organizations to secure, provision, manage, control and monitor all activities associated with all types of privileged identities.|
 |FireEye ETP|FireEye Email Threat Prevention Cloud (ETP) is different from traditional email security. It is a complete, cloud-based email security solution that delivers automatic protection from the targeted, spear-phishing attacks. Plus, it includes industry-leading FireEye Advanced Threat Intelligence.|
 |FireEye HX|The FireEye HX series is a threat prevention platform that helps drive faster, more accurate decisions about potential security incidents on endpoints.|
