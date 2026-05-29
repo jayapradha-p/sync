@@ -1,0 +1,69 @@
+{
+    "id": 0,
+    "type": 1,
+    "name": "Ping",
+    "description": "Test Connectivity",
+    "script": "from SiemplifyAction import SiemplifyAction\nfrom McAfeeMvisionEDRV2Manager import McAfeeMvisionEDRV2Manager\nfrom SiemplifyUtils import output_handler\nfrom ScriptResult import EXECUTION_STATE_COMPLETED, EXECUTION_STATE_FAILED\nfrom TIPCommon import extract_configuration_param\nfrom constants import PING_SCRIPT_NAME, INTEGRATION_NAME\n\n\n@output_handler\ndef main():\n    siemplify = SiemplifyAction()\n    siemplify.script_name = PING_SCRIPT_NAME\n    siemplify.LOGGER.info(\"----------------- Main - Param Init -----------------\")\n\n    # Configuration\n    api_root = extract_configuration_param(\n        siemplify,\n        provider_name=INTEGRATION_NAME,\n        param_name=\"API Root\",\n        is_mandatory=True,\n    )\n\n    iam_root = extract_configuration_param(\n        siemplify,\n        provider_name=INTEGRATION_NAME,\n        param_name=\"IAM Root\",\n        is_mandatory=True,\n    )\n\n    client_id = extract_configuration_param(\n        siemplify,\n        provider_name=INTEGRATION_NAME,\n        param_name=\"Client ID\",\n        is_mandatory=True,\n    )\n    client_secret = extract_configuration_param(\n        siemplify,\n        provider_name=INTEGRATION_NAME,\n        param_name=\"Client Secret\",\n        is_mandatory=True,\n    )\n    api_key = extract_configuration_param(\n        siemplify,\n        provider_name=INTEGRATION_NAME,\n        param_name=\"API Key\",\n        is_mandatory=True,\n    )\n    verify_ssl = extract_configuration_param(\n        siemplify,\n        provider_name=INTEGRATION_NAME,\n        param_name=\"Verify SSL\",\n        default_value=True,\n        input_type=bool,\n    )\n\n    scopes = extract_configuration_param(\n        siemplify,\n        provider_name=INTEGRATION_NAME,\n        param_name=\"Scopes\",\n        is_mandatory=True,\n    )\n\n    siemplify.LOGGER.info(\"----------------- Main - Started -----------------\")\n    status = EXECUTION_STATE_FAILED\n    connectivity_result = False\n\n    try:\n        siemplify.LOGGER.info(\"Connecting to McAfee Mvision EDR V2.\")\n        manager = McAfeeMvisionEDRV2Manager(\n            api_root,\n            iam_root,\n            client_id,\n            client_secret,\n            api_key,\n            scopes,\n            verify_ssl,\n            siemplify.LOGGER,\n        )\n        siemplify.LOGGER.info(\"Successfully connected to McAfee Mvision EDR V2.\")\n        output_message = \"Successfully connected to the McAfee Mvision EDR V2 server with the provided connection parameters!\"\n        siemplify.LOGGER.info(output_message)\n        connectivity_result = True\n        status = EXECUTION_STATE_COMPLETED\n\n    except Exception as e:\n        output_message = (\n            f\"Failed to connect to the McAfee Mvision EDR V2 server! Error is {e}\"\n        )\n        siemplify.LOGGER.error(\n            f\"Connection to V2 API failed, performing action {PING_SCRIPT_NAME}\"\n        )\n        siemplify.LOGGER.exception(e)\n\n    siemplify.end(output_message, connectivity_result, status)\n\n\nif __name__ == \"__main__\":\n    main()\n",
+    "integration": "McAfeeMvisionEDRV2",
+    "creator": "admin",
+    "creatorFullName": "admin",
+    "isEnabled": true,
+    "isCustom": true,
+    "version": 1,
+    "parameters": [
+        {
+            "isMandatory": true,
+            "isAdvanced": false,
+            "name": "Output Name",
+            "defaultValue": "is_success",
+            "type": 2,
+            "description": null,
+            "mode": 0,
+            "optionalValues": null
+        },
+        {
+            "isMandatory": true,
+            "isAdvanced": false,
+            "name": "Result Json Example",
+            "defaultValue": null,
+            "type": 2,
+            "description": null,
+            "mode": 2,
+            "optionalValues": null
+        },
+        {
+            "isMandatory": false,
+            "isAdvanced": false,
+            "name": "Include JSON Result",
+            "defaultValue": "False",
+            "type": 0,
+            "description": null,
+            "mode": 0,
+            "optionalValues": null
+        },
+        {
+            "isMandatory": true,
+            "isAdvanced": false,
+            "name": "Polling Timeout",
+            "defaultValue": "600",
+            "type": 17,
+            "description": "Will poll until this threshold is reached. Then the actions ends with a timeout.",
+            "mode": 0,
+            "optionalValues": null
+        },
+        {
+            "isMandatory": false,
+            "isAdvanced": false,
+            "name": "Default Return Value",
+            "defaultValue": null,
+            "type": 2,
+            "description": "On timeout, this value will be returned by the script via the Output Name parameter.",
+            "mode": 0,
+            "optionalValues": null
+        }
+    ],
+    "connectorRules": null,
+    "isConnectorRulesSupported": false,
+    "documentationLink": null,
+    "pythonVersion": "V3_11"
+}
