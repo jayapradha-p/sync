@@ -1,5 +1,11 @@
 # GitSync
 
+## Integrations
+|Name|Description|
+|----|-----------|
+|GitSync|Sync Google SecOps integrations, playbooks, and settings with a GitHub, BitBucket or GitLab instance|
+
+
 ## Connectors
 |Name|Description|Has Mappings|
 |----|-----------|------------|
