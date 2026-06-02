@@ -3,7 +3,25 @@
 ## Integrations
 |Name|Description|
 |----|-----------|
-|GitSync|Sync Google SecOps integrations, playbooks, and settings with a GitHub, BitBucket or GitLab instance|
+|Abnormal Security|Abnormal Security uses AI to protect organizations from email attacks. This integration enables automated ingestion of threats and cases as SOAR alerts, plus search and remediation of malicious email messages through the Abnormal Security API. For support, contact: support@abnormalsecurity.com|
+|Active Directory|Microsoft Active Directory integration facilitates the centralized management and synchronization of Windows user accounts with Security Center's administrator and cardholder accounts.|
+|AlgoSec|Manage your network security effectively, swiftly, and confidently. No matter where your network lives. Gain complete visibility, automate changes, and always be compliant.|
+|AlienVault USM Appliance|USM Appliance includes the essential security capabilities and continuously delivered threat intelligence needed to quickly and easily identify and respond to threats in your physical and virtual infrastructure.|
+|Anomali|Anomali ThreatStream operationalizes threat intelligence, automating collection and integration, and enabling security teams to analyze and respond to threats.|
+|Automox|Automox is the modern, cloud-native endpoint-hardening platform that empowers organizations to remediate vulnerabilities faster than they can be weaponized.|
+|Certly|Determining whether or not a domain or link is malicious.|
+|CyberX|The most widely-deployed ICS, SCADA & IIoT security platform that continuously reduces OT network risk via ICS threat monitoring & asset discovery.|
+|Cybersixgill DVE Feed|The Cybersixgill Dynamic Vulnerability Exploit (DVE) Score is based on the most comprehensive collection of vulnerability-related threat intelligence and is the only solution that provides users total context and predicts the immediate risks of a vulnerability based on threat actorsâ€™ intent. Google SecOps users can track threats stemming from CVEs that most others define as irrelevant and have a higher probability of being exploited via Google SecOpsâ€™s dashboard.|
+|Cybersixgill Darkfeed|Powered by the broadest, automated collection from the deep and dark web, Cybersixgill Darkfeed is a feed of malicious indicators of compromise (IOCs), including domains, URLs, hashes and IP addresses. IOCs are automatically extracted and delivered in real-time, and it is actionable, allowing Google SecOps customers to receive and preemptively block items that threaten their organization.|
+|DShield|DShield is a community-based collaborative firewall log correlation system. It receives logs from volunteers worldwide and uses them to analyze attack trends.|
+|EasyVista|Radically simplify and accelerate service creation, deployment, and support with  proven and integrated ITSM platform.|
+|Elastica Cloud SOC|Security Operations Center for cloud apps that provides full life cycle of security for SaaS.|
+|Google Chronicle|Google SecOps enables you to examine the aggregated security information for your enterprise going back for months or longer. Use Google SecOps to search across all of the domains accessed from within your enterprise. To enable the Google API client to communicate with the Backstory API you will need Google Developer Service Account Credential, https://developers.google.com/identity/protocols/OAuth2#serviceaccount.|
+|Google SecOps AI Agents|This integration provides first-party AI agents for Google Chronicle. It allows users to leverage Google's advanced AI capabilities for security operations and threat intelligence within the Chronicle platform.|
+|IPVoid|IPVoid offers a vast range of IP address tools to discover details about IP addresses.IP blacklist check, whois lookup, dns lookup, ping, and more!|
+|Proofpoint Email Protection|Proofpoint Email Protection stops malware and non-malware threats such as impostor email (also known as email fraud).|
+|SentinelOne|Endpoint security software that defends every endpoint against every type of attack, at every stage in the threat lifecycle.|
+|ThreatCrowd|ThreatCrowd is a system for finding and researching artifacts relating to cyber threats.|
 
 
 ## Connectors
