@@ -4,7 +4,7 @@ Pull incidents from Palo Alto XDR. Dynamic List works with the “source” para
 
 Integration: PaloAltoCortexXDR
 
-Integration Version: 28
+Integration Version: 28.0
 
 Device Product Field: Product Name
 
@@ -28,6 +28,7 @@ Event Name Field: event_type
 |Lowest Incident SmartScore To Fetch|The lowest SmartScore (0 to 100) of the incidents to fetch. This filter operates independently of the severity filter. If no value is provided, the SmartScore filter is ignored.|False||
 |Environment Field Name|The name of the field where the environment name is stored. If the environment field is missing, the connector uses the default value.|False||
 |Environment Regex Pattern|A regular expression pattern to run on the value found in the Environment Field Name field. This parameter lets you manipulate the environment field using the regular expression logic. Use the default value .* to retrieve the required raw Environment Field Name value. If the regular expression pattern is null or empty, or the environment value is null, the final environment result is the default environment.|False||
+|Script Timeout (Seconds)|The timeout limit, in seconds, for the Python process that runs the current script.|True|180|
 |Proxy Server Address|The address of the proxy server to use.|False||
 |Proxy Username|The proxy username to authenticate with.|False||
 |Proxy Password|The proxy password to authenticate with.|False|*****|
