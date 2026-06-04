@@ -3,7 +3,7 @@
 ## Integrations
 |Name|Description|
 |----|-----------|
-|new integration|None|
+|Palo Alto Cortex XDR|Cortex XDR - XDR is the world’s first detection and response app that natively integrates network, endpoint and cloud data to stop sophisticated attacks.  Cortex XDR accurately detects threats with behavioral analytics and reveals the root cause to speed up investigations.|
 
 
 ## Connectors
