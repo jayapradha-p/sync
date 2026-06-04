@@ -2,7 +2,8 @@
     "system_version": "6.1.6.170",
     "readme_addons": {
         "Integration": {
-            "PaloAltoCortexXDR": "kkkllkkl"
+            "PaloAltoCortexXDR": "kkkllkkl",
+            "CrowdStrikeFalcon": "kkkllkkl"
         },
         "Mappings": {
             "Google Chronicle": "fdfdsfdsdfsf",
