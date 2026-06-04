@@ -648,4 +648,4 @@ Deprecated. Pull detections from Crowdstrike. Whitelist works with filters that 
 
 
 
-kkkllkkl
+hello
