@@ -262,3 +262,5 @@ Pull incidents from Palo Alto XDR. Dynamic List works with the “source” para
 
 
 
+
+kkkllkkl

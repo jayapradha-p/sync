@@ -1,7 +1,9 @@
 {
     "system_version": "6.1.6.170",
     "readme_addons": {
-        "Integration": {},
+        "Integration": {
+            "PaloAltoCortexXDR": "kkkllkkl"
+        },
         "Mappings": {
             "Google Chronicle": "fdfdsfdsdfsf",
             "GoogleChronicle": "fdfdsfdsdfsffdsfsfsf",
