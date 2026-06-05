@@ -381,6 +381,22 @@ This job will synchronize Google SecOps Alerts and Crowdstrike alerts. The job s
 |Verify SSL|Boolean|False|true|
 |Client Secret|Password|False|*****|
 
+## Sync Closure
+Close tickets in Jira if corresponding Google SecOps alerts were closed.
+
+
+**Run Interval In Seconds:** None
+
+#### Parameters
+|Name|Type|Is Mandatory|Value|
+|----|----|------------|-----|
+|API Root|String|False|https://{jira_address}|
+|Username|String|False|sdsdds|
+|API Token|Password|False|*****|
+|Environment|String|False||
+|Project Names|String|False|project names separated by comma|
+|Days Backwards|String|False|1|
+
 ## Sync Comments - 19
 Sync comments from CA Desk Manager to Siemplify.
 
@@ -794,4 +810,20 @@ Token renewal job should be used to periodically update the refresh token config
 |----|----|------------|-----|
 |Integration Environments|String|False|jkhhjkhjk|
 |Connector Names|String|False||
+
+## jira new Sync Closure
+Close tickets in Jira if corresponding Google SecOps alerts were closed.
+
+
+**Run Interval In Seconds:** None
+
+#### Parameters
+|Name|Type|Is Mandatory|Value|
+|----|----|------------|-----|
+|API Root|String|False|https://{jira_address}|
+|Username|String|False||
+|API Token|Password|False|*****|
+|Environment|String|False||
+|Project Names|String|False|project names separated by comma|
+|Days Backwards|String|False|1|
 
