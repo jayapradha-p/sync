@@ -16,14 +16,6 @@
 |SentinelOneV2|Endpoint security software that defends every endpoint against every type of attack, at every stage in the threat lifecycle.|
 
 
-## Connectors
-|Name|Description|Has Mappings|
-|----|-----------|------------|
-|Exchange Mail Connector|Exchange Mail Connector|False|
-|Exchange Mail Connector v2 with Oauth Authentication|Connector can be used to monitor specific mailboxes on Office 365 mail servers that require Oauth authentication. Get Authorization and Generate Token actions can be used to obtain refresh token that should be set in the connector. Note: Make sure to configure the integration first for the Oauth authentication.|False|
-|Palo Alto Cortex XDR Connector|Pull incidents from Palo Alto XDR. Dynamic List works with the “source” parameter.|False|
-
-
 ## Playbooks
 |Name|Description|
 |----|-----------|
