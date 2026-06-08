@@ -1,4 +1,4 @@
-##  Refresh Token Renewal Job - 5
+## Refresh Token Renewal Job - 5
 Token renewal job should be used to periodically update the refresh token configured for the integration. By default, the refresh token expires every 90 days, making integration unusable upon expiration. It is recommended to run this job every 7 or 14 days to make sure that refresh token will be up to date.
 
 
@@ -52,10 +52,10 @@ Note: This job is only supported from Chronicle SOAR version 6.2.30 and higher.
 #### Parameters
 |Name|Type|Is Mandatory|Value|
 |----|----|------------|-----|
-|User's Service Account|Password|False|*****|
-|Workload Identity Email|Password|False|*****|
 |Environment|String|True|Default Environment|
 |API Root|String|True|https://backstory.googleapis.com|
+|User's Service Account|Password|False|*****|
+|Workload Identity Email|Password|False|*****|
 |Verify SSL|Boolean|False|true|
 
 ## Google Chronicle Alerts Creator Job - 5
@@ -68,10 +68,10 @@ Note: This job is only supported from Chronicle SOAR version 6.2.30 and higher.
 #### Parameters
 |Name|Type|Is Mandatory|Value|
 |----|----|------------|-----|
-|User's Service Account|Password|False|*****|
-|Workload Identity Email|Password|False|*****|
 |Environment|String|True|Default Environment|
 |API Root|String|True|https://backstory.googleapis.com|
+|User's Service Account|Password|False|*****|
+|Workload Identity Email|Password|False|*****|
 |Verify SSL|Boolean|False|false|
 
 ## Google Chronicle Sync Job - 1
@@ -84,10 +84,10 @@ This job will synchronize information about Chronicle SOAR Cases and Chronicle S
 #### Parameters
 |Name|Type|Is Mandatory|Value|
 |----|----|------------|-----|
-|User's Service Account|Password|False|*****|
-|Workload Identity Email|Password|False|*****|
 |Environment|String|True|Default Environment|
 |API Root|String|True|https://backstory.googleapis.com|
+|User's Service Account|Password|False|*****|
+|Workload Identity Email|Password|False|*****|
 |Max Hours Backwards|String|False|24|
 |Verify SSL|Boolean|False|true|
 
@@ -101,12 +101,12 @@ This job will synchronize information about Chronicle SOAR Cases and Chronicle S
 #### Parameters
 |Name|Type|Is Mandatory|Value|
 |----|----|------------|-----|
-|User's Service Account|Password|False|*****|
-|Workload Identity Email|Password|False|*****|
 |Environment|String|True|Default Environment|
 |API Root|String|True|https://backstory.googleapis.com|
 |Max Hours Backwards|String|False|24|
 |Verify SSL|Boolean|False|false|
+|User's Service Account|Password|False|*****|
+|Workload Identity Email|Password|False|*****|
 
 ## Google Chronicle Sync Job -21
 This job will synchronize information about Chronicle SOAR Cases and Chronicle SOAR Alerts with Chronicle SIEM.
@@ -118,12 +118,12 @@ This job will synchronize information about Chronicle SOAR Cases and Chronicle S
 #### Parameters
 |Name|Type|Is Mandatory|Value|
 |----|----|------------|-----|
-|Workload Identity Email|Password|False|*****|
-|User's Service Account|Password|False|*****|
 |Environment|String|True|Default Environment|
 |API Root|String|True|https://backstory.googleapis.com|
 |Max Hours Backwards|String|False|24|
 |Verify SSL|Boolean|False|true|
+|User's Service Account|Password|False|*****|
+|Workload Identity Email|Password|False|*****|
 
 ## Refresh Token Renewal Job - 1
 Token renewal job should be used to periodically update the refresh token configured for the integration. By default, the refresh token expires every 90 days, making integration unusable upon expiration. It is recommended to run this job every 7 or 14 days to make sure that refresh token will be up to date.
@@ -148,6 +148,17 @@ Token renewal job should be used to periodically update the refresh token config
 |----|----|------------|-----|
 |Integration Environments|String|False|sddssdsd|
 
+## Refresh Token Renewal Job - 5
+Token renewal job should be used to periodically update the refresh token configured for the integration. By default, the refresh token expires every 90 days, making integration unusable upon expiration. It is recommended to run this job every 7 or 14 days to make sure that refresh token will be up to date.
+
+
+**Run Interval In Seconds:** 60
+
+#### Parameters
+|Name|Type|Is Mandatory|Value|
+|----|----|------------|-----|
+|Integration Environments|String|False|sdsdsdds|
+
 ## Refresh Token Renewal Job - 8
 Token renewal job should be used to periodically update the refresh token configured for the integration. By default, the refresh token expires every 90 days, making integration unusable upon expiration. It is recommended to run this job every 7 or 14 days to make sure that refresh token will be up to date.
 
@@ -160,7 +171,7 @@ Token renewal job should be used to periodically update the refresh token config
 |Integration Environments|String|False|dssdsdsdsd|
 |Connector Names|String|False|dsd|
 
-## Refresh Token Renewal Job 
+## Refresh Token Renewal Job
 Token renewal job should be used to periodically update the refresh token configured for the integration. By default, the refresh token expires every 90 days, making integration unusable upon expiration. It is recommended to run this job every 7 or 14 days to make sure that refresh token will be up to date.
 
 
@@ -181,8 +192,8 @@ Token renewal job should be used to periodically update the refresh token config
 #### Parameters
 |Name|Type|Is Mandatory|Value|
 |----|----|------------|-----|
-|Integration Environments|String|False|dsddss|
-|Connector Names|String|False|dsdsdds|
+|Integration Environments|String|False|nbbnbbn|
+|Connector Names|String|False|jhhjhjhj|
 
 ## Service Sync Closed Incidents
 This job will synchronize closed ServiceNow incidents and Google SecOps alerts. This job works with ServiceNow incidents that were ingested as alerts and also cases, which contains tag “ServiceNow” and “TICKET_ID” context value with Incident Number inside of it.
@@ -402,10 +413,10 @@ This job will synchronize Google SecOps Alerts and SentinelOne alerts. The job s
 |Name|Type|Is Mandatory|Value|
 |----|----|------------|-----|
 |Environment Name|String|True|Default Environment|
+|API Token|Password|True|*****|
 |API Root|String|True|sdsddssdsd|
 |Max Hours Backwards|Int|False|24|
 |Verify SSL|Boolean|False|false|
-|API Token|Password|True|*****|
 
 ## Sync Alerts
 This job will synchronize Google SecOps Alerts and Crowdstrike alerts. The job synchronizes comments and status. Requires “Crowdstrike Alert” tag on the case. Note: If the alert didn’t originate from “Alerts Connector” or “Identity Protections Detection Connector” you will need to add an “Alert_ID” context value for the job to be able to find the correct information.
@@ -416,12 +427,12 @@ This job will synchronize Google SecOps Alerts and Crowdstrike alerts. The job s
 #### Parameters
 |Name|Type|Is Mandatory|Value|
 |----|----|------------|-----|
+|Client Secret|Password|True|*****|
 |Environment Name|String|True|Default Environment|
 |API Root|String|True|https://api.crowdstrike.com|
 |Client ID|String|True|ssdsdasd|
 |Max Hours Backwards|Int|False|24|
 |Verify SSL|Boolean|False|true|
-|Client Secret|Password|True|*****|
 
 ## Sync Closed Incidents - jaya
 This job will synchronize closed ServiceNow incidents and Google SecOps alerts. This job works with ServiceNow incidents that were ingested as alerts and also cases, which contains tag “ServiceNow” and “TICKET_ID” context value with Incident Number inside of it.
@@ -432,11 +443,11 @@ This job will synchronize closed ServiceNow incidents and Google SecOps alerts. 
 #### Parameters
 |Name|Type|Is Mandatory|Value|
 |----|----|------------|-----|
-|Api Root|String|True|https://{dev-instance}.service-now.com/api/now/v1/|
-|Username|String|True|jhjhjhjjkkjkjjk|
 |Password|Password|True|*****|
 |Client Secret|Password|False|*****|
 |Refresh Token|Password|False|*****|
+|Api Root|String|True|https://{dev-instance}.service-now.com/api/now/v1/|
+|Username|String|True|jhjhjhjjkkjkjjk|
 |Verify SSL|Boolean|False|true|
 |Client ID|String|False|jhhjjh|
 |Use Oauth Authentication|Boolean|False|false|
@@ -452,12 +463,12 @@ Close tickets in Jira if corresponding Google SecOps alerts were closed.
 #### Parameters
 |Name|Type|Is Mandatory|Value|
 |----|----|------------|-----|
-|API Token|Password|True|*****|
 |API Root|String|True|https://{jira_address}|
 |Username|String|False|sdsdds|
 |Environment|String|False||
 |Project Names|String|True|project names separated by comma|
 |Days Backwards|String|True|1|
+|API Token|Password|True|*****|
 
 ## Sync Comments - 19
 Sync comments from CA Desk Manager to Siemplify.
@@ -468,9 +479,9 @@ Sync comments from CA Desk Manager to Siemplify.
 #### Parameters
 |Name|Type|Is Mandatory|Value|
 |----|----|------------|-----|
-|Password|Password|True|*****|
 |API Root|String|True|http://x.x.x.x:<port>|
 |Username|String|True|sdssddssd|
+|Password|Password|True|*****|
 |Summery Field|String|True|summery.combo_name|
 |Ticket Fields|String|True|summery.combo_name,customer.combo_name,category.sym,status.sym,priority.sym,active,log_agent.combo_name,assignee.combo_name,group.combo_name,affected_service.name,severity.sym,urgency.sym,impact.sym,problem.ref_num,resolution_code.sym,call_back_date,change.chg_ref_num,caused_by_chg.chg_ref_num,external_system_ticket,resolution_method.sym,symptom_code.sym,requested_by.combo_name,persistent_id,summary,description,open_date,last_mod_dt,resolve_date,close_date,ref_num|
 |Script Name|String|True|Test|
@@ -508,7 +519,6 @@ Sync comments from CA Desk Manager to Siemplify.
 #### Parameters
 |Name|Type|Is Mandatory|Value|
 |----|----|------------|-----|
-|Password|Password|True|*****|
 |API Root|String|True|http://x.x.x.x:<port>|
 |Username|String|True|dsdsds|
 |Summery Field|String|True|summery.combo_name|
@@ -516,6 +526,7 @@ Sync comments from CA Desk Manager to Siemplify.
 |Script Name|String|True|Test|
 |Ticket Type Field|Boolean|False|true|
 |Analyst Type Field|Boolean|False|true|
+|Password|Password|True|*****|
 |Time Stamp Field|Boolean|False|true|
 |Timezone String|Boolean|False|true|
 
@@ -532,8 +543,8 @@ Sync comments from CA Desk Manager to Siemplify.
 |Username|String|True|dsdsds|
 |Summery Field|String|True|summery.combo_name|
 |Ticket Fields|String|True|summery.combo_name,customer.combo_name,category.sym,status.sym,priority.sym,active,log_agent.combo_name,assignee.combo_name,group.combo_name,affected_service.name,severity.sym,urgency.sym,impact.sym,problem.ref_num,resolution_code.sym,call_back_date,change.chg_ref_num,caused_by_chg.chg_ref_num,external_system_ticket,resolution_method.sym,symptom_code.sym,requested_by.combo_name,persistent_id,summary,description,open_date,last_mod_dt,resolve_date,close_date,ref_num|
-|Script Name|String|True|Test|
 |Password|Password|True|*****|
+|Script Name|String|True|Test|
 |Ticket Type Field|Boolean|False|true|
 |Analyst Type Field|Boolean|False|true|
 |Time Stamp Field|Boolean|False|true|
@@ -588,7 +599,6 @@ Sync comments from CA Desk Manager to Siemplify.
 #### Parameters
 |Name|Type|Is Mandatory|Value|
 |----|----|------------|-----|
-|Password|Password|True|*****|
 |API Root|String|True|http://x.x.x.x:<port>|
 |Username|String|True|ddsdssdsd|
 |Summery Field|String|True|summery.combo_name|
@@ -598,6 +608,7 @@ Sync comments from CA Desk Manager to Siemplify.
 |Analyst Type Field|Boolean|False|true|
 |Time Stamp Field|Boolean|False|true|
 |Timezone String|Boolean|False|true|
+|Password|Password|True|*****|
 
 ## Sync Comments - 8
 Sync comments from CA Desk Manager to Siemplify.
@@ -608,16 +619,16 @@ Sync comments from CA Desk Manager to Siemplify.
 #### Parameters
 |Name|Type|Is Mandatory|Value|
 |----|----|------------|-----|
-|Password|Password|True|*****|
+|Analyst Type Field|Boolean|False|true|
+|Time Stamp Field|Boolean|False|true|
+|Timezone String|Boolean|False|true|
 |API Root|String|True|http://x.x.x.x:<port>|
 |Username|String|True|dedfdffddf|
 |Summery Field|String|True|summery.combo_name|
 |Ticket Fields|String|True|summery.combo_name,customer.combo_name,category.sym,status.sym,priority.sym,active,log_agent.combo_name,assignee.combo_name,group.combo_name,affected_service.name,severity.sym,urgency.sym,impact.sym,problem.ref_num,resolution_code.sym,call_back_date,change.chg_ref_num,caused_by_chg.chg_ref_num,external_system_ticket,resolution_method.sym,symptom_code.sym,requested_by.combo_name,persistent_id,summary,description,open_date,last_mod_dt,resolve_date,close_date,ref_num|
 |Script Name|String|True|Test|
 |Ticket Type Field|Boolean|False|true|
-|Analyst Type Field|Boolean|False|true|
-|Time Stamp Field|Boolean|False|true|
-|Timezone String|Boolean|False|true|
+|Password|Password|True|*****|
 
 ## Sync Comments
 Sync comments from CA Desk Manager to Siemplify.
@@ -628,16 +639,16 @@ Sync comments from CA Desk Manager to Siemplify.
 #### Parameters
 |Name|Type|Is Mandatory|Value|
 |----|----|------------|-----|
+|API Root|String|True|http://x.x.x.x:<port>|
+|Username|String|True|jj,skskjkj|
+|Summery Field|String|True|summery.combo_name|
+|Password|Password|True|*****|
 |Ticket Fields|String|True|summery.combo_name,customer.combo_name,category.sym,status.sym,priority.sym,active,log_agent.combo_name,assignee.combo_name,group.combo_name,affected_service.name,severity.sym,urgency.sym,impact.sym,problem.ref_num,resolution_code.sym,call_back_date,change.chg_ref_num,caused_by_chg.chg_ref_num,external_system_ticket,resolution_method.sym,symptom_code.sym,requested_by.combo_name,persistent_id,summary,description,open_date,last_mod_dt,resolve_date,close_date,ref_num|
 |Script Name|String|True|Test|
 |Ticket Type Field|Boolean|False|true|
 |Analyst Type Field|Boolean|False|true|
 |Time Stamp Field|Boolean|False|true|
 |Timezone String|Boolean|False|true|
-|Password|Password|True|*****|
-|API Root|String|True|http://x.x.x.x:<port>|
-|Username|String|True|jj,skskjkj|
-|Summery Field|String|True|summery.combo_name|
 
 ## Sync Incidents - 11
 This job synchronizes Google SecOps Alerts and Palo Alto XDR Incidents. It ensures that comments and status are kept in sync between the two systems. For the job to identify the correct information, the Google SecOps case must have the "Palo Alto XDR Incident" tag. If the alert didn’t originate from "Palo Alto Cortex XDR Connector",  you will need to add an "Incident_ID" context value to the case for the job to be able to find the correct information.
@@ -648,13 +659,13 @@ This job synchronizes Google SecOps Alerts and Palo Alto XDR Incidents. It ensur
 #### Parameters
 |Name|Type|Is Mandatory|Value|
 |----|----|------------|-----|
+|Api Key|Password|True|*****|
 |Environment Name|String|True|Default Environment|
 |Api Root|String|False||
 |Api Key ID|String|True|sdssdsdsdsd|
 |Max Hours Backwards|Int|True|24|
 |User Mapping JSON|String|False|{"Google SecOps Display Name": "XDR Username"}|
 |Verify SSL|Boolean|False|true|
-|Api Key|Password|True|*****|
 
 ## Sync Incidents - 111
 This job synchronizes Google SecOps Alerts and Palo Alto XDR Incidents. It ensures that comments and status are kept in sync between the two systems. For the job to identify the correct information, the Google SecOps case must have the "Palo Alto XDR Incident" tag. If the alert didn’t originate from "Palo Alto Cortex XDR Connector",  you will need to add an "Incident_ID" context value to the case for the job to be able to find the correct information.
@@ -665,13 +676,13 @@ This job synchronizes Google SecOps Alerts and Palo Alto XDR Incidents. It ensur
 #### Parameters
 |Name|Type|Is Mandatory|Value|
 |----|----|------------|-----|
+|Api Key|Password|True|*****|
 |Environment Name|String|True|Default Environment|
 |Api Root|String|False||
 |Api Key ID|String|True|kjjkkjkj|
 |Max Hours Backwards|Int|True|24|
 |User Mapping JSON|String|False|{"Google SecOps Display Name": "XDR Username"}|
 |Verify SSL|Boolean|False|true|
-|Api Key|Password|True|*****|
 
 ## Sync Incidents - 1s
 This job synchronizes Google SecOps Alerts and Palo Alto XDR Incidents. It ensures that comments and status are kept in sync between the two systems. For the job to identify the correct information, the Google SecOps case must have the "Palo Alto XDR Incident" tag. If the alert didn’t originate from "Palo Alto Cortex XDR Connector",  you will need to add an "Incident_ID" context value to the case for the job to be able to find the correct information.
@@ -699,13 +710,13 @@ This job synchronizes Google SecOps Alerts and Palo Alto XDR Incidents. It ensur
 #### Parameters
 |Name|Type|Is Mandatory|Value|
 |----|----|------------|-----|
+|Api Key|Password|True|*****|
 |Environment Name|String|True|Default Environment|
 |Api Root|String|False|dssdsdsdsd|
 |Api Key ID|String|True|dsdssdsd|
 |Max Hours Backwards|Int|True|24|
 |User Mapping JSON|String|False|{"Google SecOps Display Name": "XDR Username"}|
 |Verify SSL|Boolean|False|false|
-|Api Key|Password|True|*****|
 
 ## Sync Incidents - 22
 This job synchronizes Google SecOps Alerts and Palo Alto XDR Incidents. It ensures that comments and status are kept in sync between the two systems. For the job to identify the correct information, the Google SecOps case must have the "Palo Alto XDR Incident" tag. If the alert didn’t originate from "Palo Alto Cortex XDR Connector",  you will need to add an "Incident_ID" context value to the case for the job to be able to find the correct information.
@@ -716,13 +727,13 @@ This job synchronizes Google SecOps Alerts and Palo Alto XDR Incidents. It ensur
 #### Parameters
 |Name|Type|Is Mandatory|Value|
 |----|----|------------|-----|
+|Api Key|Password|True|*****|
 |Environment Name|String|True|Default Environment|
 |Api Root|String|False|cxcxcxc|
 |Api Key ID|String|True|sds|
 |Max Hours Backwards|Int|True|24|
 |User Mapping JSON|String|False|{"Google SecOps Display Name": "XDR Username"}|
 |Verify SSL|Boolean|False|true|
-|Api Key|Password|True|*****|
 
 ## Sync Incidents - 3
 This job synchronizes Google SecOps Alerts and Palo Alto XDR Incidents. It ensures that comments and status are kept in sync between the two systems. For the job to identify the correct information, the Google SecOps case must have the "Palo Alto XDR Incident" tag. If the alert didn’t originate from "Palo Alto Cortex XDR Connector",  you will need to add an "Incident_ID" context value to the case for the job to be able to find the correct information.
@@ -733,13 +744,13 @@ This job synchronizes Google SecOps Alerts and Palo Alto XDR Incidents. It ensur
 #### Parameters
 |Name|Type|Is Mandatory|Value|
 |----|----|------------|-----|
+|Api Key|Password|True|*****|
 |Environment Name|String|True|Default Environment|
 |Api Root|String|False||
 |Api Key ID|String|True|dssdsdsd|
 |Max Hours Backwards|Int|True|24|
 |User Mapping JSON|String|False|{"Google SecOps Display Name": "XDR Username"}|
 |Verify SSL|Boolean|False|true|
-|Api Key|Password|True|*****|
 
 ## Sync Incidents - 7
 This job synchronizes Google SecOps Alerts and Palo Alto XDR Incidents. It ensures that comments and status are kept in sync between the two systems. For the job to identify the correct information, the Google SecOps case must have the "Palo Alto XDR Incident" tag. If the alert didn’t originate from "Palo Alto Cortex XDR Connector",  you will need to add an "Incident_ID" context value to the case for the job to be able to find the correct information.
