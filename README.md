@@ -1,11 +1,5 @@
 # GitSync
 
-## Integrations
-|Name|Description|
-|----|-----------|
-|AbuseIPDB|Leverage the AbuseIPDB threat intelligence API with this integration.|
-
-
 ## Playbooks
 |Name|Description|
 |----|-----------|
