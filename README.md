@@ -1,5 +1,12 @@
 # GitSync
 
+## Integrations
+|Name|Description|
+|----|-----------|
+|AbuseIPDB|Leverage the AbuseIPDB threat intelligence API with this integration.|
+|CrowdStrike Falcon|CrowdStrike Falcon is the leader in next-generation endpoint protection, threat intelligence and incident response through cloud-based endpoint protection.|
+
+
 ## Playbooks
 |Name|Description|
 |----|-----------|
