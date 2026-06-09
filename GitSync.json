@@ -3,7 +3,8 @@
     "readme_addons": {
         "Integration": {
             "PaloAltoCortexXDR": "kkkllkkl",
-            "CrowdStrikeFalcon": "hello"
+            "CrowdStrikeFalcon": "hello",
+            "Exchange": "hello"
         },
         "Mappings": {
             "Google Chronicle": "fdfdsfdsdfsf",
