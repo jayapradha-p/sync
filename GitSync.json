@@ -4,7 +4,8 @@
         "Integration": {
             "PaloAltoCortexXDR": "kkkllkkl",
             "CrowdStrikeFalcon": "hello",
-            "Exchange": "hello"
+            "Exchange": "hello",
+            "new integration": "hello"
         },
         "Mappings": {
             "Google Chronicle": "fdfdsfdsdfsf",
