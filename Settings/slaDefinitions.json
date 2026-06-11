@@ -1,7 +1,7 @@
 [
     {
-        "name": "projects/project/locations/location/instances/instance/slaDefinitions/1",
-        "id": 1,
+        "name": "projects/project/locations/location/instances/instance/slaDefinitions/2",
+        "id": 2,
         "slaType": "AlertRuleGenerator",
         "alertType": "AllAlerts",
         "slaTypeValue": "",
