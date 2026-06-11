@@ -1,9 +1,0 @@
-[
-    {
-        "id": 1,
-        "name": "projects/project/locations/location/instances/instance/customLists/1",
-        "category": "hello",
-        "entityIdentifier": "hello",
-        "environments": "[\"Default Environment\"]"
-    }
-]
