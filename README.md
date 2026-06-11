@@ -20,3 +20,9 @@
 |Block_1|An embedded workflow that can receive inputs and return an output.|
 |New Playbook||
 
+
+## Visual Families
+|Name|Description|
+|----|-----------|
+|hello|hello|
+
