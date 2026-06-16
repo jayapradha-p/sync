@@ -1,0 +1,29 @@
+[
+    {
+        "name": "projects/project/locations/location/instances/instance/slaDefinitions/4",
+        "id": 4,
+        "slaType": "CaseStage",
+        "slaTypeValue": "[\"Assessment\"]",
+        "slaPeriod": 10.0,
+        "slaPeriodTimeUnit": "Minutes",
+        "criticalSlaPeriod": 7.0,
+        "criticalSlaPeriodTimeUnit": "Minutes",
+        "environments": [
+            "*"
+        ]
+    },
+    {
+        "name": "projects/project/locations/location/instances/instance/slaDefinitions/3",
+        "id": 3,
+        "slaType": "AlertRuleGenerator",
+        "alertType": "AllAlerts",
+        "slaTypeValue": "",
+        "slaPeriod": 9.0,
+        "slaPeriodTimeUnit": "Minutes",
+        "criticalSlaPeriod": 4.0,
+        "criticalSlaPeriodTimeUnit": "Minutes",
+        "environments": [
+            "Default Environment"
+        ]
+    }
+]
