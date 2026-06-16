@@ -2,7 +2,7 @@
     {
         "id": 5,
         "valueType": 3,
-        "value": "[\"Assessment\"]",
+        "value": "Assessment",
         "slaPeriodType": 0,
         "slaPeriod": 10.0,
         "criticalPeriodType": 0,
