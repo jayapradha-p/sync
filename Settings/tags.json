@@ -1,0 +1,40 @@
+[
+    {
+        "name": "projects/project/locations/location/instances/instance/caseTagDefinitions/5",
+        "id": 5,
+        "displayName": "Simulated Case",
+        "matchCriteria": "DataDriven",
+        "comparisonType": "Exact",
+        "priority": 1,
+        "canBeCaseTitle": false
+    },
+    {
+        "name": "projects/project/locations/location/instances/instance/caseTagDefinitions/4",
+        "id": 4,
+        "displayName": "hello",
+        "matchCriteria": "DataDriven",
+        "comparisonType": "Exact",
+        "priority": 1,
+        "canBeCaseTitle": false
+    },
+    {
+        "name": "projects/project/locations/location/instances/instance/caseTagDefinitions/3",
+        "id": 3,
+        "displayName": "Test1",
+        "matchCriteria": "ByProduct",
+        "value": "123",
+        "propertyName": "",
+        "comparisonType": "Contain",
+        "priority": 1,
+        "canBeCaseTitle": false
+    },
+    {
+        "name": "projects/project/locations/location/instances/instance/caseTagDefinitions/1",
+        "id": 1,
+        "displayName": "Simulated Case",
+        "matchCriteria": "System",
+        "comparisonType": "Exact",
+        "priority": 1,
+        "canBeCaseTitle": false
+    }
+]
