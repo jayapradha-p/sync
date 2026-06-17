@@ -1,0 +1,22 @@
+[
+    {
+        "name": "projects/project/locations/location/instances/instance/caseTagDefinitions/8",
+        "id": 8,
+        "displayName": "Test1",
+        "matchCriteria": "ByProduct",
+        "value": "123",
+        "propertyName": "",
+        "comparisonType": "Contain",
+        "priority": 1,
+        "canBeCaseTitle": false
+    },
+    {
+        "name": "projects/project/locations/location/instances/instance/caseTagDefinitions/1",
+        "id": 1,
+        "displayName": "Simulated Case",
+        "matchCriteria": "System",
+        "comparisonType": "Exact",
+        "priority": 1,
+        "canBeCaseTitle": false
+    }
+]
