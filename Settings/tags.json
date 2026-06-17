@@ -1,13 +1,15 @@
 [
     {
-        "name": "projects/project/locations/location/instances/instance/caseTagDefinitions/8",
-        "id": 8,
-        "displayName": "Test1",
-        "matchCriteria": "ByProduct",
         "value": "123",
+        "name": "Test1",
         "propertyName": "",
-        "comparisonType": "Contain",
         "priority": 1,
-        "canBeCaseTitle": false
+        "isPotentialCaseName": false,
+        "environments": [],
+        "type": 1,
+        "compareType": 2,
+        "id": 12,
+        "creationTimeUnixTimeInMs": 1781681715505,
+        "modificationTimeUnixTimeInMs": 1781685097858
     }
 ]
