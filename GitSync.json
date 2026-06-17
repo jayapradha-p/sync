@@ -10,7 +10,9 @@
         },
         "Connector": {},
         "Job": {},
-        "Block": {}
+        "Block": {
+            "Block_1": "hellooo"
+        }
     },
     "settings": {
         "update_root_readme": true
