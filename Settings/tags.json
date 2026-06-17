@@ -1,0 +1,13 @@
+[
+    {
+        "name": "projects/project/locations/location/instances/instance/caseTagDefinitions/21",
+        "id": 21,
+        "displayName": "Test1",
+        "matchCriteria": "ByEntityPropertyName",
+        "value": "1234",
+        "propertyName": "hello",
+        "comparisonType": "Contain",
+        "priority": 1,
+        "canBeCaseTitle": false
+    }
+]
