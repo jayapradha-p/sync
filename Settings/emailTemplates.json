@@ -1,0 +1,20 @@
+[
+    {
+        "name": "projects/project/locations/location/instances/instance/emailTemplates/2",
+        "templateType": "Template",
+        "author": "b224e019-3760-4d96-8105-0f2954411dda",
+        "id": 2,
+        "content": "hello",
+        "displayName": "hello2",
+        "environments": "[\"*\"]"
+    },
+    {
+        "name": "projects/project/locations/location/instances/instance/emailTemplates/1",
+        "templateType": "Template",
+        "author": "b224e019-3760-4d96-8105-0f2954411dda",
+        "id": 1,
+        "content": "test",
+        "displayName": "hello",
+        "environments": "[\"*\"]"
+    }
+]
