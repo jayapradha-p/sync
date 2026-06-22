@@ -13,7 +13,7 @@
 ## Connectors
 |Name|Description|Has Mappings|
 |----|-----------|------------|
-|Crowdstrike - Alerts Connector - 1|Pull alerts from Crowdstrike. Dynamic List works with the "display_name" parameter. Note: To fetch identity protection detections use "Identity Protection Detections Connector".|True|
+|Google Chronicle - Chronicle Alerts Connector|Pull information about Rule based alerts from Google Chronicle. Note: dynamic list is used for filtering purposes. For all of the details please visit the documentation portal.|False|
 
 
 ## Playbooks
