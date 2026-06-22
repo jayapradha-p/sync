@@ -1,8 +1,19 @@
 [
     {
-        "name": "projects/project/locations/location/instances/instance/caseTagDefinitions/21",
-        "id": 21,
+        "name": "projects/project/locations/location/instances/instance/caseTagDefinitions/23",
+        "id": 23,
         "displayName": "Test1",
+        "matchCriteria": "ByEntityPropertyName",
+        "value": "1234",
+        "propertyName": "hello",
+        "comparisonType": "Contain",
+        "priority": 1,
+        "canBeCaseTitle": false
+    },
+    {
+        "name": "projects/project/locations/location/instances/instance/caseTagDefinitions/22",
+        "id": 22,
+        "displayName": "sddssTest1",
         "matchCriteria": "ByEntityPropertyName",
         "value": "1234",
         "propertyName": "hello",
