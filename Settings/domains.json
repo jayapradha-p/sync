@@ -1,18 +1,1 @@
-[
-    {
-        "alias": "projects/project/locations/location/instances/instance/soarDomains/2",
-        "id": 2,
-        "domain": "hello.com",
-        "environments": "[\"*\"]",
-        "creationTimeUnixTimeInMs": 0,
-        "modificationTimeUnixTimeInMs": 0
-    },
-    {
-        "alias": "projects/project/locations/location/instances/instance/soarDomains/1",
-        "id": 1,
-        "domain": "jayapradha.com",
-        "environments": "[\"*\"]",
-        "creationTimeUnixTimeInMs": 0,
-        "modificationTimeUnixTimeInMs": 0
-    }
-]
+[]

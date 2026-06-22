@@ -1,10 +1,1 @@
-[
-    {
-        "name": "projects/project/locations/location/instances/instance/soarNetworks/1",
-        "id": 1,
-        "displayName": "testing 1",
-        "address": "192.168.1.0/24",
-        "environmentsJson": "[\"*\"]",
-        "priority": 2
-    }
-]
+[]
