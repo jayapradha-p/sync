@@ -10,6 +10,13 @@
 |Google SecOps AI Agents|This integration provides first-party AI agents for Google Chronicle. It allows users to leverage Google's advanced AI capabilities for security operations and threat intelligence within the Chronicle platform.|
 
 
+## Connectors
+|Name|Description|Has Mappings|
+|----|-----------|------------|
+|Google Chronicle - Chronicle Alerts Connector|Pull information about Rule based alerts from Google Chronicle. Note: dynamic list is used for filtering purposes. For all of the details please visit the documentation portal.|False|
+|Google Chronicle - Chronicle Alerts Connector 1|Pull information about Rule based alerts from Google Chronicle. Note: dynamic list is used for filtering purposes. For all of the details please visit the documentation portal.|False|
+
+
 ## Playbooks
 |Name|Description|
 |----|-----------|
