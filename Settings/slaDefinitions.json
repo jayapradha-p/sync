@@ -1,7 +1,21 @@
 [
     {
-        "name": "projects/spsstg-zk1ax/locations/us/instances/1e33e6db-a4b6-4c4a-b35b-a344d47cf329/slaDefinitions/1",
-        "id": 1,
+        "name": "projects/spsstg-zk1ax/locations/us/instances/1e33e6db-a4b6-4c4a-b35b-a344d47cf329/slaDefinitions/3",
+        "id": 3,
+        "slaType": "AlertRuleGenerator",
+        "alertType": "AllAlerts",
+        "slaTypeValue": "",
+        "slaPeriod": 9.0,
+        "slaPeriodTimeUnit": "Minutes",
+        "criticalSlaPeriod": 2.0,
+        "criticalSlaPeriodTimeUnit": "Minutes",
+        "environments": [
+            "Default Environment"
+        ]
+    },
+    {
+        "name": "projects/spsstg-zk1ax/locations/us/instances/1e33e6db-a4b6-4c4a-b35b-a344d47cf329/slaDefinitions/2",
+        "id": 2,
         "slaType": "AlertRuleGenerator",
         "alertType": "AllAlerts",
         "slaTypeValue": "",
