@@ -1,0 +1,16 @@
+[
+    {
+        "name": "projects/spsstg-zk1ax/locations/us/instances/1e33e6db-a4b6-4c4a-b35b-a344d47cf329/slaDefinitions/1",
+        "id": 1,
+        "slaType": "AlertRuleGenerator",
+        "alertType": "AllAlerts",
+        "slaTypeValue": "",
+        "slaPeriod": 9.0,
+        "slaPeriodTimeUnit": "Minutes",
+        "criticalSlaPeriod": 2.0,
+        "criticalSlaPeriodTimeUnit": "Minutes",
+        "environments": [
+            "*"
+        ]
+    }
+]
