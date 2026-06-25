@@ -1,21 +1,20 @@
 [
     {
-        "name": "projects/spsstg-zk1ax/locations/us/instances/1e33e6db-a4b6-4c4a-b35b-a344d47cf329/slaDefinitions/3",
-        "id": 3,
-        "slaType": "AlertRuleGenerator",
-        "alertType": "AllAlerts",
-        "slaTypeValue": "",
+        "name": "projects/spsstg-zk1ax/locations/us/instances/1e33e6db-a4b6-4c4a-b35b-a344d47cf329/slaDefinitions/8",
+        "id": 8,
+        "slaType": "CasePriority",
+        "slaTypeValue": "[\"Informative\"]",
         "slaPeriod": 9.0,
         "slaPeriodTimeUnit": "Minutes",
         "criticalSlaPeriod": 2.0,
         "criticalSlaPeriodTimeUnit": "Minutes",
         "environments": [
-            "Default Environment"
+            "*"
         ]
     },
     {
-        "name": "projects/spsstg-zk1ax/locations/us/instances/1e33e6db-a4b6-4c4a-b35b-a344d47cf329/slaDefinitions/2",
-        "id": 2,
+        "name": "projects/spsstg-zk1ax/locations/us/instances/1e33e6db-a4b6-4c4a-b35b-a344d47cf329/slaDefinitions/7",
+        "id": 7,
         "slaType": "AlertRuleGenerator",
         "alertType": "AllAlerts",
         "slaTypeValue": "",
@@ -25,6 +24,20 @@
         "criticalSlaPeriodTimeUnit": "Minutes",
         "environments": [
             "*"
+        ]
+    },
+    {
+        "name": "projects/spsstg-zk1ax/locations/us/instances/1e33e6db-a4b6-4c4a-b35b-a344d47cf329/slaDefinitions/6",
+        "id": 6,
+        "slaType": "AlertRuleGenerator",
+        "alertType": "AllAlerts",
+        "slaTypeValue": "",
+        "slaPeriod": 9.0,
+        "slaPeriodTimeUnit": "Minutes",
+        "criticalSlaPeriod": 2.0,
+        "criticalSlaPeriodTimeUnit": "Minutes",
+        "environments": [
+            "Default Environment"
         ]
     }
 ]
