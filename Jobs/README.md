@@ -10,7 +10,7 @@ Note: This job is only supported from Chronicle SOAR version 6.2.30 and higher.
 |----|----|------------|-----|
 |Environment|String|True|Default Environment|
 |API Root|String|True|https://backstory.googleapis.com|
-|User's Service Account|Password||*****|
-|Workload Identity Email|Password||*****|
-|Verify SSL|Boolean||true|
+|User's Service Account|Password|False|*****|
+|Workload Identity Email|Password|False|*****|
+|Verify SSL|Boolean|False|true|
 
