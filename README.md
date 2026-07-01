@@ -16,6 +16,12 @@
 |Anomali Staxx - Indicators Connector|Pull indicators from Anomali Staxx|False|
 
 
+## Playbooks
+|Name|Description|
+|----|-----------|
+|New Playbook||
+
+
 ## Visual Families
 |Name|Description|
 |----|-----------|
