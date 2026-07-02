@@ -1,12 +1,13 @@
 {
+    "hasRestrictedEnvironments": false,
     "id": 0,
     "identifier": "3a8557e1-7f33-477e-928d-b1e92c4870a6",
     "version": "0",
     "isEnabled": true,
     "isDebugMode": false,
     "name": "AWS EC2 Containment",
-    "creator": "9e1cb0e4-a750-431a-b413-a7f76a8b62d7",
-    "modifiedBy": "9e1cb0e4-a750-431a-b413-a7f76a8b62d7",
+    "creator": "9378d367-2470-4d0f-acb4-2303f9927e59",
+    "modifiedBy": "9378d367-2470-4d0f-acb4-2303f9927e59",
     "priority": 2,
     "description": "This block allows the playbook to automatically stop EC2 instances that were identified in the alert as potentially compromised or suspicious, supporting the containment phase of the incident response process.",
     "executionScope": 0,
@@ -14,13 +15,13 @@
         "Default Environment"
     ],
     "categoryName": "Content Hub Playbooks",
-    "categoryId": 2,
+    "categoryId": 3,
     "originalPlaybookIdentifier": "3a8557e1-7f33-477e-928d-b1e92c4870a6",
-    "creationTimeUnixTimeInMs": 1782888411652,
-    "modificationTimeUnixTimeInMs": 1782888411652,
+    "creationTimeUnixTimeInMs": 1782913044676,
+    "modificationTimeUnixTimeInMs": 1782913044676,
     "trigger": {
         "id": 0,
-        "identifier": "d8c38d73-b389-4c6e-9fd6-0d33b0a61a91",
+        "identifier": "4b43d26a-e756-4ae8-9389-752d7a285782",
         "type": 11,
         "logicalOperator": 0,
         "conditions": [],
@@ -64,8 +65,8 @@
             "startLoopStepIdentifier": null,
             "logsExplorerUrl": null,
             "id": 0,
-            "creationTimeUnixTimeInMs": 1782888411652,
-            "modificationTimeUnixTimeInMs": 1782888411652,
+            "creationTimeUnixTimeInMs": 1782913044676,
+            "modificationTimeUnixTimeInMs": 1782913044676,
             "additionalProperties": {}
         },
         {
@@ -235,8 +236,8 @@
             "startLoopStepIdentifier": null,
             "logsExplorerUrl": null,
             "id": 0,
-            "creationTimeUnixTimeInMs": 1782888411652,
-            "modificationTimeUnixTimeInMs": 1782888411652,
+            "creationTimeUnixTimeInMs": 1782913044676,
+            "modificationTimeUnixTimeInMs": 1782913044676,
             "additionalProperties": {}
         },
         {
@@ -406,8 +407,8 @@
             "startLoopStepIdentifier": null,
             "logsExplorerUrl": null,
             "id": 0,
-            "creationTimeUnixTimeInMs": 1782888411652,
-            "modificationTimeUnixTimeInMs": 1782888411652,
+            "creationTimeUnixTimeInMs": 1782913044676,
+            "modificationTimeUnixTimeInMs": 1782913044676,
             "additionalProperties": {}
         },
         {
@@ -533,8 +534,8 @@
             "startLoopStepIdentifier": null,
             "logsExplorerUrl": null,
             "id": 0,
-            "creationTimeUnixTimeInMs": 1782888411652,
-            "modificationTimeUnixTimeInMs": 1782888411652,
+            "creationTimeUnixTimeInMs": 1782913044676,
+            "modificationTimeUnixTimeInMs": 1782913044676,
             "additionalProperties": {}
         },
         {
@@ -704,8 +705,8 @@
             "startLoopStepIdentifier": null,
             "logsExplorerUrl": null,
             "id": 0,
-            "creationTimeUnixTimeInMs": 1782888411652,
-            "modificationTimeUnixTimeInMs": 1782888411652,
+            "creationTimeUnixTimeInMs": 1782913044676,
+            "modificationTimeUnixTimeInMs": 1782913044676,
             "additionalProperties": {}
         },
         {
@@ -875,8 +876,8 @@
             "startLoopStepIdentifier": null,
             "logsExplorerUrl": null,
             "id": 0,
-            "creationTimeUnixTimeInMs": 1782888411652,
-            "modificationTimeUnixTimeInMs": 1782888411652,
+            "creationTimeUnixTimeInMs": 1782913044676,
+            "modificationTimeUnixTimeInMs": 1782913044676,
             "additionalProperties": {}
         },
         {
@@ -914,8 +915,8 @@
             "startLoopStepIdentifier": null,
             "logsExplorerUrl": null,
             "id": 0,
-            "creationTimeUnixTimeInMs": 1782888411652,
-            "modificationTimeUnixTimeInMs": 1782888411652,
+            "creationTimeUnixTimeInMs": 1782913044676,
+            "modificationTimeUnixTimeInMs": 1782913044676,
             "additionalProperties": {}
         },
         {
@@ -1041,8 +1042,8 @@
             "startLoopStepIdentifier": null,
             "logsExplorerUrl": null,
             "id": 0,
-            "creationTimeUnixTimeInMs": 1782888411652,
-            "modificationTimeUnixTimeInMs": 1782888411652,
+            "creationTimeUnixTimeInMs": 1782913044676,
+            "modificationTimeUnixTimeInMs": 1782913044676,
             "additionalProperties": {}
         },
         {
@@ -1168,8 +1169,8 @@
             "startLoopStepIdentifier": null,
             "logsExplorerUrl": null,
             "id": 0,
-            "creationTimeUnixTimeInMs": 1782888411652,
-            "modificationTimeUnixTimeInMs": 1782888411652,
+            "creationTimeUnixTimeInMs": 1782913044676,
+            "modificationTimeUnixTimeInMs": 1782913044676,
             "additionalProperties": {}
         },
         {
@@ -1207,8 +1208,8 @@
             "startLoopStepIdentifier": null,
             "logsExplorerUrl": null,
             "id": 0,
-            "creationTimeUnixTimeInMs": 1782888411652,
-            "modificationTimeUnixTimeInMs": 1782888411652,
+            "creationTimeUnixTimeInMs": 1782913044676,
+            "modificationTimeUnixTimeInMs": 1782913044676,
             "additionalProperties": {}
         },
         {
@@ -1334,8 +1335,8 @@
             "startLoopStepIdentifier": null,
             "logsExplorerUrl": null,
             "id": 0,
-            "creationTimeUnixTimeInMs": 1782888411652,
-            "modificationTimeUnixTimeInMs": 1782888411652,
+            "creationTimeUnixTimeInMs": 1782913044676,
+            "modificationTimeUnixTimeInMs": 1782913044676,
             "additionalProperties": {}
         },
         {
@@ -1431,7 +1432,7 @@
                 },
                 {
                     "name": "IntegrationInstance",
-                    "value": "06477888-9352-42ba-a080-e623e2a20148",
+                    "value": "b100a73f-3a8e-421e-95e2-4f1f970143df",
                     "type": null,
                     "isMandatory": false,
                     "defaultValue": null,
@@ -1439,7 +1440,7 @@
                     "creationTimeUnixTimeInMs": 0,
                     "modificationTimeUnixTimeInMs": 0,
                     "additionalProperties": {},
-                    "InstanceDisplayName": "SiemplifyUtilities_1"
+                    "InstanceDisplayName": null
                 },
                 {
                     "name": "MessageToAssignee",
@@ -1506,8 +1507,8 @@
             "startLoopStepIdentifier": null,
             "logsExplorerUrl": null,
             "id": 0,
-            "creationTimeUnixTimeInMs": 1782888411652,
-            "modificationTimeUnixTimeInMs": 1782888411652,
+            "creationTimeUnixTimeInMs": 1782913044676,
+            "modificationTimeUnixTimeInMs": 1782913044676,
             "additionalProperties": {}
         },
         {
@@ -1677,8 +1678,8 @@
             "startLoopStepIdentifier": null,
             "logsExplorerUrl": null,
             "id": 0,
-            "creationTimeUnixTimeInMs": 1782888411652,
-            "modificationTimeUnixTimeInMs": 1782888411652,
+            "creationTimeUnixTimeInMs": 1782913044676,
+            "modificationTimeUnixTimeInMs": 1782913044676,
             "additionalProperties": {}
         }
     ],

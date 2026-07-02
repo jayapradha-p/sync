@@ -1,12 +1,13 @@
 {
+    "hasRestrictedEnvironments": false,
     "id": 0,
     "identifier": "1c413688-dc98-42a3-a294-607314ec4ef0",
     "version": "0",
     "isEnabled": true,
     "isDebugMode": false,
     "name": "AWS Users Containment",
-    "creator": "9e1cb0e4-a750-431a-b413-a7f76a8b62d7",
-    "modifiedBy": "9e1cb0e4-a750-431a-b413-a7f76a8b62d7",
+    "creator": "9378d367-2470-4d0f-acb4-2303f9927e59",
+    "modifiedBy": "9378d367-2470-4d0f-acb4-2303f9927e59",
     "priority": 2,
     "description": "An embedded workflow that can receive inputs and return an output.",
     "executionScope": 0,
@@ -14,13 +15,13 @@
         "Default Environment"
     ],
     "categoryName": "Content Hub Playbooks",
-    "categoryId": 2,
+    "categoryId": 3,
     "originalPlaybookIdentifier": "1c413688-dc98-42a3-a294-607314ec4ef0",
-    "creationTimeUnixTimeInMs": 1782888411766,
-    "modificationTimeUnixTimeInMs": 1782888411766,
+    "creationTimeUnixTimeInMs": 1782913045871,
+    "modificationTimeUnixTimeInMs": 1782913045871,
     "trigger": {
         "id": 0,
-        "identifier": "dcb2829f-1592-4f45-8902-af9b8ae62387",
+        "identifier": "07421681-b67f-4487-aa54-9c1744200750",
         "type": 11,
         "logicalOperator": 0,
         "conditions": [],
@@ -152,8 +153,8 @@
             "startLoopStepIdentifier": null,
             "logsExplorerUrl": null,
             "id": 0,
-            "creationTimeUnixTimeInMs": 1782888411766,
-            "modificationTimeUnixTimeInMs": 1782888411766,
+            "creationTimeUnixTimeInMs": 1782913045871,
+            "modificationTimeUnixTimeInMs": 1782913045871,
             "additionalProperties": {}
         },
         {
@@ -323,8 +324,8 @@
             "startLoopStepIdentifier": null,
             "logsExplorerUrl": null,
             "id": 0,
-            "creationTimeUnixTimeInMs": 1782888411766,
-            "modificationTimeUnixTimeInMs": 1782888411766,
+            "creationTimeUnixTimeInMs": 1782913045871,
+            "modificationTimeUnixTimeInMs": 1782913045871,
             "additionalProperties": {}
         },
         {
@@ -494,8 +495,8 @@
             "startLoopStepIdentifier": null,
             "logsExplorerUrl": null,
             "id": 0,
-            "creationTimeUnixTimeInMs": 1782888411766,
-            "modificationTimeUnixTimeInMs": 1782888411766,
+            "creationTimeUnixTimeInMs": 1782913045871,
+            "modificationTimeUnixTimeInMs": 1782913045871,
             "additionalProperties": {}
         },
         {
@@ -621,8 +622,8 @@
             "startLoopStepIdentifier": null,
             "logsExplorerUrl": null,
             "id": 0,
-            "creationTimeUnixTimeInMs": 1782888411766,
-            "modificationTimeUnixTimeInMs": 1782888411766,
+            "creationTimeUnixTimeInMs": 1782913045871,
+            "modificationTimeUnixTimeInMs": 1782913045871,
             "additionalProperties": {}
         },
         {
@@ -748,8 +749,8 @@
             "startLoopStepIdentifier": null,
             "logsExplorerUrl": null,
             "id": 0,
-            "creationTimeUnixTimeInMs": 1782888411766,
-            "modificationTimeUnixTimeInMs": 1782888411766,
+            "creationTimeUnixTimeInMs": 1782913045871,
+            "modificationTimeUnixTimeInMs": 1782913045871,
             "additionalProperties": {}
         },
         {
@@ -787,8 +788,8 @@
             "startLoopStepIdentifier": null,
             "logsExplorerUrl": null,
             "id": 0,
-            "creationTimeUnixTimeInMs": 1782888411766,
-            "modificationTimeUnixTimeInMs": 1782888411766,
+            "creationTimeUnixTimeInMs": 1782913045871,
+            "modificationTimeUnixTimeInMs": 1782913045871,
             "additionalProperties": {}
         },
         {
@@ -826,8 +827,8 @@
             "startLoopStepIdentifier": null,
             "logsExplorerUrl": null,
             "id": 0,
-            "creationTimeUnixTimeInMs": 1782888411766,
-            "modificationTimeUnixTimeInMs": 1782888411766,
+            "creationTimeUnixTimeInMs": 1782913045871,
+            "modificationTimeUnixTimeInMs": 1782913045871,
             "additionalProperties": {}
         },
         {
@@ -990,15 +991,25 @@
             ],
             "autoSkipOnFailure": false,
             "isDebugMockData": false,
-            "debugData": null,
+            "debugData": {
+                "originalWorkflowIdentifier": "1c413688-dc98-42a3-a294-607314ec4ef0",
+                "originalStepIdentifier": "c762e18a-ff1b-4ca0-8006-7c246c139501",
+                "resultValue": "true",
+                "resultJson": "[{\"Entity\":\"username\",\"EntityResult\":\"Successfully added to the user the deny policy \\\"DisableUserAccessPolicy\\\".\"},{\"Entity\":\"arn:aws:iam::123456789012:user/division_abc/subdivision_xyz/Username\",\"EntityResult\":\"Successfully added to the user the deny policy \\\"DisableUserAccessPolicy\\\".\"},{\"Entity\":\"NoARealUserName\",\"EntityResult\":\"Failed to add the user to the deny policy \\\"DisableUserAccessPolicy\\\".\"}]",
+                "scopeEntitiesEnrichmentData": [],
+                "id": 0,
+                "creationTimeUnixTimeInMs": 0,
+                "modificationTimeUnixTimeInMs": 0,
+                "additionalProperties": {}
+            },
             "parentStepContainerId": null,
             "workflowIdentifier": "1c413688-dc98-42a3-a294-607314ec4ef0",
             "isTouchedByAi": false,
             "startLoopStepIdentifier": null,
             "logsExplorerUrl": null,
             "id": 0,
-            "creationTimeUnixTimeInMs": 1782888411766,
-            "modificationTimeUnixTimeInMs": 1782888411766,
+            "creationTimeUnixTimeInMs": 1782913045871,
+            "modificationTimeUnixTimeInMs": 1782913045871,
             "additionalProperties": {}
         },
         {
@@ -1168,8 +1179,8 @@
             "startLoopStepIdentifier": null,
             "logsExplorerUrl": null,
             "id": 0,
-            "creationTimeUnixTimeInMs": 1782888411766,
-            "modificationTimeUnixTimeInMs": 1782888411766,
+            "creationTimeUnixTimeInMs": 1782913045871,
+            "modificationTimeUnixTimeInMs": 1782913045871,
             "additionalProperties": {}
         }
     ],

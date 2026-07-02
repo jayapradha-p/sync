@@ -1,12 +1,13 @@
 {
+    "hasRestrictedEnvironments": false,
     "id": 0,
     "identifier": "a1e02a4e-941a-4c59-b86e-9e82bc9ad0bb",
     "version": "0",
     "isEnabled": true,
     "isDebugMode": false,
     "name": "MITRE Enrichment",
-    "creator": "9e1cb0e4-a750-431a-b413-a7f76a8b62d7",
-    "modifiedBy": "9e1cb0e4-a750-431a-b413-a7f76a8b62d7",
+    "creator": "9378d367-2470-4d0f-acb4-2303f9927e59",
+    "modifiedBy": "9378d367-2470-4d0f-acb4-2303f9927e59",
     "priority": 2,
     "description": "This block retrieves detailed information about MITRE ATT&CK techniques and their associated mitigations, providing valuable context to understand adversary behaviors and possible defensive actions.",
     "executionScope": 0,
@@ -14,13 +15,13 @@
         "Default Environment"
     ],
     "categoryName": "Content Hub Playbooks",
-    "categoryId": 2,
+    "categoryId": 3,
     "originalPlaybookIdentifier": "a1e02a4e-941a-4c59-b86e-9e82bc9ad0bb",
-    "creationTimeUnixTimeInMs": 1782888411834,
-    "modificationTimeUnixTimeInMs": 1782888411834,
+    "creationTimeUnixTimeInMs": 1782913046802,
+    "modificationTimeUnixTimeInMs": 1782913046802,
     "trigger": {
         "id": 0,
-        "identifier": "1a946eed-1c56-4a64-a560-7dfb0fd5d999",
+        "identifier": "11922af8-e373-468f-9fd0-f9a16ddf5a77",
         "type": 11,
         "logicalOperator": 0,
         "conditions": [],
@@ -64,8 +65,8 @@
             "startLoopStepIdentifier": null,
             "logsExplorerUrl": null,
             "id": 0,
-            "creationTimeUnixTimeInMs": 1782888411834,
-            "modificationTimeUnixTimeInMs": 1782888411834,
+            "creationTimeUnixTimeInMs": 1782913046802,
+            "modificationTimeUnixTimeInMs": 1782913046802,
             "additionalProperties": {}
         },
         {
@@ -246,8 +247,8 @@
             "startLoopStepIdentifier": null,
             "logsExplorerUrl": null,
             "id": 0,
-            "creationTimeUnixTimeInMs": 1782888411834,
-            "modificationTimeUnixTimeInMs": 1782888411834,
+            "creationTimeUnixTimeInMs": 1782913046802,
+            "modificationTimeUnixTimeInMs": 1782913046802,
             "additionalProperties": {}
         },
         {
@@ -428,8 +429,8 @@
             "startLoopStepIdentifier": null,
             "logsExplorerUrl": null,
             "id": 0,
-            "creationTimeUnixTimeInMs": 1782888411834,
-            "modificationTimeUnixTimeInMs": 1782888411834,
+            "creationTimeUnixTimeInMs": 1782913046802,
+            "modificationTimeUnixTimeInMs": 1782913046802,
             "additionalProperties": {}
         }
     ],

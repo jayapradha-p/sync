@@ -1,12 +1,13 @@
 {
+    "hasRestrictedEnvironments": false,
     "id": 0,
     "identifier": "4de33f5f-73f0-4a7f-8af4-35a52a3bfd82",
     "version": "0",
     "isEnabled": true,
     "isDebugMode": false,
     "name": "AWS Enrichment",
-    "creator": "9e1cb0e4-a750-431a-b413-a7f76a8b62d7",
-    "modifiedBy": "9e1cb0e4-a750-431a-b413-a7f76a8b62d7",
+    "creator": "9378d367-2470-4d0f-acb4-2303f9927e59",
+    "modifiedBy": "9378d367-2470-4d0f-acb4-2303f9927e59",
     "priority": 2,
     "description": "This block retrieves EC2 instance data associated with the case and provides context for other actions or analysis.",
     "executionScope": 0,
@@ -14,13 +15,13 @@
         "Default Environment"
     ],
     "categoryName": "Content Hub Playbooks",
-    "categoryId": 2,
+    "categoryId": 3,
     "originalPlaybookIdentifier": "4de33f5f-73f0-4a7f-8af4-35a52a3bfd82",
-    "creationTimeUnixTimeInMs": 1782888411242,
-    "modificationTimeUnixTimeInMs": 1782888411242,
+    "creationTimeUnixTimeInMs": 1782913046659,
+    "modificationTimeUnixTimeInMs": 1782913046659,
     "trigger": {
         "id": 0,
-        "identifier": "b2b555e0-f503-4bc3-87ab-e22dcc212a3f",
+        "identifier": "f1132d42-69d6-4f41-815e-541cf0b0b22a",
         "type": 11,
         "logicalOperator": 0,
         "conditions": [],
@@ -64,8 +65,8 @@
             "startLoopStepIdentifier": null,
             "logsExplorerUrl": null,
             "id": 0,
-            "creationTimeUnixTimeInMs": 1782888411242,
-            "modificationTimeUnixTimeInMs": 1782888411242,
+            "creationTimeUnixTimeInMs": 1782913046659,
+            "modificationTimeUnixTimeInMs": 1782913046659,
             "additionalProperties": {}
         },
         {
@@ -191,8 +192,8 @@
             "startLoopStepIdentifier": null,
             "logsExplorerUrl": null,
             "id": 0,
-            "creationTimeUnixTimeInMs": 1782888411242,
-            "modificationTimeUnixTimeInMs": 1782888411242,
+            "creationTimeUnixTimeInMs": 1782913046659,
+            "modificationTimeUnixTimeInMs": 1782913046659,
             "additionalProperties": {}
         },
         {
@@ -362,8 +363,8 @@
             "startLoopStepIdentifier": null,
             "logsExplorerUrl": null,
             "id": 0,
-            "creationTimeUnixTimeInMs": 1782888411242,
-            "modificationTimeUnixTimeInMs": 1782888411242,
+            "creationTimeUnixTimeInMs": 1782913046659,
+            "modificationTimeUnixTimeInMs": 1782913046659,
             "additionalProperties": {}
         },
         {
@@ -544,8 +545,8 @@
             "startLoopStepIdentifier": null,
             "logsExplorerUrl": null,
             "id": 0,
-            "creationTimeUnixTimeInMs": 1782888411242,
-            "modificationTimeUnixTimeInMs": 1782888411242,
+            "creationTimeUnixTimeInMs": 1782913046659,
+            "modificationTimeUnixTimeInMs": 1782913046659,
             "additionalProperties": {}
         }
     ],
