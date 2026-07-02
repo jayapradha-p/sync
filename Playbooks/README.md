@@ -9,3 +9,7 @@
 |GTI Enrichment|Content Hub Playbooks|This block enhances case entities with Google Threat Intelligence enrichment information. Works for IPs, URLs, hostnames, domains, hashes (MD5, SHA-1, SHA-256), threat actors, and CVEs.|
 |Google SecOps Enrichment|Content Hub Playbooks|This block retrieves relevant details about users and assets involved in the case, enhancing the context available for analysis and subsequent actions within Google SecOps SOAR.|
 |MITRE Enrichment|Content Hub Playbooks|This block retrieves detailed information about MITRE ATT&CK techniques and their associated mitigations, providing valuable context to understand adversary behaviors and possible defensive actions.|
+|My Playbook|Default|test description|
+|New Block|Default|An embedded workflow that can receive inputs and return an output.|
+|New Playbook|Default||
+|my Block|Default|An embedded workflow that can receive inputs and return an output.|
