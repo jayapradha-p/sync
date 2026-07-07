@@ -1,0 +1,71 @@
+identifier: 8620afe2-7e80-4e69-98d3-096296fbd4f3
+original_step_id: 8620afe2-7e80-4e69-98d3-096296fbd4f3
+instance_name: 'Summary '
+is_automatic: true
+name: Tools_Set Context Value
+is_skippable: false
+description: The action sets a key and value in a specific context (alert or case)
+action_provider: Scripts
+action_name: Tools_Set Context Value
+integration: Tools
+auto_skip_on_failure: false
+is_debug_mock_data: false
+parent_container_id: null
+is_touched_by_ai: false
+start_loop_step_id: null
+type: action
+parameters:
+-   step_id: null
+    playbook_id: null
+    name: AssignedUsers
+    value: null
+-   step_id: null
+    playbook_id: null
+    name: AsyncActionTimeout
+    value: '3600'
+-   step_id: null
+    playbook_id: null
+    name: AsyncPollingInterval
+    value: '300'
+-   step_id: null
+    playbook_id: null
+    name: DynamicInjectionInstancePlaceholder
+    value: null
+-   step_id: null
+    playbook_id: null
+    name: FallbackIntegrationInstance
+    value: null
+-   step_id: null
+    playbook_id: null
+    name: FetchInstanceByName
+    value: 'false'
+-   step_id: null
+    playbook_id: null
+    name: HasApprovalLink
+    value: null
+-   step_id: null
+    playbook_id: null
+    name: IntegrationInstance
+    value: null
+-   step_id: null
+    playbook_id: null
+    name: MessageToAssignee
+    value: null
+-   step_id: null
+    playbook_id: null
+    name: PendingActionTimeout
+    value: null
+-   step_id: null
+    playbook_id: null
+    name: ScriptName
+    value: Tools_Set Context Value
+-   step_id: null
+    playbook_id: null
+    name: ScriptParametersEntityFields
+    value: '{"Value":"{ summary: \"[Alert.REMEDIATION]\", delimiter:\"<sep>\" }","Key":"SUMMARY_DATA","Scope":"Alert"}'
+-   step_id: null
+    playbook_id: null
+    name: SelectedScopeName
+    value: All entities
+parallel_actions: []
+step_debug_data: null
