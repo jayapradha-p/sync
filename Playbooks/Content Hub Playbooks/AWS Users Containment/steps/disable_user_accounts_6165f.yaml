@@ -1,0 +1,57 @@
+identifier: 6165f56b-1322-43d7-aff6-b43680bee607
+original_step_id: 6165f56b-1322-43d7-aff6-b43680bee607
+instance_name: Disable User Accounts?
+is_automatic: false
+name: MultiChoiceQuestion
+is_skippable: false
+description: This step conditions the progress of the playbook according to a question
+    the analyst has to answer manually, would be used most for questions which can't
+    be answered automatically
+action_provider: Flow
+action_name: MultiChoiceQuestion
+integration: Flow
+auto_skip_on_failure: false
+is_debug_mock_data: false
+parent_container_id: null
+is_touched_by_ai: false
+start_loop_step_id: null
+type: multi_choice_question
+parameters:
+-   step_id: null
+    playbook_id: null
+    name: Answers
+    value: '{"1":"Approve","2":"Deny"}'
+-   step_id: null
+    playbook_id: null
+    name: AssignedUsers
+    value: null
+-   step_id: null
+    playbook_id: null
+    name: DynamicInjectionInstancePlaceholder
+    value: null
+-   step_id: null
+    playbook_id: null
+    name: FetchInstanceByName
+    value: null
+-   step_id: null
+    playbook_id: null
+    name: HasApprovalLink
+    value: null
+-   step_id: null
+    playbook_id: null
+    name: MessageToAssignee
+    value: null
+-   step_id: null
+    playbook_id: null
+    name: PendingActionTimeout
+    value: null
+-   step_id: null
+    playbook_id: null
+    name: Question
+    value: Disable user accounts?
+-   step_id: null
+    playbook_id: null
+    name: SelectedScopeName
+    value: null
+parallel_actions: []
+step_debug_data: null

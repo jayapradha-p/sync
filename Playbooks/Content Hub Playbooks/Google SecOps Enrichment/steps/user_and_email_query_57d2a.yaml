@@ -1,0 +1,74 @@
+identifier: 57d2ac65-c5df-457b-a118-082375d01aae
+original_step_id: 7d51e83b-64d1-4618-bb09-7db934a35160
+instance_name: User and Email Query
+is_automatic: true
+name: Siemplify_Set Scope Context Value
+is_skippable: false
+description: 'Action sets a value for a key specified that is stored in the Siemplify
+    database. Available scopes to get context values for: Alert, Case, Global. Action
+    is not working on Siemplify entities. Note: Key Name parameter is case insensitive.'
+action_provider: Scripts
+action_name: Siemplify_Set Scope Context Value
+integration: Siemplify
+auto_skip_on_failure: false
+is_debug_mock_data: false
+parent_container_id: null
+is_touched_by_ai: false
+start_loop_step_id: null
+type: action
+parameters:
+-   step_id: null
+    playbook_id: null
+    name: AssignedUsers
+    value: null
+-   step_id: null
+    playbook_id: null
+    name: AsyncActionTimeout
+    value: '3600'
+-   step_id: null
+    playbook_id: null
+    name: AsyncPollingInterval
+    value: '300'
+-   step_id: null
+    playbook_id: null
+    name: DynamicInjectionInstancePlaceholder
+    value: null
+-   step_id: null
+    playbook_id: null
+    name: FallbackIntegrationInstance
+    value: null
+-   step_id: null
+    playbook_id: null
+    name: FetchInstanceByName
+    value: 'false'
+-   step_id: null
+    playbook_id: null
+    name: HasApprovalLink
+    value: null
+-   step_id: null
+    playbook_id: null
+    name: IntegrationInstance
+    value: 116ac1fd-7ece-431d-ad31-fb1e678af6fc
+-   step_id: null
+    playbook_id: null
+    name: MessageToAssignee
+    value: null
+-   step_id: null
+    playbook_id: null
+    name: PendingActionTimeout
+    value: null
+-   step_id: null
+    playbook_id: null
+    name: ScriptName
+    value: Siemplify_Set Scope Context Value
+-   step_id: null
+    playbook_id: null
+    name: ScriptParametersEntityFields
+    value: '{"Context Scope":"Alert","Key Name":"SIEM_PRINCIPAL_USERS_QUERY","Key
+        Value":"[Join Emails.query] OR  principal.user.userid = \"[Event.event_principal_user_userid]\""}'
+-   step_id: null
+    playbook_id: null
+    name: SelectedScopeName
+    value: All entities
+parallel_actions: []
+step_debug_data: null

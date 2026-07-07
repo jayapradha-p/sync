@@ -1,20 +1,20 @@
 {
-    "system_version": "6.1.6.177",
     "readme_addons": {
-        "Integration": {},
-        "Mappings": {},
-        "Visual Family": {},
-        "Playbook": {
-            "New Playbook": "hellooo",
+        "Block": {
             "Block_1": "hellooo"
         },
         "Connector": {},
+        "Integration": {},
         "Job": {},
-        "Block": {
-            "Block_1": "hellooo"
-        }
+        "Mappings": {},
+        "Playbook": {
+            "Block_1": "hellooo",
+            "New Playbook": "hellooo"
+        },
+        "Visual Family": {}
     },
     "settings": {
         "update_root_readme": true
-    }
+    },
+    "system_version": "6.1.6.177"
 }
