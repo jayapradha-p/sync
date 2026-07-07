@@ -1,8 +1,0 @@
-identifier: 717d9a19-0410-48dd-8dab-a46adff4c939
-type_: get_inputs
-logical_operator: and
-conditions:
--   field_name: Manual
-    value: 'True'
-    match_type: equal
-    custom_operator_name: null

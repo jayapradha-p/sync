@@ -1,6 +1,0 @@
--   description: An embedded workflow that can receive inputs and return an output.
-    version: '1'
-    item_name: New Block
-    item_type: Block
-    publish_time: 1782888510
-    ticket_number: ''
