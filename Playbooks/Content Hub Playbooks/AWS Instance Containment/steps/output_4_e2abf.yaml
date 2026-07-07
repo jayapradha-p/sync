@@ -1,0 +1,29 @@
+identifier: e2abfb5a-a52e-4a15-aa83-ba6698fd4b94
+original_step_id: aea80caa-fe8a-4b20-a644-21c8a0623743
+parent_step_ids:
+- 41e4d7c0-f23b-4655-a8db-5e7d8a2671b9
+parent_step_id: 41e4d7c0-f23b-4655-a8db-5e7d8a2671b9
+previous_result_condition: '{"41e4d7c0-f23b-4655-a8db-5e7d8a2671b9": ""}'
+instance_name: Output_4
+is_automatic: true
+name: Output
+is_skippable: false
+description: ''
+action_provider: Flow
+action_name: OutputAction
+integration: Flow
+auto_skip_on_failure: false
+is_debug_mock_data: false
+parent_container_id: null
+is_touched_by_ai: false
+start_loop_step_id: null
+type: output
+parameters:
+-   step_id: null
+    playbook_id: null
+    name: NestedWorkflowOutput
+    value: '[Auto Stop Instances.is_success]
+
+        '
+parallel_actions: []
+step_debug_data: null

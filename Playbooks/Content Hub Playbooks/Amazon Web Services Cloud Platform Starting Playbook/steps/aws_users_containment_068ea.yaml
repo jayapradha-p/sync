@@ -1,0 +1,74 @@
+identifier: 068ea10d-7538-41db-a9a2-f693fb66e331
+original_step_id: 068ea10d-7538-41db-a9a2-f693fb66e331
+parent_step_ids:
+- 641502da-0ef7-4101-bc86-87e13b1bc2af
+parent_step_id: 641502da-0ef7-4101-bc86-87e13b1bc2af
+previous_result_condition: '{"641502da-0ef7-4101-bc86-87e13b1bc2af": ""}'
+instance_name: AWS Users Containment
+is_automatic: true
+name: AWS Users Containment
+is_skippable: false
+description: An embedded workflow that can receive inputs and return an output.
+action_provider: Flow
+action_name: NestedAction
+integration: Siemplify
+auto_skip_on_failure: false
+is_debug_mock_data: false
+parent_container_id: null
+is_touched_by_ai: false
+start_loop_step_id: null
+type: block
+parameters:
+-   step_id: null
+    playbook_id: null
+    name: AssignedUsers
+    value: null
+-   step_id: null
+    playbook_id: null
+    name: DynamicInjectionInstancePlaceholder
+    value: null
+-   step_id: null
+    playbook_id: null
+    name: FetchInstanceByName
+    value: null
+-   step_id: null
+    playbook_id: null
+    name: HasApprovalLink
+    value: null
+-   step_id: null
+    playbook_id: null
+    name: MessageToAssignee
+    value: null
+-   step_id: null
+    playbook_id: null
+    name: NestedWorkflowIdentifier
+    value: 1c413688-dc98-42a3-a294-607314ec4ef0
+-   step_id: null
+    playbook_id: null
+    name: NestedWorkflowInputs
+    value: '[]'
+-   step_id: null
+    playbook_id: null
+    name: PendingActionTimeout
+    value: null
+-   step_id: null
+    playbook_id: null
+    name: UseEntitiesLoopScope
+    value: 'true'
+-   step_id: null
+    playbook_id: null
+    name: NestedWorkflowSteps
+    value: '[{"identifier":"0421194c-096d-4452-b9aa-857a8422aaee","integration":"Flow","actionName":"IfFlowCondition","instanceName":"Init
+        Remediation Variable","stepType":4},{"identifier":"1c4acf16-f5e2-45af-b2c9-e960edc66cfb","integration":"Tools","actionName":"Tools_Set
+        Context Value","instanceName":"USER_REMEDIATION_SUMMARY_DENY","stepType":0},{"identifier":"5d15ef8b-862c-4c89-ac63-d7b711c324de","integration":"Tools","actionName":"Tools_Set
+        Context Value","instanceName":"Init Remediation","stepType":0},{"identifier":"6165f56b-1322-43d7-aff6-b43680bee607","integration":"Flow","actionName":"MultiChoiceQuestion","instanceName":"Disable
+        User Accounts?","stepType":1},{"identifier":"9306b778-305e-4f05-bc83-316bddf6d526","integration":"Flow","actionName":"EntitySelection","instanceName":"AWS
+        User Filter","stepType":0},{"identifier":"c762e18a-ff1b-4ca0-8006-7c246c139501","integration":"AWSIAM","actionName":"AWSIAM_Disable
+        User Access","instanceName":"AWSIAM_Disable User Access_1","stepType":0},{"identifier":"d507ed7c-973e-45bc-a80d-1201363f4127","integration":"Tools","actionName":"Tools_Set
+        Context Value","instanceName":"USER_REMEDIATION_SUMMARY_APRPOVE","stepType":0}]'
+-   step_id: null
+    playbook_id: null
+    name: NestedWorkflowOutput
+    value: null
+parallel_actions: []
+step_debug_data: null

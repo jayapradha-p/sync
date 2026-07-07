@@ -1,0 +1,65 @@
+identifier: 641502da-0ef7-4101-bc86-87e13b1bc2af
+original_step_id: 641502da-0ef7-4101-bc86-87e13b1bc2af
+parent_step_ids:
+- a9aaa78c-c227-4da8-892d-02cb7651b0f2
+parent_step_id: a9aaa78c-c227-4da8-892d-02cb7651b0f2
+previous_result_condition: '{"a9aaa78c-c227-4da8-892d-02cb7651b0f2": ""}'
+instance_name: AWS Containment - Instances
+is_automatic: true
+name: AWS EC2 Containment
+is_skippable: false
+description: This block allows the playbook to automatically stop EC2 instances that
+    were identified in the alert as potentially compromised or suspicious, supporting
+    the containment phase of the incident response process.
+action_provider: Flow
+action_name: NestedAction
+integration: Siemplify
+auto_skip_on_failure: false
+is_debug_mock_data: false
+parent_container_id: null
+is_touched_by_ai: false
+start_loop_step_id: null
+type: block
+parameters:
+-   step_id: null
+    playbook_id: null
+    name: AssignedUsers
+    value: null
+-   step_id: null
+    playbook_id: null
+    name: DynamicInjectionInstancePlaceholder
+    value: null
+-   step_id: null
+    playbook_id: null
+    name: FetchInstanceByName
+    value: null
+-   step_id: null
+    playbook_id: null
+    name: HasApprovalLink
+    value: null
+-   step_id: null
+    playbook_id: null
+    name: MessageToAssignee
+    value: null
+-   step_id: null
+    playbook_id: null
+    name: NestedWorkflowIdentifier
+    value: 3a8557e1-7f33-477e-928d-b1e92c4870a6
+-   step_id: null
+    playbook_id: null
+    name: NestedWorkflowInputs
+    value: '[]'
+-   step_id: null
+    playbook_id: null
+    name: PendingActionTimeout
+    value: null
+-   step_id: null
+    playbook_id: null
+    name: NestedWorkflowSteps
+    value: '[]'
+-   step_id: null
+    playbook_id: null
+    name: NestedWorkflowOutput
+    value: null
+parallel_actions: []
+step_debug_data: null

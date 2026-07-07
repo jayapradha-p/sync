@@ -1,0 +1,29 @@
+identifier: bc8dccc4-ab35-47fd-b0ba-3704e4351a9b
+is_enable: true
+version: '0'
+name: AWS EC2 Containment
+description: This block allows the playbook to automatically stop EC2 instances that
+    were identified in the alert as potentially compromised or suspicious, supporting
+    the containment phase of the incident response process.
+priority: 2
+category_name: Content Hub Playbooks
+category: 2
+environments:
+- Default Environment
+is_debug_mode: false
+type: block
+creator: 9e1cb0e4-a750-431a-b413-a7f76a8b62d7
+modified_by: Siemplify automation
+execution_scope: 0
+original_playbook_identifier: bc8dccc4-ab35-47fd-b0ba-3704e4351a9b
+creation_time_unix_time_in_ms: 1783402321734
+modification_time_unix_time_in_ms: 1783402321734
+template_name: null
+debug_data:
+    debugBaseAlertId: null
+    debugAlertId: null
+entity_access_level: 2
+default_access_level: 2
+permissions: []
+overview_templates: []
+creation_source: 1

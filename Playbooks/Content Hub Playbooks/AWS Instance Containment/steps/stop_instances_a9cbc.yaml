@@ -1,0 +1,83 @@
+identifier: a9cbcea3-80a5-466e-aa86-f925c939619f
+original_step_id: 484cc4bd-52c1-46bc-81f5-c695c088b09b
+parent_step_ids:
+- 7a901b28-1e70-4b48-918f-731ee91bac47
+parent_step_id: 7a901b28-1e70-4b48-918f-731ee91bac47
+previous_result_condition: '{"7a901b28-1e70-4b48-918f-731ee91bac47": "1"}'
+instance_name: Stop Instances
+is_automatic: false
+name: AWSEC2_Stop Instance
+is_skippable: false
+description: Stop an Amazon EBS-backed instance. When you stop an instance, we attempt
+    to shut it down forcibly after a short while. It can take a few minutes for the
+    instance to stop. The instance can be started at any time. Notice that you can't
+    stop an instance store-backed instance.  For more information about instance store-backed
+    instances, see https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ComponentsAMIs.html#storage-for-the-root-device
+action_provider: Scripts
+action_name: AWSEC2_Stop Instance
+integration: AWSEC2
+auto_skip_on_failure: false
+is_debug_mock_data: false
+parent_container_id: null
+is_touched_by_ai: false
+start_loop_step_id: null
+type: action
+parameters:
+-   step_id: null
+    playbook_id: null
+    name: AssignedUsers
+    value: null
+-   step_id: null
+    playbook_id: null
+    name: AsyncActionTimeout
+    value: '3600'
+-   step_id: null
+    playbook_id: null
+    name: AsyncPollingInterval
+    value: '30'
+-   step_id: null
+    playbook_id: null
+    name: DynamicInjectionInstancePlaceholder
+    value: null
+-   step_id: null
+    playbook_id: null
+    name: FallbackIntegrationInstance
+    value: null
+-   step_id: null
+    playbook_id: null
+    name: FetchInstanceByName
+    value: 'false'
+-   step_id: null
+    playbook_id: null
+    name: HasApprovalLink
+    value: null
+-   step_id: null
+    playbook_id: null
+    name: IntegrationInstance
+    value: null
+-   step_id: null
+    playbook_id: null
+    name: MessageToAssignee
+    value: Stop Compute Instance?
+-   step_id: null
+    playbook_id: null
+    name: PendingActionTimeout
+    value: null
+-   step_id: null
+    playbook_id: null
+    name: RetryConfiguration
+    value: '{"Enabled":false,"IntervalInSeconds":30,"NumberOfRetries":1}'
+-   step_id: null
+    playbook_id: null
+    name: ScriptName
+    value: AWSEC2_Stop Instance
+-   step_id: null
+    playbook_id: null
+    name: ScriptParametersEntityFields
+    value: '{"Instance IDs":"[Instance Ids.ScriptResult]","Force":true}'
+-   step_id: null
+    playbook_id: null
+    name: SelectedScopeName
+    value: AWS EC2 Filter.SelectedEntities
+parallel_actions: []
+step_debug_data: null

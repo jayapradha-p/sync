@@ -1,0 +1,76 @@
+identifier: 1c4acf16-f5e2-45af-b2c9-e960edc66cfb
+original_step_id: 1c4acf16-f5e2-45af-b2c9-e960edc66cfb
+parent_step_ids:
+- 6165f56b-1322-43d7-aff6-b43680bee607
+parent_step_id: 6165f56b-1322-43d7-aff6-b43680bee607
+previous_result_condition: '{"6165f56b-1322-43d7-aff6-b43680bee607": "2"}'
+instance_name: USER_REMEDIATION_SUMMARY_DENY
+is_automatic: true
+name: Tools_Set Context Value
+is_skippable: false
+description: The action sets a key and value in a specific context (alert or case)
+action_provider: Scripts
+action_name: Tools_Set Context Value
+integration: Tools
+auto_skip_on_failure: false
+is_debug_mock_data: false
+parent_container_id: null
+is_touched_by_ai: false
+start_loop_step_id: null
+type: action
+parameters:
+-   step_id: null
+    playbook_id: null
+    name: AssignedUsers
+    value: null
+-   step_id: null
+    playbook_id: null
+    name: AsyncActionTimeout
+    value: '86400'
+-   step_id: null
+    playbook_id: null
+    name: AsyncPollingInterval
+    value: '3600'
+-   step_id: null
+    playbook_id: null
+    name: DynamicInjectionInstancePlaceholder
+    value: null
+-   step_id: null
+    playbook_id: null
+    name: FallbackIntegrationInstance
+    value: null
+-   step_id: null
+    playbook_id: null
+    name: FetchInstanceByName
+    value: null
+-   step_id: null
+    playbook_id: null
+    name: HasApprovalLink
+    value: null
+-   step_id: null
+    playbook_id: null
+    name: IntegrationInstance
+    value: null
+-   step_id: null
+    playbook_id: null
+    name: MessageToAssignee
+    value: null
+-   step_id: null
+    playbook_id: null
+    name: PendingActionTimeout
+    value: null
+-   step_id: null
+    playbook_id: null
+    name: ScriptName
+    value: Tools_Set Context Value
+-   step_id: null
+    playbook_id: null
+    name: ScriptParametersEntityFields
+    value: '{"Value":"[Alert.REMEDIATION]<sep>During the investigation, decision was
+        made not to disable any user accounts.","Key":"REMEDIATION","Scope":"Alert"}'
+-   step_id: null
+    playbook_id: null
+    name: SelectedScopeName
+    value: All entities
+parallel_actions: []
+step_debug_data: null

@@ -20,6 +20,7 @@
 |Name|Description|
 |----|-----------|
 |AWS EC2 Containment|This block allows the playbook to automatically stop EC2 instances that were identified in the alert as potentially compromised or suspicious, supporting the containment phase of the incident response process.|
+|AWS EC2 Enrichment|This block retrieves EC2 instance data associated with the case and provides context for other actions or analysis.|
 |AWS Enrichment|This block retrieves EC2 instance data associated with the case and provides context for other actions or analysis.|
 |AWS Instance Containment|This block allows you to stop EC2 instances that were identified in the alert as potentially compromised or suspicious, supporting the containment phase of the incident response process.It uses a boolean input to control manual or automatic execution and returns the containment result, false on failure, or an empty value if no action is taken.|
 |AWS Users Containment|An embedded workflow that can receive inputs and return an output.|
