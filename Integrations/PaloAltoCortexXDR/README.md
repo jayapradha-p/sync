@@ -3,13 +3,13 @@
 
 Cortex XDR - XDR is the world’s first detection and response app that natively integrates network, endpoint and cloud data to stop sophisticated attacks.  Cortex XDR accurately detects threats with behavioral analytics and reveals the root cause to speed up investigations.
 
-Python Version - 3
+Python Version - V3_11
 #### Parameters
 |Name|Description|IsMandatory|Type|DefaultValue|
 |----|-----------|-----------|----|------------|
 |Api Root|None|True|String|https://api-{fqdn}|
 |Api Key|None|True|Password|*****|
-|Api Key ID|None|True|Integer|3|
+|Api Key ID|None|True|Int|3|
 |Verify SSL|None|False|Boolean||
 
 
@@ -59,44 +59,6 @@ Python Version - 3
 
 
 ## Actions
-#### Get Endpoint Agent Report
-Get the agent report for an endpoint.
-Timeout - 600 Seconds
-
-
-
-##### JSON Results
-```json
-
-```
-
-
-
-#### Resolve an Incident
-The ability to close XDR incidents with a close reason.
-Timeout - 600 Seconds
-
-
-|Name|Description|IsMandatory|Type|DefaultValue|
-|----|-----------|-----------|----|------------|
-|Incident ID|The ID of the incident to be updated.|True|String||
-|Status|Updated incident status|True|List|UNDER_INVESTIGATION|
-|Resolve Comment|Descriptive comment explaining the incident change.|False|String||
-
-
-
-#### Add Comment To Incident
-Add a comment to an incident in Palo Alto Cortex XDR.
-Timeout - 600 Seconds
-
-
-|Name|Description|IsMandatory|Type|DefaultValue|
-|----|-----------|-----------|----|------------|
-|Incident ID|ID of the incident that needs to be updated.|True|String||
-|Comment|Comment for the incident.|True|String||
-
-
-
 #### Update an Incident
 The ability to set a specific XDR incident as under investigation, assign to named users, etc.
 Timeout - 600 Seconds
@@ -111,14 +73,14 @@ Timeout - 600 Seconds
 
 
 
-#### Add Hashes to Block List
-The action will add files which do not exist in the allow or block lists to a block list. Note - only SH256 format  for file hashes is supported.
+#### Isolate Endpoint
+Isolate an endpoint.
 Timeout - 600 Seconds
 
 
 |Name|Description|IsMandatory|Type|DefaultValue|
 |----|-----------|-----------|----|------------|
-|Comment|Provide additional comment that represents additional information regarding the action.|False|String||
+|Agent ID|A comma-separated list of agent IDs to isolate. This parameter works in conjunction with the provided entities.|False|String||
 
 
 
@@ -142,39 +104,29 @@ Timeout - 600 Seconds
 
 
 
-#### Ping
-Test connectivity to Palo Alto Cortex XDR
+#### Enrich Entities
+Enrich Siemplify Host and IP entities based on the information from the Palo Alto Cortex XDR.
 Timeout - 600 Seconds
-
-
-
-#### Unisolate Endpoint
-Unisolate an endpoint.
-Timeout - 600 Seconds
-
-
-|Name|Description|IsMandatory|Type|DefaultValue|
-|----|-----------|-----------|----|------------|
-|Agent ID|A comma-separated list of agent IDs to unisolate. This parameter works in conjunction with the provided entities.|False|String||
-
-
-
-#### Scan Endpoint
-Use the "Scan Endpoint" action to scan endpoints in Palo Alto XDR. Supported Entities: IP Address, Hostname. Note: This action executes asynchronously, requiring you to adjust the script timeout value in the Google SecOps IDE.
-Timeout - 600 Seconds
-
-
-|Name|Description|IsMandatory|Type|DefaultValue|
-|----|-----------|-----------|----|------------|
-|Incident ID|The ID of the incident to associate the scan activity with, allowing the results to appear in the incident timeline.|False|String||
-|Agent ID|A comma-separated list of agent IDs to include in the scan. This parameter works in conjunction with the provided entities|False|String||
 
 
 
 ##### JSON Results
 ```json
-[{"Entity": "x.x.x.x", "EntityResult": {"endpoint_id": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx", "endpoint_name": "some-endpoint-name", "endpoint_type": "AGENT_TYPE_CONTAINERIZED", "endpoint_status": "CONNECTED", "os_type": "AGENT_OS_LINUX", "os_version": "x.x.x", "ip": ["x.x.x.x"], "ipv6": [], "public_ip": "x.x.x.x", "users": [], "domain": "some.domain.com", "alias": "", "first_seen": 1700000000000, "last_seen": 1710000000000, "content_version": "xxxx-xxxxx", "installation_package": "some-installer", "active_directory": [], "install_date": 1700000000000, "endpoint_version": "x.x.x.xxxxxx", "is_isolated": "AGENT_UNISOLATED", "isolated_date": null, "group_name": [], "operational_status": "PROTECTED", "operational_status_description": "[]", "operational_status_details": [], "scan_status": "COMPLETED_SUCCESSFULLY", "content_release_timestamp": 1710000000000, "last_content_update_time": 1710000000000, "operating_system": "Some OS x.x", "mac_address": ["xx:xx:xx:xx:xx:xx"], "assigned_prevention_policy": "Linux Default", "assigned_extensions_policy": "Linux Default", "token_hash": "", "tags": {"server_tags": [], "endpoint_tags": []}, "content_status": "UP_TO_DATE"}}]
+[{"EntityResult": {"domain": "st2.local", "endpoint_name": "ST2-PC-1-14", "endpoint_type": "AGENT_TYPE_SERVER", "ip": null, "endpoint_version": "6.1.0.9915", "install_date": 1568103207592, "installation_package": "papi-test", "is_isolated": null, "group_name": null, "alias": "", "active_directory": null, "endpoint_status": "DISCONNECTED", "endpoint_id": "4ce98b4d8d2b45a9a1d82dc71f0d1304", "content_version": "", "os_type": "AGENT_OS_WINDOWS", "last_seen": 1568103207592, "first_seen": 1568103207591, "users": ["TEST USER"]}, "Entity": "PC01"}]
 ```
+
+
+
+#### Resolve an Incident
+The ability to close XDR incidents with a close reason.
+Timeout - 600 Seconds
+
+
+|Name|Description|IsMandatory|Type|DefaultValue|
+|----|-----------|-----------|----|------------|
+|Incident ID|The ID of the incident to be updated.|True|String||
+|Status|Updated incident status|True|List|UNDER_INVESTIGATION|
+|Resolve Comment|Descriptive comment explaining the incident change.|False|String||
 
 
 
@@ -222,16 +174,33 @@ Timeout - 600 Seconds
 
 
 
-#### Enrich Entities
-Enrich Siemplify Host and IP entities based on the information from the Palo Alto Cortex XDR.
+#### Scan Endpoint
+Use the "Scan Endpoint" action to scan endpoints in Palo Alto XDR. Supported Entities: IP Address, Hostname. Note: This action executes asynchronously, requiring you to adjust the script timeout value in the Google SecOps IDE.
 Timeout - 600 Seconds
+
+
+|Name|Description|IsMandatory|Type|DefaultValue|
+|----|-----------|-----------|----|------------|
+|Incident ID|The ID of the incident to associate the scan activity with, allowing the results to appear in the incident timeline.|False|String||
+|Agent ID|A comma-separated list of agent IDs to include in the scan. This parameter works in conjunction with the provided entities|False|String||
 
 
 
 ##### JSON Results
 ```json
-[{"EntityResult": {"domain": "st2.local", "endpoint_name": "ST2-PC-1-14", "endpoint_type": "AGENT_TYPE_SERVER", "ip": null, "endpoint_version": "6.1.0.9915", "install_date": 1568103207592, "installation_package": "papi-test", "is_isolated": null, "group_name": null, "alias": "", "active_directory": null, "endpoint_status": "DISCONNECTED", "endpoint_id": "4ce98b4d8d2b45a9a1d82dc71f0d1304", "content_version": "", "os_type": "AGENT_OS_WINDOWS", "last_seen": 1568103207592, "first_seen": 1568103207591, "users": ["TEST USER"]}, "Entity": "PC01"}]
+[{"Entity": "x.x.x.x", "EntityResult": {"endpoint_id": "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx", "endpoint_name": "some-endpoint-name", "endpoint_type": "AGENT_TYPE_CONTAINERIZED", "endpoint_status": "CONNECTED", "os_type": "AGENT_OS_LINUX", "os_version": "x.x.x", "ip": ["x.x.x.x"], "ipv6": [], "public_ip": "x.x.x.x", "users": [], "domain": "some.domain.com", "alias": "", "first_seen": 1700000000000, "last_seen": 1710000000000, "content_version": "xxxx-xxxxx", "installation_package": "some-installer", "active_directory": [], "install_date": 1700000000000, "endpoint_version": "x.x.x.xxxxxx", "is_isolated": "AGENT_UNISOLATED", "isolated_date": null, "group_name": [], "operational_status": "PROTECTED", "operational_status_description": "[]", "operational_status_details": [], "scan_status": "COMPLETED_SUCCESSFULLY", "content_release_timestamp": 1710000000000, "last_content_update_time": 1710000000000, "operating_system": "Some OS x.x", "mac_address": ["xx:xx:xx:xx:xx:xx"], "assigned_prevention_policy": "Linux Default", "assigned_extensions_policy": "Linux Default", "token_hash": "", "tags": {"server_tags": [], "endpoint_tags": []}, "content_status": "UP_TO_DATE"}}]
 ```
+
+
+
+#### Add Hashes to Block List
+The action will add files which do not exist in the allow or block lists to a block list. Note - only SH256 format  for file hashes is supported.
+Timeout - 600 Seconds
+
+
+|Name|Description|IsMandatory|Type|DefaultValue|
+|----|-----------|-----------|----|------------|
+|Comment|Provide additional comment that represents additional information regarding the action.|False|String||
 
 
 
@@ -253,14 +222,45 @@ Timeout - 600 Seconds
 
 
 
-#### Isolate Endpoint
-Isolate an endpoint.
+#### Get Endpoint Agent Report
+Get the agent report for an endpoint.
+Timeout - 600 Seconds
+
+
+
+##### JSON Results
+```json
+
+```
+
+
+
+#### Ping
+Test connectivity to Palo Alto Cortex XDR
+Timeout - 600 Seconds
+
+
+
+#### Unisolate Endpoint
+Unisolate an endpoint.
 Timeout - 600 Seconds
 
 
 |Name|Description|IsMandatory|Type|DefaultValue|
 |----|-----------|-----------|----|------------|
-|Agent ID|A comma-separated list of agent IDs to isolate. This parameter works in conjunction with the provided entities.|False|String||
+|Agent ID|A comma-separated list of agent IDs to unisolate. This parameter works in conjunction with the provided entities.|False|String||
+
+
+
+#### Add Comment To Incident
+Add a comment to an incident in Palo Alto Cortex XDR.
+Timeout - 600 Seconds
+
+
+|Name|Description|IsMandatory|Type|DefaultValue|
+|----|-----------|-----------|----|------------|
+|Incident ID|ID of the incident that needs to be updated.|True|String||
+|Comment|Comment for the incident.|True|String||
 
 
 
@@ -278,7 +278,7 @@ This job synchronizes Google SecOps Alerts and Palo Alto XDR Incidents. It ensur
 |Api Root|False|String||
 |Api Key|True|Password|*****|
 |Api Key ID|True|String||
-|Max Hours Backwards|True|Integer|24|
+|Max Hours Backwards|True|Int|24|
 |User Mapping JSON|False|String|{"Google SecOps Display Name": "XDR Username"}|
 |Verify SSL|False|Boolean|true|
 
@@ -290,25 +290,22 @@ Pull incidents from Palo Alto XDR. Dynamic List works with the “source” para
 
 |Name|Description|IsMandatory|Type|DefaultValue|
 |----|-----------|-----------|----|------------|
-|Lowest Incident Severity To Fetch|The lowest severity of the incidents to retrieve. If no value is provided, the connector ingest incidents with all severities.|False|String||
-|Lowest Incident SmartScore To Fetch|The lowest SmartScore (0 to 100) of the incidents to fetch. This filter operates independently of the severity filter. If no value is provided, the SmartScore filter is ignored.|False|Integer||
-|Environment Field Name|The name of the field where the environment name is stored. If the environment field is missing, the connector uses the default value.|False|String||
-|Environment Regex Pattern|A regular expression pattern to run on the value found in the Environment Field Name field. This parameter lets you manipulate the environment field using the regular expression logic. Use the default value .* to retrieve the required raw Environment Field Name value. If the regular expression pattern is null or empty, or the environment value is null, the final environment result is the default environment.|False|Integer||
-|DeviceProductField|The name of the field where the product name is stored.|True|String|Product Name|
-|EventClassId|The name of the field that determines the event name (subtype).|False|String|event_type|
 |Api Root|The API root of the Palo Alto XDR instance.|True|String|https://api-{fqdn}|
 |Api Key|The Palo Alto XDR API key.|True|Password|*****|
-|Api Key ID|The Palo Alto XDR API key ID.|True|Integer|3|
+|Api Key ID|The Palo Alto XDR API key ID.|True|Int|3|
 |Verify SSL|If selected, the integration validates the SSL certificate when connecting to the Palo Alto XDR server.|False|Boolean|true|
-|Alerts Count Limit|The maximum number of incidents the connector processes for every iteration. Maximum: 100.|False|Integer|10|
+|Alerts Count Limit|The maximum number of incidents the connector processes for every iteration. Maximum: 100.|False|Int|10|
 |Use dynamic list as a blocklist|If selected, the connector uses the dynamic list as a blocklist.|False|Boolean|false|
 |Include Historical Artifacts|If selected, the connector retrieves all historical artifacts associated with an alert during the initial ingestion. Enabling this option may increase the volume of data ingested during the first run.|False|Boolean|true|
 |Disable Overflow|If selected, the connector ignores the Google SecOps overflow mechanism.|False|Boolean|true|
-|Max Days Backwards|The maximum number of days in the past to search for and retrieve incidents.|True|Integer|24|
+|Max Days Backwards|The maximum number of days in the past to search for and retrieve incidents.|True|Int|24|
 |Status Filter|A comma-separated list of alert statuses for the connector to ingest. If no value is provided, the connector defaults to fetching alerts with the New and Under Investigation statuses.|False|String|New,Under Investigation|
 |Split Incident Alerts|If selected, the connector separates the individual alerts within a single source incident, creating a distinct SOAR Alert for each one.|False|Boolean|false|
 |Lowest Alert Severity To Fetch|The lowest severity of the alerts to retrieve. If no value is provided, the connector ingests alerts with all severity levels. The Lowest Incident SmartScore To Fetch acts as a master filter. If an incident's score meets this threshold, all associated alerts will be processed, regardless of their individual severity filter settings.|False|String||
-|PythonProcessTimeout|The timeout limit, in seconds, for the Python process that runs the current script.|True|Integer|180|
+|Lowest Incident Severity To Fetch|The lowest severity of the incidents to retrieve. If no value is provided, the connector ingest incidents with all severities.|False|String||
+|Lowest Incident SmartScore To Fetch|The lowest SmartScore (0 to 100) of the incidents to fetch. This filter operates independently of the severity filter. If no value is provided, the SmartScore filter is ignored.|False|Int||
+|Environment Field Name|The name of the field where the environment name is stored. If the environment field is missing, the connector uses the default value.|False|String||
+|Environment Regex Pattern|A regular expression pattern to run on the value found in the Environment Field Name field. This parameter lets you manipulate the environment field using the regular expression logic. Use the default value .* to retrieve the required raw Environment Field Name value. If the regular expression pattern is null or empty, or the environment value is null, the final environment result is the default environment.|False|Int||
 |Proxy Server Address|The address of the proxy server to use.|False|String||
 |Proxy Username|The proxy username to authenticate with.|False|String||
 |Proxy Password|The proxy password to authenticate with.|False|Password|*****|
