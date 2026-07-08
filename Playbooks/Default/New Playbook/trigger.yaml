@@ -1,8 +1,0 @@
-identifier: 45c1be10-210b-4336-bca1-aff188c004b1
-type_: all
-logical_operator: and
-conditions:
--   field_name: null
-    value: null
-    match_type: equal
-    custom_operator_name: null
