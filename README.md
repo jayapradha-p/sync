@@ -21,7 +21,7 @@
 ## Connectors
 |Name|Description|Has Mappings|
 |----|-----------|------------|
-|Anomali Staxx - Indicators Connector|Pull indicators from Anomali Staxx|False|
+|Palo Alto Cortex XDR Connector|Pull incidents from Palo Alto XDR. Dynamic List works with the “source” parameter.|True|
 
 
 ## Playbooks
