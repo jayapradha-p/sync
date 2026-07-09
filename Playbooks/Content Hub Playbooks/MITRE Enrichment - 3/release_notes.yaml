@@ -1,0 +1,8 @@
+-   description: This block retrieves detailed information about MITRE ATT&CK techniques
+        and their associated mitigations, providing valuable context to understand
+        adversary behaviors and possible defensive actions.
+    version: '0'
+    item_name: MITRE Enrichment - 3
+    item_type: Block
+    publish_time: 1783582638
+    ticket_number: ''

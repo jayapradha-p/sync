@@ -1,0 +1,70 @@
+identifier: f16742e6-3a47-492b-a2f2-0cd836c84e3e
+original_step_id: f16742e6-3a47-492b-a2f2-0cd836c84e3e
+parent_step_ids:
+- 56a43b14-40e6-4e59-8a35-ba6214a6ab35
+parent_step_id: 56a43b14-40e6-4e59-8a35-ba6214a6ab35
+previous_result_condition: '{"56a43b14-40e6-4e59-8a35-ba6214a6ab35": ""}'
+instance_name: Microsoft Defender For Endpoint Enrichment
+is_automatic: true
+name: Microsoft Defender For Endpoint Enrichment
+is_skippable: false
+description: This block enriches Microsoft Defender for Endpoint hosts by retrieving
+    relevant data such as logged-on users, file-related alerts, and machine-related
+    alerts. It also supports file enrichment using SHA1 hashes, providing additional
+    context to assist investigation and response activities.
+action_provider: Flow
+action_name: NestedAction
+integration: Siemplify
+auto_skip_on_failure: false
+is_debug_mock_data: false
+parent_container_id: null
+is_touched_by_ai: false
+start_loop_step_id: null
+type: block
+parameters:
+-   step_id: null
+    playbook_id: null
+    name: AssignedUsers
+    value: null
+-   step_id: null
+    playbook_id: null
+    name: DynamicInjectionInstancePlaceholder
+    value: null
+-   step_id: null
+    playbook_id: null
+    name: FetchInstanceByName
+    value: null
+-   step_id: null
+    playbook_id: null
+    name: HasApprovalLink
+    value: null
+-   step_id: null
+    playbook_id: null
+    name: MessageToAssignee
+    value: null
+-   step_id: null
+    playbook_id: null
+    name: NestedWorkflowIdentifier
+    value: cdb700f2-ac47-4c79-ba19-1591e8d98f84
+-   step_id: null
+    playbook_id: null
+    name: NestedWorkflowInputs
+    value: '[]'
+-   step_id: null
+    playbook_id: null
+    name: PendingActionTimeout
+    value: null
+-   step_id: null
+    playbook_id: null
+    name: NestedWorkflowSteps
+    value: '[{"identifier":"62b56cc8-40f2-4297-ac2f-f50eddc71fb5","integration":"MicrosoftDefenderATP","actionName":"MicrosoftDefenderATP_Get
+        Machine Logon Users","instanceName":"Machine Logon Users","stepType":0},{"identifier":"653afb59-6004-4e6f-9827-ed81af79cbb5","integration":"MicrosoftDefenderATP","actionName":"MicrosoftDefenderATP_Enrich
+        Entities","instanceName":"Microsoft Defender Enrich Entities","stepType":0},{"identifier":"c015d594-aa02-48dc-bff3-d35520392cbf","integration":"MicrosoftDefenderATP","actionName":"MicrosoftDefenderATP_Get
+        Machine Related Alerts","instanceName":"MicrosoftDefender Related Alerts","stepType":0},{"identifier":"fa138fdb-72ad-4598-be4b-ee8171900d90","integration":"MicrosoftDefenderATP","actionName":"MicrosoftDefenderATP_Get
+        File Related Alerts","instanceName":"MicrosoftDefender File Related Alerts","stepType":0}]'
+-   step_id: null
+    playbook_id: null
+    name: NestedWorkflowOutput
+    value: null
+parallel_actions: []
+step_debug_data: null

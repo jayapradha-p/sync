@@ -1,0 +1,67 @@
+identifier: bd31a28a-1df0-43ed-9448-5a53ab0974ab
+original_step_id: bd31a28a-1df0-43ed-9448-5a53ab0974ab
+parent_step_ids:
+- b2fe5ce4-c673-41f3-8433-2ae37177455c
+parent_step_id: b2fe5ce4-c673-41f3-8433-2ae37177455c
+previous_result_condition: '{"b2fe5ce4-c673-41f3-8433-2ae37177455c": ""}'
+instance_name: MITRE Enrichment
+is_automatic: true
+name: MITRE Enrichment
+is_skippable: false
+description: This block retrieves detailed information about MITRE ATT&CK techniques
+    and their associated mitigations, providing valuable context to understand adversary
+    behaviors and possible defensive actions.
+action_provider: Flow
+action_name: NestedAction
+integration: Siemplify
+auto_skip_on_failure: false
+is_debug_mock_data: false
+parent_container_id: null
+is_touched_by_ai: false
+start_loop_step_id: null
+type: block
+parameters:
+-   step_id: null
+    playbook_id: null
+    name: AssignedUsers
+    value: null
+-   step_id: null
+    playbook_id: null
+    name: DynamicInjectionInstancePlaceholder
+    value: null
+-   step_id: null
+    playbook_id: null
+    name: FetchInstanceByName
+    value: null
+-   step_id: null
+    playbook_id: null
+    name: HasApprovalLink
+    value: null
+-   step_id: null
+    playbook_id: null
+    name: MessageToAssignee
+    value: null
+-   step_id: null
+    playbook_id: null
+    name: NestedWorkflowIdentifier
+    value: 68d402dd-60b8-41ae-ada5-1cba041017cb
+-   step_id: null
+    playbook_id: null
+    name: NestedWorkflowInputs
+    value: '[]'
+-   step_id: null
+    playbook_id: null
+    name: PendingActionTimeout
+    value: null
+-   step_id: null
+    playbook_id: null
+    name: NestedWorkflowSteps
+    value: '[{"identifier":"0e3ccde9-882c-4c39-b176-4c65f070cd6b","integration":"MitreAttck","actionName":"MitreAttck_Get
+        Techniques Mitigations","instanceName":"Mitre Techniques Mitigations","stepType":0},{"identifier":"8a25fce1-df48-44b1-ad8d-97e617b951ad","integration":"MitreAttck","actionName":"MitreAttck_Get
+        Techniques Details","instanceName":"Mitre Techniques Details","stepType":0}]'
+-   step_id: null
+    playbook_id: null
+    name: NestedWorkflowOutput
+    value: null
+parallel_actions: []
+step_debug_data: null

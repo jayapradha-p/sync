@@ -1,0 +1,63 @@
+identifier: 981ac08e-c253-44b1-9274-c3c125334792
+original_step_id: 5f5f1e27-cc10-415b-bf02-1720602b77f4
+parent_step_ids:
+- c64dfce9-2e05-4b64-80f6-d57f033e003a
+parent_step_id: c64dfce9-2e05-4b64-80f6-d57f033e003a
+previous_result_condition: '{"c64dfce9-2e05-4b64-80f6-d57f033e003a": ""}'
+instance_name: Has instances or local ips?
+is_automatic: true
+name: Condition
+is_skippable: false
+description: This condition determines the progress of the playbook. Conditions are
+    built based on cases data (cases, alerts, vents, entities and environment properties)
+    as-well as data that comes back from previous playbook steps.
+action_provider: Flow
+action_name: IfFlowCondition
+integration: Flow
+auto_skip_on_failure: false
+is_debug_mock_data: false
+parent_container_id: null
+is_touched_by_ai: false
+start_loop_step_id: null
+type: condition
+parameters:
+-   step_id: null
+    playbook_id: null
+    name: AssignedUsers
+    value: null
+-   step_id: null
+    playbook_id: null
+    name: Branches
+    value: '[{"LogicalOperator":1,"Conditions":[{"Operator":3,"FieldName":"[Count
+        Instances.list_count]","Type":2,"Value":"0","CustomOperatorName":null},{"Operator":3,"FieldName":"[Count
+        Local IPs.list_count]","Type":2,"Value":"0","CustomOperatorName":null}],"Order":1,"IsDefaultBranch":false,"Name":"Branch"},{"LogicalOperator":0,"Conditions":[],"Order":2,"IsDefaultBranch":true,"Name":"Branch"}]'
+-   step_id: null
+    playbook_id: null
+    name: DynamicInjectionInstancePlaceholder
+    value: null
+-   step_id: null
+    playbook_id: null
+    name: ErrorFallbackBranch
+    value: null
+-   step_id: null
+    playbook_id: null
+    name: FetchInstanceByName
+    value: null
+-   step_id: null
+    playbook_id: null
+    name: HasApprovalLink
+    value: null
+-   step_id: null
+    playbook_id: null
+    name: MessageToAssignee
+    value: null
+-   step_id: null
+    playbook_id: null
+    name: PendingActionTimeout
+    value: null
+-   step_id: null
+    playbook_id: null
+    name: SelectedScopeName
+    value: All entities
+parallel_actions: []
+step_debug_data: null

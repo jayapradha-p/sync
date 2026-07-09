@@ -1,0 +1,60 @@
+identifier: 61cf47fc-e223-41ae-a449-d3996e7c0d1a
+original_step_id: 61cf47fc-e223-41ae-a449-d3996e7c0d1a
+parent_step_ids:
+- 51f1ba5c-aafd-433f-a157-a872a488cdd2
+parent_step_id: 51f1ba5c-aafd-433f-a157-a872a488cdd2
+previous_result_condition: '{"51f1ba5c-aafd-433f-a157-a872a488cdd2": ""}'
+instance_name: Ignore Unnecessary Domains
+is_automatic: true
+name: Entity Selection
+is_skippable: false
+description: Creates a group of entities that can be used in other actions. Use conditions
+    to fine tune the group.
+action_provider: Flow
+action_name: EntitySelection
+integration: Flow
+auto_skip_on_failure: false
+is_debug_mock_data: false
+parent_container_id: null
+is_touched_by_ai: false
+start_loop_step_id: null
+type: action
+parameters:
+-   step_id: null
+    playbook_id: null
+    name: AssignedUsers
+    value: null
+-   step_id: null
+    playbook_id: null
+    name: ConditionOperator
+    value: '0'
+-   step_id: null
+    playbook_id: null
+    name: Conditions
+    value: '[{"FieldName":"Entity.Identifier","Operator":6,"Value":"GOOGLEAPIS.COM","Type":2},{"FieldName":"Entity.Identifier","Operator":6,"Value":"GOOGLE.COM","Type":2},{"FieldName":"Entity.Identifier","Operator":6,"Value":"MITRE.ORG","Type":2},{"FieldName":"Entity.Identifier","Operator":6,"Value":"VIRUSTOTAL.COM","Type":2},{"FieldName":"Entity.IsInternalAsset","Operator":5,"Type":2,"Value":"True"}]'
+-   step_id: null
+    playbook_id: null
+    name: DynamicInjectionInstancePlaceholder
+    value: null
+-   step_id: null
+    playbook_id: null
+    name: FetchInstanceByName
+    value: null
+-   step_id: null
+    playbook_id: null
+    name: HasApprovalLink
+    value: null
+-   step_id: null
+    playbook_id: null
+    name: MessageToAssignee
+    value: null
+-   step_id: null
+    playbook_id: null
+    name: PendingActionTimeout
+    value: null
+-   step_id: null
+    playbook_id: null
+    name: SelectedScopeName
+    value: All entities
+parallel_actions: []
+step_debug_data: null

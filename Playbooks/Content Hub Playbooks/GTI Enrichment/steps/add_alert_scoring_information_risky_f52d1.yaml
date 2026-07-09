@@ -1,0 +1,86 @@
+identifier: f52d10c0-6c73-49e7-acd7-cc8d99f1e602
+original_step_id: 8b2ab0a6-0fc3-4009-a1fb-6372fa5b5e34
+parent_step_ids:
+- af9f39a9-f1ae-40d9-9b2f-e2d0311d0263
+parent_step_id: af9f39a9-f1ae-40d9-9b2f-e2d0311d0263
+previous_result_condition: '{"af9f39a9-f1ae-40d9-9b2f-e2d0311d0263": "1"}'
+instance_name: Add Alert Scoring Information Risky
+is_automatic: true
+name: Tools_Add Alert Scoring Information
+is_skippable: false
+description: 'This action will add an entry to the alert scoring database.  Alert
+    score is based off the ratio: 5 Low = 1 Medium.  3 Medium = 1 High.  2 High =
+    1 Critical.  Optional tag added to case.'
+action_provider: Scripts
+action_name: Tools_Add Alert Scoring Information
+integration: Tools
+auto_skip_on_failure: false
+is_debug_mock_data: false
+parent_container_id: null
+is_touched_by_ai: false
+start_loop_step_id: null
+type: action
+parameters:
+-   step_id: null
+    playbook_id: null
+    name: AssignedUsers
+    value: null
+-   step_id: null
+    playbook_id: null
+    name: AsyncActionTimeout
+    value: '3600'
+-   step_id: null
+    playbook_id: null
+    name: AsyncPollingInterval
+    value: '300'
+-   step_id: null
+    playbook_id: null
+    name: DynamicInjectionInstancePlaceholder
+    value: null
+-   step_id: null
+    playbook_id: null
+    name: FallbackIntegrationInstance
+    value: null
+-   step_id: null
+    playbook_id: null
+    name: FetchInstanceByName
+    value: 'false'
+-   step_id: null
+    playbook_id: null
+    name: HasApprovalLink
+    value: null
+-   step_id: null
+    playbook_id: null
+    name: IntegrationInstance
+    value: AutomaticEnvironment
+-   step_id: null
+    playbook_id: null
+    name: MessageToAssignee
+    value: null
+-   step_id: null
+    playbook_id: null
+    name: PendingActionTimeout
+    value: null
+-   step_id: null
+    playbook_id: null
+    name: RetryConfiguration
+    value: '{"Enabled":false,"IntervalInSeconds":30,"NumberOfRetries":1}'
+-   step_id: null
+    playbook_id: null
+    name: ScriptName
+    value: Tools_Add Alert Scoring Information
+-   step_id: null
+    playbook_id: null
+    name: ScriptParametersEntityFields
+    value: '{"Name":"True","Description":"GTI  has identified risky entities","Severity":"Critical","Category":"GTI","Source":"GTI
+        Risky Entities"}'
+-   step_id: null
+    playbook_id: null
+    name: SelectedScopeName
+    value: All entities
+-   step_id: null
+    playbook_id: null
+    name: UseEntitiesLoopScope
+    value: null
+parallel_actions: []
+step_debug_data: null

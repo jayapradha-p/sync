@@ -1,0 +1,78 @@
+identifier: af64de3f-d31a-45ef-90b9-6e193c5efea0
+original_step_id: af64de3f-d31a-45ef-90b9-6e193c5efea0
+parent_step_ids:
+- a6467971-614c-449a-8f7b-d1bae50cd1f3
+parent_step_id: a6467971-614c-449a-8f7b-d1bae50cd1f3
+previous_result_condition: '{"a6467971-614c-449a-8f7b-d1bae50cd1f3": "1"}'
+instance_name: Target Resource Activity
+is_automatic: true
+name: GoogleChronicle_Execute UDM Query
+is_skippable: false
+description: 'Execute custom UDM query in Google Chronicle. Note: 120 action executions
+    are allowed per hour.'
+action_provider: Scripts
+action_name: GoogleChronicle_Execute UDM Query
+integration: GoogleChronicle
+auto_skip_on_failure: true
+is_debug_mock_data: false
+parent_container_id: null
+is_touched_by_ai: false
+start_loop_step_id: null
+type: action
+parameters:
+-   step_id: null
+    playbook_id: null
+    name: AssignedUsers
+    value: null
+-   step_id: null
+    playbook_id: null
+    name: AsyncActionTimeout
+    value: '86400'
+-   step_id: null
+    playbook_id: null
+    name: AsyncPollingInterval
+    value: '3600'
+-   step_id: null
+    playbook_id: null
+    name: DynamicInjectionInstancePlaceholder
+    value: null
+-   step_id: null
+    playbook_id: null
+    name: FallbackIntegrationInstance
+    value: null
+-   step_id: null
+    playbook_id: null
+    name: FetchInstanceByName
+    value: 'false'
+-   step_id: null
+    playbook_id: null
+    name: HasApprovalLink
+    value: null
+-   step_id: null
+    playbook_id: null
+    name: IntegrationInstance
+    value: null
+-   step_id: null
+    playbook_id: null
+    name: MessageToAssignee
+    value: null
+-   step_id: null
+    playbook_id: null
+    name: PendingActionTimeout
+    value: null
+-   step_id: null
+    playbook_id: null
+    name: ScriptName
+    value: GoogleChronicle_Execute UDM Query
+-   step_id: null
+    playbook_id: null
+    name: ScriptParametersEntityFields
+    value: '{"Query":"target.resource.name =\"[Event.event_target_resource_name]\"","Time
+        Frame":"1 Hour Around Alert Time","Start Time":"","End Time":"","Max Results
+        To Return":"50"}'
+-   step_id: null
+    playbook_id: null
+    name: SelectedScopeName
+    value: All entities
+parallel_actions: []
+step_debug_data: null

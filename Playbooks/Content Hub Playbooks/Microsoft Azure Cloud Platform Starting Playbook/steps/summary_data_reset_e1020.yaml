@@ -1,0 +1,75 @@
+identifier: e1020578-fba8-40da-b63b-2d102f46ae3c
+original_step_id: e1020578-fba8-40da-b63b-2d102f46ae3c
+parent_step_ids:
+- f30a485d-5d33-4199-b5db-5b24761aabcb
+parent_step_id: f30a485d-5d33-4199-b5db-5b24761aabcb
+previous_result_condition: '{"f30a485d-5d33-4199-b5db-5b24761aabcb": ""}'
+instance_name: SUMMARY_DATA reset
+is_automatic: true
+name: Tools_Set Context Value
+is_skippable: false
+description: The action sets a key and value in a specific context (alert or case)
+action_provider: Scripts
+action_name: Tools_Set Context Value
+integration: Tools
+auto_skip_on_failure: false
+is_debug_mock_data: false
+parent_container_id: null
+is_touched_by_ai: false
+start_loop_step_id: null
+type: action
+parameters:
+-   step_id: null
+    playbook_id: null
+    name: AssignedUsers
+    value: null
+-   step_id: null
+    playbook_id: null
+    name: AsyncActionTimeout
+    value: '3600'
+-   step_id: null
+    playbook_id: null
+    name: AsyncPollingInterval
+    value: '300'
+-   step_id: null
+    playbook_id: null
+    name: DynamicInjectionInstancePlaceholder
+    value: null
+-   step_id: null
+    playbook_id: null
+    name: FallbackIntegrationInstance
+    value: null
+-   step_id: null
+    playbook_id: null
+    name: FetchInstanceByName
+    value: 'false'
+-   step_id: null
+    playbook_id: null
+    name: HasApprovalLink
+    value: null
+-   step_id: null
+    playbook_id: null
+    name: IntegrationInstance
+    value: null
+-   step_id: null
+    playbook_id: null
+    name: MessageToAssignee
+    value: null
+-   step_id: null
+    playbook_id: null
+    name: PendingActionTimeout
+    value: null
+-   step_id: null
+    playbook_id: null
+    name: ScriptName
+    value: Tools_Set Context Value
+-   step_id: null
+    playbook_id: null
+    name: ScriptParametersEntityFields
+    value: '{"Value":"-1","Key":"SUMMARY_DATA","Scope":"Alert"}'
+-   step_id: null
+    playbook_id: null
+    name: SelectedScopeName
+    value: All entities
+parallel_actions: []
+step_debug_data: null

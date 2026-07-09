@@ -1,0 +1,8 @@
+identifier: 575e2df4-4e5d-4377-8ea0-7e3425b96269
+type_: all
+logical_operator: and
+conditions:
+-   field_name: null
+    value: null
+    match_type: equal
+    custom_operator_name: null

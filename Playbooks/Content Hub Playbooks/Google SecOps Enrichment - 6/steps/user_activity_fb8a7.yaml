@@ -1,0 +1,80 @@
+identifier: fb8a7038-da35-4be6-b439-b87d76286414
+original_step_id: fb8a7038-da35-4be6-b439-b87d76286414
+parent_step_ids:
+- 88bc5b25-930e-4d4e-a072-18cef64c6405
+- ad747260-9a22-4b52-9558-2af2c7a5c5f6
+- 5795692f-4119-4e54-8792-b7df9bc65aa8
+parent_step_id: 88bc5b25-930e-4d4e-a072-18cef64c6405
+previous_result_condition: '{"88bc5b25-930e-4d4e-a072-18cef64c6405": "", "ad747260-9a22-4b52-9558-2af2c7a5c5f6":
+    "", "5795692f-4119-4e54-8792-b7df9bc65aa8": ""}'
+instance_name: User Activity
+is_automatic: true
+name: GoogleChronicle_Execute UDM Query
+is_skippable: false
+description: 'Execute custom UDM query in Google Chronicle. Note: 120 action executions
+    are allowed per hour.'
+action_provider: Scripts
+action_name: GoogleChronicle_Execute UDM Query
+integration: GoogleChronicle
+auto_skip_on_failure: true
+is_debug_mock_data: false
+parent_container_id: null
+is_touched_by_ai: false
+start_loop_step_id: null
+type: action
+parameters:
+-   step_id: null
+    playbook_id: null
+    name: AssignedUsers
+    value: null
+-   step_id: null
+    playbook_id: null
+    name: AsyncActionTimeout
+    value: '3600'
+-   step_id: null
+    playbook_id: null
+    name: AsyncPollingInterval
+    value: '300'
+-   step_id: null
+    playbook_id: null
+    name: DynamicInjectionInstancePlaceholder
+    value: null
+-   step_id: null
+    playbook_id: null
+    name: FallbackIntegrationInstance
+    value: null
+-   step_id: null
+    playbook_id: null
+    name: FetchInstanceByName
+    value: 'false'
+-   step_id: null
+    playbook_id: null
+    name: HasApprovalLink
+    value: null
+-   step_id: null
+    playbook_id: null
+    name: IntegrationInstance
+    value: null
+-   step_id: null
+    playbook_id: null
+    name: MessageToAssignee
+    value: null
+-   step_id: null
+    playbook_id: null
+    name: PendingActionTimeout
+    value: null
+-   step_id: null
+    playbook_id: null
+    name: ScriptName
+    value: GoogleChronicle_Execute UDM Query
+-   step_id: null
+    playbook_id: null
+    name: ScriptParametersEntityFields
+    value: '{"Query":"[Alert.SIEM_PRINCIPAL_USERS_QUERY]","Time Frame":"1 Hour Around
+        Alert Time","Start Time":"","End Time":"","Max Results To Return":"50"}'
+-   step_id: null
+    playbook_id: null
+    name: SelectedScopeName
+    value: All entities
+parallel_actions: []
+step_debug_data: null

@@ -1,0 +1,8 @@
+-   description: Amazon Web Services Cloud Platform Starting Playbook provides reference
+        implementation of how Amazon Web Services Cloud Platform alerts can be processed
+        in Google SecOps.
+    version: '0'
+    item_name: Amazon Web Services Cloud Platform Starting Playbook
+    item_type: Playbook
+    publish_time: 1783582662
+    ticket_number: ''

@@ -1,0 +1,16 @@
+identifier: 25005691-28a5-4678-b7b8-6aa477636374
+type_: case_data
+logical_operator: or
+conditions:
+-   field_name: '[Alert.Name]'
+    value: AWS
+    match_type: starts_with
+    custom_operator_name: null
+-   field_name: '[Event.event_metadata_productName]'
+    value: AWS
+    match_type: contains
+    custom_operator_name: null
+-   field_name: '[Event.event_metadata_vendorName]'
+    value: AMAZON
+    match_type: contains
+    custom_operator_name: null

@@ -1,0 +1,29 @@
+identifier: 596300ca-d221-412e-a2f1-0e500021cf04
+is_enable: true
+version: '0'
+name: Google SecOps Enrichment - 1
+description: This block retrieves relevant details about users and assets involved
+    in the case, enhancing the context available for analysis and subsequent actions
+    within Google SecOps SOAR.
+priority: 2
+category_name: Content Hub Playbooks
+category: 2
+environments:
+- Default Environment
+is_debug_mode: false
+type: block
+creator: 6900fc46-2900-40ab-9d7c-479966cd22ec
+modified_by: Siemplify automation
+execution_scope: 0
+original_playbook_identifier: 596300ca-d221-412e-a2f1-0e500021cf04
+creation_time_unix_time_in_ms: 1783492112228
+modification_time_unix_time_in_ms: 1783582599627
+template_name: null
+debug_data:
+    debugBaseAlertId: null
+    debugAlertId: null
+entity_access_level: 2
+default_access_level: 2
+permissions: []
+overview_templates: []
+creation_source: 1

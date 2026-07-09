@@ -1,0 +1,8 @@
+identifier: 4fe63c45-3ae0-4f92-b43d-a5156f3179f0
+type_: get_inputs
+logical_operator: and
+conditions:
+-   field_name: EntityName
+    value: null
+    match_type: equal
+    custom_operator_name: null

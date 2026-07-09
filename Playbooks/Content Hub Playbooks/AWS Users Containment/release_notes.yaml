@@ -1,0 +1,6 @@
+-   description: An embedded workflow that can receive inputs and return an output.
+    version: '0'
+    item_name: AWS Users Containment
+    item_type: Block
+    publish_time: 1783582655
+    ticket_number: ''

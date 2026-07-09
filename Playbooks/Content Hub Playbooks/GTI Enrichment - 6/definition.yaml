@@ -1,0 +1,29 @@
+identifier: d068bedc-115e-44e8-85c9-a8e7db8491c7
+is_enable: true
+version: '0'
+name: GTI Enrichment - 6
+description: This block enhances case entities with Google Threat Intelligence enrichment
+    information. Works for IPs, URLs, hostnames, domains, hashes (MD5, SHA-1, SHA-256),
+    threat actors, and CVEs.
+priority: 2
+category_name: Content Hub Playbooks
+category: 2
+environments:
+- Default Environment
+is_debug_mode: false
+type: block
+creator: 6900fc46-2900-40ab-9d7c-479966cd22ec
+modified_by: Siemplify automation
+execution_scope: 0
+original_playbook_identifier: d068bedc-115e-44e8-85c9-a8e7db8491c7
+creation_time_unix_time_in_ms: 1783492156673
+modification_time_unix_time_in_ms: 1783582605902
+template_name: null
+debug_data:
+    debugBaseAlertId: null
+    debugAlertId: null
+entity_access_level: 2
+default_access_level: 2
+permissions: []
+overview_templates: []
+creation_source: 1

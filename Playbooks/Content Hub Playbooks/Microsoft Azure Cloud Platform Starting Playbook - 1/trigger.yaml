@@ -1,0 +1,22 @@
+identifier: eba30bf1-bc93-4583-8d1a-493454b3ec65
+type_: case_data
+logical_operator: or
+conditions:
+-   field_name: '[Event.detection_1_ruleName]'
+    value: ttp_azure
+    match_type: starts_with
+    custom_operator_name: null
+-   field_name: '[Event.event_target_cloud_environment]'
+    value: 'MICROSOFT_AZURE
+
+        '
+    match_type: equal
+    custom_operator_name: null
+-   field_name: '[Event.event_metadata_productName]'
+    value: Azure
+    match_type: contains
+    custom_operator_name: null
+-   field_name: '[Event.event_metadata_logType]'
+    value: OFFICE_365
+    match_type: equal
+    custom_operator_name: null

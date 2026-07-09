@@ -1,0 +1,75 @@
+identifier: 6d71f876-68fd-4c3c-9edf-ce1b5345b71c
+original_step_id: 792f179d-c9d0-4dc5-af59-6011950e1cee
+parent_step_ids:
+- 2bb99a51-2425-4623-bd22-60669cb2082e
+parent_step_id: 2bb99a51-2425-4623-bd22-60669cb2082e
+previous_result_condition: '{"2bb99a51-2425-4623-bd22-60669cb2082e": ""}'
+instance_name: Isolate Machine
+is_automatic: false
+name: MicrosoftDefenderATP_Create Isolate Machine Task
+is_skippable: false
+description: Create Isolate Machine Task
+action_provider: Scripts
+action_name: MicrosoftDefenderATP_Create Isolate Machine Task
+integration: MicrosoftDefenderATP
+auto_skip_on_failure: false
+is_debug_mock_data: false
+parent_container_id: null
+is_touched_by_ai: false
+start_loop_step_id: null
+type: action
+parameters:
+-   step_id: null
+    playbook_id: null
+    name: AssignedUsers
+    value: null
+-   step_id: null
+    playbook_id: null
+    name: AsyncActionTimeout
+    value: '3600'
+-   step_id: null
+    playbook_id: null
+    name: AsyncPollingInterval
+    value: '300'
+-   step_id: null
+    playbook_id: null
+    name: DynamicInjectionInstancePlaceholder
+    value: null
+-   step_id: null
+    playbook_id: null
+    name: FallbackIntegrationInstance
+    value: null
+-   step_id: null
+    playbook_id: null
+    name: FetchInstanceByName
+    value: 'false'
+-   step_id: null
+    playbook_id: null
+    name: HasApprovalLink
+    value: null
+-   step_id: null
+    playbook_id: null
+    name: IntegrationInstance
+    value: null
+-   step_id: null
+    playbook_id: null
+    name: MessageToAssignee
+    value: null
+-   step_id: null
+    playbook_id: null
+    name: PendingActionTimeout
+    value: null
+-   step_id: null
+    playbook_id: null
+    name: ScriptName
+    value: MicrosoftDefenderATP_Create Isolate Machine Task
+-   step_id: null
+    playbook_id: null
+    name: ScriptParametersEntityFields
+    value: '{"Isolation Type":"Full","Comment":"Comment"}'
+-   step_id: null
+    playbook_id: null
+    name: SelectedScopeName
+    value: Hostnames and Ips.SelectedEntities
+parallel_actions: []
+step_debug_data: null

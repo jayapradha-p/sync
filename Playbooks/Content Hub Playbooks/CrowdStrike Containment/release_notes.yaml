@@ -1,0 +1,8 @@
+-   description: This block allows the playbook to perform containment actions on
+        endpoints by targeting the IPs and hostnames associated with the case, helping
+        to prevent further compromise during incident response.
+    version: '0'
+    item_name: CrowdStrike Containment
+    item_type: Block
+    publish_time: 1783582591
+    ticket_number: ''

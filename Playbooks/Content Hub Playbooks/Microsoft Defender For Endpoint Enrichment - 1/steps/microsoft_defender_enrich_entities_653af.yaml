@@ -1,0 +1,75 @@
+identifier: 653afb59-6004-4e6f-9827-ed81af79cbb5
+original_step_id: 653afb59-6004-4e6f-9827-ed81af79cbb5
+parent_step_ids: []
+parent_step_id: ''
+previous_result_condition: '{}'
+instance_name: Microsoft Defender Enrich Entities
+is_automatic: true
+name: MicrosoftDefenderATP_Enrich Entities
+is_skippable: false
+description: 'This action allows a user to enrich Microsoft Defender ATP hosts, ips
+    and file hashes. Note: File hash can be in sha1 or sha256 format.'
+action_provider: Scripts
+action_name: MicrosoftDefenderATP_Enrich Entities
+integration: MicrosoftDefenderATP
+auto_skip_on_failure: true
+is_debug_mock_data: false
+parent_container_id: null
+is_touched_by_ai: false
+start_loop_step_id: null
+type: action
+parameters:
+-   step_id: null
+    playbook_id: null
+    name: AssignedUsers
+    value: null
+-   step_id: null
+    playbook_id: null
+    name: AsyncActionTimeout
+    value: '3600'
+-   step_id: null
+    playbook_id: null
+    name: AsyncPollingInterval
+    value: '300'
+-   step_id: null
+    playbook_id: null
+    name: DynamicInjectionInstancePlaceholder
+    value: null
+-   step_id: null
+    playbook_id: null
+    name: FallbackIntegrationInstance
+    value: null
+-   step_id: null
+    playbook_id: null
+    name: FetchInstanceByName
+    value: 'false'
+-   step_id: null
+    playbook_id: null
+    name: HasApprovalLink
+    value: null
+-   step_id: null
+    playbook_id: null
+    name: IntegrationInstance
+    value: null
+-   step_id: null
+    playbook_id: null
+    name: MessageToAssignee
+    value: null
+-   step_id: null
+    playbook_id: null
+    name: PendingActionTimeout
+    value: null
+-   step_id: null
+    playbook_id: null
+    name: ScriptName
+    value: MicrosoftDefenderATP_Enrich Entities
+-   step_id: null
+    playbook_id: null
+    name: ScriptParametersEntityFields
+    value: '{}'
+-   step_id: null
+    playbook_id: null
+    name: SelectedScopeName
+    value: All entities
+parallel_actions: []
+step_debug_data: null

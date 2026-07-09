@@ -1,0 +1,77 @@
+identifier: 595509ca-b67f-4509-ae72-7bc9aa3ff005
+original_step_id: 054010a1-108c-4274-a207-cc322f922e61
+parent_step_ids:
+- ce332b7f-d3d6-4258-a20c-f3c7858a7e84
+- 95013b62-e98b-4e1f-8eb2-3a1683a9b394
+parent_step_id: ce332b7f-d3d6-4258-a20c-f3c7858a7e84
+previous_result_condition: '{"ce332b7f-d3d6-4258-a20c-f3c7858a7e84": "", "95013b62-e98b-4e1f-8eb2-3a1683a9b394":
+    "2"}'
+instance_name: Count Instances
+is_automatic: true
+name: SiemplifyUtilities_Count Entities In Scope
+is_skippable: false
+description: Count the number of entities from a specific scope.
+action_provider: Scripts
+action_name: SiemplifyUtilities_Count Entities In Scope
+integration: SiemplifyUtilities
+auto_skip_on_failure: true
+is_debug_mock_data: false
+parent_container_id: null
+is_touched_by_ai: false
+start_loop_step_id: null
+type: action
+parameters:
+-   step_id: null
+    playbook_id: null
+    name: AssignedUsers
+    value: null
+-   step_id: null
+    playbook_id: null
+    name: AsyncActionTimeout
+    value: '86400'
+-   step_id: null
+    playbook_id: null
+    name: AsyncPollingInterval
+    value: '3600'
+-   step_id: null
+    playbook_id: null
+    name: DynamicInjectionInstancePlaceholder
+    value: null
+-   step_id: null
+    playbook_id: null
+    name: FallbackIntegrationInstance
+    value: null
+-   step_id: null
+    playbook_id: null
+    name: FetchInstanceByName
+    value: 'false'
+-   step_id: null
+    playbook_id: null
+    name: HasApprovalLink
+    value: null
+-   step_id: null
+    playbook_id: null
+    name: IntegrationInstance
+    value: e440454f-1599-4234-9103-075fdfae8001
+-   step_id: null
+    playbook_id: null
+    name: MessageToAssignee
+    value: null
+-   step_id: null
+    playbook_id: null
+    name: PendingActionTimeout
+    value: null
+-   step_id: null
+    playbook_id: null
+    name: ScriptName
+    value: SiemplifyUtilities_Count Entities In Scope
+-   step_id: null
+    playbook_id: null
+    name: ScriptParametersEntityFields
+    value: '{"Entity Type":"HOSTNAME"}'
+-   step_id: null
+    playbook_id: null
+    name: SelectedScopeName
+    value: All entities
+parallel_actions: []
+step_debug_data: null

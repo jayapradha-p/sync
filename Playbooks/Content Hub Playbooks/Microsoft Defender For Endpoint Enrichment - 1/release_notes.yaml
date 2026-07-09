@@ -1,0 +1,9 @@
+-   description: This block enriches Microsoft Defender for Endpoint hosts by retrieving
+        relevant data such as logged-on users, file-related alerts, and machine-related
+        alerts. It also supports file enrichment using SHA1 hashes, providing additional
+        context to assist investigation and response activities.
+    version: '0'
+    item_name: Microsoft Defender For Endpoint Enrichment - 1
+    item_type: Block
+    publish_time: 1783582648
+    ticket_number: ''

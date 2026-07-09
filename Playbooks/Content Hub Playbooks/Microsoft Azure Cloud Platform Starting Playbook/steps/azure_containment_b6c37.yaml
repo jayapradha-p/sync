@@ -1,0 +1,75 @@
+identifier: b6c37064-babd-47ad-a34a-af0900480d05
+original_step_id: b6c37064-babd-47ad-a34a-af0900480d05
+parent_step_ids:
+- 42eaf0fc-4e84-43b4-851b-0004da4e5301
+parent_step_id: 42eaf0fc-4e84-43b4-851b-0004da4e5301
+previous_result_condition: '{"42eaf0fc-4e84-43b4-851b-0004da4e5301": ""}'
+instance_name: Azure Containment
+is_automatic: true
+name: Azure Containment
+is_skippable: false
+description: This block allows the playbook to apply containment actions to Azure
+    user accounts by either updating the password or disabling the account. It also
+    provides the option to ignore the action and take no changes when required.
+action_provider: Flow
+action_name: NestedAction
+integration: Siemplify
+auto_skip_on_failure: false
+is_debug_mock_data: false
+parent_container_id: null
+is_touched_by_ai: false
+start_loop_step_id: null
+type: block
+parameters:
+-   step_id: null
+    playbook_id: null
+    name: AssignedUsers
+    value: null
+-   step_id: null
+    playbook_id: null
+    name: DynamicInjectionInstancePlaceholder
+    value: null
+-   step_id: null
+    playbook_id: null
+    name: FetchInstanceByName
+    value: null
+-   step_id: null
+    playbook_id: null
+    name: HasApprovalLink
+    value: null
+-   step_id: null
+    playbook_id: null
+    name: MessageToAssignee
+    value: null
+-   step_id: null
+    playbook_id: null
+    name: NestedWorkflowIdentifier
+    value: aed371b1-6feb-4120-a8c5-85fedf318d05
+-   step_id: null
+    playbook_id: null
+    name: NestedWorkflowInputs
+    value: '[]'
+-   step_id: null
+    playbook_id: null
+    name: PendingActionTimeout
+    value: null
+-   step_id: null
+    playbook_id: null
+    name: NestedWorkflowSteps
+    value: '[{"identifier":"11574261-a14d-4d39-865d-921834217a24","integration":"Tools","actionName":"Tools_Set
+        Context Value","instanceName":"Init Remediation","stepType":0},{"identifier":"1e3f12ae-8731-46cc-b8fa-22c04530b1d9","integration":"Tools","actionName":"Tools_Set
+        Context Value","instanceName":"REMEDIATION Disable Account","stepType":0},{"identifier":"424b4378-89bc-46db-9e3d-eb7e5a05cccd","integration":"Tools","actionName":"Tools_Set
+        Context Value","instanceName":"REMEDIATION Do Nothing","stepType":0},{"identifier":"460411f2-1fd6-4dae-9efc-6a36b04ef5d1","integration":"AzureActiveDirectory","actionName":"AzureActiveDirectory_Force
+        Password Update","instanceName":"Force Password Update","stepType":0},{"identifier":"4d4525a7-502c-49e9-9663-79a4eb6bcb34","integration":"Flow","actionName":"IfFlowCondition","instanceName":"Disable
+        Account Success","stepType":4},{"identifier":"4ec9e3d2-70a9-4dbf-8fbe-91f42d631852","integration":"Flow","actionName":"IfFlowCondition","instanceName":"Force
+        Password Update Success","stepType":4},{"identifier":"7bb47118-7ff7-43bb-aa2c-72076f8d18a3","integration":"Flow","actionName":"IfFlowCondition","instanceName":"Init
+        Remediation Variable","stepType":4},{"identifier":"7d331978-36f9-45fe-92b4-4382dd1f6482","integration":"Flow","actionName":"MultiChoiceQuestion","instanceName":"Update
+        Password or Disable Account?","stepType":1},{"identifier":"9189b5d9-7c99-40b0-a9a8-f195577af483","integration":"Tools","actionName":"Tools_Set
+        Context Value","instanceName":"REMEDIATION Force Password Update","stepType":0},{"identifier":"ad94e2df-1437-4cc6-a6f3-9aa6be361dbf","integration":"AzureActiveDirectory","actionName":"AzureActiveDirectory_Disable
+        Account","instanceName":"Disable Account","stepType":0}]'
+-   step_id: null
+    playbook_id: null
+    name: NestedWorkflowOutput
+    value: null
+parallel_actions: []
+step_debug_data: null

@@ -1,0 +1,76 @@
+identifier: a488d264-6c0d-4f53-81ea-1ad24ee5e61d
+original_step_id: a488d264-6c0d-4f53-81ea-1ad24ee5e61d
+parent_step_ids:
+- d1b1cc73-623b-4241-9356-6aab01b83c26
+parent_step_id: d1b1cc73-623b-4241-9356-6aab01b83c26
+previous_result_condition: '{"d1b1cc73-623b-4241-9356-6aab01b83c26": ""}'
+instance_name: Google SecOps Enrichment_1
+is_automatic: true
+name: Google SecOps Enrichment
+is_skippable: false
+description: This block retrieves relevant details about users and assets involved
+    in the case, enhancing the context available for analysis and subsequent actions
+    within Google SecOps SOAR.
+action_provider: Flow
+action_name: NestedAction
+integration: Siemplify
+auto_skip_on_failure: false
+is_debug_mock_data: false
+parent_container_id: null
+is_touched_by_ai: false
+start_loop_step_id: null
+type: block
+parameters:
+-   step_id: null
+    playbook_id: null
+    name: AssignedUsers
+    value: null
+-   step_id: null
+    playbook_id: null
+    name: DynamicInjectionInstancePlaceholder
+    value: null
+-   step_id: null
+    playbook_id: null
+    name: FetchInstanceByName
+    value: null
+-   step_id: null
+    playbook_id: null
+    name: HasApprovalLink
+    value: null
+-   step_id: null
+    playbook_id: null
+    name: MessageToAssignee
+    value: null
+-   step_id: null
+    playbook_id: null
+    name: NestedWorkflowIdentifier
+    value: 92044a6c-75ca-4616-ab3f-dcb5a9a10df0
+-   step_id: null
+    playbook_id: null
+    name: NestedWorkflowInputs
+    value: '[]'
+-   step_id: null
+    playbook_id: null
+    name: PendingActionTimeout
+    value: null
+-   step_id: null
+    playbook_id: null
+    name: NestedWorkflowSteps
+    value: '[{"identifier":"01eb898a-0038-4fb8-92d9-f82fe8d02df9","integration":"GoogleChronicle","actionName":"GoogleChronicle_Execute
+        UDM Query","instanceName":"Target Resource Activity","stepType":0},{"identifier":"6e59c197-6fcb-44c5-8f9f-97dcfc050dd1","integration":"Siemplify","actionName":"Siemplify_Set
+        Scope Context Value","instanceName":"Emails Query","stepType":0},{"identifier":"7236ae10-d8ed-41a7-937b-44820c906af8","integration":"Siemplify","actionName":"Siemplify_Set
+        Scope Context Value","instanceName":"User Query","stepType":0},{"identifier":"7f5146ec-8db9-4520-817a-63a3a605ebeb","integration":"Flow","actionName":"EntitySelection","instanceName":"Ignore
+        Unnecessary Domains","stepType":0},{"identifier":"87d63a65-94a3-4e44-85a5-0415fe7c395f","integration":"Flow","actionName":"IfFlowCondition","instanceName":"Has
+        Target Resource?","stepType":4},{"identifier":"8fff2e25-bad1-43c9-811a-5e557d328fb5","integration":"Flow","actionName":"EntitySelection","instanceName":"Ignore
+        Unnecessary URLs Entity Selection","stepType":0},{"identifier":"92e355d6-3dec-4415-8435-ef8315bdcc43","integration":"GoogleChronicle","actionName":"GoogleChronicle_Execute
+        UDM Query","instanceName":"User Activity","stepType":0},{"identifier":"c7cb4a53-5e5b-47a8-81e9-c0b57c9f93ee","integration":"SiemplifyUtilities","actionName":"SiemplifyUtilities_Query
+        Joiner","instanceName":"Join Emails","stepType":0},{"identifier":"d5cf4ac9-7052-4e35-8853-fa3724fce4cc","integration":"SiemplifyUtilities","actionName":"SiemplifyUtilities_Query
+        Joiner","instanceName":"Join Emails 2","stepType":0},{"identifier":"e56b4b48-070e-419f-81fd-c0e150718d9c","integration":"Flow","actionName":"IfFlowCondition","instanceName":"Set
+        User Query based on Param","stepType":4},{"identifier":"e94bc6dd-4958-4c85-833c-8c2e534abcd4","integration":"Siemplify","actionName":"Siemplify_Set
+        Scope Context Value","instanceName":"User and Email Query","stepType":0}]'
+-   step_id: null
+    playbook_id: null
+    name: NestedWorkflowOutput
+    value: null
+parallel_actions: []
+step_debug_data: null

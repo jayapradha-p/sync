@@ -1,0 +1,28 @@
+identifier: a205ebce-f28f-4f56-8989-0b9d7049b2e8
+is_enable: true
+version: '0'
+name: AWS EC2 Enrichment
+description: This block retrieves EC2 instance data associated with the case and provides
+    context for other actions or analysis.
+priority: 2
+category_name: Content Hub Playbooks
+category: 2
+environments:
+- '*'
+is_debug_mode: false
+type: block
+creator: 6900fc46-2900-40ab-9d7c-479966cd22ec
+modified_by: Siemplify automation
+execution_scope: 0
+original_playbook_identifier: a205ebce-f28f-4f56-8989-0b9d7049b2e8
+creation_time_unix_time_in_ms: 1783582612938
+modification_time_unix_time_in_ms: 1783582612938
+template_name: null
+debug_data:
+    debugBaseAlertId: null
+    debugAlertId: null
+entity_access_level: 2
+default_access_level: 2
+permissions: []
+overview_templates: []
+creation_source: 1

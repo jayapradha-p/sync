@@ -1,0 +1,8 @@
+-   description: This block enriches Siemplify Host and User entities with relevant
+        information from Azure Active Directory, providing additional context to support
+        investigation and response activities.
+    version: '0'
+    item_name: Azure Enrichment - 1
+    item_type: Block
+    publish_time: 1783582609
+    ticket_number: ''

@@ -1,0 +1,77 @@
+identifier: e48656c7-0559-4b76-abb9-b79dd3fe83f9
+original_step_id: e48656c7-0559-4b76-abb9-b79dd3fe83f9
+parent_step_ids:
+- 81b6b6dc-cd6c-4c1d-9a32-fca68cc8dc37
+parent_step_id: 81b6b6dc-cd6c-4c1d-9a32-fca68cc8dc37
+previous_result_condition: '{"81b6b6dc-cd6c-4c1d-9a32-fca68cc8dc37": ""}'
+instance_name: SUMMARY_DATA reset
+is_automatic: true
+name: Siemplify_Set Scope Context Value
+is_skippable: false
+description: 'Action sets a value for a key specified that is stored in the Siemplify
+    database. Available scopes to get context values for: Alert, Case, Global. Action
+    is not working on Siemplify entities. Note: Key Name parameter is case insensitive.'
+action_provider: Scripts
+action_name: Siemplify_Set Scope Context Value
+integration: Siemplify
+auto_skip_on_failure: false
+is_debug_mock_data: false
+parent_container_id: null
+is_touched_by_ai: false
+start_loop_step_id: null
+type: action
+parameters:
+-   step_id: null
+    playbook_id: null
+    name: AssignedUsers
+    value: null
+-   step_id: null
+    playbook_id: null
+    name: AsyncActionTimeout
+    value: '86400'
+-   step_id: null
+    playbook_id: null
+    name: AsyncPollingInterval
+    value: '3600'
+-   step_id: null
+    playbook_id: null
+    name: DynamicInjectionInstancePlaceholder
+    value: null
+-   step_id: null
+    playbook_id: null
+    name: FallbackIntegrationInstance
+    value: null
+-   step_id: null
+    playbook_id: null
+    name: FetchInstanceByName
+    value: 'false'
+-   step_id: null
+    playbook_id: null
+    name: HasApprovalLink
+    value: null
+-   step_id: null
+    playbook_id: null
+    name: IntegrationInstance
+    value: 617bcb53-fa62-407c-a538-7afd8f8c90d1
+-   step_id: null
+    playbook_id: null
+    name: MessageToAssignee
+    value: null
+-   step_id: null
+    playbook_id: null
+    name: PendingActionTimeout
+    value: null
+-   step_id: null
+    playbook_id: null
+    name: ScriptName
+    value: Siemplify_Set Scope Context Value
+-   step_id: null
+    playbook_id: null
+    name: ScriptParametersEntityFields
+    value: '{"Context Scope":"Alert","Key Name":"SUMMARY_DATA","Key Value":"-1"}'
+-   step_id: null
+    playbook_id: null
+    name: SelectedScopeName
+    value: All entities
+parallel_actions: []
+step_debug_data: null

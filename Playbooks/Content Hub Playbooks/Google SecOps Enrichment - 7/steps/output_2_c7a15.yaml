@@ -1,0 +1,27 @@
+identifier: c7a15a2b-f3df-4007-b1ee-34cdf8d23d3c
+original_step_id: c7a15a2b-f3df-4007-b1ee-34cdf8d23d3c
+parent_step_ids:
+- c5ebe198-7900-416f-b5c4-20a407cb8ada
+parent_step_id: c5ebe198-7900-416f-b5c4-20a407cb8ada
+previous_result_condition: '{"c5ebe198-7900-416f-b5c4-20a407cb8ada": ""}'
+instance_name: Output_2
+is_automatic: true
+name: Output
+is_skippable: false
+description: ''
+action_provider: Flow
+action_name: OutputAction
+integration: Flow
+auto_skip_on_failure: false
+is_debug_mock_data: false
+parent_container_id: null
+is_touched_by_ai: false
+start_loop_step_id: null
+type: output
+parameters:
+-   step_id: null
+    playbook_id: null
+    name: NestedWorkflowOutput
+    value: null
+parallel_actions: []
+step_debug_data: null

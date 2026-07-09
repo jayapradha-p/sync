@@ -1,0 +1,80 @@
+identifier: df5354ae-0caf-44c1-a2b0-37385f08a9de
+original_step_id: ee4bb835-6276-4581-b264-0e4cc360c2ab
+parent_step_ids:
+- e0dec0a9-3ddc-4d50-8408-cafb251b0734
+parent_step_id: e0dec0a9-3ddc-4d50-8408-cafb251b0734
+previous_result_condition: '{"e0dec0a9-3ddc-4d50-8408-cafb251b0734": ""}'
+instance_name: List User Groups
+is_automatic: true
+name: Okta_List User Groups
+is_skippable: false
+description: Get the groups that the user is a member of
+action_provider: Scripts
+action_name: Okta_List User Groups
+integration: Okta
+auto_skip_on_failure: true
+is_debug_mock_data: false
+parent_container_id: null
+is_touched_by_ai: false
+start_loop_step_id: null
+type: action
+parameters:
+-   step_id: null
+    playbook_id: null
+    name: AssignedUsers
+    value: null
+-   step_id: null
+    playbook_id: null
+    name: AsyncActionTimeout
+    value: '3600'
+-   step_id: null
+    playbook_id: null
+    name: AsyncPollingInterval
+    value: '300'
+-   step_id: null
+    playbook_id: null
+    name: DynamicInjectionInstancePlaceholder
+    value: null
+-   step_id: null
+    playbook_id: null
+    name: FallbackIntegrationInstance
+    value: null
+-   step_id: null
+    playbook_id: null
+    name: FetchInstanceByName
+    value: 'false'
+-   step_id: null
+    playbook_id: null
+    name: HasApprovalLink
+    value: null
+-   step_id: null
+    playbook_id: null
+    name: IntegrationInstance
+    value: null
+-   step_id: null
+    playbook_id: null
+    name: MessageToAssignee
+    value: null
+-   step_id: null
+    playbook_id: null
+    name: PendingActionTimeout
+    value: null
+-   step_id: null
+    playbook_id: null
+    name: ScriptName
+    value: Okta_List User Groups
+-   step_id: null
+    playbook_id: null
+    name: ScriptParametersEntityFields
+    value: '{"User IDs Or Logins":"[User Details.JsonResult| \"id\"]","Also Run On
+        Scope":false}'
+-   step_id: null
+    playbook_id: null
+    name: SelectedScopeName
+    value: All entities
+-   step_id: null
+    playbook_id: null
+    name: UseEntitiesLoopScope
+    value: null
+parallel_actions: []
+step_debug_data: null
