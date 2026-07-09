@@ -4,7 +4,9 @@
         "Block": {
             "Block_1": "hellooo"
         },
-        "Connector": {},
+        "Connector": {
+            "Anomali Staxx - Indicators Connector": "ADDON"
+        },
         "Integration": {},
         "Job": {},
         "Mappings": {},
