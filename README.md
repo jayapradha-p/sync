@@ -18,6 +18,12 @@
 |TemplateEngine|Template Engine integration provides the ability to render templates using Jinja2. Jinja2 provide fast and flexible ways to create rich templates. These templates can be used in entity insights, emails, ticketing systems, or any action that can take in a text string.Jinja2 documentation can be found at https://jinja.palletsprojects.com/en/2.11.x/|
 
 
+## Connectors
+|Name|Description|Has Mappings|
+|----|-----------|------------|
+|Palo Alto Cortex XDR Connector|Pull incidents from Palo Alto XDR. Dynamic List works with the “source” parameter.|True|
+
+
 ## Playbooks
 |Name|Description|
 |----|-----------|
