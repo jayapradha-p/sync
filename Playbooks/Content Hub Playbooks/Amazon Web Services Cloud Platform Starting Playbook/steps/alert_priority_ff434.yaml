@@ -1,0 +1,74 @@
+identifier: ff434d8c-d92a-4099-b357-e4ecc8c8ab90
+original_step_id: ff434d8c-d92a-4099-b357-e4ecc8c8ab90
+parent_step_ids:
+- 51d76b82-4d28-43b1-a53a-bf86d22c6bd7
+parent_step_id: 51d76b82-4d28-43b1-a53a-bf86d22c6bd7
+previous_result_condition: '{"51d76b82-4d28-43b1-a53a-bf86d22c6bd7": ""}'
+instance_name: Alert Priority
+is_automatic: true
+name: Alert Priority
+is_skippable: false
+description: This block sets the alert priority using a previously defined playbook
+    variable, ensuring consistent prioritization logic for the case workflow.
+action_provider: Flow
+action_name: NestedAction
+integration: Siemplify
+auto_skip_on_failure: true
+is_debug_mock_data: false
+parent_container_id: null
+is_touched_by_ai: false
+start_loop_step_id: null
+type: block
+parameters:
+-   step_id: null
+    playbook_id: null
+    name: AssignedUsers
+    value: null
+-   step_id: null
+    playbook_id: null
+    name: DynamicInjectionInstancePlaceholder
+    value: null
+-   step_id: null
+    playbook_id: null
+    name: FetchInstanceByName
+    value: null
+-   step_id: null
+    playbook_id: null
+    name: HasApprovalLink
+    value: null
+-   step_id: null
+    playbook_id: null
+    name: MessageToAssignee
+    value: null
+-   step_id: null
+    playbook_id: null
+    name: NestedWorkflowIdentifier
+    value: 6d47ff4d-624b-4b31-9e1c-5a4778b6a748
+-   step_id: null
+    playbook_id: null
+    name: NestedWorkflowInputs
+    value: '[]'
+-   step_id: null
+    playbook_id: null
+    name: PendingActionTimeout
+    value: null
+-   step_id: null
+    playbook_id: null
+    name: NestedWorkflowSteps
+    value: '[{"identifier":"4bdd5f5d-0022-472d-81b5-4b763f998524","integration":"Siemplify","actionName":"Siemplify_Change
+        Alert Priority","instanceName":"CRITICAL","stepType":0},{"identifier":"69fdbf63-df86-44c4-907c-3873b75173b6","integration":"Siemplify","actionName":"Siemplify_Change
+        Case Stage","instanceName":"Case Stage Investigation","stepType":0},{"identifier":"718b47b9-be3a-4a6d-bf0a-7eaf066f4c31","integration":"Siemplify","actionName":"Siemplify_Change
+        Alert Priority","instanceName":"HIGH ","stepType":0},{"identifier":"80165a2e-ddb9-44f8-9a27-0f40f5bd01b4","integration":"Tools","actionName":"Tools_Set
+        Context Value","instanceName":"Inconclusive - Update Alert Summary","stepType":0},{"identifier":"8a9d22f8-982e-466a-8ea0-5532b7812214","integration":"Siemplify","actionName":"Siemplify_Change
+        Alert Priority","instanceName":"INFORMATIONAL","stepType":0},{"identifier":"90d37f0e-a2e8-436e-b94c-fc647af13c34","integration":"Siemplify","actionName":"Siemplify_Raise
+        Incident","instanceName":"Raise Incident","stepType":0},{"identifier":"97b8bdb6-915b-471a-a3ae-dabb38a06316","integration":"Siemplify","actionName":"Siemplify_Change
+        Alert Priority","instanceName":"LOW  ","stepType":0},{"identifier":"dcc522a8-7d4d-49cb-b2ef-62ca6bd227eb","integration":"Flow","actionName":"IfFlowCondition","instanceName":"Assign
+        Priority","stepType":4},{"identifier":"e85e50e5-4dcd-4491-af95-a1c2eec30361","integration":"Siemplify","actionName":"Siemplify_Change
+        Alert Priority","instanceName":"MEDIUM","stepType":0},{"identifier":"ff469663-a690-4a56-910a-cf4ac055bf1c","integration":"Tools","actionName":"Tools_Set
+        Context Value","instanceName":"RISKY - Update Alert Summary 2","stepType":0}]'
+-   step_id: null
+    playbook_id: null
+    name: NestedWorkflowOutput
+    value: null
+parallel_actions: []
+step_debug_data: null

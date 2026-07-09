@@ -1,0 +1,68 @@
+identifier: f9ea85fc-3b67-4470-8775-6a06fade3560
+original_step_id: f9ea85fc-3b67-4470-8775-6a06fade3560
+parent_step_ids:
+- 0cec740d-c40f-4b5f-94c7-152f5aec997c
+parent_step_id: 0cec740d-c40f-4b5f-94c7-152f5aec997c
+previous_result_condition: '{"0cec740d-c40f-4b5f-94c7-152f5aec997c": ""}'
+instance_name: High Risk Users Check_1
+is_automatic: true
+name: High Risk Users Check
+is_skippable: false
+description: This block checks Google GTI sourced alerts against a SOAR custom list
+    to find matches of targeted Industries.
+action_provider: Flow
+action_name: NestedAction
+integration: Siemplify
+auto_skip_on_failure: false
+is_debug_mock_data: false
+parent_container_id: null
+is_touched_by_ai: false
+start_loop_step_id: null
+type: block
+parameters:
+-   step_id: null
+    playbook_id: null
+    name: AssignedUsers
+    value: null
+-   step_id: null
+    playbook_id: null
+    name: DynamicInjectionInstancePlaceholder
+    value: null
+-   step_id: null
+    playbook_id: null
+    name: FetchInstanceByName
+    value: null
+-   step_id: null
+    playbook_id: null
+    name: HasApprovalLink
+    value: null
+-   step_id: null
+    playbook_id: null
+    name: MessageToAssignee
+    value: null
+-   step_id: null
+    playbook_id: null
+    name: NestedWorkflowIdentifier
+    value: de7af8ce-369f-410c-80c2-75e08a134ffa
+-   step_id: null
+    playbook_id: null
+    name: NestedWorkflowInputs
+    value: '[]'
+-   step_id: null
+    playbook_id: null
+    name: PendingActionTimeout
+    value: null
+-   step_id: null
+    playbook_id: null
+    name: NestedWorkflowSteps
+    value: '[{"identifier":"7e9d9dd9-e807-4b58-9f0e-eed67dd971a7","integration":"Lists","actionName":"Lists_Search
+        Environment Custom Lists","instanceName":"Retrieve Relevant Users","stepType":0},{"identifier":"d373ad1c-42c6-4b4b-b18c-febc200b98c0","integration":"Tools","actionName":"Tools_Add
+        Alert Scoring Information","instanceName":"Add High Severity Record","stepType":0},{"identifier":"d475ce8a-7017-4a20-9d93-cf4ca0fd3643","integration":"Flow","actionName":"IfFlowCondition","instanceName":"Are
+        there Matches","stepType":4},{"identifier":"de86ec4f-7dbd-40a7-94b3-6f706a35b3ac","integration":"TemplateEngine","actionName":"TemplateEngine_Render
+        Template","instanceName":"Find Matches","stepType":0}]'
+-   step_id: null
+    playbook_id: null
+    name: NestedWorkflowOutput
+    value: null
+parallel_actions: []
+step_debug_data: null

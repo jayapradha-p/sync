@@ -1,0 +1,75 @@
+identifier: 1f72c76e-75ba-4066-b5d7-4422ca564dc0
+original_step_id: 1f72c76e-75ba-4066-b5d7-4422ca564dc0
+parent_step_ids:
+- 5c4a9c4c-e851-4666-980e-23f462bcfe0b
+parent_step_id: 5c4a9c4c-e851-4666-980e-23f462bcfe0b
+previous_result_condition: '{"5c4a9c4c-e851-4666-980e-23f462bcfe0b": ""}'
+instance_name: 'Summary '
+is_automatic: true
+name: Tools_Set Context Value
+is_skippable: false
+description: The action sets a key and value in a specific context (alert or case)
+action_provider: Scripts
+action_name: Tools_Set Context Value
+integration: Tools
+auto_skip_on_failure: false
+is_debug_mock_data: false
+parent_container_id: null
+is_touched_by_ai: false
+start_loop_step_id: null
+type: action
+parameters:
+-   step_id: null
+    playbook_id: null
+    name: AssignedUsers
+    value: null
+-   step_id: null
+    playbook_id: null
+    name: AsyncActionTimeout
+    value: '3600'
+-   step_id: null
+    playbook_id: null
+    name: AsyncPollingInterval
+    value: '300'
+-   step_id: null
+    playbook_id: null
+    name: DynamicInjectionInstancePlaceholder
+    value: null
+-   step_id: null
+    playbook_id: null
+    name: FallbackIntegrationInstance
+    value: null
+-   step_id: null
+    playbook_id: null
+    name: FetchInstanceByName
+    value: 'false'
+-   step_id: null
+    playbook_id: null
+    name: HasApprovalLink
+    value: null
+-   step_id: null
+    playbook_id: null
+    name: IntegrationInstance
+    value: AutomaticEnvironment
+-   step_id: null
+    playbook_id: null
+    name: MessageToAssignee
+    value: null
+-   step_id: null
+    playbook_id: null
+    name: PendingActionTimeout
+    value: null
+-   step_id: null
+    playbook_id: null
+    name: ScriptName
+    value: Tools_Set Context Value
+-   step_id: null
+    playbook_id: null
+    name: ScriptParametersEntityFields
+    value: '{"Value":"{ summary: \"[Alert.REMEDIATION]\", delimiter:\"<sep>\" }","Key":"SUMMARY_DATA","Scope":"Alert"}'
+-   step_id: null
+    playbook_id: null
+    name: SelectedScopeName
+    value: All entities
+parallel_actions: []
+step_debug_data: null

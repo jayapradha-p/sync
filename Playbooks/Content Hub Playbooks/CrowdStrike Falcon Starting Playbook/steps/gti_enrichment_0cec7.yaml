@@ -1,0 +1,73 @@
+identifier: 0cec740d-c40f-4b5f-94c7-152f5aec997c
+original_step_id: 0cec740d-c40f-4b5f-94c7-152f5aec997c
+parent_step_ids:
+- 7caf7fd4-6d33-409d-913e-b82bb62f224c
+parent_step_id: 7caf7fd4-6d33-409d-913e-b82bb62f224c
+previous_result_condition: '{"7caf7fd4-6d33-409d-913e-b82bb62f224c": ""}'
+instance_name: GTI Enrichment
+is_automatic: true
+name: GTI Enrichment
+is_skippable: false
+description: This block enhances case entities with Google Threat Intelligence enrichment
+    information. Works for IPs, URLs, hostnames, domains, hashes (MD5, SHA-1, SHA-256),
+    threat actors, and CVEs.
+action_provider: Flow
+action_name: NestedAction
+integration: Siemplify
+auto_skip_on_failure: false
+is_debug_mock_data: false
+parent_container_id: null
+is_touched_by_ai: false
+start_loop_step_id: null
+type: block
+parameters:
+-   step_id: null
+    playbook_id: null
+    name: AssignedUsers
+    value: null
+-   step_id: null
+    playbook_id: null
+    name: DynamicInjectionInstancePlaceholder
+    value: null
+-   step_id: null
+    playbook_id: null
+    name: FetchInstanceByName
+    value: null
+-   step_id: null
+    playbook_id: null
+    name: HasApprovalLink
+    value: null
+-   step_id: null
+    playbook_id: null
+    name: MessageToAssignee
+    value: null
+-   step_id: null
+    playbook_id: null
+    name: NestedWorkflowIdentifier
+    value: 4d8b248c-6464-401e-a809-f58f65708f07
+-   step_id: null
+    playbook_id: null
+    name: NestedWorkflowInputs
+    value: '[]'
+-   step_id: null
+    playbook_id: null
+    name: PendingActionTimeout
+    value: null
+-   step_id: null
+    playbook_id: null
+    name: UseEntitiesLoopScope
+    value: 'true'
+-   step_id: null
+    playbook_id: null
+    name: NestedWorkflowSteps
+    value: '[{"identifier":"48f96796-ca0d-436c-b53a-00adbb2c068c","integration":"Tools","actionName":"Tools_Add
+        Alert Scoring Information","instanceName":"Add Alert Scoring Information Risky","stepType":0},{"identifier":"5fcd7ff7-a368-4792-81e7-247c32e30b50","integration":"GoogleThreatIntelligence","actionName":"GoogleThreatIntelligence_Enrich
+        Entities","instanceName":"Enrich Entities","stepType":0},{"identifier":"bca95a98-82d3-4d69-b956-e8e60a5d4ecf","integration":"Flow","actionName":"IfFlowCondition","instanceName":"Risky
+        entities? ","stepType":4},{"identifier":"d56695dc-eac4-479a-a345-b3825a417344","integration":"Tools","actionName":"Tools_Add
+        Alert Scoring Information","instanceName":"Add Alert Scoring Information","stepType":0}]'
+-   step_id: null
+    playbook_id: null
+    name: NestedWorkflowOutput
+    value: null
+parallel_actions: []
+step_debug_data: null

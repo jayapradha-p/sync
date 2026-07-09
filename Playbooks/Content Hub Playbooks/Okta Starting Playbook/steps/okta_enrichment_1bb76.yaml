@@ -1,0 +1,68 @@
+identifier: 1bb76c91-c0b0-4f50-b405-cc4101d732a9
+original_step_id: 1bb76c91-c0b0-4f50-b405-cc4101d732a9
+parent_step_ids:
+- b4b3d73f-f7e0-436f-89bd-daaf3357762f
+parent_step_id: b4b3d73f-f7e0-436f-89bd-daaf3357762f
+previous_result_condition: '{"b4b3d73f-f7e0-436f-89bd-daaf3357762f": ""}'
+instance_name: Okta Enrichment
+is_automatic: true
+name: Okta Enrichment
+is_skippable: false
+description: This block retrieves information about a user from Okta, including all
+    roles assigned to the user and the groups the user is a member of, providing additional
+    context for analysis and response actions.
+action_provider: Flow
+action_name: NestedAction
+integration: Siemplify
+auto_skip_on_failure: false
+is_debug_mock_data: false
+parent_container_id: null
+is_touched_by_ai: false
+start_loop_step_id: null
+type: block
+parameters:
+-   step_id: null
+    playbook_id: null
+    name: AssignedUsers
+    value: null
+-   step_id: null
+    playbook_id: null
+    name: DynamicInjectionInstancePlaceholder
+    value: null
+-   step_id: null
+    playbook_id: null
+    name: FetchInstanceByName
+    value: null
+-   step_id: null
+    playbook_id: null
+    name: HasApprovalLink
+    value: null
+-   step_id: null
+    playbook_id: null
+    name: MessageToAssignee
+    value: null
+-   step_id: null
+    playbook_id: null
+    name: NestedWorkflowIdentifier
+    value: 94ae171c-09ef-471b-8eec-a1fea58d100b
+-   step_id: null
+    playbook_id: null
+    name: NestedWorkflowInputs
+    value: '[]'
+-   step_id: null
+    playbook_id: null
+    name: PendingActionTimeout
+    value: null
+-   step_id: null
+    playbook_id: null
+    name: NestedWorkflowSteps
+    value: '[{"identifier":"cbc7d95f-7f49-440d-a76d-3eeee8c862b7","integration":"Okta","actionName":"Okta_Get
+        User","instanceName":"User Details","stepType":0},{"identifier":"df5354ae-0caf-44c1-a2b0-37385f08a9de","integration":"Okta","actionName":"Okta_List
+        User Groups","instanceName":"List User Groups","stepType":0},{"identifier":"e0dec0a9-3ddc-4d50-8408-cafb251b0734","integration":"Okta","actionName":"Okta_List
+        Roles","instanceName":"List Roles","stepType":0}]'
+-   step_id: null
+    playbook_id: null
+    name: NestedWorkflowOutput
+    value: null
+parallel_actions: []
+step_debug_data: null

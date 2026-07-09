@@ -1,0 +1,62 @@
+identifier: ed362eae-e9ba-4e8b-87e2-0cc8a9770e45
+original_step_id: 8b157a54-0f47-42f0-87f8-5faeedeca02e
+parent_step_ids:
+- 1258f471-a95e-4ae2-9391-f579e9ecc941
+- 2f922206-0091-4986-84de-60c22e1bd0a0
+parent_step_id: 1258f471-a95e-4ae2-9391-f579e9ecc941
+previous_result_condition: '{"1258f471-a95e-4ae2-9391-f579e9ecc941": "", "2f922206-0091-4986-84de-60c22e1bd0a0":
+    "2"}'
+instance_name: Filter Principal User
+is_automatic: true
+name: Entity Selection
+is_skippable: false
+description: Creates a group of entities that can be used in other actions. Use conditions
+    to fine tune the group.
+action_provider: Flow
+action_name: EntitySelection
+integration: Flow
+auto_skip_on_failure: false
+is_debug_mock_data: false
+parent_container_id: null
+is_touched_by_ai: false
+start_loop_step_id: null
+type: action
+parameters:
+-   step_id: null
+    playbook_id: null
+    name: AssignedUsers
+    value: null
+-   step_id: null
+    playbook_id: null
+    name: ConditionOperator
+    value: '0'
+-   step_id: null
+    playbook_id: null
+    name: Conditions
+    value: '[{"FieldName":"Entity.Identifier","Operator":0,"Value":"[Event.event_principal_user_emailAddresses_1]","Type":2}]'
+-   step_id: null
+    playbook_id: null
+    name: DynamicInjectionInstancePlaceholder
+    value: null
+-   step_id: null
+    playbook_id: null
+    name: FetchInstanceByName
+    value: null
+-   step_id: null
+    playbook_id: null
+    name: HasApprovalLink
+    value: null
+-   step_id: null
+    playbook_id: null
+    name: MessageToAssignee
+    value: null
+-   step_id: null
+    playbook_id: null
+    name: PendingActionTimeout
+    value: null
+-   step_id: null
+    playbook_id: null
+    name: SelectedScopeName
+    value: All entities
+parallel_actions: []
+step_debug_data: null

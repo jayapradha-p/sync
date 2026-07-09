@@ -1,0 +1,80 @@
+identifier: a9fbb515-a981-45e9-95e4-19b913f1645d
+original_step_id: e0349cc8-508c-4d96-b0e3-ac6b85f72a05
+parent_step_ids:
+- 6994b115-461c-40e4-a291-0f4904c6a7d2
+parent_step_id: 6994b115-461c-40e4-a291-0f4904c6a7d2
+previous_result_condition: '{"6994b115-461c-40e4-a291-0f4904c6a7d2": "2"}'
+instance_name: Disable User
+is_automatic: true
+name: Okta_Disable User
+is_skippable: false
+description: Disables the specified user
+action_provider: Scripts
+action_name: Okta_Disable User
+integration: Okta
+auto_skip_on_failure: true
+is_debug_mock_data: false
+parent_container_id: null
+is_touched_by_ai: false
+start_loop_step_id: null
+type: action
+parameters:
+-   step_id: null
+    playbook_id: null
+    name: AssignedUsers
+    value: null
+-   step_id: null
+    playbook_id: null
+    name: AsyncActionTimeout
+    value: '3600'
+-   step_id: null
+    playbook_id: null
+    name: AsyncPollingInterval
+    value: '300'
+-   step_id: null
+    playbook_id: null
+    name: DynamicInjectionInstancePlaceholder
+    value: null
+-   step_id: null
+    playbook_id: null
+    name: FallbackIntegrationInstance
+    value: null
+-   step_id: null
+    playbook_id: null
+    name: FetchInstanceByName
+    value: 'false'
+-   step_id: null
+    playbook_id: null
+    name: HasApprovalLink
+    value: null
+-   step_id: null
+    playbook_id: null
+    name: IntegrationInstance
+    value: null
+-   step_id: null
+    playbook_id: null
+    name: MessageToAssignee
+    value: null
+-   step_id: null
+    playbook_id: null
+    name: PendingActionTimeout
+    value: null
+-   step_id: null
+    playbook_id: null
+    name: ScriptName
+    value: Okta_Disable User
+-   step_id: null
+    playbook_id: null
+    name: ScriptParametersEntityFields
+    value: '{"User IDs Or Logins":"[Event.event_principal_user_emailAddresses]","Is
+        Deactivate":false,"Send Email If Deactivate":false,"Also Run On Scope":false}'
+-   step_id: null
+    playbook_id: null
+    name: SelectedScopeName
+    value: Filter Principal User.SelectedEntities
+-   step_id: null
+    playbook_id: null
+    name: UseEntitiesLoopScope
+    value: null
+parallel_actions: []
+step_debug_data: null

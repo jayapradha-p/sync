@@ -1,0 +1,81 @@
+identifier: 0e3ccde9-882c-4c39-b176-4c65f070cd6b
+original_step_id: 0e3ccde9-882c-4c39-b176-4c65f070cd6b
+parent_step_ids:
+- 8a25fce1-df48-44b1-ad8d-97e617b951ad
+parent_step_id: 8a25fce1-df48-44b1-ad8d-97e617b951ad
+previous_result_condition: '{"8a25fce1-df48-44b1-ad8d-97e617b951ad": ""}'
+instance_name: Mitre Techniques Mitigations
+is_automatic: true
+name: MitreAttck_Get Techniques Mitigations
+is_skippable: false
+description: Retrieve information about mitigations that are associated with MITRE
+    attack techniques.
+action_provider: Scripts
+action_name: MitreAttck_Get Techniques Mitigations
+integration: MitreAttck
+auto_skip_on_failure: true
+is_debug_mock_data: false
+parent_container_id: null
+is_touched_by_ai: false
+start_loop_step_id: null
+type: action
+parameters:
+-   step_id: null
+    playbook_id: null
+    name: AssignedUsers
+    value: null
+-   step_id: null
+    playbook_id: null
+    name: AsyncActionTimeout
+    value: '86400'
+-   step_id: null
+    playbook_id: null
+    name: AsyncPollingInterval
+    value: '3600'
+-   step_id: null
+    playbook_id: null
+    name: DynamicInjectionInstancePlaceholder
+    value: null
+-   step_id: null
+    playbook_id: null
+    name: FallbackIntegrationInstance
+    value: null
+-   step_id: null
+    playbook_id: null
+    name: FetchInstanceByName
+    value: null
+-   step_id: null
+    playbook_id: null
+    name: HasApprovalLink
+    value: null
+-   step_id: null
+    playbook_id: null
+    name: IntegrationInstance
+    value: null
+-   step_id: null
+    playbook_id: null
+    name: MessageToAssignee
+    value: null
+-   step_id: null
+    playbook_id: null
+    name: PendingActionTimeout
+    value: null
+-   step_id: null
+    playbook_id: null
+    name: RetryConfiguration
+    value: '{"Enabled":false,"IntervalInSeconds":30,"NumberOfRetries":1}'
+-   step_id: null
+    playbook_id: null
+    name: ScriptName
+    value: MitreAttck_Get Techniques Mitigations
+-   step_id: null
+    playbook_id: null
+    name: ScriptParametersEntityFields
+    value: '{"Technique ID":"[Entity.Identifier]","Identifier Type":"External Attack
+        ID","Max Mitigations to Return":"20"}'
+-   step_id: null
+    playbook_id: null
+    name: SelectedScopeName
+    value: All threat signatures entities
+parallel_actions: []
+step_debug_data: null

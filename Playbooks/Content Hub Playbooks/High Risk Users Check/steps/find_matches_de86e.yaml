@@ -1,0 +1,78 @@
+identifier: de86ec4f-7dbd-40a7-94b3-6f706a35b3ac
+original_step_id: a3c62726-0bbb-487e-9ec3-b9931b7badda
+parent_step_ids:
+- 7e9d9dd9-e807-4b58-9f0e-eed67dd971a7
+parent_step_id: 7e9d9dd9-e807-4b58-9f0e-eed67dd971a7
+previous_result_condition: '{"7e9d9dd9-e807-4b58-9f0e-eed67dd971a7": ""}'
+instance_name: Find Matches
+is_automatic: true
+name: TemplateEngine_Render Template
+is_skippable: false
+description: 'This action will render a Jinja2 template using a JSON input.  '
+action_provider: Scripts
+action_name: TemplateEngine_Render Template
+integration: TemplateEngine
+auto_skip_on_failure: false
+is_debug_mock_data: false
+parent_container_id: null
+is_touched_by_ai: false
+start_loop_step_id: null
+type: action
+parameters:
+-   step_id: null
+    playbook_id: null
+    name: AssignedUsers
+    value: null
+-   step_id: null
+    playbook_id: null
+    name: AsyncActionTimeout
+    value: '86400'
+-   step_id: null
+    playbook_id: null
+    name: AsyncPollingInterval
+    value: '3600'
+-   step_id: null
+    playbook_id: null
+    name: DynamicInjectionInstancePlaceholder
+    value: null
+-   step_id: null
+    playbook_id: null
+    name: FallbackIntegrationInstance
+    value: null
+-   step_id: null
+    playbook_id: null
+    name: FetchInstanceByName
+    value: 'false'
+-   step_id: null
+    playbook_id: null
+    name: HasApprovalLink
+    value: null
+-   step_id: null
+    playbook_id: null
+    name: IntegrationInstance
+    value: null
+-   step_id: null
+    playbook_id: null
+    name: MessageToAssignee
+    value: null
+-   step_id: null
+    playbook_id: null
+    name: PendingActionTimeout
+    value: null
+-   step_id: null
+    playbook_id: null
+    name: ScriptName
+    value: TemplateEngine_Render Template
+-   step_id: null
+    playbook_id: null
+    name: ScriptParametersEntityFields
+    value: '{"JSON Object":"{}","Jinja":"{% set data = ''[Retrieve Relevant Users.JsonResult|
+        \"entityIdentifier\"]'' -%}\n{% set result = [] -%}\n{% for entry in data.split('','')
+        -%}\n{% if entry in \"[Entity.Identifier]\" -%}\n{% set result = result.append(entry)
+        -%}\n{% endif %}\n{% endfor %}\n{{ result | join('','')}}","Include Case Data":false,"Template":"{\"Content\":\"\",\"ContentTemplateName\":\"\",\"HtmlTemplateName\":\"\"}"}'
+-   step_id: null
+    playbook_id: null
+    name: SelectedScopeName
+    value: All users
+parallel_actions: []
+step_debug_data: null

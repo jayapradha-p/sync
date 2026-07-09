@@ -1,0 +1,8 @@
+-   description: This block allows the playbook to update Google Workspace Directory
+        user accounts as part of containment or response actions, supporting account
+        management and security controls.
+    version: '0'
+    item_name: Google Workspace Containment
+    item_type: Block
+    publish_time: 1783492122
+    ticket_number: ''

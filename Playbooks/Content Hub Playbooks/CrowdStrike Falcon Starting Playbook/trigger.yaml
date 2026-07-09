@@ -1,0 +1,10 @@
+identifier: 800528f5-cf2b-48c6-9367-e04b368499b5
+type_: case_data
+logical_operator: and
+conditions:
+-   field_name: '[Event.event_metadata_vendorName]'
+    value: 'Crowdstrike
+
+        '
+    match_type: contains
+    custom_operator_name: null

@@ -1,0 +1,59 @@
+identifier: feae62ef-bd06-4ebf-bbb0-cd7a44c37d63
+original_step_id: 1542e8b0-6228-47d6-81f7-a0bfb7e71259
+parent_step_ids: []
+parent_step_id: ''
+previous_result_condition: '{}'
+instance_name: Hostnames and IPs
+is_automatic: true
+name: Entity Selection
+is_skippable: false
+description: Creates a group of entities that can be used in other actions. Use conditions
+    to fine tune the group.
+action_provider: Flow
+action_name: EntitySelection
+integration: Flow
+auto_skip_on_failure: false
+is_debug_mock_data: false
+parent_container_id: null
+is_touched_by_ai: false
+start_loop_step_id: null
+type: action
+parameters:
+-   step_id: null
+    playbook_id: null
+    name: AssignedUsers
+    value: null
+-   step_id: null
+    playbook_id: null
+    name: ConditionOperator
+    value: '1'
+-   step_id: null
+    playbook_id: null
+    name: Conditions
+    value: '[{"FieldName":"Entity.Type","Operator":0,"Type":2,"Value":"Hostname"},{"FieldName":"Entity.Type","Operator":0,"Type":2,"Value":"Address"}]'
+-   step_id: null
+    playbook_id: null
+    name: DynamicInjectionInstancePlaceholder
+    value: null
+-   step_id: null
+    playbook_id: null
+    name: FetchInstanceByName
+    value: null
+-   step_id: null
+    playbook_id: null
+    name: HasApprovalLink
+    value: null
+-   step_id: null
+    playbook_id: null
+    name: MessageToAssignee
+    value: null
+-   step_id: null
+    playbook_id: null
+    name: PendingActionTimeout
+    value: null
+-   step_id: null
+    playbook_id: null
+    name: SelectedScopeName
+    value: All entities
+parallel_actions: []
+step_debug_data: null

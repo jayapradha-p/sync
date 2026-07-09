@@ -1,0 +1,79 @@
+identifier: be848007-3f8c-43b6-9143-6d7755b35540
+original_step_id: be848007-3f8c-43b6-9143-6d7755b35540
+parent_step_ids:
+- 75b882d0-01c8-4137-af99-850d92e442c5
+parent_step_id: 75b882d0-01c8-4137-af99-850d92e442c5
+previous_result_condition: '{"75b882d0-01c8-4137-af99-850d92e442c5": ""}'
+instance_name: List Instances - EC2
+is_automatic: true
+name: AWSEC2_List Instances
+is_skippable: false
+description: Describes the specified instances or all instances.
+action_provider: Scripts
+action_name: AWSEC2_List Instances
+integration: AWSEC2
+auto_skip_on_failure: true
+is_debug_mock_data: false
+parent_container_id: null
+is_touched_by_ai: false
+start_loop_step_id: null
+type: action
+parameters:
+-   step_id: null
+    playbook_id: null
+    name: AssignedUsers
+    value: null
+-   step_id: null
+    playbook_id: null
+    name: AsyncActionTimeout
+    value: '3600'
+-   step_id: null
+    playbook_id: null
+    name: AsyncPollingInterval
+    value: '300'
+-   step_id: null
+    playbook_id: null
+    name: DynamicInjectionInstancePlaceholder
+    value: null
+-   step_id: null
+    playbook_id: null
+    name: FallbackIntegrationInstance
+    value: null
+-   step_id: null
+    playbook_id: null
+    name: FetchInstanceByName
+    value: 'false'
+-   step_id: null
+    playbook_id: null
+    name: HasApprovalLink
+    value: null
+-   step_id: null
+    playbook_id: null
+    name: IntegrationInstance
+    value: AutomaticEnvironment
+-   step_id: null
+    playbook_id: null
+    name: MessageToAssignee
+    value: null
+-   step_id: null
+    playbook_id: null
+    name: PendingActionTimeout
+    value: null
+-   step_id: null
+    playbook_id: null
+    name: RetryConfiguration
+    value: '{"Enabled":false,"IntervalInSeconds":30,"NumberOfRetries":1}'
+-   step_id: null
+    playbook_id: null
+    name: ScriptName
+    value: AWSEC2_List Instances
+-   step_id: null
+    playbook_id: null
+    name: ScriptParametersEntityFields
+    value: '{"Instance IDs":"[Instance Ids.ScriptResult]","Tag Filters":"","Max Results":"50"}'
+-   step_id: null
+    playbook_id: null
+    name: SelectedScopeName
+    value: All entities
+parallel_actions: []
+step_debug_data: null

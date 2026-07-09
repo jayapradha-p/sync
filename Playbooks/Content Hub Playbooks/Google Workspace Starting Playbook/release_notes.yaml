@@ -1,0 +1,7 @@
+-   description: Google Workspace Starting Playbook provides reference implementation
+        of how Google Workspace alerts can be processed in Google SecOps.
+    version: '0'
+    item_name: Google Workspace Starting Playbook
+    item_type: Playbook
+    publish_time: 1783492122
+    ticket_number: ''

@@ -1,0 +1,76 @@
+identifier: 6c8c885f-779e-4174-9adc-1119226b3e81
+original_step_id: 6c8c885f-779e-4174-9adc-1119226b3e81
+parent_step_ids:
+- 765803d9-3df8-45e8-92cb-5a6f502aa774
+parent_step_id: 765803d9-3df8-45e8-92cb-5a6f502aa774
+previous_result_condition: '{"765803d9-3df8-45e8-92cb-5a6f502aa774": "1"}'
+instance_name: Join Emails
+is_automatic: true
+name: SiemplifyUtilities_Query Joiner
+is_skippable: false
+description: Form query string from given parameters.
+action_provider: Scripts
+action_name: SiemplifyUtilities_Query Joiner
+integration: SiemplifyUtilities
+auto_skip_on_failure: false
+is_debug_mock_data: false
+parent_container_id: null
+is_touched_by_ai: false
+start_loop_step_id: null
+type: action
+parameters:
+-   step_id: null
+    playbook_id: null
+    name: AssignedUsers
+    value: null
+-   step_id: null
+    playbook_id: null
+    name: AsyncActionTimeout
+    value: '3600'
+-   step_id: null
+    playbook_id: null
+    name: AsyncPollingInterval
+    value: '300'
+-   step_id: null
+    playbook_id: null
+    name: DynamicInjectionInstancePlaceholder
+    value: null
+-   step_id: null
+    playbook_id: null
+    name: FallbackIntegrationInstance
+    value: null
+-   step_id: null
+    playbook_id: null
+    name: FetchInstanceByName
+    value: 'false'
+-   step_id: null
+    playbook_id: null
+    name: HasApprovalLink
+    value: null
+-   step_id: null
+    playbook_id: null
+    name: IntegrationInstance
+    value: e440454f-1599-4234-9103-075fdfae8001
+-   step_id: null
+    playbook_id: null
+    name: MessageToAssignee
+    value: null
+-   step_id: null
+    playbook_id: null
+    name: PendingActionTimeout
+    value: null
+-   step_id: null
+    playbook_id: null
+    name: ScriptName
+    value: SiemplifyUtilities_Query Joiner
+-   step_id: null
+    playbook_id: null
+    name: ScriptParametersEntityFields
+    value: '{"Values":"[Event.event_principal_user_emailAddresses]","Query Field":"principal.user.email_addresses","Query
+        Operator":"OR","Add Quotes":false,"Add Double Quotes":true}'
+-   step_id: null
+    playbook_id: null
+    name: SelectedScopeName
+    value: All entities
+parallel_actions: []
+step_debug_data: null

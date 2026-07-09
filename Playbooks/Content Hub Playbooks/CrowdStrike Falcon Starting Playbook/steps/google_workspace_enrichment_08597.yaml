@@ -1,0 +1,66 @@
+identifier: 08597b3c-fbcf-4275-a14f-c1846a9de4aa
+original_step_id: 08597b3c-fbcf-4275-a14f-c1846a9de4aa
+parent_step_ids:
+- 6905382a-a0d6-43a7-bcf7-26f9c8a6f97e
+parent_step_id: 6905382a-a0d6-43a7-bcf7-26f9c8a6f97e
+previous_result_condition: '{"6905382a-a0d6-43a7-bcf7-26f9c8a6f97e": ""}'
+instance_name: Google Workspace Enrichment
+is_automatic: true
+name: Google Workspace Enrichment
+is_skippable: false
+description: This block enriches user entities with relevant information from Google
+    Workspace, providing additional context to support investigation and response
+    activities.
+action_provider: Flow
+action_name: NestedAction
+integration: Siemplify
+auto_skip_on_failure: false
+is_debug_mock_data: false
+parent_container_id: null
+is_touched_by_ai: false
+start_loop_step_id: null
+type: block
+parameters:
+-   step_id: null
+    playbook_id: null
+    name: AssignedUsers
+    value: null
+-   step_id: null
+    playbook_id: null
+    name: DynamicInjectionInstancePlaceholder
+    value: null
+-   step_id: null
+    playbook_id: null
+    name: FetchInstanceByName
+    value: null
+-   step_id: null
+    playbook_id: null
+    name: HasApprovalLink
+    value: null
+-   step_id: null
+    playbook_id: null
+    name: MessageToAssignee
+    value: null
+-   step_id: null
+    playbook_id: null
+    name: NestedWorkflowIdentifier
+    value: 36f6ea61-3b30-4fa1-ba19-78f4d5846ee2
+-   step_id: null
+    playbook_id: null
+    name: NestedWorkflowInputs
+    value: '[]'
+-   step_id: null
+    playbook_id: null
+    name: PendingActionTimeout
+    value: null
+-   step_id: null
+    playbook_id: null
+    name: NestedWorkflowSteps
+    value: '[{"identifier":"6eeea1d4-5f5e-44fc-98eb-ca07776c23f9","integration":"GSuite","actionName":"GSuite_Enrich
+        Entities","instanceName":"Google Workspace Enrichment","stepType":0}]'
+-   step_id: null
+    playbook_id: null
+    name: NestedWorkflowOutput
+    value: null
+parallel_actions: []
+step_debug_data: null

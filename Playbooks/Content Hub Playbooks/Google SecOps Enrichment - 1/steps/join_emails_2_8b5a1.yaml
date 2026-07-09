@@ -1,0 +1,76 @@
+identifier: 8b5a1e50-171f-4409-a8ed-2c9ece5b0ce5
+original_step_id: 8b5a1e50-171f-4409-a8ed-2c9ece5b0ce5
+parent_step_ids:
+- fee996dc-55b5-4f7c-b2f5-1a9517501563
+parent_step_id: fee996dc-55b5-4f7c-b2f5-1a9517501563
+previous_result_condition: '{"fee996dc-55b5-4f7c-b2f5-1a9517501563": "3"}'
+instance_name: Join Emails 2
+is_automatic: true
+name: SiemplifyUtilities_Query Joiner
+is_skippable: false
+description: Form query string from given parameters.
+action_provider: Scripts
+action_name: SiemplifyUtilities_Query Joiner
+integration: SiemplifyUtilities
+auto_skip_on_failure: false
+is_debug_mock_data: false
+parent_container_id: null
+is_touched_by_ai: false
+start_loop_step_id: null
+type: action
+parameters:
+-   step_id: null
+    playbook_id: null
+    name: AssignedUsers
+    value: null
+-   step_id: null
+    playbook_id: null
+    name: AsyncActionTimeout
+    value: '3600'
+-   step_id: null
+    playbook_id: null
+    name: AsyncPollingInterval
+    value: '300'
+-   step_id: null
+    playbook_id: null
+    name: DynamicInjectionInstancePlaceholder
+    value: null
+-   step_id: null
+    playbook_id: null
+    name: FallbackIntegrationInstance
+    value: null
+-   step_id: null
+    playbook_id: null
+    name: FetchInstanceByName
+    value: 'false'
+-   step_id: null
+    playbook_id: null
+    name: HasApprovalLink
+    value: null
+-   step_id: null
+    playbook_id: null
+    name: IntegrationInstance
+    value: e440454f-1599-4234-9103-075fdfae8001
+-   step_id: null
+    playbook_id: null
+    name: MessageToAssignee
+    value: null
+-   step_id: null
+    playbook_id: null
+    name: PendingActionTimeout
+    value: null
+-   step_id: null
+    playbook_id: null
+    name: ScriptName
+    value: SiemplifyUtilities_Query Joiner
+-   step_id: null
+    playbook_id: null
+    name: ScriptParametersEntityFields
+    value: '{"Values":"[Event.event_principal_user_emailAddresses]","Query Field":"principal.user.email_addresses","Query
+        Operator":"OR","Add Quotes":false,"Add Double Quotes":true}'
+-   step_id: null
+    playbook_id: null
+    name: SelectedScopeName
+    value: All entities
+parallel_actions: []
+step_debug_data: null

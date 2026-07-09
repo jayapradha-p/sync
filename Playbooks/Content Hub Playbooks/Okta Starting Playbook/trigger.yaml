@@ -1,0 +1,10 @@
+identifier: 0b5fb24d-7aaa-4f10-857d-5247626f6d69
+type_: case_data
+logical_operator: or
+conditions:
+-   field_name: '[Event.event_metadata_vendorname]'
+    value: 'Okta
+
+        '
+    match_type: equal
+    custom_operator_name: null

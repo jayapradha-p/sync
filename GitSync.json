@@ -1,5 +1,4 @@
 {
-    "system_version": "6.3.91.0",
     "readme_addons": {
         "Block": {
             "Block_1": "hellooo"
@@ -16,5 +15,6 @@
     },
     "settings": {
         "update_root_readme": true
-    }
+    },
+    "system_version": "6.1.6.178"
 }

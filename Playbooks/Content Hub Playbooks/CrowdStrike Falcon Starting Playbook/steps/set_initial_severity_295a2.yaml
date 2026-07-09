@@ -1,0 +1,71 @@
+identifier: 295a2610-f84c-40db-b508-b7c6a0e10d0c
+original_step_id: 295a2610-f84c-40db-b508-b7c6a0e10d0c
+parent_step_ids:
+- ad1c9128-c4bd-46ce-b606-747051e0626b
+parent_step_id: ad1c9128-c4bd-46ce-b606-747051e0626b
+previous_result_condition: '{"ad1c9128-c4bd-46ce-b606-747051e0626b": ""}'
+instance_name: Set Initial Severity
+is_automatic: true
+name: Set Initial Severity
+is_skippable: false
+description: This block sets the initial alert score based on the SIEM detection severity
+    or the rule metadata severity label.
+action_provider: Flow
+action_name: NestedAction
+integration: Siemplify
+auto_skip_on_failure: false
+is_debug_mock_data: false
+parent_container_id: null
+is_touched_by_ai: false
+start_loop_step_id: null
+type: block
+parameters:
+-   step_id: null
+    playbook_id: null
+    name: AssignedUsers
+    value: null
+-   step_id: null
+    playbook_id: null
+    name: DynamicInjectionInstancePlaceholder
+    value: null
+-   step_id: null
+    playbook_id: null
+    name: FetchInstanceByName
+    value: null
+-   step_id: null
+    playbook_id: null
+    name: HasApprovalLink
+    value: null
+-   step_id: null
+    playbook_id: null
+    name: MessageToAssignee
+    value: null
+-   step_id: null
+    playbook_id: null
+    name: NestedWorkflowIdentifier
+    value: 68009094-9f6c-4af4-9361-92135fcc826a
+-   step_id: null
+    playbook_id: null
+    name: NestedWorkflowInputs
+    value: '[]'
+-   step_id: null
+    playbook_id: null
+    name: PendingActionTimeout
+    value: null
+-   step_id: null
+    playbook_id: null
+    name: NestedWorkflowSteps
+    value: '[{"identifier":"028779d3-aee3-488b-94ad-fd78d36b3361","integration":"Siemplify","actionName":"Siemplify_Set
+        Scope Context Value","instanceName":"Set Initial Priority +75","stepType":0},{"identifier":"58b9ebb2-4498-4fae-b8bb-c495a07f221a","integration":"Siemplify","actionName":"Siemplify_Set
+        Scope Context Value","instanceName":"Set Initial Priority +90","stepType":0},{"identifier":"763636cc-1a0f-4bf4-8231-5481cc71f7a5","integration":"Siemplify","actionName":"Siemplify_Set
+        Scope Context Value","instanceName":"Fallback","stepType":0},{"identifier":"a8442ee5-893c-4eab-a6db-f881ca94426f","integration":"Siemplify","actionName":"Siemplify_Set
+        Scope Context Value","instanceName":"Set Initial Priority +50","stepType":0},{"identifier":"bcbb74c4-225c-49d5-b9bc-66fa5f0d9a01","integration":"Tools","actionName":"Tools_Set
+        Context Value","instanceName":"Initi Summary","stepType":0},{"identifier":"d20abd8c-e6a9-4b0b-9ec8-6093da51202e","integration":"Flow","actionName":"IfFlowCondition","instanceName":"Set
+        by alert severity ","stepType":4},{"identifier":"ef6dff92-7172-4a8f-8e02-ab6262bf51ec","integration":"Siemplify","actionName":"Siemplify_Set
+        Scope Context Value","instanceName":"Set Initial Priority +25","stepType":0}]'
+-   step_id: null
+    playbook_id: null
+    name: NestedWorkflowOutput
+    value: null
+parallel_actions: []
+step_debug_data: null

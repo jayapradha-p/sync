@@ -1,0 +1,60 @@
+identifier: 95013b62-e98b-4e1f-8eb2-3a1683a9b394
+original_step_id: b23d9f09-c617-489e-8e14-faa6f63c03b5
+parent_step_ids: []
+parent_step_id: ''
+previous_result_condition: '{}'
+instance_name: Init Remediation Variable
+is_automatic: true
+name: Condition
+is_skippable: false
+description: This condition determines the progress of the playbook. Conditions are
+    built based on cases data (cases, alerts, vents, entities and environment properties)
+    as-well as data that comes back from previous playbook steps.
+action_provider: Flow
+action_name: IfFlowCondition
+integration: Flow
+auto_skip_on_failure: false
+is_debug_mock_data: false
+parent_container_id: null
+is_touched_by_ai: false
+start_loop_step_id: null
+type: condition
+parameters:
+-   step_id: null
+    playbook_id: null
+    name: AssignedUsers
+    value: null
+-   step_id: null
+    playbook_id: null
+    name: Branches
+    value: '[{"LogicalOperator":0,"Conditions":[{"Operator":2,"FieldName":"[Alert.Remediation]","Type":2,"Value":"[Alert.Remediation","CustomOperatorName":null}],"Order":1,"IsDefaultBranch":false,"Name":"IsEmpty"},{"LogicalOperator":0,"Conditions":[],"Order":2,"IsDefaultBranch":true,"Name":"Branch"}]'
+-   step_id: null
+    playbook_id: null
+    name: DynamicInjectionInstancePlaceholder
+    value: null
+-   step_id: null
+    playbook_id: null
+    name: ErrorFallbackBranch
+    value: null
+-   step_id: null
+    playbook_id: null
+    name: FetchInstanceByName
+    value: null
+-   step_id: null
+    playbook_id: null
+    name: HasApprovalLink
+    value: null
+-   step_id: null
+    playbook_id: null
+    name: MessageToAssignee
+    value: null
+-   step_id: null
+    playbook_id: null
+    name: PendingActionTimeout
+    value: null
+-   step_id: null
+    playbook_id: null
+    name: SelectedScopeName
+    value: All entities
+parallel_actions: []
+step_debug_data: null
