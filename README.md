@@ -18,14 +18,6 @@
 |TemplateEngine|Template Engine integration provides the ability to render templates using Jinja2. Jinja2 provide fast and flexible ways to create rich templates. These templates can be used in entity insights, emails, ticketing systems, or any action that can take in a text string.Jinja2 documentation can be found at https://jinja.palletsprojects.com/en/2.11.x/|
 
 
-## Connectors
-|Name|Description|Has Mappings|
-|----|-----------|------------|
-|Anomali Staxx - Indicators Connector|Pull indicators from Anomali Staxx|False|
-|Google Chronicle - Chronicle Alerts Connector|Pull information about Rule based alerts from Google Chronicle. Note: dynamic list is used for filtering purposes. For all of the details please visit the documentation portal.|True|
-|Palo Alto Cortex XDR Connector - 1|Pull incidents from Palo Alto XDR. Dynamic List works with the “source” parameter.|False|
-
-
 ## Playbooks
 |Name|Description|
 |----|-----------|
