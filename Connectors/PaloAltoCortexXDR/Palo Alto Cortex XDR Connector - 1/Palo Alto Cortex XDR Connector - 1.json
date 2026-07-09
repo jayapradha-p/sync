@@ -1,5 +1,5 @@
 {
-    "name": "projects/spsstg-007ek/locations/us/instances/325a44c0-01b9-4ac1-aa54-17a2e31d8201/integrations/PaloAltoCortexXDR/connectors/72/connectorInstances/15",
+    "name": "projects/spsstg-007ek/locations/us/instances/325a44c0-01b9-4ac1-aa54-17a2e31d8201/integrations/PaloAltoCortexXDR/connectors/89/connectorInstances/15",
     "id": 15,
     "custom": false,
     "documentationLink": "https://cloud.google.com/chronicle/docs/soar/marketplace-integrations/palo-alto-cortex-xdr#palo-alto-cortex-xdr-connector",
@@ -8,7 +8,7 @@
     "integration": "PaloAltoCortexXDR",
     "remote": false,
     "loggingEnabledUntilUnixMs": 0,
-    "connectorId": 72,
+    "connectorId": 89,
     "integrationVersion": "28",
     "statistics": {
         "pastDayAlertsCount": 0,
@@ -237,7 +237,7 @@
         }
     ],
     "status": 1,
-    "updateAvailable": false,
+    "updateAvailable": true,
     "enabled": false,
     "environment": "Default Environment",
     "displayName": "Palo Alto Cortex XDR Connector - 1",
