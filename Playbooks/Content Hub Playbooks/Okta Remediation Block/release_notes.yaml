@@ -1,8 +1,0 @@
--   description: "This block allows the playbook to perform remediation actions on\
-        \ Okta users, including generating a one-time token to reset a user\u2019\
-        s password, disabling the user, or taking no action as needed."
-    version: '0'
-    item_name: Okta Remediation Block
-    item_type: Block
-    publish_time: 1783492168
-    ticket_number: ''

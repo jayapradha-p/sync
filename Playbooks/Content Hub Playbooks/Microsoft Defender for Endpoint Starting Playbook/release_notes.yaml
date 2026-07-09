@@ -1,8 +1,0 @@
--   description: Microsoft Defender for Endpoint Starting Playbook provides reference
-        implementation of how Microsoft Defender for Endpoint alerts can be processed
-        in Google SecOps.
-    version: '0'
-    item_name: Microsoft Defender for Endpoint Starting Playbook
-    item_type: Playbook
-    publish_time: 1783492141
-    ticket_number: ''

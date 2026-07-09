@@ -1,8 +1,0 @@
--   description: ' This block allows the playbook to create an isolate machine task
-        in Microsoft Defender for Endpoint, helping to contain affected systems and
-        prevent further network communication.'
-    version: '0'
-    item_name: Microsoft Defender For Endpoint Containment
-    item_type: Block
-    publish_time: 1783492140
-    ticket_number: ''

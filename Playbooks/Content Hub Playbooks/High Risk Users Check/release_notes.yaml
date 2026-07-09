@@ -1,7 +1,0 @@
--   description: This block checks Google GTI sourced alerts against a SOAR custom
-        list to find matches of targeted Industries.
-    version: '0'
-    item_name: High Risk Users Check
-    item_type: Block
-    publish_time: 1783492112
-    ticket_number: ''

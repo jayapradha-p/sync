@@ -1,7 +1,0 @@
--   description: Okta Starting Playbook provides reference implementation of how Okta
-        alerts can be processed in Google SecOps.
-    version: '0'
-    item_name: Okta Starting Playbook
-    item_type: Playbook
-    publish_time: 1783492169
-    ticket_number: ''

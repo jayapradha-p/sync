@@ -1,8 +1,0 @@
--   description: This block enriches user entities with relevant information from
-        Google Workspace, providing additional context to support investigation and
-        response activities.
-    version: '0'
-    item_name: Google Workspace Enrichment - 1
-    item_type: Block
-    publish_time: 1783492122
-    ticket_number: ''

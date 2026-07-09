@@ -1,7 +1,0 @@
--   description: CrowdStrike Falcon Starting Playbook provides reference implementation
-        of how CrowdStrike Falcon alerts can be processed in Google SecOps.
-    version: '0'
-    item_name: CrowdStrike Falcon Starting Playbook
-    item_type: Playbook
-    publish_time: 1783492112
-    ticket_number: ''

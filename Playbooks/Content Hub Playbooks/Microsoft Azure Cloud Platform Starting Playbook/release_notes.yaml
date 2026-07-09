@@ -1,8 +1,0 @@
--   description: Microsoft Azure Cloud Platform Starting Playbook provides reference
-        implementation of how Microsoft Azure Cloud Platform alerts can be processed
-        in Google SecOps.
-    version: '0'
-    item_name: Microsoft Azure Cloud Platform Starting Playbook
-    item_type: Playbook
-    publish_time: 1783492131
-    ticket_number: ''

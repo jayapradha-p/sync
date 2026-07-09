@@ -1,8 +1,0 @@
--   description: This block allows the playbook to apply containment actions to Azure
-        user accounts by either updating the password or disabling the account. It
-        also provides the option to ignore the action and take no changes when required.
-    version: '0'
-    item_name: Azure Containment
-    item_type: Block
-    publish_time: 1783492131
-    ticket_number: ''

@@ -1,8 +1,0 @@
--   description: This block retrieves relevant details about users and assets involved
-        in the case, enhancing the context available for analysis and subsequent actions
-        within Google SecOps SOAR.
-    version: '0'
-    item_name: Google SecOps Enrichment - 7
-    item_type: Block
-    publish_time: 1783492168
-    ticket_number: ''
