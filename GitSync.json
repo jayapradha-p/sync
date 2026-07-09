@@ -5,7 +5,8 @@
             "Block_1": "hellooo"
         },
         "Connector": {
-            "Anomali Staxx - Indicators Connector": "ADDON"
+            "Anomali Staxx - Indicators Connector": "ADDON",
+            "Google Chronicle - Chronicle Alerts Connector": "ADDON"
         },
         "Integration": {},
         "Job": {},
