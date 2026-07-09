@@ -84,6 +84,7 @@
 |Okta Enrichment|This block retrieves information about a user from Okta, including all roles assigned to the user and the groups the user is a member of, providing additional context for analysis and response actions.|
 |Okta Remediation Block|This block allows the playbook to perform remediation actions on Okta users, including generating a one-time token to reset a user’s password, disabling the user, or taking no action as needed.|
 |Okta Starting Playbook|Okta Starting Playbook provides reference implementation of how Okta alerts can be processed in Google SecOps.|
+|New Playbook||
 
 
 ## Visual Families

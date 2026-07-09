@@ -1,0 +1,27 @@
+identifier: 283357fb-d820-4480-8fd7-57d34da08a9e
+is_enable: true
+version: '1'
+name: New Playbook
+description: ''
+priority: 2
+category_name: Default
+category: 1
+environments:
+- Default Environment
+is_debug_mode: false
+type: playbook
+creator: 6900fc46-2900-40ab-9d7c-479966cd22ec
+modified_by: 6900fc46-2900-40ab-9d7c-479966cd22ec
+execution_scope: 1
+original_playbook_identifier: 283357fb-d820-4480-8fd7-57d34da08a9e
+creation_time_unix_time_in_ms: 1783582389897
+modification_time_unix_time_in_ms: 1783582389897
+template_name: null
+debug_data:
+    debugBaseAlertId: null
+    debugAlertId: null
+entity_access_level: 2
+default_access_level: 2
+permissions: []
+overview_templates: []
+creation_source: 1
