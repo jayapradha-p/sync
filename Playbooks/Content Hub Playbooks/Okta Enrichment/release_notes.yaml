@@ -1,8 +1,0 @@
--   description: This block retrieves information about a user from Okta, including
-        all roles assigned to the user and the groups the user is a member of, providing
-        additional context for analysis and response actions.
-    version: '0'
-    item_name: Okta Enrichment
-    item_type: Block
-    publish_time: 1783582639
-    ticket_number: ''

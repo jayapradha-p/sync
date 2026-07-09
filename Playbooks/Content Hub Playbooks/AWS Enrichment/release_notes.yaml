@@ -1,7 +1,0 @@
--   description: This block retrieves EC2 instance data associated with the case and
-        provides context for other actions or analysis.
-    version: '0'
-    item_name: AWS Enrichment
-    item_type: Block
-    publish_time: 1783582614
-    ticket_number: ''

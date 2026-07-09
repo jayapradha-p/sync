@@ -1,8 +1,0 @@
--   description: This block allows the playbook to automatically stop EC2 instances
-        that were identified in the alert as potentially compromised or suspicious,
-        supporting the containment phase of the incident response process.
-    version: '0'
-    item_name: AWS EC2 Containment
-    item_type: Block
-    publish_time: 1783582654
-    ticket_number: ''

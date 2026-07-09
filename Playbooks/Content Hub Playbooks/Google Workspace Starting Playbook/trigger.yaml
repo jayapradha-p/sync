@@ -1,8 +1,0 @@
-identifier: 55035c60-f849-406b-b603-611987f73a97
-type_: case_data
-logical_operator: and
-conditions:
--   field_name: '[Event.event_metadata_logType]'
-    value: WORKSPACE_ACTIVITY
-    match_type: equal
-    custom_operator_name: null
