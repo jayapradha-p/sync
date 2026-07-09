@@ -10,7 +10,9 @@
         },
         "Integration": {},
         "Job": {},
-        "Mappings": {},
+        "Mappings": {
+            "GoogleChronicle": "Addon "
+        },
         "Playbook": {
             "Block_1": "hellooo",
             "New Playbook": "hellooo"
