@@ -21,7 +21,7 @@
 ## Connectors
 |Name|Description|Has Mappings|
 |----|-----------|------------|
-|Palo Alto Cortex XDR Connector|Pull incidents from Palo Alto XDR. Dynamic List works with the “source” parameter.|True|
+|Palo Alto Cortex XDR Connector|Pull incidents from Palo Alto XDR. Dynamic List works with the “source” parameter.|False|
 
 
 ## Playbooks
@@ -85,6 +85,13 @@
 |Okta Remediation Block|This block allows the playbook to perform remediation actions on Okta users, including generating a one-time token to reset a user’s password, disabling the user, or taking no action as needed.|
 |Okta Starting Playbook|Okta Starting Playbook provides reference implementation of how Okta alerts can be processed in Google SecOps.|
 |New Playbook||
+
+
+## Visual Families
+|Name|Description|
+|----|-----------|
+|Test 2|testing 2|
+|Test1|testing 1|
 
 
 ## Jobs
