@@ -1,31 +1,32 @@
 {
+    "hasRestrictedEnvironments": false,
     "id": 0,
     "identifier": "ca197ca6-93a3-4b2d-a0ad-c2c7d327032a",
     "version": "0",
     "isEnabled": true,
     "isDebugMode": false,
     "name": "GTI Enrichment",
-    "creator": "6900fc46-2900-40ab-9d7c-479966cd22ec",
-    "modifiedBy": "Siemplify automation",
+    "creator": "5d5c8fb8-c631-4e33-be99-08a75c9069c7",
+    "modifiedBy": "5d5c8fb8-c631-4e33-be99-08a75c9069c7",
     "priority": 2,
     "description": "This block enhances case entities with Google Threat Intelligence enrichment information. Works for IPs, URLs, hostnames, domains, hashes (MD5, SHA-1, SHA-256), threat actors, and CVEs.",
     "executionScope": 0,
     "environments": [
-        "*"
+        "Default Environment"
     ],
     "categoryName": "Content Hub Playbooks",
     "categoryId": 2,
     "originalPlaybookIdentifier": "ca197ca6-93a3-4b2d-a0ad-c2c7d327032a",
-    "creationTimeUnixTimeInMs": 1783492087407,
-    "modificationTimeUnixTimeInMs": 1783582644691,
+    "creationTimeUnixTimeInMs": 1784026627824,
+    "modificationTimeUnixTimeInMs": 1784026627824,
     "trigger": {
         "id": 0,
-        "identifier": "41467606-d180-46dc-b559-772934107e6f",
+        "identifier": "cf3f1f46-6bb6-4d51-8b52-32e271d2ed2e",
         "type": 11,
         "logicalOperator": 0,
         "conditions": [],
         "reactionLogicalOperator": 1,
-        "reactionConditions": [],
+        "reactionConditions": null,
         "executionMode": 0
     },
     "steps": [
@@ -64,8 +65,8 @@
             "startLoopStepIdentifier": null,
             "logsExplorerUrl": null,
             "id": 0,
-            "creationTimeUnixTimeInMs": 1783582644157,
-            "modificationTimeUnixTimeInMs": 1783582644691,
+            "creationTimeUnixTimeInMs": 1784026627824,
+            "modificationTimeUnixTimeInMs": 1784026627824,
             "additionalProperties": {}
         },
         {
@@ -103,8 +104,8 @@
             "startLoopStepIdentifier": null,
             "logsExplorerUrl": null,
             "id": 0,
-            "creationTimeUnixTimeInMs": 1783582644157,
-            "modificationTimeUnixTimeInMs": 1783582644691,
+            "creationTimeUnixTimeInMs": 1784026627824,
+            "modificationTimeUnixTimeInMs": 1784026627824,
             "additionalProperties": {}
         },
         {
@@ -156,7 +157,7 @@
                 },
                 {
                     "name": "DynamicInjectionInstancePlaceholder",
-                    "value": null,
+                    "value": "",
                     "type": null,
                     "isMandatory": false,
                     "defaultValue": null,
@@ -200,7 +201,7 @@
                 },
                 {
                     "name": "IntegrationInstance",
-                    "value": "AutomaticEnvironment",
+                    "value": null,
                     "type": null,
                     "isMandatory": false,
                     "defaultValue": null,
@@ -296,8 +297,8 @@
             "startLoopStepIdentifier": null,
             "logsExplorerUrl": null,
             "id": 0,
-            "creationTimeUnixTimeInMs": 1783582644157,
-            "modificationTimeUnixTimeInMs": 1783582644691,
+            "creationTimeUnixTimeInMs": 1784026627824,
+            "modificationTimeUnixTimeInMs": 1784026627824,
             "additionalProperties": {}
         },
         {
@@ -349,7 +350,7 @@
                 },
                 {
                     "name": "DynamicInjectionInstancePlaceholder",
-                    "value": null,
+                    "value": "",
                     "type": null,
                     "isMandatory": false,
                     "defaultValue": null,
@@ -393,7 +394,7 @@
                 },
                 {
                     "name": "IntegrationInstance",
-                    "value": "AutomaticEnvironment",
+                    "value": null,
                     "type": null,
                     "isMandatory": false,
                     "defaultValue": null,
@@ -489,8 +490,8 @@
             "startLoopStepIdentifier": null,
             "logsExplorerUrl": null,
             "id": 0,
-            "creationTimeUnixTimeInMs": 1783582644157,
-            "modificationTimeUnixTimeInMs": 1783582644691,
+            "creationTimeUnixTimeInMs": 1784026627824,
+            "modificationTimeUnixTimeInMs": 1784026627824,
             "additionalProperties": {}
         },
         {
@@ -627,8 +628,8 @@
             "startLoopStepIdentifier": null,
             "logsExplorerUrl": null,
             "id": 0,
-            "creationTimeUnixTimeInMs": 1783582644157,
-            "modificationTimeUnixTimeInMs": 1783582644691,
+            "creationTimeUnixTimeInMs": 1784026627824,
+            "modificationTimeUnixTimeInMs": 1784026627824,
             "additionalProperties": {}
         },
         {
@@ -680,7 +681,7 @@
                 },
                 {
                     "name": "DynamicInjectionInstancePlaceholder",
-                    "value": null,
+                    "value": "",
                     "type": null,
                     "isMandatory": false,
                     "defaultValue": null,
@@ -724,7 +725,7 @@
                 },
                 {
                     "name": "IntegrationInstance",
-                    "value": "AutomaticEnvironment",
+                    "value": null,
                     "type": null,
                     "isMandatory": false,
                     "defaultValue": null,
@@ -820,8 +821,8 @@
             "startLoopStepIdentifier": null,
             "logsExplorerUrl": null,
             "id": 0,
-            "creationTimeUnixTimeInMs": 1783582644157,
-            "modificationTimeUnixTimeInMs": 1783582644691,
+            "creationTimeUnixTimeInMs": 1784026627824,
+            "modificationTimeUnixTimeInMs": 1784026627824,
             "additionalProperties": {}
         }
     ],

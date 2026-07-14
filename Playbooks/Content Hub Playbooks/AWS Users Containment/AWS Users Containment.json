@@ -1,31 +1,32 @@
 {
+    "hasRestrictedEnvironments": false,
     "id": 0,
     "identifier": "1c413688-dc98-42a3-a294-607314ec4ef0",
     "version": "0",
     "isEnabled": true,
     "isDebugMode": false,
     "name": "AWS Users Containment",
-    "creator": "6900fc46-2900-40ab-9d7c-479966cd22ec",
-    "modifiedBy": "Siemplify automation",
+    "creator": "5d5c8fb8-c631-4e33-be99-08a75c9069c7",
+    "modifiedBy": "5d5c8fb8-c631-4e33-be99-08a75c9069c7",
     "priority": 2,
     "description": "An embedded workflow that can receive inputs and return an output.",
     "executionScope": 0,
     "environments": [
-        "*"
+        "Default Environment"
     ],
     "categoryName": "Content Hub Playbooks",
     "categoryId": 2,
     "originalPlaybookIdentifier": "1c413688-dc98-42a3-a294-607314ec4ef0",
-    "creationTimeUnixTimeInMs": 1783492087611,
-    "modificationTimeUnixTimeInMs": 1783582655740,
+    "creationTimeUnixTimeInMs": 1784026625758,
+    "modificationTimeUnixTimeInMs": 1784026625758,
     "trigger": {
         "id": 0,
-        "identifier": "de303bdc-83cc-40a3-b2cd-56531a3d72a8",
+        "identifier": "a12f04b0-436f-4a93-aa99-3a9eece6ac08",
         "type": 11,
         "logicalOperator": 0,
         "conditions": [],
         "reactionLogicalOperator": 1,
-        "reactionConditions": [],
+        "reactionConditions": null,
         "executionMode": 0
     },
     "steps": [
@@ -152,8 +153,8 @@
             "startLoopStepIdentifier": null,
             "logsExplorerUrl": null,
             "id": 0,
-            "creationTimeUnixTimeInMs": 1783582655201,
-            "modificationTimeUnixTimeInMs": 1783582655740,
+            "creationTimeUnixTimeInMs": 1784026625758,
+            "modificationTimeUnixTimeInMs": 1784026625758,
             "additionalProperties": {}
         },
         {
@@ -249,7 +250,7 @@
                 },
                 {
                     "name": "IntegrationInstance",
-                    "value": "AutomaticEnvironment",
+                    "value": null,
                     "type": null,
                     "isMandatory": false,
                     "defaultValue": null,
@@ -323,8 +324,8 @@
             "startLoopStepIdentifier": null,
             "logsExplorerUrl": null,
             "id": 0,
-            "creationTimeUnixTimeInMs": 1783582655201,
-            "modificationTimeUnixTimeInMs": 1783582655740,
+            "creationTimeUnixTimeInMs": 1784026625758,
+            "modificationTimeUnixTimeInMs": 1784026625758,
             "additionalProperties": {}
         },
         {
@@ -376,7 +377,7 @@
                 },
                 {
                     "name": "DynamicInjectionInstancePlaceholder",
-                    "value": null,
+                    "value": "",
                     "type": null,
                     "isMandatory": false,
                     "defaultValue": null,
@@ -420,7 +421,7 @@
                 },
                 {
                     "name": "IntegrationInstance",
-                    "value": "AutomaticEnvironment",
+                    "value": null,
                     "type": null,
                     "isMandatory": false,
                     "defaultValue": null,
@@ -494,8 +495,8 @@
             "startLoopStepIdentifier": null,
             "logsExplorerUrl": null,
             "id": 0,
-            "creationTimeUnixTimeInMs": 1783582655201,
-            "modificationTimeUnixTimeInMs": 1783582655740,
+            "creationTimeUnixTimeInMs": 1784026625758,
+            "modificationTimeUnixTimeInMs": 1784026625758,
             "additionalProperties": {}
         },
         {
@@ -621,8 +622,8 @@
             "startLoopStepIdentifier": null,
             "logsExplorerUrl": null,
             "id": 0,
-            "creationTimeUnixTimeInMs": 1783582655201,
-            "modificationTimeUnixTimeInMs": 1783582655740,
+            "creationTimeUnixTimeInMs": 1784026625758,
+            "modificationTimeUnixTimeInMs": 1784026625758,
             "additionalProperties": {}
         },
         {
@@ -748,8 +749,8 @@
             "startLoopStepIdentifier": null,
             "logsExplorerUrl": null,
             "id": 0,
-            "creationTimeUnixTimeInMs": 1783582655201,
-            "modificationTimeUnixTimeInMs": 1783582655740,
+            "creationTimeUnixTimeInMs": 1784026625758,
+            "modificationTimeUnixTimeInMs": 1784026625758,
             "additionalProperties": {}
         },
         {
@@ -787,8 +788,8 @@
             "startLoopStepIdentifier": null,
             "logsExplorerUrl": null,
             "id": 0,
-            "creationTimeUnixTimeInMs": 1783582655201,
-            "modificationTimeUnixTimeInMs": 1783582655740,
+            "creationTimeUnixTimeInMs": 1784026625758,
+            "modificationTimeUnixTimeInMs": 1784026625758,
             "additionalProperties": {}
         },
         {
@@ -826,8 +827,8 @@
             "startLoopStepIdentifier": null,
             "logsExplorerUrl": null,
             "id": 0,
-            "creationTimeUnixTimeInMs": 1783582655201,
-            "modificationTimeUnixTimeInMs": 1783582655740,
+            "creationTimeUnixTimeInMs": 1784026625758,
+            "modificationTimeUnixTimeInMs": 1784026625758,
             "additionalProperties": {}
         },
         {
@@ -879,7 +880,7 @@
                 },
                 {
                     "name": "DynamicInjectionInstancePlaceholder",
-                    "value": null,
+                    "value": "",
                     "type": null,
                     "isMandatory": false,
                     "defaultValue": null,
@@ -923,7 +924,7 @@
                 },
                 {
                     "name": "IntegrationInstance",
-                    "value": "AutomaticEnvironment",
+                    "value": null,
                     "type": null,
                     "isMandatory": false,
                     "defaultValue": null,
@@ -990,15 +991,25 @@
             ],
             "autoSkipOnFailure": false,
             "isDebugMockData": false,
-            "debugData": null,
+            "debugData": {
+                "originalWorkflowIdentifier": "1c413688-dc98-42a3-a294-607314ec4ef0",
+                "originalStepIdentifier": "c762e18a-ff1b-4ca0-8006-7c246c139501",
+                "resultValue": "true",
+                "resultJson": "[{\"Entity\":\"username\",\"EntityResult\":\"Successfully added to the user the deny policy \\\"DisableUserAccessPolicy\\\".\"},{\"Entity\":\"arn:aws:iam::123456789012:user/division_abc/subdivision_xyz/Username\",\"EntityResult\":\"Successfully added to the user the deny policy \\\"DisableUserAccessPolicy\\\".\"},{\"Entity\":\"NoARealUserName\",\"EntityResult\":\"Failed to add the user to the deny policy \\\"DisableUserAccessPolicy\\\".\"}]",
+                "scopeEntitiesEnrichmentData": [],
+                "id": 0,
+                "creationTimeUnixTimeInMs": 0,
+                "modificationTimeUnixTimeInMs": 0,
+                "additionalProperties": {}
+            },
             "parentStepContainerId": null,
             "workflowIdentifier": "1c413688-dc98-42a3-a294-607314ec4ef0",
             "isTouchedByAi": false,
             "startLoopStepIdentifier": null,
             "logsExplorerUrl": null,
             "id": 0,
-            "creationTimeUnixTimeInMs": 1783582655201,
-            "modificationTimeUnixTimeInMs": 1783582655740,
+            "creationTimeUnixTimeInMs": 1784026625758,
+            "modificationTimeUnixTimeInMs": 1784026625758,
             "additionalProperties": {}
         },
         {
@@ -1094,7 +1105,7 @@
                 },
                 {
                     "name": "IntegrationInstance",
-                    "value": "AutomaticEnvironment",
+                    "value": null,
                     "type": null,
                     "isMandatory": false,
                     "defaultValue": null,
@@ -1168,8 +1179,8 @@
             "startLoopStepIdentifier": null,
             "logsExplorerUrl": null,
             "id": 0,
-            "creationTimeUnixTimeInMs": 1783582655201,
-            "modificationTimeUnixTimeInMs": 1783582655740,
+            "creationTimeUnixTimeInMs": 1784026625758,
+            "modificationTimeUnixTimeInMs": 1784026625758,
             "additionalProperties": {}
         }
     ],
