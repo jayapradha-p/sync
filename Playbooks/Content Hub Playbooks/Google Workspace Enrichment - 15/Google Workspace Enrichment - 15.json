@@ -1,0 +1,262 @@
+{
+    "id": 0,
+    "identifier": "12a7d5a7-a71b-4993-ba67-4beae3fee70e",
+    "version": "0",
+    "isEnabled": true,
+    "isDebugMode": false,
+    "name": "Google Workspace Enrichment - 15",
+    "creator": "6900fc46-2900-40ab-9d7c-479966cd22ec",
+    "modifiedBy": "6900fc46-2900-40ab-9d7c-479966cd22ec",
+    "priority": 2,
+    "description": "This block enriches user entities with relevant information from Google Workspace, providing additional context to support investigation and response activities.",
+    "executionScope": 0,
+    "environments": [
+        "Default Environment"
+    ],
+    "categoryName": "Content Hub Playbooks",
+    "categoryId": 2,
+    "originalPlaybookIdentifier": "12a7d5a7-a71b-4993-ba67-4beae3fee70e",
+    "creationTimeUnixTimeInMs": 1783999482921,
+    "modificationTimeUnixTimeInMs": 1783999482921,
+    "trigger": {
+        "id": 0,
+        "identifier": "3094ed18-9142-4aad-834c-0d2e2c764962",
+        "type": 11,
+        "logicalOperator": 0,
+        "conditions": [],
+        "reactionLogicalOperator": 1,
+        "reactionConditions": null,
+        "executionMode": 0
+    },
+    "steps": [
+        {
+            "parallelActions": [],
+            "identifier": "a4efb03e-2b4a-4af8-8f1d-dff31fb96390",
+            "originalStepIdentifier": "a4efb03e-2b4a-4af8-8f1d-dff31fb96390",
+            "isAutomatic": true,
+            "isSkippable": false,
+            "instanceName": "Google Workspace Enrichment",
+            "name": "GSuite_Enrich Entities",
+            "integration": "GSuite",
+            "description": "Enrich Google SecOps User entities with information from Google Workspace.",
+            "actionProvider": "Scripts",
+            "actionName": "GSuite_Enrich Entities",
+            "type": 0,
+            "parameters": [
+                {
+                    "name": "AssignedUsers",
+                    "value": null,
+                    "type": null,
+                    "isMandatory": false,
+                    "defaultValue": null,
+                    "id": 0,
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0,
+                    "additionalProperties": {}
+                },
+                {
+                    "name": "AsyncActionTimeout",
+                    "value": "3600",
+                    "type": null,
+                    "isMandatory": false,
+                    "defaultValue": null,
+                    "id": 0,
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0,
+                    "additionalProperties": {}
+                },
+                {
+                    "name": "AsyncPollingInterval",
+                    "value": "300",
+                    "type": null,
+                    "isMandatory": false,
+                    "defaultValue": null,
+                    "id": 0,
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0,
+                    "additionalProperties": {}
+                },
+                {
+                    "name": "DynamicInjectionInstancePlaceholder",
+                    "value": "",
+                    "type": null,
+                    "isMandatory": false,
+                    "defaultValue": null,
+                    "id": 0,
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0,
+                    "additionalProperties": {}
+                },
+                {
+                    "name": "FallbackIntegrationInstance",
+                    "value": null,
+                    "type": null,
+                    "isMandatory": false,
+                    "defaultValue": null,
+                    "id": 0,
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0,
+                    "additionalProperties": {}
+                },
+                {
+                    "name": "FetchInstanceByName",
+                    "value": "false",
+                    "type": null,
+                    "isMandatory": false,
+                    "defaultValue": null,
+                    "id": 0,
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0,
+                    "additionalProperties": {}
+                },
+                {
+                    "name": "HasApprovalLink",
+                    "value": null,
+                    "type": null,
+                    "isMandatory": false,
+                    "defaultValue": null,
+                    "id": 0,
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0,
+                    "additionalProperties": {}
+                },
+                {
+                    "name": "IntegrationInstance",
+                    "value": null,
+                    "type": null,
+                    "isMandatory": false,
+                    "defaultValue": null,
+                    "id": 0,
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0,
+                    "additionalProperties": {}
+                },
+                {
+                    "name": "MessageToAssignee",
+                    "value": null,
+                    "type": null,
+                    "isMandatory": false,
+                    "defaultValue": null,
+                    "id": 0,
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0,
+                    "additionalProperties": {}
+                },
+                {
+                    "name": "PendingActionTimeout",
+                    "value": null,
+                    "type": null,
+                    "isMandatory": false,
+                    "defaultValue": null,
+                    "id": 0,
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0,
+                    "additionalProperties": {}
+                },
+                {
+                    "name": "ScriptName",
+                    "value": "GSuite_Enrich Entities",
+                    "type": null,
+                    "isMandatory": false,
+                    "defaultValue": null,
+                    "id": 0,
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0,
+                    "additionalProperties": {}
+                },
+                {
+                    "name": "ScriptParametersEntityFields",
+                    "value": "{}",
+                    "type": null,
+                    "isMandatory": false,
+                    "defaultValue": null,
+                    "id": 0,
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0,
+                    "additionalProperties": {}
+                },
+                {
+                    "name": "SelectedScopeName",
+                    "value": "All entities",
+                    "type": null,
+                    "isMandatory": false,
+                    "defaultValue": null,
+                    "id": 0,
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0,
+                    "additionalProperties": {}
+                }
+            ],
+            "autoSkipOnFailure": true,
+            "isDebugMockData": false,
+            "debugData": null,
+            "parentStepContainerId": null,
+            "workflowIdentifier": "12a7d5a7-a71b-4993-ba67-4beae3fee70e",
+            "isTouchedByAi": false,
+            "startLoopStepIdentifier": null,
+            "logsExplorerUrl": null,
+            "id": 0,
+            "creationTimeUnixTimeInMs": 1783999482921,
+            "modificationTimeUnixTimeInMs": 1783999482921,
+            "additionalProperties": {}
+        },
+        {
+            "parallelActions": [],
+            "identifier": "d88e6cc1-24bf-4b7b-bb00-14921e19bf91",
+            "originalStepIdentifier": "d88e6cc1-24bf-4b7b-bb00-14921e19bf91",
+            "isAutomatic": true,
+            "isSkippable": false,
+            "instanceName": "Output_1",
+            "name": "Output",
+            "integration": "Flow",
+            "description": "",
+            "actionProvider": "Flow",
+            "actionName": "OutputAction",
+            "type": 6,
+            "parameters": [
+                {
+                    "name": "NestedWorkflowOutput",
+                    "value": null,
+                    "type": null,
+                    "isMandatory": false,
+                    "defaultValue": null,
+                    "id": 0,
+                    "creationTimeUnixTimeInMs": 0,
+                    "modificationTimeUnixTimeInMs": 0,
+                    "additionalProperties": {}
+                }
+            ],
+            "autoSkipOnFailure": false,
+            "isDebugMockData": false,
+            "debugData": null,
+            "parentStepContainerId": null,
+            "workflowIdentifier": "12a7d5a7-a71b-4993-ba67-4beae3fee70e",
+            "isTouchedByAi": false,
+            "startLoopStepIdentifier": null,
+            "logsExplorerUrl": null,
+            "id": 0,
+            "creationTimeUnixTimeInMs": 1783999482921,
+            "modificationTimeUnixTimeInMs": 1783999482921,
+            "additionalProperties": {}
+        }
+    ],
+    "stepsRelations": [
+        {
+            "condition": "",
+            "fromStep": "a4efb03e-2b4a-4af8-8f1d-dff31fb96390",
+            "toStep": "d88e6cc1-24bf-4b7b-bb00-14921e19bf91",
+            "destinationActionStatus": 0
+        }
+    ],
+    "templateName": null,
+    "playbookType": 1,
+    "debugData": {
+        "debugBaseAlertId": null,
+        "debugAlertId": null
+    },
+    "entityAccessLevel": 2,
+    "defaultAccessLevel": 2,
+    "permissions": [],
+    "overviewTemplates": [],
+    "creationSource": 1
+}
