@@ -38,7 +38,11 @@
 |AWS EC2 Containment - 16|This block allows the playbook to automatically stop EC2 instances that were identified in the alert as potentially compromised or suspicious, supporting the containment phase of the incident response process.|
 |AWS EC2 Containment - 17|This block allows the playbook to automatically stop EC2 instances that were identified in the alert as potentially compromised or suspicious, supporting the containment phase of the incident response process.|
 |AWS EC2 Containment - 18|This block allows the playbook to automatically stop EC2 instances that were identified in the alert as potentially compromised or suspicious, supporting the containment phase of the incident response process.|
+|AWS EC2 Containment - 19|This block allows the playbook to automatically stop EC2 instances that were identified in the alert as potentially compromised or suspicious, supporting the containment phase of the incident response process.|
 |AWS EC2 Containment - 2|This block allows the playbook to automatically stop EC2 instances that were identified in the alert as potentially compromised or suspicious, supporting the containment phase of the incident response process.|
+|AWS EC2 Containment - 20|This block allows the playbook to automatically stop EC2 instances that were identified in the alert as potentially compromised or suspicious, supporting the containment phase of the incident response process.|
+|AWS EC2 Containment - 21|This block allows the playbook to automatically stop EC2 instances that were identified in the alert as potentially compromised or suspicious, supporting the containment phase of the incident response process.|
+|AWS EC2 Containment - 22|This block allows the playbook to automatically stop EC2 instances that were identified in the alert as potentially compromised or suspicious, supporting the containment phase of the incident response process.|
 |AWS EC2 Containment - 3|This block allows the playbook to automatically stop EC2 instances that were identified in the alert as potentially compromised or suspicious, supporting the containment phase of the incident response process.|
 |AWS EC2 Containment - 4|This block allows the playbook to automatically stop EC2 instances that were identified in the alert as potentially compromised or suspicious, supporting the containment phase of the incident response process.|
 |AWS EC2 Containment - 5|This block allows the playbook to automatically stop EC2 instances that were identified in the alert as potentially compromised or suspicious, supporting the containment phase of the incident response process.|
@@ -58,7 +62,11 @@
 |AWS Enrichment - 16|This block retrieves EC2 instance data associated with the case and provides context for other actions or analysis.|
 |AWS Enrichment - 17|This block retrieves EC2 instance data associated with the case and provides context for other actions or analysis.|
 |AWS Enrichment - 18|This block retrieves EC2 instance data associated with the case and provides context for other actions or analysis.|
+|AWS Enrichment - 19|This block retrieves EC2 instance data associated with the case and provides context for other actions or analysis.|
 |AWS Enrichment - 2|This block retrieves EC2 instance data associated with the case and provides context for other actions or analysis.|
+|AWS Enrichment - 20|This block retrieves EC2 instance data associated with the case and provides context for other actions or analysis.|
+|AWS Enrichment - 21|This block retrieves EC2 instance data associated with the case and provides context for other actions or analysis.|
+|AWS Enrichment - 22|This block retrieves EC2 instance data associated with the case and provides context for other actions or analysis.|
 |AWS Enrichment - 3|This block retrieves EC2 instance data associated with the case and provides context for other actions or analysis.|
 |AWS Enrichment - 4|This block retrieves EC2 instance data associated with the case and provides context for other actions or analysis.|
 |AWS Enrichment - 5|This block retrieves EC2 instance data associated with the case and provides context for other actions or analysis.|
@@ -77,7 +85,11 @@
 |AWS Users Containment - 16|An embedded workflow that can receive inputs and return an output.|
 |AWS Users Containment - 17|An embedded workflow that can receive inputs and return an output.|
 |AWS Users Containment - 18|An embedded workflow that can receive inputs and return an output.|
+|AWS Users Containment - 19|An embedded workflow that can receive inputs and return an output.|
 |AWS Users Containment - 2|An embedded workflow that can receive inputs and return an output.|
+|AWS Users Containment - 20|An embedded workflow that can receive inputs and return an output.|
+|AWS Users Containment - 21|An embedded workflow that can receive inputs and return an output.|
+|AWS Users Containment - 22|An embedded workflow that can receive inputs and return an output.|
 |AWS Users Containment - 3|An embedded workflow that can receive inputs and return an output.|
 |AWS Users Containment - 4|An embedded workflow that can receive inputs and return an output.|
 |AWS Users Containment - 5|An embedded workflow that can receive inputs and return an output.|
@@ -96,7 +108,11 @@
 |Amazon Web Services Cloud Platform Starting Playbook - 16|Amazon Web Services Cloud Platform Starting Playbook provides reference implementation of how Amazon Web Services Cloud Platform alerts can be processed in Google SecOps.|
 |Amazon Web Services Cloud Platform Starting Playbook - 17|Amazon Web Services Cloud Platform Starting Playbook provides reference implementation of how Amazon Web Services Cloud Platform alerts can be processed in Google SecOps.|
 |Amazon Web Services Cloud Platform Starting Playbook - 18|Amazon Web Services Cloud Platform Starting Playbook provides reference implementation of how Amazon Web Services Cloud Platform alerts can be processed in Google SecOps.|
+|Amazon Web Services Cloud Platform Starting Playbook - 19|Amazon Web Services Cloud Platform Starting Playbook provides reference implementation of how Amazon Web Services Cloud Platform alerts can be processed in Google SecOps.|
 |Amazon Web Services Cloud Platform Starting Playbook - 2|Amazon Web Services Cloud Platform Starting Playbook provides reference implementation of how Amazon Web Services Cloud Platform alerts can be processed in Google SecOps.|
+|Amazon Web Services Cloud Platform Starting Playbook - 20|Amazon Web Services Cloud Platform Starting Playbook provides reference implementation of how Amazon Web Services Cloud Platform alerts can be processed in Google SecOps.|
+|Amazon Web Services Cloud Platform Starting Playbook - 21|Amazon Web Services Cloud Platform Starting Playbook provides reference implementation of how Amazon Web Services Cloud Platform alerts can be processed in Google SecOps.|
+|Amazon Web Services Cloud Platform Starting Playbook - 22|Amazon Web Services Cloud Platform Starting Playbook provides reference implementation of how Amazon Web Services Cloud Platform alerts can be processed in Google SecOps.|
 |Amazon Web Services Cloud Platform Starting Playbook - 3|Amazon Web Services Cloud Platform Starting Playbook provides reference implementation of how Amazon Web Services Cloud Platform alerts can be processed in Google SecOps.|
 |Amazon Web Services Cloud Platform Starting Playbook - 4|Amazon Web Services Cloud Platform Starting Playbook provides reference implementation of how Amazon Web Services Cloud Platform alerts can be processed in Google SecOps.|
 |Amazon Web Services Cloud Platform Starting Playbook - 5|Amazon Web Services Cloud Platform Starting Playbook provides reference implementation of how Amazon Web Services Cloud Platform alerts can be processed in Google SecOps.|
@@ -129,7 +145,17 @@
 |Azure Containment - 29|This block allows the playbook to apply containment actions to Azure user accounts by either updating the password or disabling the account. It also provides the option to ignore the action and take no changes when required.|
 |Azure Containment - 3|This block allows the playbook to apply containment actions to Azure user accounts by either updating the password or disabling the account. It also provides the option to ignore the action and take no changes when required.|
 |Azure Containment - 30|This block allows the playbook to apply containment actions to Azure user accounts by either updating the password or disabling the account. It also provides the option to ignore the action and take no changes when required.|
+|Azure Containment - 31|This block allows the playbook to apply containment actions to Azure user accounts by either updating the password or disabling the account. It also provides the option to ignore the action and take no changes when required.|
+|Azure Containment - 32|This block allows the playbook to apply containment actions to Azure user accounts by either updating the password or disabling the account. It also provides the option to ignore the action and take no changes when required.|
+|Azure Containment - 33|This block allows the playbook to apply containment actions to Azure user accounts by either updating the password or disabling the account. It also provides the option to ignore the action and take no changes when required.|
+|Azure Containment - 34|This block allows the playbook to apply containment actions to Azure user accounts by either updating the password or disabling the account. It also provides the option to ignore the action and take no changes when required.|
+|Azure Containment - 35|This block allows the playbook to apply containment actions to Azure user accounts by either updating the password or disabling the account. It also provides the option to ignore the action and take no changes when required.|
+|Azure Containment - 36|This block allows the playbook to apply containment actions to Azure user accounts by either updating the password or disabling the account. It also provides the option to ignore the action and take no changes when required.|
+|Azure Containment - 37|This block allows the playbook to apply containment actions to Azure user accounts by either updating the password or disabling the account. It also provides the option to ignore the action and take no changes when required.|
+|Azure Containment - 38|This block allows the playbook to apply containment actions to Azure user accounts by either updating the password or disabling the account. It also provides the option to ignore the action and take no changes when required.|
+|Azure Containment - 39|This block allows the playbook to apply containment actions to Azure user accounts by either updating the password or disabling the account. It also provides the option to ignore the action and take no changes when required.|
 |Azure Containment - 4|This block allows the playbook to apply containment actions to Azure user accounts by either updating the password or disabling the account. It also provides the option to ignore the action and take no changes when required.|
+|Azure Containment - 40|This block allows the playbook to apply containment actions to Azure user accounts by either updating the password or disabling the account. It also provides the option to ignore the action and take no changes when required.|
 |Azure Containment - 5|This block allows the playbook to apply containment actions to Azure user accounts by either updating the password or disabling the account. It also provides the option to ignore the action and take no changes when required.|
 |Azure Containment - 6|This block allows the playbook to apply containment actions to Azure user accounts by either updating the password or disabling the account. It also provides the option to ignore the action and take no changes when required.|
 |Azure Containment - 7|This block allows the playbook to apply containment actions to Azure user accounts by either updating the password or disabling the account. It also provides the option to ignore the action and take no changes when required.|
@@ -160,7 +186,17 @@
 |Azure Enrichment - 29|This block enriches Siemplify Host and User entities with relevant information from Azure Active Directory, providing additional context to support investigation and response activities.|
 |Azure Enrichment - 3|This block enriches Siemplify Host and User entities with relevant information from Azure Active Directory, providing additional context to support investigation and response activities.|
 |Azure Enrichment - 30|This block enriches Siemplify Host and User entities with relevant information from Azure Active Directory, providing additional context to support investigation and response activities.|
+|Azure Enrichment - 31|This block enriches Siemplify Host and User entities with relevant information from Azure Active Directory, providing additional context to support investigation and response activities.|
+|Azure Enrichment - 32|This block enriches Siemplify Host and User entities with relevant information from Azure Active Directory, providing additional context to support investigation and response activities.|
+|Azure Enrichment - 33|This block enriches Siemplify Host and User entities with relevant information from Azure Active Directory, providing additional context to support investigation and response activities.|
+|Azure Enrichment - 34|This block enriches Siemplify Host and User entities with relevant information from Azure Active Directory, providing additional context to support investigation and response activities.|
+|Azure Enrichment - 35|This block enriches Siemplify Host and User entities with relevant information from Azure Active Directory, providing additional context to support investigation and response activities.|
+|Azure Enrichment - 36|This block enriches Siemplify Host and User entities with relevant information from Azure Active Directory, providing additional context to support investigation and response activities.|
+|Azure Enrichment - 37|This block enriches Siemplify Host and User entities with relevant information from Azure Active Directory, providing additional context to support investigation and response activities.|
+|Azure Enrichment - 38|This block enriches Siemplify Host and User entities with relevant information from Azure Active Directory, providing additional context to support investigation and response activities.|
+|Azure Enrichment - 39|This block enriches Siemplify Host and User entities with relevant information from Azure Active Directory, providing additional context to support investigation and response activities.|
 |Azure Enrichment - 4|This block enriches Siemplify Host and User entities with relevant information from Azure Active Directory, providing additional context to support investigation and response activities.|
+|Azure Enrichment - 40|This block enriches Siemplify Host and User entities with relevant information from Azure Active Directory, providing additional context to support investigation and response activities.|
 |Azure Enrichment - 5|This block enriches Siemplify Host and User entities with relevant information from Azure Active Directory, providing additional context to support investigation and response activities.|
 |Azure Enrichment - 6|This block enriches Siemplify Host and User entities with relevant information from Azure Active Directory, providing additional context to support investigation and response activities.|
 |Azure Enrichment - 7|This block enriches Siemplify Host and User entities with relevant information from Azure Active Directory, providing additional context to support investigation and response activities.|
@@ -187,6 +223,7 @@
 |CrowdStrike Containment - 12|This block allows the playbook to perform containment actions on endpoints by targeting the IPs and hostnames associated with the case, helping to prevent further compromise during incident response.|
 |CrowdStrike Containment - 13|This block allows the playbook to perform containment actions on endpoints by targeting the IPs and hostnames associated with the case, helping to prevent further compromise during incident response.|
 |CrowdStrike Containment - 14|This block allows the playbook to perform containment actions on endpoints by targeting the IPs and hostnames associated with the case, helping to prevent further compromise during incident response.|
+|CrowdStrike Containment - 15|This block allows the playbook to perform containment actions on endpoints by targeting the IPs and hostnames associated with the case, helping to prevent further compromise during incident response.|
 |CrowdStrike Containment - 2|This block allows the playbook to perform containment actions on endpoints by targeting the IPs and hostnames associated with the case, helping to prevent further compromise during incident response.|
 |CrowdStrike Containment - 3|This block allows the playbook to perform containment actions on endpoints by targeting the IPs and hostnames associated with the case, helping to prevent further compromise during incident response.|
 |CrowdStrike Containment - 4|This block allows the playbook to perform containment actions on endpoints by targeting the IPs and hostnames associated with the case, helping to prevent further compromise during incident response.|
@@ -202,6 +239,7 @@
 |CrowdStrike Falcon Starting Playbook - 12|CrowdStrike Falcon Starting Playbook provides reference implementation of how CrowdStrike Falcon alerts can be processed in Google SecOps.|
 |CrowdStrike Falcon Starting Playbook - 13|CrowdStrike Falcon Starting Playbook provides reference implementation of how CrowdStrike Falcon alerts can be processed in Google SecOps.|
 |CrowdStrike Falcon Starting Playbook - 14|CrowdStrike Falcon Starting Playbook provides reference implementation of how CrowdStrike Falcon alerts can be processed in Google SecOps.|
+|CrowdStrike Falcon Starting Playbook - 15|CrowdStrike Falcon Starting Playbook provides reference implementation of how CrowdStrike Falcon alerts can be processed in Google SecOps.|
 |CrowdStrike Falcon Starting Playbook - 2|CrowdStrike Falcon Starting Playbook provides reference implementation of how CrowdStrike Falcon alerts can be processed in Google SecOps.|
 |CrowdStrike Falcon Starting Playbook - 3|CrowdStrike Falcon Starting Playbook provides reference implementation of how CrowdStrike Falcon alerts can be processed in Google SecOps.|
 |CrowdStrike Falcon Starting Playbook - 4|CrowdStrike Falcon Starting Playbook provides reference implementation of how CrowdStrike Falcon alerts can be processed in Google SecOps.|
@@ -335,9 +373,45 @@
 |GTI Enrichment - 208|This block enhances case entities with Google Threat Intelligence enrichment information. Works for IPs, URLs, hostnames, domains, hashes (MD5, SHA-1, SHA-256), threat actors, and CVEs.|
 |GTI Enrichment - 209|This block enhances case entities with Google Threat Intelligence enrichment information. Works for IPs, URLs, hostnames, domains, hashes (MD5, SHA-1, SHA-256), threat actors, and CVEs.|
 |GTI Enrichment - 21|This block enhances case entities with Google Threat Intelligence enrichment information. Works for IPs, URLs, hostnames, domains, hashes (MD5, SHA-1, SHA-256), threat actors, and CVEs.|
+|GTI Enrichment - 210|This block enhances case entities with Google Threat Intelligence enrichment information. Works for IPs, URLs, hostnames, domains, hashes (MD5, SHA-1, SHA-256), threat actors, and CVEs.|
+|GTI Enrichment - 211|This block enhances case entities with Google Threat Intelligence enrichment information. Works for IPs, URLs, hostnames, domains, hashes (MD5, SHA-1, SHA-256), threat actors, and CVEs.|
+|GTI Enrichment - 212|This block enhances case entities with Google Threat Intelligence enrichment information. Works for IPs, URLs, hostnames, domains, hashes (MD5, SHA-1, SHA-256), threat actors, and CVEs.|
+|GTI Enrichment - 213|This block enhances case entities with Google Threat Intelligence enrichment information. Works for IPs, URLs, hostnames, domains, hashes (MD5, SHA-1, SHA-256), threat actors, and CVEs.|
+|GTI Enrichment - 214|This block enhances case entities with Google Threat Intelligence enrichment information. Works for IPs, URLs, hostnames, domains, hashes (MD5, SHA-1, SHA-256), threat actors, and CVEs.|
+|GTI Enrichment - 215|This block enhances case entities with Google Threat Intelligence enrichment information. Works for IPs, URLs, hostnames, domains, hashes (MD5, SHA-1, SHA-256), threat actors, and CVEs.|
+|GTI Enrichment - 216|This block enhances case entities with Google Threat Intelligence enrichment information. Works for IPs, URLs, hostnames, domains, hashes (MD5, SHA-1, SHA-256), threat actors, and CVEs.|
+|GTI Enrichment - 217|This block enhances case entities with Google Threat Intelligence enrichment information. Works for IPs, URLs, hostnames, domains, hashes (MD5, SHA-1, SHA-256), threat actors, and CVEs.|
+|GTI Enrichment - 218|This block enhances case entities with Google Threat Intelligence enrichment information. Works for IPs, URLs, hostnames, domains, hashes (MD5, SHA-1, SHA-256), threat actors, and CVEs.|
+|GTI Enrichment - 219|This block enhances case entities with Google Threat Intelligence enrichment information. Works for IPs, URLs, hostnames, domains, hashes (MD5, SHA-1, SHA-256), threat actors, and CVEs.|
 |GTI Enrichment - 22|This block enhances case entities with Google Threat Intelligence enrichment information. Works for IPs, URLs, hostnames, domains, hashes (MD5, SHA-1, SHA-256), threat actors, and CVEs.|
+|GTI Enrichment - 220|This block enhances case entities with Google Threat Intelligence enrichment information. Works for IPs, URLs, hostnames, domains, hashes (MD5, SHA-1, SHA-256), threat actors, and CVEs.|
+|GTI Enrichment - 221|This block enhances case entities with Google Threat Intelligence enrichment information. Works for IPs, URLs, hostnames, domains, hashes (MD5, SHA-1, SHA-256), threat actors, and CVEs.|
+|GTI Enrichment - 222|This block enhances case entities with Google Threat Intelligence enrichment information. Works for IPs, URLs, hostnames, domains, hashes (MD5, SHA-1, SHA-256), threat actors, and CVEs.|
+|GTI Enrichment - 223|This block enhances case entities with Google Threat Intelligence enrichment information. Works for IPs, URLs, hostnames, domains, hashes (MD5, SHA-1, SHA-256), threat actors, and CVEs.|
+|GTI Enrichment - 224|This block enhances case entities with Google Threat Intelligence enrichment information. Works for IPs, URLs, hostnames, domains, hashes (MD5, SHA-1, SHA-256), threat actors, and CVEs.|
+|GTI Enrichment - 225|This block enhances case entities with Google Threat Intelligence enrichment information. Works for IPs, URLs, hostnames, domains, hashes (MD5, SHA-1, SHA-256), threat actors, and CVEs.|
+|GTI Enrichment - 226|This block enhances case entities with Google Threat Intelligence enrichment information. Works for IPs, URLs, hostnames, domains, hashes (MD5, SHA-1, SHA-256), threat actors, and CVEs.|
+|GTI Enrichment - 227|This block enhances case entities with Google Threat Intelligence enrichment information. Works for IPs, URLs, hostnames, domains, hashes (MD5, SHA-1, SHA-256), threat actors, and CVEs.|
+|GTI Enrichment - 228|This block enhances case entities with Google Threat Intelligence enrichment information. Works for IPs, URLs, hostnames, domains, hashes (MD5, SHA-1, SHA-256), threat actors, and CVEs.|
+|GTI Enrichment - 229|This block enhances case entities with Google Threat Intelligence enrichment information. Works for IPs, URLs, hostnames, domains, hashes (MD5, SHA-1, SHA-256), threat actors, and CVEs.|
 |GTI Enrichment - 23|This block enhances case entities with Google Threat Intelligence enrichment information. Works for IPs, URLs, hostnames, domains, hashes (MD5, SHA-1, SHA-256), threat actors, and CVEs.|
+|GTI Enrichment - 230|This block enhances case entities with Google Threat Intelligence enrichment information. Works for IPs, URLs, hostnames, domains, hashes (MD5, SHA-1, SHA-256), threat actors, and CVEs.|
+|GTI Enrichment - 231|This block enhances case entities with Google Threat Intelligence enrichment information. Works for IPs, URLs, hostnames, domains, hashes (MD5, SHA-1, SHA-256), threat actors, and CVEs.|
+|GTI Enrichment - 232|This block enhances case entities with Google Threat Intelligence enrichment information. Works for IPs, URLs, hostnames, domains, hashes (MD5, SHA-1, SHA-256), threat actors, and CVEs.|
+|GTI Enrichment - 233|This block enhances case entities with Google Threat Intelligence enrichment information. Works for IPs, URLs, hostnames, domains, hashes (MD5, SHA-1, SHA-256), threat actors, and CVEs.|
+|GTI Enrichment - 234|This block enhances case entities with Google Threat Intelligence enrichment information. Works for IPs, URLs, hostnames, domains, hashes (MD5, SHA-1, SHA-256), threat actors, and CVEs.|
+|GTI Enrichment - 235|This block enhances case entities with Google Threat Intelligence enrichment information. Works for IPs, URLs, hostnames, domains, hashes (MD5, SHA-1, SHA-256), threat actors, and CVEs.|
+|GTI Enrichment - 236|This block enhances case entities with Google Threat Intelligence enrichment information. Works for IPs, URLs, hostnames, domains, hashes (MD5, SHA-1, SHA-256), threat actors, and CVEs.|
+|GTI Enrichment - 237|This block enhances case entities with Google Threat Intelligence enrichment information. Works for IPs, URLs, hostnames, domains, hashes (MD5, SHA-1, SHA-256), threat actors, and CVEs.|
+|GTI Enrichment - 238|This block enhances case entities with Google Threat Intelligence enrichment information. Works for IPs, URLs, hostnames, domains, hashes (MD5, SHA-1, SHA-256), threat actors, and CVEs.|
+|GTI Enrichment - 239|This block enhances case entities with Google Threat Intelligence enrichment information. Works for IPs, URLs, hostnames, domains, hashes (MD5, SHA-1, SHA-256), threat actors, and CVEs.|
 |GTI Enrichment - 24|This block enhances case entities with Google Threat Intelligence enrichment information. Works for IPs, URLs, hostnames, domains, hashes (MD5, SHA-1, SHA-256), threat actors, and CVEs.|
+|GTI Enrichment - 240|This block enhances case entities with Google Threat Intelligence enrichment information. Works for IPs, URLs, hostnames, domains, hashes (MD5, SHA-1, SHA-256), threat actors, and CVEs.|
+|GTI Enrichment - 241|This block enhances case entities with Google Threat Intelligence enrichment information. Works for IPs, URLs, hostnames, domains, hashes (MD5, SHA-1, SHA-256), threat actors, and CVEs.|
+|GTI Enrichment - 242|This block enhances case entities with Google Threat Intelligence enrichment information. Works for IPs, URLs, hostnames, domains, hashes (MD5, SHA-1, SHA-256), threat actors, and CVEs.|
+|GTI Enrichment - 243|This block enhances case entities with Google Threat Intelligence enrichment information. Works for IPs, URLs, hostnames, domains, hashes (MD5, SHA-1, SHA-256), threat actors, and CVEs.|
+|GTI Enrichment - 244|This block enhances case entities with Google Threat Intelligence enrichment information. Works for IPs, URLs, hostnames, domains, hashes (MD5, SHA-1, SHA-256), threat actors, and CVEs.|
+|GTI Enrichment - 245|This block enhances case entities with Google Threat Intelligence enrichment information. Works for IPs, URLs, hostnames, domains, hashes (MD5, SHA-1, SHA-256), threat actors, and CVEs.|
 |GTI Enrichment - 25|This block enhances case entities with Google Threat Intelligence enrichment information. Works for IPs, URLs, hostnames, domains, hashes (MD5, SHA-1, SHA-256), threat actors, and CVEs.|
 |GTI Enrichment - 26|This block enhances case entities with Google Threat Intelligence enrichment information. Works for IPs, URLs, hostnames, domains, hashes (MD5, SHA-1, SHA-256), threat actors, and CVEs.|
 |GTI Enrichment - 27|This block enhances case entities with Google Threat Intelligence enrichment information. Works for IPs, URLs, hostnames, domains, hashes (MD5, SHA-1, SHA-256), threat actors, and CVEs.|
@@ -545,9 +619,45 @@
 |Google SecOps Enrichment - 208|This block retrieves relevant details about users and assets involved in the case, enhancing the context available for analysis and subsequent actions within Google SecOps SOAR.|
 |Google SecOps Enrichment - 209|This block retrieves relevant details about users and assets involved in the case, enhancing the context available for analysis and subsequent actions within Google SecOps SOAR.|
 |Google SecOps Enrichment - 21|This block retrieves relevant details about users and assets involved in the case, enhancing the context available for analysis and subsequent actions within Google SecOps SOAR.|
+|Google SecOps Enrichment - 210|This block retrieves relevant details about users and assets involved in the case, enhancing the context available for analysis and subsequent actions within Google SecOps SOAR.|
+|Google SecOps Enrichment - 211|This block retrieves relevant details about users and assets involved in the case, enhancing the context available for analysis and subsequent actions within Google SecOps SOAR.|
+|Google SecOps Enrichment - 212|This block retrieves relevant details about users and assets involved in the case, enhancing the context available for analysis and subsequent actions within Google SecOps SOAR.|
+|Google SecOps Enrichment - 213|This block retrieves relevant details about users and assets involved in the case, enhancing the context available for analysis and subsequent actions within Google SecOps SOAR.|
+|Google SecOps Enrichment - 214|This block retrieves relevant details about users and assets involved in the case, enhancing the context available for analysis and subsequent actions within Google SecOps SOAR.|
+|Google SecOps Enrichment - 215|This block retrieves relevant details about users and assets involved in the case, enhancing the context available for analysis and subsequent actions within Google SecOps SOAR.|
+|Google SecOps Enrichment - 216|This block retrieves relevant details about users and assets involved in the case, enhancing the context available for analysis and subsequent actions within Google SecOps SOAR.|
+|Google SecOps Enrichment - 217|This block retrieves relevant details about users and assets involved in the case, enhancing the context available for analysis and subsequent actions within Google SecOps SOAR.|
+|Google SecOps Enrichment - 218|This block retrieves relevant details about users and assets involved in the case, enhancing the context available for analysis and subsequent actions within Google SecOps SOAR.|
+|Google SecOps Enrichment - 219|This block retrieves relevant details about users and assets involved in the case, enhancing the context available for analysis and subsequent actions within Google SecOps SOAR.|
 |Google SecOps Enrichment - 22|This block retrieves relevant details about users and assets involved in the case, enhancing the context available for analysis and subsequent actions within Google SecOps SOAR.|
+|Google SecOps Enrichment - 220|This block retrieves relevant details about users and assets involved in the case, enhancing the context available for analysis and subsequent actions within Google SecOps SOAR.|
+|Google SecOps Enrichment - 221|This block retrieves relevant details about users and assets involved in the case, enhancing the context available for analysis and subsequent actions within Google SecOps SOAR.|
+|Google SecOps Enrichment - 222|This block retrieves relevant details about users and assets involved in the case, enhancing the context available for analysis and subsequent actions within Google SecOps SOAR.|
+|Google SecOps Enrichment - 223|This block retrieves relevant details about users and assets involved in the case, enhancing the context available for analysis and subsequent actions within Google SecOps SOAR.|
+|Google SecOps Enrichment - 224|This block retrieves relevant details about users and assets involved in the case, enhancing the context available for analysis and subsequent actions within Google SecOps SOAR.|
+|Google SecOps Enrichment - 225|This block retrieves relevant details about users and assets involved in the case, enhancing the context available for analysis and subsequent actions within Google SecOps SOAR.|
+|Google SecOps Enrichment - 226|This block retrieves relevant details about users and assets involved in the case, enhancing the context available for analysis and subsequent actions within Google SecOps SOAR.|
+|Google SecOps Enrichment - 227|This block retrieves relevant details about users and assets involved in the case, enhancing the context available for analysis and subsequent actions within Google SecOps SOAR.|
+|Google SecOps Enrichment - 228|This block retrieves relevant details about users and assets involved in the case, enhancing the context available for analysis and subsequent actions within Google SecOps SOAR.|
+|Google SecOps Enrichment - 229|This block retrieves relevant details about users and assets involved in the case, enhancing the context available for analysis and subsequent actions within Google SecOps SOAR.|
 |Google SecOps Enrichment - 23|This block retrieves relevant details about users and assets involved in the case, enhancing the context available for analysis and subsequent actions within Google SecOps SOAR.|
+|Google SecOps Enrichment - 230|This block retrieves relevant details about users and assets involved in the case, enhancing the context available for analysis and subsequent actions within Google SecOps SOAR.|
+|Google SecOps Enrichment - 231|This block retrieves relevant details about users and assets involved in the case, enhancing the context available for analysis and subsequent actions within Google SecOps SOAR.|
+|Google SecOps Enrichment - 232|This block retrieves relevant details about users and assets involved in the case, enhancing the context available for analysis and subsequent actions within Google SecOps SOAR.|
+|Google SecOps Enrichment - 233|This block retrieves relevant details about users and assets involved in the case, enhancing the context available for analysis and subsequent actions within Google SecOps SOAR.|
+|Google SecOps Enrichment - 234|This block retrieves relevant details about users and assets involved in the case, enhancing the context available for analysis and subsequent actions within Google SecOps SOAR.|
+|Google SecOps Enrichment - 235|This block retrieves relevant details about users and assets involved in the case, enhancing the context available for analysis and subsequent actions within Google SecOps SOAR.|
+|Google SecOps Enrichment - 236|This block retrieves relevant details about users and assets involved in the case, enhancing the context available for analysis and subsequent actions within Google SecOps SOAR.|
+|Google SecOps Enrichment - 237|This block retrieves relevant details about users and assets involved in the case, enhancing the context available for analysis and subsequent actions within Google SecOps SOAR.|
+|Google SecOps Enrichment - 238|This block retrieves relevant details about users and assets involved in the case, enhancing the context available for analysis and subsequent actions within Google SecOps SOAR.|
+|Google SecOps Enrichment - 239|This block retrieves relevant details about users and assets involved in the case, enhancing the context available for analysis and subsequent actions within Google SecOps SOAR.|
 |Google SecOps Enrichment - 24|This block retrieves relevant details about users and assets involved in the case, enhancing the context available for analysis and subsequent actions within Google SecOps SOAR.|
+|Google SecOps Enrichment - 240|This block retrieves relevant details about users and assets involved in the case, enhancing the context available for analysis and subsequent actions within Google SecOps SOAR.|
+|Google SecOps Enrichment - 241|This block retrieves relevant details about users and assets involved in the case, enhancing the context available for analysis and subsequent actions within Google SecOps SOAR.|
+|Google SecOps Enrichment - 242|This block retrieves relevant details about users and assets involved in the case, enhancing the context available for analysis and subsequent actions within Google SecOps SOAR.|
+|Google SecOps Enrichment - 243|This block retrieves relevant details about users and assets involved in the case, enhancing the context available for analysis and subsequent actions within Google SecOps SOAR.|
+|Google SecOps Enrichment - 244|This block retrieves relevant details about users and assets involved in the case, enhancing the context available for analysis and subsequent actions within Google SecOps SOAR.|
+|Google SecOps Enrichment - 245|This block retrieves relevant details about users and assets involved in the case, enhancing the context available for analysis and subsequent actions within Google SecOps SOAR.|
 |Google SecOps Enrichment - 25|This block retrieves relevant details about users and assets involved in the case, enhancing the context available for analysis and subsequent actions within Google SecOps SOAR.|
 |Google SecOps Enrichment - 26|This block retrieves relevant details about users and assets involved in the case, enhancing the context available for analysis and subsequent actions within Google SecOps SOAR.|
 |Google SecOps Enrichment - 27|This block retrieves relevant details about users and assets involved in the case, enhancing the context available for analysis and subsequent actions within Google SecOps SOAR.|
@@ -633,6 +743,10 @@
 |Google Workspace Containment|This block allows the playbook to update Google Workspace Directory user accounts as part of containment or response actions, supporting account management and security controls.|
 |Google Workspace Containment - 1|This block allows the playbook to update Google Workspace Directory user accounts as part of containment or response actions, supporting account management and security controls.|
 |Google Workspace Containment - 10|This block allows the playbook to update Google Workspace Directory user accounts as part of containment or response actions, supporting account management and security controls.|
+|Google Workspace Containment - 11|This block allows the playbook to update Google Workspace Directory user accounts as part of containment or response actions, supporting account management and security controls.|
+|Google Workspace Containment - 12|This block allows the playbook to update Google Workspace Directory user accounts as part of containment or response actions, supporting account management and security controls.|
+|Google Workspace Containment - 13|This block allows the playbook to update Google Workspace Directory user accounts as part of containment or response actions, supporting account management and security controls.|
+|Google Workspace Containment - 14|This block allows the playbook to update Google Workspace Directory user accounts as part of containment or response actions, supporting account management and security controls.|
 |Google Workspace Containment - 2|This block allows the playbook to update Google Workspace Directory user accounts as part of containment or response actions, supporting account management and security controls.|
 |Google Workspace Containment - 3|This block allows the playbook to update Google Workspace Directory user accounts as part of containment or response actions, supporting account management and security controls.|
 |Google Workspace Containment - 4|This block allows the playbook to update Google Workspace Directory user accounts as part of containment or response actions, supporting account management and security controls.|
@@ -664,8 +778,22 @@
 |Google Workspace Enrichment - 116|This block enriches user entities with relevant information from Google Workspace, providing additional context to support investigation and response activities.|
 |Google Workspace Enrichment - 117|This block enriches user entities with relevant information from Google Workspace, providing additional context to support investigation and response activities.|
 |Google Workspace Enrichment - 118|This block enriches user entities with relevant information from Google Workspace, providing additional context to support investigation and response activities.|
+|Google Workspace Enrichment - 119|This block enriches user entities with relevant information from Google Workspace, providing additional context to support investigation and response activities.|
 |Google Workspace Enrichment - 12|This block enriches user entities with relevant information from Google Workspace, providing additional context to support investigation and response activities.|
+|Google Workspace Enrichment - 120|This block enriches user entities with relevant information from Google Workspace, providing additional context to support investigation and response activities.|
+|Google Workspace Enrichment - 121|This block enriches user entities with relevant information from Google Workspace, providing additional context to support investigation and response activities.|
+|Google Workspace Enrichment - 122|This block enriches user entities with relevant information from Google Workspace, providing additional context to support investigation and response activities.|
+|Google Workspace Enrichment - 123|This block enriches user entities with relevant information from Google Workspace, providing additional context to support investigation and response activities.|
+|Google Workspace Enrichment - 124|This block enriches user entities with relevant information from Google Workspace, providing additional context to support investigation and response activities.|
+|Google Workspace Enrichment - 125|This block enriches user entities with relevant information from Google Workspace, providing additional context to support investigation and response activities.|
+|Google Workspace Enrichment - 126|This block enriches user entities with relevant information from Google Workspace, providing additional context to support investigation and response activities.|
+|Google Workspace Enrichment - 127|This block enriches user entities with relevant information from Google Workspace, providing additional context to support investigation and response activities.|
+|Google Workspace Enrichment - 128|This block enriches user entities with relevant information from Google Workspace, providing additional context to support investigation and response activities.|
+|Google Workspace Enrichment - 129|This block enriches user entities with relevant information from Google Workspace, providing additional context to support investigation and response activities.|
 |Google Workspace Enrichment - 13|This block enriches user entities with relevant information from Google Workspace, providing additional context to support investigation and response activities.|
+|Google Workspace Enrichment - 130|This block enriches user entities with relevant information from Google Workspace, providing additional context to support investigation and response activities.|
+|Google Workspace Enrichment - 131|This block enriches user entities with relevant information from Google Workspace, providing additional context to support investigation and response activities.|
+|Google Workspace Enrichment - 132|This block enriches user entities with relevant information from Google Workspace, providing additional context to support investigation and response activities.|
 |Google Workspace Enrichment - 14|This block enriches user entities with relevant information from Google Workspace, providing additional context to support investigation and response activities.|
 |Google Workspace Enrichment - 15|This block enriches user entities with relevant information from Google Workspace, providing additional context to support investigation and response activities.|
 |Google Workspace Enrichment - 16|This block enriches user entities with relevant information from Google Workspace, providing additional context to support investigation and response activities.|
@@ -763,6 +891,10 @@
 |Google Workspace Starting Playbook|Google Workspace Starting Playbook provides reference implementation of how Google Workspace alerts can be processed in Google SecOps.|
 |Google Workspace Starting Playbook - 1|Google Workspace Starting Playbook provides reference implementation of how Google Workspace alerts can be processed in Google SecOps.|
 |Google Workspace Starting Playbook - 10|Google Workspace Starting Playbook provides reference implementation of how Google Workspace alerts can be processed in Google SecOps.|
+|Google Workspace Starting Playbook - 11|Google Workspace Starting Playbook provides reference implementation of how Google Workspace alerts can be processed in Google SecOps.|
+|Google Workspace Starting Playbook - 12|Google Workspace Starting Playbook provides reference implementation of how Google Workspace alerts can be processed in Google SecOps.|
+|Google Workspace Starting Playbook - 13|Google Workspace Starting Playbook provides reference implementation of how Google Workspace alerts can be processed in Google SecOps.|
+|Google Workspace Starting Playbook - 14|Google Workspace Starting Playbook provides reference implementation of how Google Workspace alerts can be processed in Google SecOps.|
 |Google Workspace Starting Playbook - 2|Google Workspace Starting Playbook provides reference implementation of how Google Workspace alerts can be processed in Google SecOps.|
 |Google Workspace Starting Playbook - 3|Google Workspace Starting Playbook provides reference implementation of how Google Workspace alerts can be processed in Google SecOps.|
 |Google Workspace Starting Playbook - 4|Google Workspace Starting Playbook provides reference implementation of how Google Workspace alerts can be processed in Google SecOps.|
@@ -862,9 +994,37 @@
 |High Risk Users Check - 178|This block checks Google GTI sourced alerts against a SOAR custom list to find matches of targeted Industries.|
 |High Risk Users Check - 179|This block checks Google GTI sourced alerts against a SOAR custom list to find matches of targeted Industries.|
 |High Risk Users Check - 18|This block checks Google GTI sourced alerts against a SOAR custom list to find matches of targeted Industries.|
+|High Risk Users Check - 180|This block checks Google GTI sourced alerts against a SOAR custom list to find matches of targeted Industries.|
+|High Risk Users Check - 181|This block checks Google GTI sourced alerts against a SOAR custom list to find matches of targeted Industries.|
+|High Risk Users Check - 182|This block checks Google GTI sourced alerts against a SOAR custom list to find matches of targeted Industries.|
+|High Risk Users Check - 183|This block checks Google GTI sourced alerts against a SOAR custom list to find matches of targeted Industries.|
+|High Risk Users Check - 184|This block checks Google GTI sourced alerts against a SOAR custom list to find matches of targeted Industries.|
+|High Risk Users Check - 185|This block checks Google GTI sourced alerts against a SOAR custom list to find matches of targeted Industries.|
+|High Risk Users Check - 186|This block checks Google GTI sourced alerts against a SOAR custom list to find matches of targeted Industries.|
+|High Risk Users Check - 187|This block checks Google GTI sourced alerts against a SOAR custom list to find matches of targeted Industries.|
+|High Risk Users Check - 188|This block checks Google GTI sourced alerts against a SOAR custom list to find matches of targeted Industries.|
+|High Risk Users Check - 189|This block checks Google GTI sourced alerts against a SOAR custom list to find matches of targeted Industries.|
 |High Risk Users Check - 19|This block checks Google GTI sourced alerts against a SOAR custom list to find matches of targeted Industries.|
+|High Risk Users Check - 190|This block checks Google GTI sourced alerts against a SOAR custom list to find matches of targeted Industries.|
+|High Risk Users Check - 191|This block checks Google GTI sourced alerts against a SOAR custom list to find matches of targeted Industries.|
+|High Risk Users Check - 192|This block checks Google GTI sourced alerts against a SOAR custom list to find matches of targeted Industries.|
+|High Risk Users Check - 193|This block checks Google GTI sourced alerts against a SOAR custom list to find matches of targeted Industries.|
+|High Risk Users Check - 194|This block checks Google GTI sourced alerts against a SOAR custom list to find matches of targeted Industries.|
+|High Risk Users Check - 195|This block checks Google GTI sourced alerts against a SOAR custom list to find matches of targeted Industries.|
+|High Risk Users Check - 196|This block checks Google GTI sourced alerts against a SOAR custom list to find matches of targeted Industries.|
+|High Risk Users Check - 197|This block checks Google GTI sourced alerts against a SOAR custom list to find matches of targeted Industries.|
+|High Risk Users Check - 198|This block checks Google GTI sourced alerts against a SOAR custom list to find matches of targeted Industries.|
+|High Risk Users Check - 199|This block checks Google GTI sourced alerts against a SOAR custom list to find matches of targeted Industries.|
 |High Risk Users Check - 2|This block checks Google GTI sourced alerts against a SOAR custom list to find matches of targeted Industries.|
 |High Risk Users Check - 20|This block checks Google GTI sourced alerts against a SOAR custom list to find matches of targeted Industries.|
+|High Risk Users Check - 200|This block checks Google GTI sourced alerts against a SOAR custom list to find matches of targeted Industries.|
+|High Risk Users Check - 201|This block checks Google GTI sourced alerts against a SOAR custom list to find matches of targeted Industries.|
+|High Risk Users Check - 202|This block checks Google GTI sourced alerts against a SOAR custom list to find matches of targeted Industries.|
+|High Risk Users Check - 203|This block checks Google GTI sourced alerts against a SOAR custom list to find matches of targeted Industries.|
+|High Risk Users Check - 204|This block checks Google GTI sourced alerts against a SOAR custom list to find matches of targeted Industries.|
+|High Risk Users Check - 205|This block checks Google GTI sourced alerts against a SOAR custom list to find matches of targeted Industries.|
+|High Risk Users Check - 206|This block checks Google GTI sourced alerts against a SOAR custom list to find matches of targeted Industries.|
+|High Risk Users Check - 207|This block checks Google GTI sourced alerts against a SOAR custom list to find matches of targeted Industries.|
 |High Risk Users Check - 21|This block checks Google GTI sourced alerts against a SOAR custom list to find matches of targeted Industries.|
 |High Risk Users Check - 22|This block checks Google GTI sourced alerts against a SOAR custom list to find matches of targeted Industries.|
 |High Risk Users Check - 23|This block checks Google GTI sourced alerts against a SOAR custom list to find matches of targeted Industries.|
@@ -1038,10 +1198,42 @@
 |MITRE Enrichment - 174|This block retrieves detailed information about MITRE ATT&CK techniques and their associated mitigations, providing valuable context to understand adversary behaviors and possible defensive actions.|
 |MITRE Enrichment - 175|This block retrieves detailed information about MITRE ATT&CK techniques and their associated mitigations, providing valuable context to understand adversary behaviors and possible defensive actions.|
 |MITRE Enrichment - 176|This block retrieves detailed information about MITRE ATT&CK techniques and their associated mitigations, providing valuable context to understand adversary behaviors and possible defensive actions.|
+|MITRE Enrichment - 177|This block retrieves detailed information about MITRE ATT&CK techniques and their associated mitigations, providing valuable context to understand adversary behaviors and possible defensive actions.|
+|MITRE Enrichment - 178|This block retrieves detailed information about MITRE ATT&CK techniques and their associated mitigations, providing valuable context to understand adversary behaviors and possible defensive actions.|
+|MITRE Enrichment - 179|This block retrieves detailed information about MITRE ATT&CK techniques and their associated mitigations, providing valuable context to understand adversary behaviors and possible defensive actions.|
 |MITRE Enrichment - 18|This block retrieves detailed information about MITRE ATT&CK techniques and their associated mitigations, providing valuable context to understand adversary behaviors and possible defensive actions.|
+|MITRE Enrichment - 180|This block retrieves detailed information about MITRE ATT&CK techniques and their associated mitigations, providing valuable context to understand adversary behaviors and possible defensive actions.|
+|MITRE Enrichment - 181|This block retrieves detailed information about MITRE ATT&CK techniques and their associated mitigations, providing valuable context to understand adversary behaviors and possible defensive actions.|
+|MITRE Enrichment - 182|This block retrieves detailed information about MITRE ATT&CK techniques and their associated mitigations, providing valuable context to understand adversary behaviors and possible defensive actions.|
+|MITRE Enrichment - 183|This block retrieves detailed information about MITRE ATT&CK techniques and their associated mitigations, providing valuable context to understand adversary behaviors and possible defensive actions.|
+|MITRE Enrichment - 184|This block retrieves detailed information about MITRE ATT&CK techniques and their associated mitigations, providing valuable context to understand adversary behaviors and possible defensive actions.|
+|MITRE Enrichment - 185|This block retrieves detailed information about MITRE ATT&CK techniques and their associated mitigations, providing valuable context to understand adversary behaviors and possible defensive actions.|
+|MITRE Enrichment - 186|This block retrieves detailed information about MITRE ATT&CK techniques and their associated mitigations, providing valuable context to understand adversary behaviors and possible defensive actions.|
+|MITRE Enrichment - 187|This block retrieves detailed information about MITRE ATT&CK techniques and their associated mitigations, providing valuable context to understand adversary behaviors and possible defensive actions.|
+|MITRE Enrichment - 188|This block retrieves detailed information about MITRE ATT&CK techniques and their associated mitigations, providing valuable context to understand adversary behaviors and possible defensive actions.|
+|MITRE Enrichment - 189|This block retrieves detailed information about MITRE ATT&CK techniques and their associated mitigations, providing valuable context to understand adversary behaviors and possible defensive actions.|
 |MITRE Enrichment - 19|This block retrieves detailed information about MITRE ATT&CK techniques and their associated mitigations, providing valuable context to understand adversary behaviors and possible defensive actions.|
+|MITRE Enrichment - 190|This block retrieves detailed information about MITRE ATT&CK techniques and their associated mitigations, providing valuable context to understand adversary behaviors and possible defensive actions.|
+|MITRE Enrichment - 191|This block retrieves detailed information about MITRE ATT&CK techniques and their associated mitigations, providing valuable context to understand adversary behaviors and possible defensive actions.|
+|MITRE Enrichment - 192|This block retrieves detailed information about MITRE ATT&CK techniques and their associated mitigations, providing valuable context to understand adversary behaviors and possible defensive actions.|
+|MITRE Enrichment - 193|This block retrieves detailed information about MITRE ATT&CK techniques and their associated mitigations, providing valuable context to understand adversary behaviors and possible defensive actions.|
+|MITRE Enrichment - 194|This block retrieves detailed information about MITRE ATT&CK techniques and their associated mitigations, providing valuable context to understand adversary behaviors and possible defensive actions.|
+|MITRE Enrichment - 195|This block retrieves detailed information about MITRE ATT&CK techniques and their associated mitigations, providing valuable context to understand adversary behaviors and possible defensive actions.|
+|MITRE Enrichment - 196|This block retrieves detailed information about MITRE ATT&CK techniques and their associated mitigations, providing valuable context to understand adversary behaviors and possible defensive actions.|
+|MITRE Enrichment - 197|This block retrieves detailed information about MITRE ATT&CK techniques and their associated mitigations, providing valuable context to understand adversary behaviors and possible defensive actions.|
+|MITRE Enrichment - 198|This block retrieves detailed information about MITRE ATT&CK techniques and their associated mitigations, providing valuable context to understand adversary behaviors and possible defensive actions.|
+|MITRE Enrichment - 199|This block retrieves detailed information about MITRE ATT&CK techniques and their associated mitigations, providing valuable context to understand adversary behaviors and possible defensive actions.|
 |MITRE Enrichment - 2|This block retrieves detailed information about MITRE ATT&CK techniques and their associated mitigations, providing valuable context to understand adversary behaviors and possible defensive actions.|
 |MITRE Enrichment - 20|This block retrieves detailed information about MITRE ATT&CK techniques and their associated mitigations, providing valuable context to understand adversary behaviors and possible defensive actions.|
+|MITRE Enrichment - 200|This block retrieves detailed information about MITRE ATT&CK techniques and their associated mitigations, providing valuable context to understand adversary behaviors and possible defensive actions.|
+|MITRE Enrichment - 201|This block retrieves detailed information about MITRE ATT&CK techniques and their associated mitigations, providing valuable context to understand adversary behaviors and possible defensive actions.|
+|MITRE Enrichment - 202|This block retrieves detailed information about MITRE ATT&CK techniques and their associated mitigations, providing valuable context to understand adversary behaviors and possible defensive actions.|
+|MITRE Enrichment - 203|This block retrieves detailed information about MITRE ATT&CK techniques and their associated mitigations, providing valuable context to understand adversary behaviors and possible defensive actions.|
+|MITRE Enrichment - 204|This block retrieves detailed information about MITRE ATT&CK techniques and their associated mitigations, providing valuable context to understand adversary behaviors and possible defensive actions.|
+|MITRE Enrichment - 205|This block retrieves detailed information about MITRE ATT&CK techniques and their associated mitigations, providing valuable context to understand adversary behaviors and possible defensive actions.|
+|MITRE Enrichment - 206|This block retrieves detailed information about MITRE ATT&CK techniques and their associated mitigations, providing valuable context to understand adversary behaviors and possible defensive actions.|
+|MITRE Enrichment - 207|This block retrieves detailed information about MITRE ATT&CK techniques and their associated mitigations, providing valuable context to understand adversary behaviors and possible defensive actions.|
+|MITRE Enrichment - 208|This block retrieves detailed information about MITRE ATT&CK techniques and their associated mitigations, providing valuable context to understand adversary behaviors and possible defensive actions.|
 |MITRE Enrichment - 21|This block retrieves detailed information about MITRE ATT&CK techniques and their associated mitigations, providing valuable context to understand adversary behaviors and possible defensive actions.|
 |MITRE Enrichment - 22|This block retrieves detailed information about MITRE ATT&CK techniques and their associated mitigations, providing valuable context to understand adversary behaviors and possible defensive actions.|
 |MITRE Enrichment - 23|This block retrieves detailed information about MITRE ATT&CK techniques and their associated mitigations, providing valuable context to understand adversary behaviors and possible defensive actions.|
@@ -1153,7 +1345,17 @@
 |Microsoft Azure Cloud Platform Starting Playbook - 29|Microsoft Azure Cloud Platform Starting Playbook provides reference implementation of how Microsoft Azure Cloud Platform alerts can be processed in Google SecOps.|
 |Microsoft Azure Cloud Platform Starting Playbook - 3|Microsoft Azure Cloud Platform Starting Playbook provides reference implementation of how Microsoft Azure Cloud Platform alerts can be processed in Google SecOps.|
 |Microsoft Azure Cloud Platform Starting Playbook - 30|Microsoft Azure Cloud Platform Starting Playbook provides reference implementation of how Microsoft Azure Cloud Platform alerts can be processed in Google SecOps.|
+|Microsoft Azure Cloud Platform Starting Playbook - 31|Microsoft Azure Cloud Platform Starting Playbook provides reference implementation of how Microsoft Azure Cloud Platform alerts can be processed in Google SecOps.|
+|Microsoft Azure Cloud Platform Starting Playbook - 32|Microsoft Azure Cloud Platform Starting Playbook provides reference implementation of how Microsoft Azure Cloud Platform alerts can be processed in Google SecOps.|
+|Microsoft Azure Cloud Platform Starting Playbook - 33|Microsoft Azure Cloud Platform Starting Playbook provides reference implementation of how Microsoft Azure Cloud Platform alerts can be processed in Google SecOps.|
+|Microsoft Azure Cloud Platform Starting Playbook - 34|Microsoft Azure Cloud Platform Starting Playbook provides reference implementation of how Microsoft Azure Cloud Platform alerts can be processed in Google SecOps.|
+|Microsoft Azure Cloud Platform Starting Playbook - 35|Microsoft Azure Cloud Platform Starting Playbook provides reference implementation of how Microsoft Azure Cloud Platform alerts can be processed in Google SecOps.|
+|Microsoft Azure Cloud Platform Starting Playbook - 36|Microsoft Azure Cloud Platform Starting Playbook provides reference implementation of how Microsoft Azure Cloud Platform alerts can be processed in Google SecOps.|
+|Microsoft Azure Cloud Platform Starting Playbook - 37|Microsoft Azure Cloud Platform Starting Playbook provides reference implementation of how Microsoft Azure Cloud Platform alerts can be processed in Google SecOps.|
+|Microsoft Azure Cloud Platform Starting Playbook - 38|Microsoft Azure Cloud Platform Starting Playbook provides reference implementation of how Microsoft Azure Cloud Platform alerts can be processed in Google SecOps.|
+|Microsoft Azure Cloud Platform Starting Playbook - 39|Microsoft Azure Cloud Platform Starting Playbook provides reference implementation of how Microsoft Azure Cloud Platform alerts can be processed in Google SecOps.|
 |Microsoft Azure Cloud Platform Starting Playbook - 4|Microsoft Azure Cloud Platform Starting Playbook provides reference implementation of how Microsoft Azure Cloud Platform alerts can be processed in Google SecOps.|
+|Microsoft Azure Cloud Platform Starting Playbook - 40|Microsoft Azure Cloud Platform Starting Playbook provides reference implementation of how Microsoft Azure Cloud Platform alerts can be processed in Google SecOps.|
 |Microsoft Azure Cloud Platform Starting Playbook - 5|Microsoft Azure Cloud Platform Starting Playbook provides reference implementation of how Microsoft Azure Cloud Platform alerts can be processed in Google SecOps.|
 |Microsoft Azure Cloud Platform Starting Playbook - 6|Microsoft Azure Cloud Platform Starting Playbook provides reference implementation of how Microsoft Azure Cloud Platform alerts can be processed in Google SecOps.|
 |Microsoft Azure Cloud Platform Starting Playbook - 7|Microsoft Azure Cloud Platform Starting Playbook provides reference implementation of how Microsoft Azure Cloud Platform alerts can be processed in Google SecOps.|
@@ -1175,6 +1377,9 @@
 |Microsoft Defender For Endpoint Containment - 20|This block allows the playbook to create an isolate machine task in Microsoft Defender for Endpoint, helping to contain affected systems and prevent further network communication.|
 |Microsoft Defender For Endpoint Containment - 21|This block allows the playbook to create an isolate machine task in Microsoft Defender for Endpoint, helping to contain affected systems and prevent further network communication.|
 |Microsoft Defender For Endpoint Containment - 22|This block allows the playbook to create an isolate machine task in Microsoft Defender for Endpoint, helping to contain affected systems and prevent further network communication.|
+|Microsoft Defender For Endpoint Containment - 23|This block allows the playbook to create an isolate machine task in Microsoft Defender for Endpoint, helping to contain affected systems and prevent further network communication.|
+|Microsoft Defender For Endpoint Containment - 24|This block allows the playbook to create an isolate machine task in Microsoft Defender for Endpoint, helping to contain affected systems and prevent further network communication.|
+|Microsoft Defender For Endpoint Containment - 25|This block allows the playbook to create an isolate machine task in Microsoft Defender for Endpoint, helping to contain affected systems and prevent further network communication.|
 |Microsoft Defender For Endpoint Containment - 3|This block allows the playbook to create an isolate machine task in Microsoft Defender for Endpoint, helping to contain affected systems and prevent further network communication.|
 |Microsoft Defender For Endpoint Containment - 4|This block allows the playbook to create an isolate machine task in Microsoft Defender for Endpoint, helping to contain affected systems and prevent further network communication.|
 |Microsoft Defender For Endpoint Containment - 5|This block allows the playbook to create an isolate machine task in Microsoft Defender for Endpoint, helping to contain affected systems and prevent further network communication.|
@@ -1198,6 +1403,9 @@
 |Microsoft Defender For Endpoint Enrichment - 20|This block enriches Microsoft Defender for Endpoint hosts by retrieving relevant data such as logged-on users, file-related alerts, and machine-related alerts. It also supports file enrichment using SHA1 hashes, providing additional context to assist investigation and response activities.|
 |Microsoft Defender For Endpoint Enrichment - 21|This block enriches Microsoft Defender for Endpoint hosts by retrieving relevant data such as logged-on users, file-related alerts, and machine-related alerts. It also supports file enrichment using SHA1 hashes, providing additional context to assist investigation and response activities.|
 |Microsoft Defender For Endpoint Enrichment - 22|This block enriches Microsoft Defender for Endpoint hosts by retrieving relevant data such as logged-on users, file-related alerts, and machine-related alerts. It also supports file enrichment using SHA1 hashes, providing additional context to assist investigation and response activities.|
+|Microsoft Defender For Endpoint Enrichment - 23|This block enriches Microsoft Defender for Endpoint hosts by retrieving relevant data such as logged-on users, file-related alerts, and machine-related alerts. It also supports file enrichment using SHA1 hashes, providing additional context to assist investigation and response activities.|
+|Microsoft Defender For Endpoint Enrichment - 24|This block enriches Microsoft Defender for Endpoint hosts by retrieving relevant data such as logged-on users, file-related alerts, and machine-related alerts. It also supports file enrichment using SHA1 hashes, providing additional context to assist investigation and response activities.|
+|Microsoft Defender For Endpoint Enrichment - 25|This block enriches Microsoft Defender for Endpoint hosts by retrieving relevant data such as logged-on users, file-related alerts, and machine-related alerts. It also supports file enrichment using SHA1 hashes, providing additional context to assist investigation and response activities.|
 |Microsoft Defender For Endpoint Enrichment - 3|This block enriches Microsoft Defender for Endpoint hosts by retrieving relevant data such as logged-on users, file-related alerts, and machine-related alerts. It also supports file enrichment using SHA1 hashes, providing additional context to assist investigation and response activities.|
 |Microsoft Defender For Endpoint Enrichment - 4|This block enriches Microsoft Defender for Endpoint hosts by retrieving relevant data such as logged-on users, file-related alerts, and machine-related alerts. It also supports file enrichment using SHA1 hashes, providing additional context to assist investigation and response activities.|
 |Microsoft Defender For Endpoint Enrichment - 5|This block enriches Microsoft Defender for Endpoint hosts by retrieving relevant data such as logged-on users, file-related alerts, and machine-related alerts. It also supports file enrichment using SHA1 hashes, providing additional context to assist investigation and response activities.|
@@ -1221,6 +1429,9 @@
 |Microsoft Defender for Endpoint Starting Playbook - 20|Microsoft Defender for Endpoint Starting Playbook provides reference implementation of how Microsoft Defender for Endpoint alerts can be processed in Google SecOps.|
 |Microsoft Defender for Endpoint Starting Playbook - 21|Microsoft Defender for Endpoint Starting Playbook provides reference implementation of how Microsoft Defender for Endpoint alerts can be processed in Google SecOps.|
 |Microsoft Defender for Endpoint Starting Playbook - 22|Microsoft Defender for Endpoint Starting Playbook provides reference implementation of how Microsoft Defender for Endpoint alerts can be processed in Google SecOps.|
+|Microsoft Defender for Endpoint Starting Playbook - 23|Microsoft Defender for Endpoint Starting Playbook provides reference implementation of how Microsoft Defender for Endpoint alerts can be processed in Google SecOps.|
+|Microsoft Defender for Endpoint Starting Playbook - 24|Microsoft Defender for Endpoint Starting Playbook provides reference implementation of how Microsoft Defender for Endpoint alerts can be processed in Google SecOps.|
+|Microsoft Defender for Endpoint Starting Playbook - 25|Microsoft Defender for Endpoint Starting Playbook provides reference implementation of how Microsoft Defender for Endpoint alerts can be processed in Google SecOps.|
 |Microsoft Defender for Endpoint Starting Playbook - 3|Microsoft Defender for Endpoint Starting Playbook provides reference implementation of how Microsoft Defender for Endpoint alerts can be processed in Google SecOps.|
 |Microsoft Defender for Endpoint Starting Playbook - 4|Microsoft Defender for Endpoint Starting Playbook provides reference implementation of how Microsoft Defender for Endpoint alerts can be processed in Google SecOps.|
 |Microsoft Defender for Endpoint Starting Playbook - 5|Microsoft Defender for Endpoint Starting Playbook provides reference implementation of how Microsoft Defender for Endpoint alerts can be processed in Google SecOps.|
@@ -1241,6 +1452,8 @@
 |Mimecast Investigation - 18|This block performs an investigation by searching archived emails in Mimecast based on specified parameters and returns relevant information to support analysis and response activities within the case.|
 |Mimecast Investigation - 19|This block performs an investigation by searching archived emails in Mimecast based on specified parameters and returns relevant information to support analysis and response activities within the case.|
 |Mimecast Investigation - 2|This block performs an investigation by searching archived emails in Mimecast based on specified parameters and returns relevant information to support analysis and response activities within the case.|
+|Mimecast Investigation - 20|This block performs an investigation by searching archived emails in Mimecast based on specified parameters and returns relevant information to support analysis and response activities within the case.|
+|Mimecast Investigation - 21|This block performs an investigation by searching archived emails in Mimecast based on specified parameters and returns relevant information to support analysis and response activities within the case.|
 |Mimecast Investigation - 3|This block performs an investigation by searching archived emails in Mimecast based on specified parameters and returns relevant information to support analysis and response activities within the case.|
 |Mimecast Investigation - 4|This block performs an investigation by searching archived emails in Mimecast based on specified parameters and returns relevant information to support analysis and response activities within the case.|
 |Mimecast Investigation - 5|This block performs an investigation by searching archived emails in Mimecast based on specified parameters and returns relevant information to support analysis and response activities within the case.|
@@ -1261,6 +1474,8 @@
 |Mimecast Remediation - 18|This block allows the playbook to create a Block Sender policy in Mimecast to prevent future emails from a specified sender, or to take no action if required.|
 |Mimecast Remediation - 19|This block allows the playbook to create a Block Sender policy in Mimecast to prevent future emails from a specified sender, or to take no action if required.|
 |Mimecast Remediation - 2|This block allows the playbook to create a Block Sender policy in Mimecast to prevent future emails from a specified sender, or to take no action if required.|
+|Mimecast Remediation - 20|This block allows the playbook to create a Block Sender policy in Mimecast to prevent future emails from a specified sender, or to take no action if required.|
+|Mimecast Remediation - 21|This block allows the playbook to create a Block Sender policy in Mimecast to prevent future emails from a specified sender, or to take no action if required.|
 |Mimecast Remediation - 3|This block allows the playbook to create a Block Sender policy in Mimecast to prevent future emails from a specified sender, or to take no action if required.|
 |Mimecast Remediation - 4|This block allows the playbook to create a Block Sender policy in Mimecast to prevent future emails from a specified sender, or to take no action if required.|
 |Mimecast Remediation - 5|This block allows the playbook to create a Block Sender policy in Mimecast to prevent future emails from a specified sender, or to take no action if required.|
@@ -1281,6 +1496,8 @@
 |Mimecast Starting Playbook - 18|Mimecast Starting Playbook provides reference implementation of how Mimecast alerts can be processed in Google SecOps.|
 |Mimecast Starting Playbook - 19|Mimecast Starting Playbook provides reference implementation of how Mimecast alerts can be processed in Google SecOps.|
 |Mimecast Starting Playbook - 2|Mimecast Starting Playbook provides reference implementation of how Mimecast alerts can be processed in Google SecOps.|
+|Mimecast Starting Playbook - 20|Mimecast Starting Playbook provides reference implementation of how Mimecast alerts can be processed in Google SecOps.|
+|Mimecast Starting Playbook - 21|Mimecast Starting Playbook provides reference implementation of how Mimecast alerts can be processed in Google SecOps.|
 |Mimecast Starting Playbook - 3|Mimecast Starting Playbook provides reference implementation of how Mimecast alerts can be processed in Google SecOps.|
 |Mimecast Starting Playbook - 4|Mimecast Starting Playbook provides reference implementation of how Mimecast alerts can be processed in Google SecOps.|
 |Mimecast Starting Playbook - 5|Mimecast Starting Playbook provides reference implementation of how Mimecast alerts can be processed in Google SecOps.|
@@ -1304,6 +1521,11 @@
 |Okta Enrichment - 20|This block retrieves information about a user from Okta, including all roles assigned to the user and the groups the user is a member of, providing additional context for analysis and response actions.|
 |Okta Enrichment - 21|This block retrieves information about a user from Okta, including all roles assigned to the user and the groups the user is a member of, providing additional context for analysis and response actions.|
 |Okta Enrichment - 22|This block retrieves information about a user from Okta, including all roles assigned to the user and the groups the user is a member of, providing additional context for analysis and response actions.|
+|Okta Enrichment - 23|This block retrieves information about a user from Okta, including all roles assigned to the user and the groups the user is a member of, providing additional context for analysis and response actions.|
+|Okta Enrichment - 24|This block retrieves information about a user from Okta, including all roles assigned to the user and the groups the user is a member of, providing additional context for analysis and response actions.|
+|Okta Enrichment - 25|This block retrieves information about a user from Okta, including all roles assigned to the user and the groups the user is a member of, providing additional context for analysis and response actions.|
+|Okta Enrichment - 26|This block retrieves information about a user from Okta, including all roles assigned to the user and the groups the user is a member of, providing additional context for analysis and response actions.|
+|Okta Enrichment - 27|This block retrieves information about a user from Okta, including all roles assigned to the user and the groups the user is a member of, providing additional context for analysis and response actions.|
 |Okta Enrichment - 3|This block retrieves information about a user from Okta, including all roles assigned to the user and the groups the user is a member of, providing additional context for analysis and response actions.|
 |Okta Enrichment - 4|This block retrieves information about a user from Okta, including all roles assigned to the user and the groups the user is a member of, providing additional context for analysis and response actions.|
 |Okta Enrichment - 5|This block retrieves information about a user from Okta, including all roles assigned to the user and the groups the user is a member of, providing additional context for analysis and response actions.|
@@ -1327,6 +1549,11 @@
 |Okta Remediation Block - 20|This block allows the playbook to perform remediation actions on Okta users, including generating a one-time token to reset a user’s password, disabling the user, or taking no action as needed.|
 |Okta Remediation Block - 21|This block allows the playbook to perform remediation actions on Okta users, including generating a one-time token to reset a user’s password, disabling the user, or taking no action as needed.|
 |Okta Remediation Block - 22|This block allows the playbook to perform remediation actions on Okta users, including generating a one-time token to reset a user’s password, disabling the user, or taking no action as needed.|
+|Okta Remediation Block - 23|This block allows the playbook to perform remediation actions on Okta users, including generating a one-time token to reset a user’s password, disabling the user, or taking no action as needed.|
+|Okta Remediation Block - 24|This block allows the playbook to perform remediation actions on Okta users, including generating a one-time token to reset a user’s password, disabling the user, or taking no action as needed.|
+|Okta Remediation Block - 25|This block allows the playbook to perform remediation actions on Okta users, including generating a one-time token to reset a user’s password, disabling the user, or taking no action as needed.|
+|Okta Remediation Block - 26|This block allows the playbook to perform remediation actions on Okta users, including generating a one-time token to reset a user’s password, disabling the user, or taking no action as needed.|
+|Okta Remediation Block - 27|This block allows the playbook to perform remediation actions on Okta users, including generating a one-time token to reset a user’s password, disabling the user, or taking no action as needed.|
 |Okta Remediation Block - 3|This block allows the playbook to perform remediation actions on Okta users, including generating a one-time token to reset a user’s password, disabling the user, or taking no action as needed.|
 |Okta Remediation Block - 4|This block allows the playbook to perform remediation actions on Okta users, including generating a one-time token to reset a user’s password, disabling the user, or taking no action as needed.|
 |Okta Remediation Block - 5|This block allows the playbook to perform remediation actions on Okta users, including generating a one-time token to reset a user’s password, disabling the user, or taking no action as needed.|
@@ -1350,6 +1577,11 @@
 |Okta Starting Playbook - 20|Okta Starting Playbook provides reference implementation of how Okta alerts can be processed in Google SecOps.|
 |Okta Starting Playbook - 21|Okta Starting Playbook provides reference implementation of how Okta alerts can be processed in Google SecOps.|
 |Okta Starting Playbook - 22|Okta Starting Playbook provides reference implementation of how Okta alerts can be processed in Google SecOps.|
+|Okta Starting Playbook - 23|Okta Starting Playbook provides reference implementation of how Okta alerts can be processed in Google SecOps.|
+|Okta Starting Playbook - 24|Okta Starting Playbook provides reference implementation of how Okta alerts can be processed in Google SecOps.|
+|Okta Starting Playbook - 25|Okta Starting Playbook provides reference implementation of how Okta alerts can be processed in Google SecOps.|
+|Okta Starting Playbook - 26|Okta Starting Playbook provides reference implementation of how Okta alerts can be processed in Google SecOps.|
+|Okta Starting Playbook - 27|Okta Starting Playbook provides reference implementation of how Okta alerts can be processed in Google SecOps.|
 |Okta Starting Playbook - 3|Okta Starting Playbook provides reference implementation of how Okta alerts can be processed in Google SecOps.|
 |Okta Starting Playbook - 4|Okta Starting Playbook provides reference implementation of how Okta alerts can be processed in Google SecOps.|
 |Okta Starting Playbook - 5|Okta Starting Playbook provides reference implementation of how Okta alerts can be processed in Google SecOps.|
@@ -1380,6 +1612,7 @@
 |Proofpoint Campaign Details - 6|This block uses the List Campaigns action to retrieve a list of active campaigns in Proofpoint TAP, providing relevant information to support investigation and threat analysis activities.|
 |Proofpoint Campaign Details - 7|This block uses the List Campaigns action to retrieve a list of active campaigns in Proofpoint TAP, providing relevant information to support investigation and threat analysis activities.|
 |Proofpoint Campaign Details - 8|This block uses the List Campaigns action to retrieve a list of active campaigns in Proofpoint TAP, providing relevant information to support investigation and threat analysis activities.|
+|Proofpoint Campaign Details - 9|This block uses the List Campaigns action to retrieve a list of active campaigns in Proofpoint TAP, providing relevant information to support investigation and threat analysis activities.|
 |Proofpoint Starting Playbook|Proofpoint Starting Playbook provides reference implementation of how Proofpoint alerts can be processed in Google SecOps.|
 |Proofpoint Starting Playbook - 1|Proofpoint Starting Playbook provides reference implementation of how Proofpoint alerts can be processed in Google SecOps.|
 |Proofpoint Starting Playbook - 2|Proofpoint Starting Playbook provides reference implementation of how Proofpoint alerts can be processed in Google SecOps.|
@@ -1389,6 +1622,7 @@
 |Proofpoint Starting Playbook - 6|Proofpoint Starting Playbook provides reference implementation of how Proofpoint alerts can be processed in Google SecOps.|
 |Proofpoint Starting Playbook - 7|Proofpoint Starting Playbook provides reference implementation of how Proofpoint alerts can be processed in Google SecOps.|
 |Proofpoint Starting Playbook - 8|Proofpoint Starting Playbook provides reference implementation of how Proofpoint alerts can be processed in Google SecOps.|
+|Proofpoint Starting Playbook - 9|Proofpoint Starting Playbook provides reference implementation of how Proofpoint alerts can be processed in Google SecOps.|
 |Salesforce Starting Playbook|Salesforce Starting Playbook provides reference implementation of how Salesforce alerts can be processed in Google SecOps|
 |Salesforce Starting Playbook - 1|Salesforce Starting Playbook provides reference implementation of how Salesforce alerts can be processed in Google SecOps|
 |Salesforce Starting Playbook - 10|Salesforce Starting Playbook provides reference implementation of how Salesforce alerts can be processed in Google SecOps|
@@ -1400,7 +1634,9 @@
 |Salesforce Starting Playbook - 16|Salesforce Starting Playbook provides reference implementation of how Salesforce alerts can be processed in Google SecOps|
 |Salesforce Starting Playbook - 17|Salesforce Starting Playbook provides reference implementation of how Salesforce alerts can be processed in Google SecOps|
 |Salesforce Starting Playbook - 18|Salesforce Starting Playbook provides reference implementation of how Salesforce alerts can be processed in Google SecOps|
+|Salesforce Starting Playbook - 19|Salesforce Starting Playbook provides reference implementation of how Salesforce alerts can be processed in Google SecOps|
 |Salesforce Starting Playbook - 2|Salesforce Starting Playbook provides reference implementation of how Salesforce alerts can be processed in Google SecOps|
+|Salesforce Starting Playbook - 20|Salesforce Starting Playbook provides reference implementation of how Salesforce alerts can be processed in Google SecOps|
 |Salesforce Starting Playbook - 3|Salesforce Starting Playbook provides reference implementation of how Salesforce alerts can be processed in Google SecOps|
 |Salesforce Starting Playbook - 4|Salesforce Starting Playbook provides reference implementation of how Salesforce alerts can be processed in Google SecOps|
 |Salesforce Starting Playbook - 5|Salesforce Starting Playbook provides reference implementation of how Salesforce alerts can be processed in Google SecOps|
@@ -1418,7 +1654,10 @@
 |Sentinel One Containment - 15|This block filters the relevant entities and performs containment actions in SentinelOne, including adding hashes to a blacklist and disconnecting the endpoint agent from the network using its hostname or IP address.|
 |Sentinel One Containment - 16|This block filters the relevant entities and performs containment actions in SentinelOne, including adding hashes to a blacklist and disconnecting the endpoint agent from the network using its hostname or IP address.|
 |Sentinel One Containment - 17|This block filters the relevant entities and performs containment actions in SentinelOne, including adding hashes to a blacklist and disconnecting the endpoint agent from the network using its hostname or IP address.|
+|Sentinel One Containment - 18|This block filters the relevant entities and performs containment actions in SentinelOne, including adding hashes to a blacklist and disconnecting the endpoint agent from the network using its hostname or IP address.|
+|Sentinel One Containment - 19|This block filters the relevant entities and performs containment actions in SentinelOne, including adding hashes to a blacklist and disconnecting the endpoint agent from the network using its hostname or IP address.|
 |Sentinel One Containment - 2|This block filters the relevant entities and performs containment actions in SentinelOne, including adding hashes to a blacklist and disconnecting the endpoint agent from the network using its hostname or IP address.|
+|Sentinel One Containment - 20|This block filters the relevant entities and performs containment actions in SentinelOne, including adding hashes to a blacklist and disconnecting the endpoint agent from the network using its hostname or IP address.|
 |Sentinel One Containment - 3|This block filters the relevant entities and performs containment actions in SentinelOne, including adding hashes to a blacklist and disconnecting the endpoint agent from the network using its hostname or IP address.|
 |Sentinel One Containment - 4|This block filters the relevant entities and performs containment actions in SentinelOne, including adding hashes to a blacklist and disconnecting the endpoint agent from the network using its hostname or IP address.|
 |Sentinel One Containment - 5|This block filters the relevant entities and performs containment actions in SentinelOne, including adding hashes to a blacklist and disconnecting the endpoint agent from the network using its hostname or IP address.|
@@ -1436,7 +1675,10 @@
 |Sentinel One Enrichment - 15|This block retrieves information about endpoints from SentinelOne, including details by IP address or hostname, available applications on the endpoint, and associated hashes, providing additional context to support analysis and response activities.|
 |Sentinel One Enrichment - 16|This block retrieves information about endpoints from SentinelOne, including details by IP address or hostname, available applications on the endpoint, and associated hashes, providing additional context to support analysis and response activities.|
 |Sentinel One Enrichment - 17|This block retrieves information about endpoints from SentinelOne, including details by IP address or hostname, available applications on the endpoint, and associated hashes, providing additional context to support analysis and response activities.|
+|Sentinel One Enrichment - 18|This block retrieves information about endpoints from SentinelOne, including details by IP address or hostname, available applications on the endpoint, and associated hashes, providing additional context to support analysis and response activities.|
+|Sentinel One Enrichment - 19|This block retrieves information about endpoints from SentinelOne, including details by IP address or hostname, available applications on the endpoint, and associated hashes, providing additional context to support analysis and response activities.|
 |Sentinel One Enrichment - 2|This block retrieves information about endpoints from SentinelOne, including details by IP address or hostname, available applications on the endpoint, and associated hashes, providing additional context to support analysis and response activities.|
+|Sentinel One Enrichment - 20|This block retrieves information about endpoints from SentinelOne, including details by IP address or hostname, available applications on the endpoint, and associated hashes, providing additional context to support analysis and response activities.|
 |Sentinel One Enrichment - 3|This block retrieves information about endpoints from SentinelOne, including details by IP address or hostname, available applications on the endpoint, and associated hashes, providing additional context to support analysis and response activities.|
 |Sentinel One Enrichment - 4|This block retrieves information about endpoints from SentinelOne, including details by IP address or hostname, available applications on the endpoint, and associated hashes, providing additional context to support analysis and response activities.|
 |Sentinel One Enrichment - 5|This block retrieves information about endpoints from SentinelOne, including details by IP address or hostname, available applications on the endpoint, and associated hashes, providing additional context to support analysis and response activities.|
@@ -1454,7 +1696,10 @@
 |SentinelOne Starting Playbook - 15|SentinelOne Starting Playbook provides reference implementation of how SentinelOne alerts can be processed in Google SecOps.|
 |SentinelOne Starting Playbook - 16|SentinelOne Starting Playbook provides reference implementation of how SentinelOne alerts can be processed in Google SecOps.|
 |SentinelOne Starting Playbook - 17|SentinelOne Starting Playbook provides reference implementation of how SentinelOne alerts can be processed in Google SecOps.|
+|SentinelOne Starting Playbook - 18|SentinelOne Starting Playbook provides reference implementation of how SentinelOne alerts can be processed in Google SecOps.|
+|SentinelOne Starting Playbook - 19|SentinelOne Starting Playbook provides reference implementation of how SentinelOne alerts can be processed in Google SecOps.|
 |SentinelOne Starting Playbook - 2|SentinelOne Starting Playbook provides reference implementation of how SentinelOne alerts can be processed in Google SecOps.|
+|SentinelOne Starting Playbook - 20|SentinelOne Starting Playbook provides reference implementation of how SentinelOne alerts can be processed in Google SecOps.|
 |SentinelOne Starting Playbook - 3|SentinelOne Starting Playbook provides reference implementation of how SentinelOne alerts can be processed in Google SecOps.|
 |SentinelOne Starting Playbook - 4|SentinelOne Starting Playbook provides reference implementation of how SentinelOne alerts can be processed in Google SecOps.|
 |SentinelOne Starting Playbook - 5|SentinelOne Starting Playbook provides reference implementation of how SentinelOne alerts can be processed in Google SecOps.|
@@ -1470,6 +1715,7 @@
 |Symantec Endpoint Protection Starting Playbook - 5|Symantec Endpoint Protection Starting Playbook provides reference implementation of how Symantec Endpoint Protection alerts can be processed in Google SecOps.|
 |Symantec Endpoint Protection Starting Playbook - 6|Symantec Endpoint Protection Starting Playbook provides reference implementation of how Symantec Endpoint Protection alerts can be processed in Google SecOps.|
 |Symantec Endpoint Protection Starting Playbook - 7|Symantec Endpoint Protection Starting Playbook provides reference implementation of how Symantec Endpoint Protection alerts can be processed in Google SecOps.|
+|Symantec Endpoint Protection Starting Playbook - 8|Symantec Endpoint Protection Starting Playbook provides reference implementation of how Symantec Endpoint Protection alerts can be processed in Google SecOps.|
 |Symantec Enrichment and Investigation|This block supports remediation by retrieving system information for endpoints and listing all endpoints/sensors and groups configured on a specified Symantec-managed device, providing the necessary context for follow-up actions.|
 |Symantec Enrichment and Investigation - 1|This block supports remediation by retrieving system information for endpoints and listing all endpoints/sensors and groups configured on a specified Symantec-managed device, providing the necessary context for follow-up actions.|
 |Symantec Enrichment and Investigation - 2|This block supports remediation by retrieving system information for endpoints and listing all endpoints/sensors and groups configured on a specified Symantec-managed device, providing the necessary context for follow-up actions.|
@@ -1478,6 +1724,7 @@
 |Symantec Enrichment and Investigation - 5|This block supports remediation by retrieving system information for endpoints and listing all endpoints/sensors and groups configured on a specified Symantec-managed device, providing the necessary context for follow-up actions.|
 |Symantec Enrichment and Investigation - 6|This block supports remediation by retrieving system information for endpoints and listing all endpoints/sensors and groups configured on a specified Symantec-managed device, providing the necessary context for follow-up actions.|
 |Symantec Enrichment and Investigation - 7|This block supports remediation by retrieving system information for endpoints and listing all endpoints/sensors and groups configured on a specified Symantec-managed device, providing the necessary context for follow-up actions.|
+|Symantec Enrichment and Investigation - 8|This block supports remediation by retrieving system information for endpoints and listing all endpoints/sensors and groups configured on a specified Symantec-managed device, providing the necessary context for follow-up actions.|
 |Symantec Remediation|This block offers guidance to support remediation activities by suggesting actions such as quarantining suspicious endpoints or blocking malicious hashes, helping analysts take appropriate corrective measures during the response process.|
 |Symantec Remediation - 1|This block offers guidance to support remediation activities by suggesting actions such as quarantining suspicious endpoints or blocking malicious hashes, helping analysts take appropriate corrective measures during the response process.|
 |Symantec Remediation - 2|This block offers guidance to support remediation activities by suggesting actions such as quarantining suspicious endpoints or blocking malicious hashes, helping analysts take appropriate corrective measures during the response process.|
@@ -1486,6 +1733,7 @@
 |Symantec Remediation - 5|This block offers guidance to support remediation activities by suggesting actions such as quarantining suspicious endpoints or blocking malicious hashes, helping analysts take appropriate corrective measures during the response process.|
 |Symantec Remediation - 6|This block offers guidance to support remediation activities by suggesting actions such as quarantining suspicious endpoints or blocking malicious hashes, helping analysts take appropriate corrective measures during the response process.|
 |Symantec Remediation - 7|This block offers guidance to support remediation activities by suggesting actions such as quarantining suspicious endpoints or blocking malicious hashes, helping analysts take appropriate corrective measures during the response process.|
+|Symantec Remediation - 8|This block offers guidance to support remediation activities by suggesting actions such as quarantining suspicious endpoints or blocking malicious hashes, helping analysts take appropriate corrective measures during the response process.|
 
 
 ## Visual Families
