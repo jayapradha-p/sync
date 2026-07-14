@@ -28,10 +28,14 @@
 |Name|Description|
 |----|-----------|
 |AWS EC2 Containment|This block allows the playbook to automatically stop EC2 instances that were identified in the alert as potentially compromised or suspicious, supporting the containment phase of the incident response process.|
+|AWS EC2 Containment - 1|This block allows the playbook to automatically stop EC2 instances that were identified in the alert as potentially compromised or suspicious, supporting the containment phase of the incident response process.|
 |AWS EC2 Enrichment|This block retrieves EC2 instance data associated with the case and provides context for other actions or analysis.|
 |AWS Enrichment|This block retrieves EC2 instance data associated with the case and provides context for other actions or analysis.|
+|AWS Enrichment - 1|This block retrieves EC2 instance data associated with the case and provides context for other actions or analysis.|
 |AWS Users Containment|An embedded workflow that can receive inputs and return an output.|
+|AWS Users Containment - 1|An embedded workflow that can receive inputs and return an output.|
 |Amazon Web Services Cloud Platform Starting Playbook|Amazon Web Services Cloud Platform Starting Playbook provides reference implementation of how Amazon Web Services Cloud Platform alerts can be processed in Google SecOps.|
+|Amazon Web Services Cloud Platform Starting Playbook - 1|Amazon Web Services Cloud Platform Starting Playbook provides reference implementation of how Amazon Web Services Cloud Platform alerts can be processed in Google SecOps.|
 |Azure Containment|This block allows the playbook to apply containment actions to Azure user accounts by either updating the password or disabling the account. It also provides the option to ignore the action and take no changes when required.|
 |Azure Containment - 1|This block allows the playbook to apply containment actions to Azure user accounts by either updating the password or disabling the account. It also provides the option to ignore the action and take no changes when required.|
 |Azure Enrichment|This block enriches Siemplify Host and User entities with relevant information from Azure Active Directory, providing additional context to support investigation and response activities.|
@@ -46,6 +50,8 @@
 |GTI Enrichment - 5|This block enhances case entities with Google Threat Intelligence enrichment information. Works for IPs, URLs, hostnames, domains, hashes (MD5, SHA-1, SHA-256), threat actors, and CVEs.|
 |GTI Enrichment - 6|This block enhances case entities with Google Threat Intelligence enrichment information. Works for IPs, URLs, hostnames, domains, hashes (MD5, SHA-1, SHA-256), threat actors, and CVEs.|
 |GTI Enrichment - 7|This block enhances case entities with Google Threat Intelligence enrichment information. Works for IPs, URLs, hostnames, domains, hashes (MD5, SHA-1, SHA-256), threat actors, and CVEs.|
+|GTI Enrichment - 8|This block enhances case entities with Google Threat Intelligence enrichment information. Works for IPs, URLs, hostnames, domains, hashes (MD5, SHA-1, SHA-256), threat actors, and CVEs.|
+|GTI Enrichment - 9|This block enhances case entities with Google Threat Intelligence enrichment information. Works for IPs, URLs, hostnames, domains, hashes (MD5, SHA-1, SHA-256), threat actors, and CVEs.|
 |Google SecOps Enrichment|This block retrieves relevant details about users and assets involved in the case, enhancing the context available for analysis and subsequent actions within Google SecOps SOAR.|
 |Google SecOps Enrichment - 1|This block retrieves relevant details about users and assets involved in the case, enhancing the context available for analysis and subsequent actions within Google SecOps SOAR.|
 |Google SecOps Enrichment - 2|This block retrieves relevant details about users and assets involved in the case, enhancing the context available for analysis and subsequent actions within Google SecOps SOAR.|
@@ -54,6 +60,8 @@
 |Google SecOps Enrichment - 5|This block retrieves relevant details about users and assets involved in the case, enhancing the context available for analysis and subsequent actions within Google SecOps SOAR.|
 |Google SecOps Enrichment - 6|This block retrieves relevant details about users and assets involved in the case, enhancing the context available for analysis and subsequent actions within Google SecOps SOAR.|
 |Google SecOps Enrichment - 7|This block retrieves relevant details about users and assets involved in the case, enhancing the context available for analysis and subsequent actions within Google SecOps SOAR.|
+|Google SecOps Enrichment - 8|This block retrieves relevant details about users and assets involved in the case, enhancing the context available for analysis and subsequent actions within Google SecOps SOAR.|
+|Google SecOps Enrichment - 9|This block retrieves relevant details about users and assets involved in the case, enhancing the context available for analysis and subsequent actions within Google SecOps SOAR.|
 |Google Workspace Containment|This block allows the playbook to update Google Workspace Directory user accounts as part of containment or response actions, supporting account management and security controls.|
 |Google Workspace Enrichment|This block enriches user entities with relevant information from Google Workspace, providing additional context to support investigation and response activities.|
 |Google Workspace Enrichment - 1|This block enriches user entities with relevant information from Google Workspace, providing additional context to support investigation and response activities.|
@@ -66,6 +74,7 @@
 |High Risk Users Check - 3|This block checks Google GTI sourced alerts against a SOAR custom list to find matches of targeted Industries.|
 |High Risk Users Check - 4|This block checks Google GTI sourced alerts against a SOAR custom list to find matches of targeted Industries.|
 |High Risk Users Check - 5|This block checks Google GTI sourced alerts against a SOAR custom list to find matches of targeted Industries.|
+|High Risk Users Check - 6|This block checks Google GTI sourced alerts against a SOAR custom list to find matches of targeted Industries.|
 |MITRE Enrichment|This block retrieves detailed information about MITRE ATT&CK techniques and their associated mitigations, providing valuable context to understand adversary behaviors and possible defensive actions.|
 |MITRE Enrichment - 1|This block retrieves detailed information about MITRE ATT&CK techniques and their associated mitigations, providing valuable context to understand adversary behaviors and possible defensive actions.|
 |MITRE Enrichment - 2|This block retrieves detailed information about MITRE ATT&CK techniques and their associated mitigations, providing valuable context to understand adversary behaviors and possible defensive actions.|
@@ -73,6 +82,7 @@
 |MITRE Enrichment - 4|This block retrieves detailed information about MITRE ATT&CK techniques and their associated mitigations, providing valuable context to understand adversary behaviors and possible defensive actions.|
 |MITRE Enrichment - 5|This block retrieves detailed information about MITRE ATT&CK techniques and their associated mitigations, providing valuable context to understand adversary behaviors and possible defensive actions.|
 |MITRE Enrichment - 6|This block retrieves detailed information about MITRE ATT&CK techniques and their associated mitigations, providing valuable context to understand adversary behaviors and possible defensive actions.|
+|MITRE Enrichment - 7|This block retrieves detailed information about MITRE ATT&CK techniques and their associated mitigations, providing valuable context to understand adversary behaviors and possible defensive actions.|
 |Microsoft Azure Cloud Platform Starting Playbook|Microsoft Azure Cloud Platform Starting Playbook provides reference implementation of how Microsoft Azure Cloud Platform alerts can be processed in Google SecOps.|
 |Microsoft Azure Cloud Platform Starting Playbook - 1|Microsoft Azure Cloud Platform Starting Playbook provides reference implementation of how Microsoft Azure Cloud Platform alerts can be processed in Google SecOps.|
 |Microsoft Defender For Endpoint Containment|This block allows the playbook to create an isolate machine task in Microsoft Defender for Endpoint, helping to contain affected systems and prevent further network communication.|
@@ -84,6 +94,9 @@
 |Okta Enrichment|This block retrieves information about a user from Okta, including all roles assigned to the user and the groups the user is a member of, providing additional context for analysis and response actions.|
 |Okta Remediation Block|This block allows the playbook to perform remediation actions on Okta users, including generating a one-time token to reset a user’s password, disabling the user, or taking no action as needed.|
 |Okta Starting Playbook|Okta Starting Playbook provides reference implementation of how Okta alerts can be processed in Google SecOps.|
+|Sentinel One Containment|This block filters the relevant entities and performs containment actions in SentinelOne, including adding hashes to a blacklist and disconnecting the endpoint agent from the network using its hostname or IP address.|
+|Sentinel One Enrichment|This block retrieves information about endpoints from SentinelOne, including details by IP address or hostname, available applications on the endpoint, and associated hashes, providing additional context to support analysis and response activities.|
+|SentinelOne Starting Playbook|SentinelOne Starting Playbook provides reference implementation of how SentinelOne alerts can be processed in Google SecOps.|
 |New Playbook||
 |Censys - Host History|This playbook retrieves and analyzes historical scan data for IP addresses to identify infrastructure changes, service modifications, and temporal patterns. It helps analysts understand how an asset has evolved over time, detect anomalous changes, establish baseline behavior, and correlate infrastructure changes with security events.|
 |Gen Playbook 1|This playbook retrieves and analyzes historical scan data for IP addresses to identify infrastructure changes, service modifications, and temporal patterns. It helps analysts understand how an asset has evolved over time, detect anomalous changes, establish baseline behavior, and correlate infrastructure changes with security events.|
